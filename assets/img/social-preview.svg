@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06181c"/>
+      <stop offset="1" stop-color="#030f12"/>
+    </linearGradient>
+    <radialGradient id="blobA" cx="0.2" cy="0.15" r="0.65">
+      <stop offset="0" stop-color="#22d3c4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22d3c4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB" cx="0.85" cy="0.75" r="0.6">
+      <stop offset="0" stop-color="#1e6ee0" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#1e6ee0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8ff2e4"/>
+      <stop offset="1" stop-color="#0e8a82"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#blobA)"/>
+  <rect width="1200" height="630" fill="url(#blobB)"/>
+
+  <rect x="80" y="150" width="1040" height="330" rx="32" fill="url(#panel)" stroke="rgba(255,255,255,0.16)"/>
+
+  <g transform="translate(140, 230)">
+    <path d="M64 4C40 42 20 68 20 90A44 44 0 0 0 108 90C108 68 88 42 64 4Z" fill="url(#mark)"/>
+    <path d="M64 22C48 46 38 62 38 78A26 26 0 0 0 64 104" stroke="rgba(255,255,255,0.5)" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <text x="300" y="290" font-family="Space Grotesk, Arial, sans-serif" font-size="56" font-weight="700" fill="#eafbf8">Builder‑Morphe</text>
+  <text x="300" y="335" font-family="Inter, Arial, sans-serif" font-size="24" fill="#a9c9c9">Morphe ile yamalı APK kataloğu</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="18" fill="#8ff2e4">
+    <rect x="300" y="370" width="150" height="40" rx="20" fill="rgba(34,211,196,0.14)" stroke="rgba(143,242,228,0.4)"/>
+    <text x="322" y="396">Obtainium</text>
+    <rect x="464" y="370" width="200" height="40" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+    <text x="486" y="396" fill="#eafbf8">Otomatik güncel</text>
+  </g>
+</svg>
