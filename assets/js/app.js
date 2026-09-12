@@ -237,6 +237,7 @@ function buildSpotlightCard(app) {
     <img class="spotlight-card__icon" src="${escapeAttr(app.icon)}" alt="" loading="lazy">
     <div>
       <div class="spotlight-card__name">${escapeHtml(app.displayName)}</div>
+      <div class="card__version mono">${versionLine(app)}</div>
       <div class="spotlight-card__meta">
         ${badgesFor(app)}
       </div>
@@ -273,7 +274,6 @@ function wireCardLinks(card) {
 
 function badgesFor(app) {
   const bits = [];
-  if (app.version) bits.push(`<span class="pill pill--muted mono">v${escapeHtml(app.version)}</span>`);
   for (const key of app.patchSources || []) {
     const src = state.catalog.patchSources[key];
     if (src) bits.push(`<span class="pill pill--accent">${escapeHtml(src.label)}</span>`);
@@ -281,6 +281,11 @@ function badgesFor(app) {
   bits.push(`<span class="pill pill--muted">${formatNumber(app.downloads.total)} indirme</span>`);
   if (app.stale) bits.push(`<span class="pill pill--amber">son build'de yok</span>`);
   return bits.join("");
+}
+
+function versionLine(app) {
+  if (app.status === "pending") return `ilk build bekleniyor`;
+  return `v${escapeHtml(app.version)}`;
 }
 
 /* ==========================================================================
@@ -355,16 +360,12 @@ function buildCard(app) {
   card.setAttribute("role", "button");
   card.setAttribute("aria-label", `${app.displayName} ayrıntılarını aç`);
 
-  const statusLine = app.status === "pending"
-    ? `<span class="card__version">ilk build bekleniyor</span>`
-    : `<span class="card__version mono">v${escapeHtml(app.version)}${app.stale ? " · son build'de yok" : ""}</span>`;
-
   card.innerHTML = `
     <div class="card__top">
       <img class="card__icon" src="${escapeAttr(app.icon)}" alt="" loading="lazy">
       <div class="card__title">
         <div class="card__name">${escapeHtml(app.displayName)}</div>
-        ${statusLine}
+        <div class="card__version mono">${versionLine(app)}</div>
       </div>
     </div>
     <div class="card__badges">${badgesFor(app)}</div>
