@@ -1,0 +1,75 @@
+name: Update Catalog & Deploy
+
+# Builder-Morphe's own patch pipeline is manual (workflow_dispatch only,
+# no cron) — see its .github/workflows/patch.yml — so there's no signal
+# this repo can subscribe to when a new build lands. Polling on a short
+# schedule is the simplest thing that works without touching that repo's
+# secrets. If you'd rather get an instant update instead of waiting for
+# the next poll, add a `repository_dispatch` step to Builder-Morphe's own
+# finalize job that pings this repo with a fine-grained PAT — this
+# workflow already listens for that (see the `on.repository_dispatch`
+# block below), it's just not required.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [catalog-updated]
+  push:
+    branches: [main]
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh catalog from Builder-Morphe
+        run: python3 scripts/update_catalog.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit catalog if it changed
+        run: |
+          if [ -n "$(git status --porcelain -- data/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "chore: refresh catalog [skip ci]"
+            git push
+          else
+            echo "Catalog unchanged, nothing to commit."
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
