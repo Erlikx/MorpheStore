@@ -283,7 +283,10 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  /* 320px keeps this to one app per row on every phone width (2x320 > any
+     realistic phone viewport), while still giving 2+ columns the room to
+     appear on tablets/desktop once there's actually space for them. */
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: var(--sp-4);
   margin-bottom: var(--sp-7);
 }
@@ -329,6 +332,7 @@
   font-family: var(--font-mono);
   font-size: var(--fs-micro);
   color: var(--mist);
+  margin-top: 2px;
 }
 
 .card__badges {
@@ -652,10 +656,7 @@
 }
 
 @media (max-width: 480px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  .card__actions {
-    flex-direction: column;
+  .card__actions .btn {
+    padding: var(--sp-3);
   }
 }
