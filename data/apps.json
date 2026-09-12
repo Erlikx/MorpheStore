@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-12T05:34:45Z",
+  "source": {
+    "owner": "Erlikx",
+    "repo": "Builder-Morphe",
+    "repoUrl": "https://github.com/Erlikx/Builder-Morphe",
+    "hasRelease": false,
+    "releaseTag": null,
+    "releaseName": null,
+    "releaseUrl": null,
+    "publishedAt": null
+  },
+  "stats": {
+    "totalApps": 21,
+    "publishedApps": 0,
+    "totalDownloads": 0
+  },
+  "microg": null,
+  "patchSources": {},
+  "apps": [
+    {
+      "appKey": "youtube",
+      "displayName": "YouTube",
+      "pkg": "com.google.android.youtube",
+      "icon": "https://cdn.simpleicons.org/youtube/FF0000",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "morphe"
+      ],
+      "obtainium": {
+        "id": "com.google.android.youtube",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "YouTube (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^YouTube-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "YouTube (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "youtube-music",
+      "displayName": "YT.Music",
+      "pkg": "com.google.android.apps.youtube.music",
+      "icon": "https://cdn.simpleicons.org/youtubemusic/FF0000",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "morphe"
+      ],
+      "obtainium": {
+        "id": "com.google.android.apps.youtube.music",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "YT.Music (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^YT\\.Music-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "YT.Music (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "reddit",
+      "displayName": "Reddit",
+      "pkg": "com.reddit.frontpage",
+      "icon": "https://cdn.simpleicons.org/reddit/FF4500",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "morphe"
+      ],
+      "obtainium": {
+        "id": "com.reddit.frontpage",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Reddit (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Reddit-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Reddit (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "reddit-adobo",
+      "displayName": "Reddit-Adobo",
+      "pkg": "com.reddit.frontpage",
+      "icon": "https://cdn.simpleicons.org/reddit/FF4500",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "adobo"
+      ],
+      "obtainium": {
+        "id": "com.reddit.frontpage",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Reddit-Adobo (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Reddit\\-Adobo-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Reddit-Adobo (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "twitter",
+      "displayName": "Twitter",
+      "pkg": "com.twitter.android",
+      "icon": "https://cdn.simpleicons.org/x/000000",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "piko"
+      ],
+      "obtainium": {
+        "id": "com.twitter.android",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Twitter (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Twitter-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Twitter (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "twitter-x",
+      "displayName": "Twitter-X",
+      "pkg": "com.twitter.android",
+      "icon": "https://cdn.simpleicons.org/x/000000",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "piko-newx",
+        "morphe"
+      ],
+      "obtainium": {
+        "id": "com.twitter.android",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Twitter-X (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Twitter\\-X-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Twitter-X (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "instagram",
+      "displayName": "Instagram",
+      "pkg": "com.instagram.android",
+      "icon": "https://cdn.simpleicons.org/instagram/E4405F",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "piko"
+      ],
+      "obtainium": {
+        "id": "com.instagram.android",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Instagram (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Instagram-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Instagram (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "gboard",
+      "displayName": "Gboard",
+      "pkg": "com.google.android.inputmethod.latin",
+      "icon": "https://cdn.simpleicons.org/google/4285F4",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "jasonwu"
+      ],
+      "obtainium": {
+        "id": "com.google.android.inputmethod.latin",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Gboard (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Gboard-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Gboard (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "speedtest",
+      "displayName": "Speedtest",
+      "pkg": "org.zwanoo.android.speedtest",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain=speedtest.net",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "rushi"
+      ],
+      "obtainium": {
+        "id": "org.zwanoo.android.speedtest",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Speedtest (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Speedtest-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Speedtest (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "brave",
+      "displayName": "Brave",
+      "pkg": "com.brave.browser",
+      "icon": "https://cdn.simpleicons.org/brave/FB542B",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "dh6k"
+      ],
+      "obtainium": {
+        "id": "com.brave.browser",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Brave (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Brave-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Brave (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "proton-vpn",
+      "displayName": "Proton VPN",
+      "pkg": "ch.protonvpn.android",
+      "icon": "https://cdn.simpleicons.org/protonvpn",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "hoodles"
+      ],
+      "obtainium": {
+        "id": "ch.protonvpn.android",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Proton VPN (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Proton\\ VPN-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Proton VPN (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "tiktok",
+      "displayName": "TikTok",
+      "pkg": "com.zhiliaoapp.musically",
+      "icon": "https://cdn.simpleicons.org/tiktok",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "tiktok",
+        "morphe"
+      ],
+      "obtainium": {
+        "id": "com.zhiliaoapp.musically",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "TikTok (Builder-Morphe · icysymmetra)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^TikTok-.*-icysymmetra\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "TikTok (Builder-Morphe · icysymmetra)"
+        }
+      }
+    },
+    {
+      "appKey": "tiktok-hxreborn",
+      "displayName": "TikTok",
+      "pkg": "com.zhiliaoapp.musically",
+      "icon": "https://cdn.simpleicons.org/tiktok",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "hxreborn-tiktok",
+        "morphe"
+      ],
+      "obtainium": {
+        "id": "com.zhiliaoapp.musically",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "TikTok (Builder-Morphe · hxreborn)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^TikTok-.*-hxreborn\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "TikTok (Builder-Morphe · hxreborn)"
+        }
+      }
+    },
+    {
+      "appKey": "warp",
+      "displayName": "1.1.1.1",
+      "pkg": "com.cloudflare.onedotonedotonedotone",
+      "icon": "https://cdn.simpleicons.org/1dot1dot1dot1",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "rushi"
+      ],
+      "obtainium": {
+        "id": "com.cloudflare.onedotonedotonedotone",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "1.1.1.1 (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^1\\.1\\.1\\.1-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "1.1.1.1 (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "inshot",
+      "displayName": "InShot",
+      "pkg": "com.camerasideas.instashot",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain=inshot.com",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "hooman"
+      ],
+      "obtainium": {
+        "id": "com.camerasideas.instashot",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "InShot (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^InShot-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "InShot (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "google-photos",
+      "displayName": "Google Photos",
+      "pkg": "com.google.android.apps.photos",
+      "icon": "https://cdn.simpleicons.org/googlephotos",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "rushi"
+      ],
+      "obtainium": {
+        "id": "com.google.android.apps.photos",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Google Photos (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Google\\ Photos-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Google Photos (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "inure-github",
+      "displayName": "inure-Github",
+      "pkg": "app.simple.inure",
+      "icon": "https://files.svgcdn.io/arcticons/inure.svg",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "rushi"
+      ],
+      "obtainium": {
+        "id": "app.simple.inure",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "inure-Github (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^inure\\-Github-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "inure-Github (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "inure-play",
+      "displayName": "inure-PlayStore",
+      "pkg": "app.simple.inure.play",
+      "icon": "https://files.svgcdn.io/arcticons/inure.svg",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "rushi"
+      ],
+      "obtainium": {
+        "id": "app.simple.inure.play",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "inure-PlayStore (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^inure\\-PlayStore-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "inure-PlayStore (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "proton-pass",
+      "displayName": "Proton Pass",
+      "pkg": "proton.android.pass",
+      "icon": "https://cdn.simpleicons.org/protonpass",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "rushi"
+      ],
+      "obtainium": {
+        "id": "proton.android.pass",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Proton Pass (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Proton\\ Pass-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Proton Pass (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "notesnook",
+      "displayName": "Notesnook",
+      "pkg": "com.streetwriters.notesnook",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain=notesnook.com",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "hxreborn"
+      ],
+      "obtainium": {
+        "id": "com.streetwriters.notesnook",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Notesnook (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Notesnook-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Notesnook (Builder-Morphe)"
+        }
+      }
+    },
+    {
+      "appKey": "termius",
+      "displayName": "Termius",
+      "pkg": "com.server.auditor.ssh.client",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain=termius.com",
+      "arch": "arm64-v8a",
+      "status": "pending",
+      "stale": false,
+      "version": null,
+      "assetName": null,
+      "downloadUrl": null,
+      "size": null,
+      "publishedAt": null,
+      "downloads": {
+        "cumulativeBaseline": 0,
+        "lastReleaseTag": null,
+        "downloadsThisRelease": 0,
+        "total": 0
+      },
+      "patchSources": [
+        "rushi"
+      ],
+      "obtainium": {
+        "id": "com.server.auditor.ssh.client",
+        "url": "https://github.com/Erlikx/Builder-Morphe",
+        "author": "Erlikx",
+        "name": "Termius (Builder-Morphe)",
+        "additionalSettings": {
+          "apkFilterRegEx": "^Termius-.*\\.apk$",
+          "invertAPKFilter": false,
+          "autoApkFilterByArch": true,
+          "appName": "Termius (Builder-Morphe)"
+        }
+      }
+    }
+  ]
+}
