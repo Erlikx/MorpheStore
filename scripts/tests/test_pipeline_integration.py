@@ -219,6 +219,62 @@ def test_app_pending_in_two_consecutive_runs_stays_pending_not_stale_published()
         assert obtainium2["apps"] == [], "no app should show up in the bulk Obtainium export before anything is published"
 
 
+def test_pending_app_that_gets_published_for_the_first_time_gets_a_history_entry():
+    # Regression test for the exact scenario the shipped seed data hits:
+    # run 1 has no release yet (every app "pending", per the seed this
+    # site ships with) -> run 2 is the real pipeline's first successful
+    # release. An app going pending -> published for the first time must
+    # produce a history.json entry (fromVersion: null), the same as an
+    # app that was never seen before at all — not "not prev" alone, since
+    # a pending stub already counts as a `prev` entry.
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp_path = Path(tmp)
+        apps_json = tmp_path / "apps.json"
+        history_json = tmp_path / "history.json"
+        obtainium_json = tmp_path / "obtainium.json"
+
+        def fake_fetch_text(url):
+            return FIXTURE_CONFIG
+
+        def fake_fetch_json_no_release(url, allow_404=False):
+            if url.endswith("/releases/latest"):
+                return None
+            if "/releases?per_page=" in url:
+                return None
+            raise AssertionError(f"unexpected URL in test: {url}")
+
+        with _patch_ed_targets(apps_json, history_json, obtainium_json, fake_fetch_text, fake_fetch_json_no_release):
+            catalog1, history1, _ = uc.build_catalog()
+            uc.write_json(uc.APPS_JSON, catalog1)
+            uc.write_json(uc.HISTORY_JSON, history1)
+
+        reddit1 = next(a for a in catalog1["apps"] if a["appKey"] == "reddit")
+        assert reddit1["status"] == "pending"
+        assert history1["entries"] == []
+
+        run2_assets = [_asset("Reddit-2026.35.0.apk", download_count=1)]
+        run2_release = _release("build-2026-09-12T10-42-41", run2_assets)
+
+        def fake_fetch_json_first_real_run(url, allow_404=False):
+            if url.endswith("/releases/latest"):
+                return run2_release
+            if "/releases?per_page=" in url:
+                return []
+            raise AssertionError(f"unexpected URL in test: {url}")
+
+        with _patch_ed_targets(apps_json, history_json, obtainium_json, fake_fetch_text, fake_fetch_json_first_real_run):
+            catalog2, history2, _ = uc.build_catalog()
+
+        reddit2 = next(a for a in catalog2["apps"] if a["appKey"] == "reddit")
+        assert reddit2["status"] == "published"
+        assert reddit2["version"] == "2026.35.0"
+
+        reddit_events = [e for e in history2["entries"] if e["appKey"] == "reddit"]
+        assert len(reddit_events) == 1, f"expected exactly one history entry for reddit, got {reddit_events}"
+        assert reddit_events[0]["fromVersion"] is None
+        assert reddit_events[0]["toVersion"] == "2026.35.0"
+
+
 def _patch_ed_targets(apps_json, history_json, obtainium_json, fetch_text_fn, fetch_json_fn):
     return _patch_ed(
         [
