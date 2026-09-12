@@ -1,23 +1,507 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T05:34:45Z",
+  "generatedAt": "2026-09-12T11:36:01Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
     "repoUrl": "https://github.com/Erlikx/Builder-Morphe",
-    "hasRelease": false,
-    "releaseTag": null,
-    "releaseName": null,
-    "releaseUrl": null,
-    "publishedAt": null
+    "hasRelease": true,
+    "releaseTag": "build-2026-09-12T10-42-41",
+    "releaseName": "Patched APKs - 12 September 2026",
+    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-12T10-42-41",
+    "publishedAt": "2026-09-12T10:48:02Z"
   },
   "stats": {
     "totalApps": 21,
-    "publishedApps": 0,
-    "totalDownloads": 0
+    "publishedApps": 18,
+    "totalDownloads": 7
   },
-  "microg": null,
-  "patchSources": {},
+  "microg": {
+    "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/MicroG.apk",
+    "size": 44821575
+  },
+  "patchSources": {
+    "morphe": {
+      "owner": "MorpheApp",
+      "repo": "morphe-patches",
+      "label": "🟢 Morphe",
+      "repoUrl": "https://github.com/MorpheApp/morphe-patches",
+      "latestTag": "v1.43.0-dev.1",
+      "latestPublishedAt": "2026-09-12T07:43:59Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.1",
+      "changelog": "## [1.43.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.42.1-dev.3...v1.43.0-dev.1) (2026-09-12)\n\n### ✨ New Features\n\n* **GmsCore support:** Handle conflicting MicroG installs ([#2907](https://github.com/MorpheApp/morphe-patches/issues/2907)) ([31a66d9](https://github.com/MorpheApp/morphe-patches/commit/31a66d95932f6ccf4e39a5804c750af72a606d15))\n\n### 🚀 Updated App Support\n\n* **YouTube Music:** Add experimental support for `9.36.50` ([da8c85d](https://github.com/MorpheApp/morphe-patches/commit/da8c85d88a3c34597426525f5a81f69a4efdcd75))\n",
+      "history": [
+        {
+          "tag": "v1.42.1-dev.3",
+          "publishedAt": "2026-09-11T12:32:37Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.1-dev.3",
+          "changelog": "## [1.42.1-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.42.1-dev.2...v1.42.1-dev.3) (2026-09-11)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide layout components:** Patch failing on `20.21.37` ([41d89ef](https://github.com/MorpheApp/morphe-patches/commit/41d89ef38ae4feb744054656a6b6a8a653f14eaa))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.42.1-dev.2",
+          "publishedAt": "2026-09-11T10:20:03Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.1-dev.2",
+          "changelog": "## [1.42.1-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.42.1-dev.1...v1.42.1-dev.2) (2026-09-11)\n\n### 🐛 Bug Fixes\n\n* **YouTube - FlyoutUtils:** Injected buttons are shown in collaborators panel ([#2867](https://github.com/MorpheApp/morphe-patches/issues/2867)) ([b595f8d](https://github.com/MorpheApp/morphe-patches/commit/b595f8d60023b127a67c4238bf285e12ebeee427))\n* **YouTube - Hide layout components:** Fix UI padding in comment replies and incognito search ([#2891](https://github.com/MorpheApp/morphe-patches/issues/2891)) ([59485db](https://github.com/MorpheApp/morphe-patches/commit/59485db96f29c9fa458ceca5f29e1754197220f4))\n* **YouTube - Loop video:** Respect sleep timer end of video state ([#2890](https://github.com/MorpheApp/morphe-patches/issues/2890)) ([9f4f2a8](https://github.com/MorpheApp/morphe-patches/commit/9f4f2a8a6a8bef2627f8809cdec5b9b40773855a))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.42.1-dev.1",
+          "publishedAt": "2026-09-10T21:27:59Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.1-dev.1",
+          "changelog": "## [1.42.1-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.42.0...v1.42.1-dev.1) (2026-09-10)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Fullscreen video scale:** Restore UI after leaving fullscreen on tablet/foldable landscape ([#2874](https://github.com/MorpheApp/morphe-patches/issues/2874)) ([75f477f](https://github.com/MorpheApp/morphe-patches/commit/75f477f5c8834bd30cb27f66cc13b7f9c1f4c981))\n* **YouTube - Video quality:** Prevent infinite loading when opening videos from Shorts ([#2871](https://github.com/MorpheApp/morphe-patches/issues/2871)) ([8fb3e31](https://github.com/MorpheApp/morphe-patches/commit/8fb3e318dc19fa25f96c85b1759c1d534a7a931f))\n* **YouTube Music - Remember shuffle state:** Prevent continuous queue shuffling ([#2870](https://github.com/MorpheApp/morphe-patches/issues/2870)) ([b58019c](https://github.com/MorpheApp/morphe-patches/commit/b58019c16a54b315533cc5f61f6f8718c6d66651))\n* **YouTube:** Remove \"Restore old player button style\" from `21.36` and later experimental targets ([8cc2f54](https://github.com/MorpheApp/morphe-patches/commit/8cc2f549833219384320bf5d43128702bbc1b2bb))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.42.0",
+          "publishedAt": "2026-09-09T21:01:44Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0",
+          "changelog": "## [1.42.0](https://github.com/MorpheApp/morphe-patches/compare/v1.41.0...v1.42.0) (2026-09-09)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **GmsCore support:** Prompt to update outdated MicroG ([#2787](https://github.com/MorpheApp/morphe-patches/issues/2787)) ([c30850d](https://github.com/MorpheApp/morphe-patches/commit/c30850dea5d27aae956d0c6e10e6d32fc98c3e5f))\r\n* **YouTube - Channel whitelists:** Hide injected flyout menu buttons from other unrelated menu's  ([#2808](https://github.com/MorpheApp/morphe-patches/issues/2808)) ([5ba4ab4](https://github.com/MorpheApp/morphe-patches/commit/5ba4ab46f1a1ff62a8a733adc1b52a5614208036))\r\n* **YouTube - Channel whitelists:** Whitelists buttons are visible in some flyouts ([#2802](https://github.com/MorpheApp/morphe-patches/issues/2802)) ([2f482ff](https://github.com/MorpheApp/morphe-patches/commit/2f482ff33e5b0fa59d7877b9e34b7a47aa110397))\r\n* **YouTube - Hide layout components:** App may crash when 'You may like' section is hidden ([#2852](https://github.com/MorpheApp/morphe-patches/issues/2852)) ([407411d](https://github.com/MorpheApp/morphe-patches/commit/407411db710c8beb6e94e4e5f29fab3dc9060a30))\r\n* **YouTube - Hide layout components:** Hide guidelines in live chat ([b7528e0](https://github.com/MorpheApp/morphe-patches/commit/b7528e0e3c63f8d50caa3ebefa6dfd4c6a1859b1))\r\n* **YouTube - Hide layout components:** Hide new type of community posts ([17b13ff](https://github.com/MorpheApp/morphe-patches/commit/17b13fff559866ef733e0b738a3ab7f3ba548200))\r\n* **YouTube - Hide layout components:** Resolve empty channel tabs when using \"Hide channel tab filter\" ([#2747](https://github.com/MorpheApp/morphe-patches/issues/2747)) ([8232fa7](https://github.com/MorpheApp/morphe-patches/commit/8232fa7eeeb8d7c6e458e3ac16503fadccfceec4))\r\n* **YouTube - Hide player overlay buttons:** Apply the control buttons background opacity to the player time bar ([#2805](https://github.com/MorpheApp/morphe-patches/issues/2805)) ([302ab28](https://github.com/MorpheApp/morphe-patches/commit/302ab28ce8c00b2b5a093dcbedeb739706360d67))\r\n* **YouTube - Hide Shorts components:** Hide new type of paused overlay button ([c958fb6](https://github.com/MorpheApp/morphe-patches/commit/c958fb666cac54aaa3c822b736db85479c4dc6db))\r\n* **YouTube - Video quality:** Restore `ShortsPlayerState` check to fix default video quality ([b596375](https://github.com/MorpheApp/morphe-patches/commit/b59637570cc477d09a236cf14582e4b06d1abc37))\r\n* **YouTube Music - Downloads:** Prevent external downloader triggering on non-download actions ([#2858](https://github.com/MorpheApp/morphe-patches/issues/2858)) ([a4cd837](https://github.com/MorpheApp/morphe-patches/commit/a4cd8377166eb308ba6d09ecc0f4be166535e9b4))\r\n\r\n### ✨ New Features\r\n\r\n* **YouTube - Hide layout components:** Add \"Hide channel links section\" setting ([ddcdabe](https://github.com/MorpheApp/morphe-patches/commit/ddcdabe19a50aedb0eb80fa62de68e9d534e3167))\r\n* **YouTube - Hide layout components:** Add \"Report AI channel\" video menu entry ([#2763](https://github.com/MorpheApp/morphe-patches/issues/2763)) ([17d1135](https://github.com/MorpheApp/morphe-patches/commit/17d1135c33d7af159c48198e30d14623ea738aff))\r\n* **YouTube - Hide player overlay buttons:** Add option to change the player control buttons background opacity ([#2764](https://github.com/MorpheApp/morphe-patches/issues/2764)) ([4a2d3a4](https://github.com/MorpheApp/morphe-patches/commit/4a2d3a4ddd4006c9aa8efa2546f8d734cf85f28f))\r\n* **YouTube - Hide Shorts components:** Add \"Hide gesture hints\" setting ([#2760](https://github.com/MorpheApp/morphe-patches/issues/2760)) ([73df92a](https://github.com/MorpheApp/morphe-patches/commit/73df92adf973775ac42f8d89f938bf17ec7e03b3))\r\n* **YouTube - Remove background playback restrictions:** Add \"Auto pause when device is locked\" setting ([#2719](https://github.com/MorpheApp/morphe-patches/issues/2719)) ([f8bc479](https://github.com/MorpheApp/morphe-patches/commit/f8bc479af4e8b53cf1eea71cfaab923ddfb00910))\r\n* **YouTube Musi\n\n…",
+          "prerelease": false
+        }
+      ]
+    },
+    "piko": {
+      "owner": "crimera",
+      "repo": "piko",
+      "label": "✖️ Piko",
+      "repoUrl": "https://github.com/crimera/piko",
+      "latestTag": "v3.10.0-dev.6",
+      "latestPublishedAt": "2026-09-10T01:22:23Z",
+      "latestUrl": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.6",
+      "changelog": "## [3.10.0-dev.6](https://github.com/crimera/piko/compare/v3.10.0-dev.5...v3.10.0-dev.6) (2026-09-10)\n\n### 🐛 Bug Fixes\n\n* **Twitter - Show changelogs:** Error message is shown with changelog dialog ([e1238c3](https://github.com/crimera/piko/commit/e1238c3ffd38b1573a11a411000080f825f79583))\n* **Twitter:** Restore timeline position on startup ([ae231c5](https://github.com/crimera/piko/commit/ae231c596bf9b7d3b1f2a1cff9ef5e74151cd6b9))\n\n### ✨ New Features\n\n* **Twitter:** Add bulk feature flag selection and validation ([#1846](https://github.com/crimera/piko/issues/1846)) ([7b92ac8](https://github.com/crimera/piko/commit/7b92ac8626b2ff907769503ae85b688fd2471c36))\n",
+      "history": [
+        {
+          "tag": "v3.10.0-dev.5",
+          "publishedAt": "2026-09-07T01:37:01Z",
+          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.5",
+          "changelog": "## [3.10.0-dev.5](https://github.com/crimera/piko/compare/v3.10.0-dev.4...v3.10.0-dev.5) (2026-09-07)\n\n### 🐛 Bug Fixes\n\n* **Twitter:** restore relationship actions in user lists ([854f5e2](https://github.com/crimera/piko/commit/854f5e26831c997e376a7b68094a7fbde89fc790))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v3.10.0-dev.4",
+          "publishedAt": "2026-09-04T22:13:25Z",
+          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.4",
+          "changelog": "## [3.10.0-dev.4](https://github.com/crimera/piko/compare/v3.10.0-dev.3...v3.10.0-dev.4) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Add missing entity dependencies ([#1833](https://github.com/crimera/piko/issues/1833)) ([a19b255](https://github.com/crimera/piko/commit/a19b255eccd3b2fed5474bc481ab7f3ae6640be9))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v3.10.0-dev.3",
+          "publishedAt": "2026-09-04T04:50:10Z",
+          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.3",
+          "changelog": "## [3.10.0-dev.3](https://github.com/crimera/piko/compare/v3.10.0-dev.2...v3.10.0-dev.3) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* Revert \"fix(twitter - `Bring Back Twitter`): support to new versions\" ([df9b407](https://github.com/crimera/piko/commit/df9b4079d33aea17dcda5e4ebacd7bc4307421b9))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v3.10.0-dev.2",
+          "publishedAt": "2026-09-04T02:56:10Z",
+          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.2",
+          "changelog": "## [3.10.0-dev.2](https://github.com/crimera/piko/compare/v3.10.0-dev.1...v3.10.0-dev.2) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* **github:** use existing enhancement label and add missing twitter label ([6337845](https://github.com/crimera/piko/commit/63378453c020ce89f490e802356418816be6820a))\n* **twitter - `Bring Back Twitter`:** support to new versions ([ff97563](https://github.com/crimera/piko/commit/ff975634c0e30b87fbb06cdcae556ff00f351a7a))\n\n### ✨ New Features\n\n* **Instagram:** Embed metadata in downloaded videos ([#1828](https://github.com/crimera/piko/issues/1828)) ([9493252](https://github.com/crimera/piko/commit/949325266af15c51477101be81ad8692bb439557))\n",
+          "prerelease": true
+        }
+      ]
+    },
+    "piko-newx": {
+      "owner": "crimera",
+      "repo": "piko-newx",
+      "label": "🆕 Piko NewX",
+      "repoUrl": "https://github.com/crimera/piko-newx",
+      "latestTag": "v3.19.3",
+      "latestPublishedAt": "2026-09-12T03:39:13Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.19.3",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** support 12.26.0-alpha.03 ([0394de0](https://github.com/crimera/piko/commit/0394de0ff0f6983f175219e27d127c40bb7d8150))",
+      "history": [
+        {
+          "tag": "v3.19.2",
+          "publishedAt": "2026-09-12T03:08:49Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.19.2",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** preserve inline download icon on recomposition ([baf3189](https://github.com/crimera/piko/commit/baf3189040abdfddb40cb76ecffd233846d8e995))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.19.1",
+          "publishedAt": "2026-09-11T04:01:26Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.19.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep dynamic color resolver API 29 compatible ([7242871](https://github.com/crimera/piko/commit/72428718c7e5de462ca81fecd9aa72eeedf0d2bf))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.19.0",
+          "publishedAt": "2026-09-11T02:43:20Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.19.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** scope timeline position restoration ([a238d89](https://github.com/crimera/piko/commit/a238d895f6c442de0d287f2a09ce9482824dc58f))\n\n### ✨ New Features\n* **Twitter - newx:** identify download notifications by username ([5554a69](https://github.com/crimera/piko/commit/5554a693357ef7113796496da59f59790cd2e8a8))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.18.1",
+          "publishedAt": "2026-09-11T01:19:46Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.18.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** support alpha.02 drawer renderer ([a4a44ad](https://github.com/crimera/piko/commit/a4a44ad50c6568822290e81f570b68156bb5e347))",
+          "prerelease": false
+        }
+      ]
+    },
+    "adobo": {
+      "owner": "jkennethcarino",
+      "repo": "adobo",
+      "label": "🥘 Adobo",
+      "repoUrl": "https://github.com/jkennethcarino/adobo",
+      "latestTag": "v1.5.0-dev.2",
+      "latestPublishedAt": "2026-09-06T15:04:24Z",
+      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.2",
+      "changelog": "## [1.5.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n",
+      "history": [
+        {
+          "tag": "v1.5.0-dev.1",
+          "publishedAt": "2026-09-06T11:29:28Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.1",
+          "changelog": "## [1.5.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.4.0...v1.5.0-dev.1) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Enable guest mode` patch ([a034454](https://github.com/jkennethcarino/adobo/commit/a03445494c27a07cfb80c19c86c6044ff92ec168))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.4.0",
+          "publishedAt": "2026-08-31T17:13:01Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.4.0",
+          "changelog": "## [1.4.0](https://github.com/jkennethcarino/adobo/compare/v1.3.0...v1.4.0) (2026-08-31)\n\n### Bug Fixes\n\n* **Disable mobile ads:** Block AdMob's app open ad and mediation ([63cf9ca](https://github.com/jkennethcarino/adobo/commit/63cf9ca17253621dd16ed0971b7e9598be8e79a3))\n* **Disable mobile ads:** Block Bytedance Pangle's ad entry points ([c3bde04](https://github.com/jkennethcarino/adobo/commit/c3bde042f5bc260bf644eec94ebb9becf43ac161))\n* **Reddit - Hide Ask button from search bar:** Remove new Ask pill ([3cf0852](https://github.com/jkennethcarino/adobo/commit/3cf0852b3413952b6eaf435b57938fa2799c6256))\n\n### Features\n\n* Add `Remove screenshot detection` patch ([02a62c0](https://github.com/jkennethcarino/adobo/commit/02a62c093f93202f340da698dccf0ce4d843e1bb))\n* **Gboard:** Add `Enable extended clipboard history` patch ([de234b7](https://github.com/jkennethcarino/adobo/commit/de234b7de9e77a2c88e496c7d1f8b2adcdad422e))\n* **Reddit:** Add `Disable home feed refresh on back to exit` patch ([9cf2579](https://github.com/jkennethcarino/adobo/commit/9cf2579ed7c0442b346b580a7ecc3c1b8557521e))\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.32.0` ([b6bde3a](https://github.com/jkennethcarino/adobo/commit/b6bde3aa67a440538870073b2b7ef836eb4b25b6))\n* **Reddit:** Add support for `2026.33.1` ([26da26a](https://github.com/jkennethcarino/adobo/commit/26da26a3b915268fa2e39fde3e157a92d33a537e))\n* **Reddit:** Add support for `2026.33.2` ([12a3efc](https://github.com/jkennethcarino/adobo/commit/12a3efc0fa0a00b27f4379b9e8203b20ec6558d4))\n* **Reddit:** Add support for `2026.34.0` ([6db6319](https://github.com/jkennethcarino/adobo/commit/6db6319aa138d6589fb89c5fd224548fb652024e))\n* **Reddit:** Add support for `2026.35.0` ([965fd7d](https://github.com/jkennethcarino/adobo/commit/965fd7d92e01b9b93d104efd29f6ce1af422cc72))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.4.0-dev.6",
+          "publishedAt": "2026-08-31T17:05:32Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.4.0-dev.6",
+          "changelog": "## [1.4.0-dev.6](https://github.com/jkennethcarino/adobo/compare/v1.4.0-dev.5...v1.4.0-dev.6) (2026-08-31)\n\n### Features\n\n* **Reddit:** Add `Disable home feed refresh on back to exit` patch ([9cf2579](https://github.com/jkennethcarino/adobo/commit/9cf2579ed7c0442b346b580a7ecc3c1b8557521e))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.4.0-dev.5",
+          "publishedAt": "2026-08-31T14:59:08Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.4.0-dev.5",
+          "changelog": "## [1.4.0-dev.5](https://github.com/jkennethcarino/adobo/compare/v1.4.0-dev.4...v1.4.0-dev.5) (2026-08-31)\n\n### Features\n\n* **Gboard:** Add `Enable extended clipboard history` patch ([de234b7](https://github.com/jkennethcarino/adobo/commit/de234b7de9e77a2c88e496c7d1f8b2adcdad422e))\n",
+          "prerelease": true
+        }
+      ]
+    },
+    "rushi": {
+      "owner": "rushiranpise",
+      "repo": "morphe-patches",
+      "label": "⚡ Rushiranpise",
+      "repoUrl": "https://github.com/rushiranpise/morphe-patches",
+      "latestTag": "v1.21.5",
+      "latestPublishedAt": "2026-09-08T05:16:26Z",
+      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5",
+      "changelog": "## [1.21.5](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5) (2026-09-08)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\r\n* Moviebox latest update has introduced server-side app checks. While it’s still possible to keep using the older version, there’s no guarantee how long it will continue to work. There’s also new APK protection on top of that, so the app has been removed from the patches.\r\n",
+      "history": [
+        {
+          "tag": "v1.21.5-dev.1",
+          "publishedAt": "2026-09-08T05:10:27Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5-dev.1",
+          "changelog": "## [1.21.5-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5-dev.1) (2026-09-08)\n\n### 🐛 Bug Fixes\n\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.21.4",
+          "publishedAt": "2026-09-01T12:53:18Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.4",
+          "changelog": "## [1.21.4](https://github.com/rushiranpise/morphe-patches/compare/v1.21.3...v1.21.4) (2026-09-01)\n\n### 🐛 Bug Fixes\n\n* remove drivvo ([9863742](https://github.com/rushiranpise/morphe-patches/commit/98637422416922553c37ec557a4f2327b95f9cf1))\n* remove pixel patches ([4036563](https://github.com/rushiranpise/morphe-patches/commit/40365632f5d5e9d50f1b35f6288109d743447236))\n* remove tradingview ([4806a8f](https://github.com/rushiranpise/morphe-patches/commit/4806a8feb3cd5abe5fb801e2d0d87613a12c0b10))\n* remove universal patches ([55f11fe](https://github.com/rushiranpise/morphe-patches/commit/55f11feae7749990252dfe7f1aede8536aab062a))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.21.4-dev.1",
+          "publishedAt": "2026-09-01T12:48:16Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.4-dev.1",
+          "changelog": "## [1.21.4-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.3...v1.21.4-dev.1) (2026-09-01)\n\n### 🐛 Bug Fixes\n\n* remove drivvo ([9863742](https://github.com/rushiranpise/morphe-patches/commit/98637422416922553c37ec557a4f2327b95f9cf1))\n* remove pixel patches ([4036563](https://github.com/rushiranpise/morphe-patches/commit/40365632f5d5e9d50f1b35f6288109d743447236))\n* remove tradingview ([4806a8f](https://github.com/rushiranpise/morphe-patches/commit/4806a8feb3cd5abe5fb801e2d0d87613a12c0b10))\n* remove universal patches ([55f11fe](https://github.com/rushiranpise/morphe-patches/commit/55f11feae7749990252dfe7f1aede8536aab062a))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.21.3",
+          "publishedAt": "2026-08-31T22:35:28Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.3",
+          "changelog": "## [1.21.3](https://github.com/rushiranpise/morphe-patches/compare/v1.21.2...v1.21.3) (2026-08-31)\n\n### 🐛 Bug Fixes\n\n* remove Duolingo ([88b7c17](https://github.com/rushiranpise/morphe-patches/commit/88b7c179d6c3584ce2b79a2f67e6c2e240ea2cda))\n* remove terabox ([72ae34f](https://github.com/rushiranpise/morphe-patches/commit/72ae34fe314c485c84581e98f2fe4e2ab216d911))\n",
+          "prerelease": false
+        }
+      ]
+    },
+    "dh6k": {
+      "owner": "dh6k",
+      "repo": "morphe-patches",
+      "label": "🦁 dh6k",
+      "repoUrl": "https://github.com/dh6k/morphe-patches",
+      "latestTag": "v1.6.0-dev.6",
+      "latestPublishedAt": "2026-09-06T05:21:07Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.6",
+      "changelog": "## [1.6.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.5...v1.6.0-dev.6) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** replace crashing D() tail hook with nearest-mode head const ([1432277](https://github.com/dh6k/morphe-patches/commit/1432277e053edbdddd417e529917153ee4c9ddc6))\n",
+      "history": [
+        {
+          "tag": "v1.6.0-dev.5",
+          "publishedAt": "2026-09-06T04:51:02Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.5",
+          "changelog": "## [1.6.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.4...v1.6.0-dev.5) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **build:** keep patchLocalApk providers lazy for CI configure ([d8f97ee](https://github.com/dh6k/morphe-patches/commit/d8f97eea2f6c648eff6a08f5c7f984709805964b))\n\n### ✨ New Features\n\n* **titanium:** force highest refresh rate ([473eaae](https://github.com/dh6k/morphe-patches/commit/473eaaeadd5b1a7cff701153cb4573353354a9ac))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.6.0-dev.4",
+          "publishedAt": "2026-09-06T03:30:35Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.4",
+          "changelog": "## [1.6.0-dev.4](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.3...v1.6.0-dev.4) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** revert conditional pins that break smali parsing ([f76ab92](https://github.com/dh6k/morphe-patches/commit/f76ab92913cacc4d009f5484a3ab1be9f0ac090d))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.6.0-dev.3",
+          "publishedAt": "2026-09-06T03:17:35Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.3",
+          "changelog": "## [1.6.0-dev.3](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.2...v1.6.0-dev.3) (2026-09-06)\n\n### 🔧 Improvements\n\n* **titanium:** conditionalize keep-alive pins and streamline notification ([8ad79b1](https://github.com/dh6k/morphe-patches/commit/8ad79b1b7ca7203b1dc1479ce6fe81454502f31b))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.6.0-dev.2",
+          "publishedAt": "2026-09-06T02:44:20Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.2",
+          "changelog": "## [1.6.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.1...v1.6.0-dev.2) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** make notification toggle actually hide ([f295b0e](https://github.com/dh6k/morphe-patches/commit/f295b0e39300248be67620713c3073c64ce62a3b))\n",
+          "prerelease": true
+        }
+      ]
+    },
+    "hoodles": {
+      "owner": "hoo-dles",
+      "repo": "morphe-patches",
+      "label": "🍃 hoo-dles",
+      "repoUrl": "https://github.com/hoo-dles/morphe-patches",
+      "latestTag": "v1.44.0",
+      "latestPublishedAt": "2026-09-07T01:13:25Z",
+      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.0",
+      "changelog": "# [1.44.0](https://github.com/hoo-dles/morphe-patches/compare/v1.43.0...v1.44.0) (2026-09-07)\n\n\n### Features\n\n* Add universal `MicroG integration` patch ([a11dcb4](https://github.com/hoo-dles/morphe-patches/commit/a11dcb4d938c5fd33ce8a3fb9d2dde6575f40c97))\n* Add universal `Spoof SIgnature` patch ([946f3c2](https://github.com/hoo-dles/morphe-patches/commit/946f3c2321984850e37023a3b474a74b08714e82))\n* **ASL Bloom:** Add `Enable Premium` patch ([3dde853](https://github.com/hoo-dles/morphe-patches/commit/3dde853c2362849e336277e556e9a2e84a36137f))\n\n\n\n",
+      "history": [
+        {
+          "tag": "v1.44.0-dev.2",
+          "publishedAt": "2026-09-05T20:05:00Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.0-dev.2",
+          "changelog": "# [1.44.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.44.0-dev.1...v1.44.0-dev.2) (2026-09-05)\r\n\r\n\r\n### Features\r\n\r\n* Add universal `MicroG integration` patch ([a11dcb4](https://github.com/hoo-dles/morphe-patches/commit/a11dcb4d938c5fd33ce8a3fb9d2dde6575f40c97))\r\n* Add universal `Spoof signature` patch ([946f3c2](https://github.com/hoo-dles/morphe-patches/commit/946f3c2321984850e37023a3b474a74b08714e82))\r\n\r\n\r\n\r\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.44.0-dev.1",
+          "publishedAt": "2026-09-01T05:20:50Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.0-dev.1",
+          "changelog": "# [1.44.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.43.0...v1.44.0-dev.1) (2026-09-01)\n\n\n### Features\n\n* **ASL Bloom:** Add `Enable Premium` patch ([3dde853](https://github.com/hoo-dles/morphe-patches/commit/3dde853c2362849e336277e556e9a2e84a36137f))\n\n\n\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.43.0",
+          "publishedAt": "2026-08-30T00:32:47Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.43.0",
+          "changelog": "# [1.43.0](https://github.com/hoo-dles/morphe-patches/compare/v1.42.0...v1.43.0) (2026-08-30)\n\n\n### Bug Fixes\n\n* **AdGuard:** Add version code for correct APK discovery ([d08ac92](https://github.com/hoo-dles/morphe-patches/commit/d08ac92d55211c5b9faef91d94245cd076ed0550))\n* **Niagara:** Bump supported version to `1.16.24` and fix patch failure ([d2344ae](https://github.com/hoo-dles/morphe-patches/commit/d2344ae2726b5ab5f7e14fa75e52d0990a8a22e5))\n* **Showly:** Fix news feed not loading ([828698e](https://github.com/hoo-dles/morphe-patches/commit/828698efb3ece50b5e07a9cc8dcc4c4d3b1490e0))\n\n\n### Features\n\n* **Bend:** Add `Enable Premium` patch ([d3ee74f](https://github.com/hoo-dles/morphe-patches/commit/d3ee74f73ad1239cb580a485e1c0bc97ab0510f1))\n\n\n\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.43.0-dev.3",
+          "publishedAt": "2026-08-29T16:47:20Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.43.0-dev.3",
+          "changelog": "# [1.43.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.43.0-dev.2...v1.43.0-dev.3) (2026-08-29)\n\n\n### Bug Fixes\n\n* **AdGuard:** Add version code for correct APK discovery ([d08ac92](https://github.com/hoo-dles/morphe-patches/commit/d08ac92d55211c5b9faef91d94245cd076ed0550))\n\n\n\n",
+          "prerelease": true
+        }
+      ]
+    },
+    "tiktok": {
+      "owner": "icysymmetra",
+      "repo": "tiktok-patches-for-morphe",
+      "label": "🎵 TikTok Patches",
+      "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
+      "latestTag": "v0.8.0-dev.9",
+      "latestPublishedAt": "2026-09-11T18:21:08Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.9",
+      "changelog": "# [0.8.0-dev.9](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.8...v0.8.0-dev.9) (2026-09-11)\n\n\n### Features\n\n* add share sheet modifications ([3e92957](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/3e92957509558f5b3c89817c6cb1e69fd27a2980))\n* Add Split-View Comment Section for Foldable/Wide Devices ([2fc6eb1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/2fc6eb148d5b8cb717192643c505ca30cad02d33))\n\n\n\n\n\n## 0.8.0-dev.9",
+      "history": [
+        {
+          "tag": "v0.8.0-dev.8",
+          "publishedAt": "2026-09-11T09:29:43Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.8",
+          "changelog": "# [0.8.0-dev.8](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.7...v0.8.0-dev.8) (2026-09-11)\n\n\n### Bug Fixes\n\n* cover secure window flag writes ([79abbbf](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/79abbbfc23c3ea21cc9350f3d206dfd2af125b88))\n\n\n\n\n\n## 0.8.0-dev.8",
+          "prerelease": true
+        },
+        {
+          "tag": "v0.8.0-dev.7",
+          "publishedAt": "2026-09-07T22:23:44Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.7",
+          "changelog": "# [0.8.0-dev.7](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.6...v0.8.0-dev.7) (2026-09-07)\n\n\n### Bug Fixes\n\n* **tiktok:** split auto scroll into separate patch ([683979b](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/683979b1ff98d5fc707a4ae401a8365306ec47b7))\n\n\n\n\n\n## 0.8.0-dev.7",
+          "prerelease": true
+        },
+        {
+          "tag": "v0.8.0-dev.6",
+          "publishedAt": "2026-09-07T10:43:47Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.6",
+          "changelog": "# [0.8.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.5...v0.8.0-dev.6) (2026-09-07)\n\n\n### Features\n\n* **tiktok:** add native comment sort controls ([e1fb74c](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e1fb74c740f862d702b2d03a2968960ca5d9d954))\n\n\n\n\n\n## 0.8.0-dev.6",
+          "prerelease": true
+        },
+        {
+          "tag": "v0.8.0-dev.5",
+          "publishedAt": "2026-09-06T23:41:09Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.5",
+          "changelog": "# [0.8.0-dev.5](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.4...v0.8.0-dev.5) (2026-09-06)\n\n\n### Features\n\n* **tiktok:** add reviewed local feature patches ([0e4a6e1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0e4a6e1d9b4687f41328d3112ef8c341de4a081a))\n\n\n\n\n\n## 0.8.0-dev.5",
+          "prerelease": true
+        }
+      ]
+    },
+    "hooman": {
+      "owner": "arandomhooman",
+      "repo": "hoomans-morphe-patches",
+      "label": "🎬 Hooman's Patches",
+      "repoUrl": "https://github.com/arandomhooman/hoomans-morphe-patches",
+      "latestTag": "v1.51.1",
+      "latestPublishedAt": "2026-08-25T18:01:14Z",
+      "latestUrl": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.51.1",
+      "changelog": "## [1.51.1](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.51.0...v1.51.1) (2026-08-25)\n\n### 🐛 Bug Fixes\n\n* remove Projectivy Launcher Unlock Premium patch (DMCA takedown request) ([e151176](https://github.com/arandomhooman/hoomans-morphe-patches/commit/e151176b337568dcbb30919b68331f01d9d11f80))\n",
+      "history": [
+        {
+          "tag": "v1.51.0",
+          "publishedAt": "2026-08-25T17:51:40Z",
+          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.51.0",
+          "changelog": "## [1.51.0](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.50.3...v1.51.0) (2026-08-25)\n\n### ✨ New Features\n\n* add Todoist No date first patch ([e78242a](https://github.com/arandomhooman/hoomans-morphe-patches/commit/e78242ac03618423d1c261848defc6a4382fcdb3))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.50.3",
+          "publishedAt": "2026-08-19T00:30:47Z",
+          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.50.3",
+          "changelog": "## [1.50.3](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.50.2...v1.50.3) (2026-08-19)\n\n### 🐛 Bug Fixes\n\n* drop server-inserted sponsored timeline cards in Tumblr Remove ads ([9e872d0](https://github.com/arandomhooman/hoomans-morphe-patches/commit/9e872d037671e4edb3580c6eb5714ac7de2f169e))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.50.2",
+          "publishedAt": "2026-08-18T17:30:26Z",
+          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.50.2",
+          "changelog": "## [1.50.2](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.50.1...v1.50.2) (2026-08-18)\n\n### 🐛 Bug Fixes\n\n* clarify Twitch 7TV and BTTV patch details ([702146d](https://github.com/arandomhooman/hoomans-morphe-patches/commit/702146df60fa1ffc9c8b76ef52ba50510252c625))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.50.1",
+          "publishedAt": "2026-08-18T04:30:21Z",
+          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.50.1",
+          "changelog": "## [1.50.1](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.50.0...v1.50.1) (2026-08-18)\n\n### 🐛 Bug Fixes\n\n* stop the Twitch 7TV/BTTV emotes patch from breaking chat ([57d24ee](https://github.com/arandomhooman/hoomans-morphe-patches/commit/57d24ee1cec93c34622613d0cf749ba6311767f2))\n",
+          "prerelease": false
+        }
+      ]
+    },
+    "jasonwu": {
+      "owner": "jasonwu1994",
+      "repo": "Gboard-patches",
+      "label": "⌨️ JasonWu Gboard",
+      "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
+      "latestTag": "v3.10.0",
+      "latestPublishedAt": "2026-09-02T10:45:23Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.10.0",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Backup & Restore` patch for exporting and restoring all patch settings, and for backing up, comparing, and restoring Gboard's PB/XML flag stores.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Backup & Restore` Patch，可匯出與還原所有 Patch 設定，並支援備份、比較及還原 Gboard 的 PB/XML flag store。\n",
+      "history": [
+        {
+          "tag": "v3.10.0-dev.3",
+          "publishedAt": "2026-09-01T22:42:41Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.10.0-dev.3",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Backup & Restore` patch for exporting and restoring all patch settings, and for backing up, comparing, and restoring Gboard's PB/XML flag stores.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Backup & Restore` Patch，可匯出與還原所有 Patch 設定，並支援備份、比較及還原 Gboard 的 PB/XML flag store。\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v3.9.0",
+          "publishedAt": "2026-09-01T05:51:23Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.9.0",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Simple Calculator` patch. Enter an expression directly to display both the expression and its result in Gboard's suggestion strip.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Simple Calculator` Patch；直接輸入算式，即可在 Gboard 推薦列顯示算式與計算結果。\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.9.0-dev.1",
+          "publishedAt": "2026-09-01T04:50:25Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.9.0-dev.1",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Simple Calculator` patch. Enter an expression directly to display both the expression and its result in Gboard's suggestion strip.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Simple Calculator` Patch；直接輸入算式，即可在 Gboard 推薦列顯示算式與計算結果。\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v3.8.0",
+          "publishedAt": "2026-08-31T10:14:13Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.8.0",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `FTP Server` patch, providing a LAN FTP server for browsing and transferring files with resume support. Why would a keyboard app need an FTP server? You're right—it doesn't, but I do 😂\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue in the `Long-Press Editing Shortcuts` patch that could occasionally enter unintended text when switching languages.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `FTP Server` Patch，提供區域網路 FTP 伺服器，支援檔案瀏覽、傳輸與續傳。為什麼鍵盤 App 會需要 FTP 伺服器？沒錯，鍵盤不需要，但我需要 😂\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Long-Press Editing Shortcuts` Patch 在某些情況下切換語言時會意外輸入文字的問題。\n",
+          "prerelease": false
+        }
+      ]
+    },
+    "hxreborn": {
+      "owner": "hxreborn",
+      "repo": "morphe-patches",
+      "label": "🔥 hxreborn",
+      "repoUrl": "https://github.com/hxreborn/morphe-patches",
+      "latestTag": "v1.19.0",
+      "latestPublishedAt": "2026-09-12T10:33:58Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.19.0",
+      "changelog": "## [1.19.0](https://github.com/hxreborn/morphe-patches/compare/v1.18.0...v1.19.0) (2026-09-12)\n\n### Bug Fixes\n\n* **iJiami:** fix VerifyError at launch on devices where ART verifies the payload ([08e0e17](https://github.com/hxreborn/morphe-patches/commit/08e0e17c6a6b28717f7acbec6af4a11dd3262923))\n\n### New Features\n\n* **1Weather - Disable tracking:** stop installs, sessions and in-app events reaching AppsFlyer ([dda60d4](https://github.com/hxreborn/morphe-patches/commit/dda60d429e79e907642aa08b9dc978cffa89a479))\n* **1Weather - Hide Shorts:** remove the Shorts card from the Today screen ([ca8781e](https://github.com/hxreborn/morphe-patches/commit/ca8781eeec645cdbf80e7cbf8637a204afbe62ba))\n* **1Weather - Hide Skyla:** hide AI assistant, prompts and summarize buttons ([10d6195](https://github.com/hxreborn/morphe-patches/commit/10d61958cc190ee632d47ac32a3775d8538b4c63))\n* **1Weather - Unlock premium:** remove ads, upgrade prompts and the free plan label ([2e75258](https://github.com/hxreborn/morphe-patches/commit/2e75258119e55cd7812e5832d9464a9db1102d23))\n* **1Weather:** support 13.1.0 ([aa1c65a](https://github.com/hxreborn/morphe-patches/commit/aa1c65a87d3c68800c075f850523f3f6a95f0f20))\n",
+      "history": [
+        {
+          "tag": "v1.18.0",
+          "publishedAt": "2026-09-11T17:51:14Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.18.0",
+          "changelog": "## [1.18.0](https://github.com/hxreborn/morphe-patches/compare/v1.17.0...v1.18.0) (2026-09-11)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** load content on devices with a region-restricted SIM ([666fa11](https://github.com/hxreborn/morphe-patches/commit/666fa11d1fddccbacfda8f3d82b1d003e59b3812)), thanks [@rushiranpise](https://github.com/rushiranpise) for the help\n\n### New Features\n\n* **AlpineQuest:** add support for 2.4.0e ([6133b04](https://github.com/hxreborn/morphe-patches/commit/6133b042a15a1ba919b58b608db9ab763375459b))\n* **Audible:** add support for 26.30.05 ([1ad5ed1](https://github.com/hxreborn/morphe-patches/commit/1ad5ed1e426bce42c236383c3bef4d3d62e1185c))\n* **ForusApp:** add support for 3.0.15 ([b9e91b1](https://github.com/hxreborn/morphe-patches/commit/b9e91b194600949ab999418c75f551fb3521f422))\n* **MovieBox - All-In-One:** open titles in streaming mode regardless of region ([3ffd22b](https://github.com/hxreborn/morphe-patches/commit/3ffd22b9fd28ae686696ad789e57acfc0325a442))\n* **Notesnook:** add support for 3.4.12 ([496b6d0](https://github.com/hxreborn/morphe-patches/commit/496b6d08a133ee43c7924fa7f7de8f83be9c0b08))\n* **Perplexity:** add support for 2.95.0 ([53d7a3b](https://github.com/hxreborn/morphe-patches/commit/53d7a3bcb80738b69618e03a2ce4faf07e2e1e48))\n* **Projectivy:** add support for 4.70 and 4.71 ([a73a0c1](https://github.com/hxreborn/morphe-patches/commit/a73a0c1776582fea8b32cc0a7924f1eadcad0eb1))\n* **RateGlance:** add support for 1.14.8 ([b459e41](https://github.com/hxreborn/morphe-patches/commit/b459e41a4e60f8e8720723199ea6099182bd0dc7))\n* **RISE - Disable telemetry:** stop crash and error reports going to Sentry ([8c407fc](https://github.com/hxreborn/morphe-patches/commit/8c407fcd4a77668a3794ecba46f66f5f4d072158))\n* **RISE - Disable usage tracking:** stop app usage events being uploaded ([c6012b8](https://github.com/hxreborn/morphe-patches/commit/c6012b8e1e8a2dd0588ab8aafd330ef466648a8e))\n* **Rubber Bands:** add support for 3.9 ([b752035](https://github.com/hxreborn/morphe-patches/commit/b75203524b307be9e950bbdf8f21a5150f7838ac))\n* **Showly:** add support for 3.70.0 ([290b1ff](https://github.com/hxreborn/morphe-patches/commit/290b1ff1defe694bd810de0d12b25d2f5622da94))\n* **Symfonium:** support 15.0.1 ([b67007c](https://github.com/hxreborn/morphe-patches/commit/b67007c16997d9fccccdaaeb763bc28c89293595))\n\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.17.0",
+          "publishedAt": "2026-09-11T06:53:48Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.17.0",
+          "changelog": "## [1.17.0](https://github.com/hxreborn/morphe-patches/compare/v1.16.0...v1.17.0) (2026-09-11)\n\n### Bug Fixes\n\n* **iJiami:** run app hook on loaded app class loader ([84bcb4c](https://github.com/hxreborn/morphe-patches/commit/84bcb4ceaad7e3d100d956f832de50e1b6b21653))\n* **RevenueCat unlock:** keep premium active on accounts with lapsed subscriptions ([b03aa4c](https://github.com/hxreborn/morphe-patches/commit/b03aa4c17615100583a32c240430a88a688b3a84))\n\n### New Features\n\n* **360 Jiagu packer:** add initial support for Jiagu-packed apps with patch-time payload rewriting ([c147073](https://github.com/hxreborn/morphe-patches/commit/c14707335218be96a8c9915e81b88b9dae181fa7))\n* **DWG FastView - Block telemetry:** block analytics and ad network endpoints ([3df50f9](https://github.com/hxreborn/morphe-patches/commit/3df50f97f47784c9c82a57e23e71d57f4638253a))\n* **DWG FastView - Hide rating dialog:** remove prompt asking for store review ([1a4530d](https://github.com/hxreborn/morphe-patches/commit/1a4530ded4024b9636965307526356e60b7e20d3))\n* **DWG FastView - Unlock premium:** unlock paid drawing and measurement tools and remove ads ([135eb68](https://github.com/hxreborn/morphe-patches/commit/135eb68034a3a2b8b0b0d5482f0562b38caedd23))\n* **DWG FastView:** add support for 5.19.4, 5.20.0 and 5.21.0 ([d1c5802](https://github.com/hxreborn/morphe-patches/commit/d1c5802fe84e45253bc7ee1746f103c491fbf5da))\n* **iJiami packer:** add initial profile-based support for apps protected by iJiami ([b38b485](https://github.com/hxreborn/morphe-patches/commit/b38b4859fe4c249b48c570d69d61cada64cd7399))\n* **iJiami packer:** add support for per-app runtime hook dexes in apps protected by iJiami ([508b956](https://github.com/hxreborn/morphe-patches/commit/508b9562a7567729210dd10f67ae67b7ae193f56))\n* **MovieBox - All-In-One:** enable video playback and downloads ([33868b2](https://github.com/hxreborn/morphe-patches/commit/33868b2eef8102eded2526844f78dd176e0664c1))\n* **MovieBox - All-In-One:** mark unhosted titles unavailable and show member days ([3267403](https://github.com/hxreborn/morphe-patches/commit/32674031ad979e269086a3de0d743ec7035d68e1))\n* **MovieBox - All-In-One:** move the port from 3.0.14 to the 4.0.02 builds protected by iJiami ([02dc6f9](https://github.com/hxreborn/morphe-patches/commit/02dc6f9c2f61406c15009ffb6b0a9c911f1c3700))\n* **MovieBox - All-In-One:** port rushiranpise's 3.0.14 unlock, ad removal and region bypass ([0d0c3fa](https://github.com/hxreborn/morphe-patches/commit/0d0c3fa8ca7373260e25a66e2a5e9d5b2c94127d))\n\n### Improvements\n\n* **DWG FastView - Unlock premium:** drop 4 MB of pre-patched ciphertext from bundle ([c8a8b53](https://github.com/hxreborn/morphe-patches/commit/c8a8b537d340c66b354921d5715d3df8a26cd45b))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.16.0",
+          "publishedAt": "2026-09-08T09:47:45Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.16.0",
+          "changelog": "## [1.16.0](https://github.com/hxreborn/morphe-patches/compare/v1.15.0...v1.16.0) (2026-09-08)\n\n### Bug Fixes\n\n* **All-In-One Calculator:** stop listing the pairip patch that only serves the unlocks ([2f93695](https://github.com/hxreborn/morphe-patches/commit/2f93695904bad66bd4ed1b02f64a92f6e8c7a4e1))\n* **AlpineQuest - Bypass signature check:** stop listing a patch that only serves the unlock ([4959f5e](https://github.com/hxreborn/morphe-patches/commit/4959f5e070d79130977df9b8f73b198945985095))\n* **Photo Editor Pro - Spoof signature:** stop listing a patch the app cannot run without ([0bdb3db](https://github.com/hxreborn/morphe-patches/commit/0bdb3dba66a2e669c6610d02452c65f722621460))\n* **Photo Editor Pro:** stop listing the iOS spoof the AI tools cannot work without ([a44cffd](https://github.com/hxreborn/morphe-patches/commit/a44cffd9a8ded18908277244eabc2054af5bf00f))\n* **Proton Mail:** keep push notifications working whichever patches are selected ([e17ead1](https://github.com/hxreborn/morphe-patches/commit/e17ead1c4fa5d8adfbe7cae759f1d24451fb8969))\n* **Quranify - Unlock premium:** pull in the integrity and pairip patches as dependencies ([06db4dd](https://github.com/hxreborn/morphe-patches/commit/06db4dd2dbebd6ba9cab2b7bf579ceb5ac912353))\n* **RateGlance - Unlock premium:** pull in the pairip patch as a dependency ([5359f91](https://github.com/hxreborn/morphe-patches/commit/5359f913df2c84be9c5bb2c66f001578454fb6b2))\n* **Remove pairip protection:** fail at patch time when the hoisted-field table does not match ([5972cc3](https://github.com/hxreborn/morphe-patches/commit/5972cc3fdd23c81866b42215d558058fb30202ef))\n* **Remove pairip protection:** stop listing a patch that only serves the unlocks ([8d8acf6](https://github.com/hxreborn/morphe-patches/commit/8d8acf6e35833bec3af6875feba4b45ab28a510a))\n\n### New Features\n\n* **BetterSleep - Spoof signature:** keep account sign-up and Firebase working on a re-signed build ([eac36d1](https://github.com/hxreborn/morphe-patches/commit/eac36d1efbee1b5ddec40732cc490121a5ef7267))\n* **BetterSleep - Unlock premium:** unlock all content and skip the free trial screen ([8cac3d5](https://github.com/hxreborn/morphe-patches/commit/8cac3d59efcb71922a8884f00f17962b5f2201ec))\n* **RISE - Unlock premium:** unlock the energy schedule and habit tools without a subscription ([d9df4c1](https://github.com/hxreborn/morphe-patches/commit/d9df4c1ff09a965c5ef365fbc04e648d21249881))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.15.0",
+          "publishedAt": "2026-09-07T20:15:58Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.15.0",
+          "changelog": "## [1.15.0](https://github.com/hxreborn/morphe-patches/compare/v1.14.1...v1.15.0) (2026-09-07)\n\n### Bug Fixes\n\n* **Proton Mail - Hide upgrade upselling:** hide special offer sidebar row ([3642fbd](https://github.com/hxreborn/morphe-patches/commit/3642fbd241656adbf04c916a0b042815b258eea4))\n* **Remove pairip protection:** return early from initializeLicenseCheck ([4677d7f](https://github.com/hxreborn/morphe-patches/commit/4677d7f778f4a419e456b1c99058c73ede820f24))\n\n### New Features\n\n* **Photo Editor Pro:** warn on an APK that is not the stock build ([e3f3a18](https://github.com/hxreborn/morphe-patches/commit/e3f3a18e2505fa1f6cc91a8891e2f78c0870ea6b))\n* **Proton Mail - Remove free accounts limit:** apply on 7.11.5 ([5e39b74](https://github.com/hxreborn/morphe-patches/commit/5e39b74a08693a928b278cbac9e0ea5008299797))\n* **Proton Mail:** support 7.11.5 ([528d9a7](https://github.com/hxreborn/morphe-patches/commit/528d9a7b751cb3ff14992256d7d00cf91638c466))\n* **Proton Mail:** warn on an APK that is not the stock build ([1d030a6](https://github.com/hxreborn/morphe-patches/commit/1d030a61439ca37eb91b33b0925b89410cd2473b))\n* **Quranify - Bypass integrity check:** load reciters without a Google Play check ([8a89e66](https://github.com/hxreborn/morphe-patches/commit/8a89e66e26ce3135b56b69cac053902cb786f980))\n* **Quranify - Unlock premium:** unlock the premium surah downloads and insights ([2c0aa72](https://github.com/hxreborn/morphe-patches/commit/2c0aa72c01ddc02cf3e40dd4a4408f0cee4d70fe))\n* **Spoof signature:** read the certificate from the APK being patched ([b20cf21](https://github.com/hxreborn/morphe-patches/commit/b20cf21025568d67efb51d2e92c8260abacc117d))\n",
+          "prerelease": false
+        }
+      ]
+    },
+    "hxreborn-tiktok": {
+      "owner": "hxreborn",
+      "repo": "hxreborn-tiktok-patches",
+      "label": "🔥 hxreborn TikTok",
+      "repoUrl": "https://github.com/hxreborn/hxreborn-tiktok-patches",
+      "latestTag": "v1.3.0",
+      "latestPublishedAt": "2026-09-07T08:52:16Z",
+      "latestUrl": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/tag/v1.3.0",
+      "changelog": "## What's Changed\n\n\n\n### Features\n\n- **TikTok - Settings:** Add a support row linking to icysymmetra's Ko-fi by @hxreborn ([`257fad6`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/257fad68f6100a41af6556334ddff35e61b8ce02))\n\n\n\n",
+      "history": [
+        {
+          "tag": "v1.2.0",
+          "publishedAt": "2026-09-06T18:59:58Z",
+          "url": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/tag/v1.2.0",
+          "changelog": "## What's Changed\n\n\n\n### Features\n\n- **tiktok:** Add feed interface controls by @icysymmetra ([`0c79175`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/0c79175312c45e74af99d6d986564a79742affbe))\n\n- Add Split-View Comment Section for Foldable/Wide Devices by @HazyArc14 ([`c0571bc`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/c0571bcc1df32b4db108b1de68adaa387125b5fb))\n\n- Add share sheet modifications by @HazyArc14 ([`cf3ede5`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/cf3ede56a5eb49fe1a5c17594c54425a5ee1cf6c))\n\n\n### Bug Fixes\n\n- **tiktok:** Refresh discovered share items in settings by @icysymmetra ([`656d791`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/656d791dfcfaabb327377fa62fc5a897969c6f26))\n\n- **tiktok:** Harden reviewed foldable integration by @icysymmetra ([`55f5776`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/55f57763da90cee3727e36888e63a41b061da6c6))\n\n- **tiktok:** Close feed filter delivery gaps by @icysymmetra ([`e58fb96`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/e58fb96a1724df3c2e81693b5fab87676453f314))\n\n\n### Reverts\n\n- **TikTok - Feed filter:** Temporarily drop the friend recommendation card filter by @hxreborn ([`27783de`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/27783dee5138a82ce22ea6bcdadf7b8d52bb8ae3))\n\n\n\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.1.0",
+          "publishedAt": "2026-09-05T09:32:00Z",
+          "url": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/tag/v1.1.0",
+          "changelog": "## What's Changed\n\n\n\n### Features\n\n- **TikTok - Region spoof:** Rename SIM spoof to Region spoof and add a du preset for the United Arab Emirates by @icysymmetra ([`9781ef2`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/9781ef2c18b1372764f590260e37d3df54fd6794), [`714830c`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/714830caeeaa5be1691609efefdae4d50ff179c6))\n\n\n### Bug Fixes\n\n- **TikTok - Feed filter:** Hide real-time inserted cards and stop their Lynx view preloading by @hxreborn ([`a060791`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/a060791312ab07a75f4ea42c7644d95be36ac896))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.0.0",
+          "publishedAt": "2026-08-23T09:51:38Z",
+          "url": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/tag/v1.0.0",
+          "changelog": "## What's Changed\n\n\n\n### Features\n\n- **TikTok - Patches:** Retire the zerover joke and ship 1.0.0 [**breaking**] by @hxreborn ([`68d06f3`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/68d06f3fd8976b12a5f70bd55d759ae2a17fbd72))\n\n- **tiktok:** Add repost and cached feed controls by @icysymmetra ([`446ee90`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/446ee90123b118642fe3c50f5da9221d984667c2))\n\n- **tiktok:** Expand offline video limits by @icysymmetra ([`35eff0e`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/35eff0e4f84ea69925bbddc71eb04c6d0bf5e66d))\n\n\n### Bug Fixes\n\n- **TikTok - Feed filter:** Unlock scrolling past countdown-locked short-drama ads by @hxreborn ([`057db32`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/057db324c8a8cd93a04fa379cfb1baaa8dd3b433))\n\n- **TikTok - Feed filter:** Silence bulletin card music that keeps playing over the feed by @hxreborn ([`8d87fcb`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/8d87fcbb5066b5b1854b01859b687d0940e2622a))\n\n- **tiktok:** Preserve swipe-lock playback speed by @icysymmetra ([`dfbe2a5`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/dfbe2a55aaced183f97a457b494893c31cebf596))\n\n- **tiktok:** Harden bytecode hook resolution by @icysymmetra ([`95e0a3f`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/95e0a3f8d6c45e97eb44c3066bd201e2d9ab1843))\n\n- **tiktok:** Consume download filename mappings by @icysymmetra ([`864fc15`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/864fc1526d51f819daea8e0730716d62a4c6b662))\n\n\n\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v0.11.4",
+          "publishedAt": "2026-08-19T16:35:00Z",
+          "url": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/tag/v0.11.4",
+          "changelog": "## What's Changed\n\n\n### Bug Fixes\n\n- **build:** Complete feed model stubs by @icysymmetra ([`053ce6c`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/053ce6cd064c16c1a06e87e10b76896da7c00a83))\n\n- **TikTok - Captcha:** Stop suppressing risk-control puzzles by default by @hxreborn ([`bb48b71`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/bb48b71b8aa09d6447528bb7cba26d8685e6e286))\n\n- **TikTok - Feed filter:** Filter cached feed insertions by @icysymmetra ([`d30a6dd`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/d30a6dd37f9eaa1c1faecdf2b30b047707170860))\n\n- **TikTok - Feed filter:** Hide every inserted feed card instead of only bulletin-board ones by @hxreborn ([`85d3a55`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/85d3a5579a8036ccf4c9bf514787ce97349860c9))\n\n",
+          "prerelease": false
+        }
+      ]
+    }
+  },
   "apps": [
     {
       "appKey": "youtube",
@@ -25,18 +509,18 @@
       "pkg": "com.google.android.youtube",
       "icon": "https://cdn.simpleicons.org/youtube/FF0000",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "21.36.45",
+      "assetName": "YouTube-21.36.45.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/YouTube-21.36.45.apk",
+      "size": 110274611,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
-        "downloadsThisRelease": 0,
-        "total": 0
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
+        "downloadsThisRelease": 2,
+        "total": 2
       },
       "patchSources": [
         "morphe"
@@ -60,18 +544,18 @@
       "pkg": "com.google.android.apps.youtube.music",
       "icon": "https://cdn.simpleicons.org/youtubemusic/FF0000",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "9.36.50",
+      "assetName": "YT.Music-9.36.50.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/YT.Music-9.36.50.apk",
+      "size": 78550283,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
-        "downloadsThisRelease": 0,
-        "total": 0
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "morphe"
@@ -95,18 +579,18 @@
       "pkg": "com.reddit.frontpage",
       "icon": "https://cdn.simpleicons.org/reddit/FF4500",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "2026.35.0",
+      "assetName": "Reddit-2026.35.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Reddit-2026.35.0.apk",
+      "size": 90551926,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
-        "downloadsThisRelease": 0,
-        "total": 0
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "morphe"
@@ -130,16 +614,16 @@
       "pkg": "com.reddit.frontpage",
       "icon": "https://cdn.simpleicons.org/reddit/FF4500",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "2026.35.0",
+      "assetName": "Reddit-Adobo-2026.35.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Reddit-Adobo-2026.35.0.apk",
+      "size": 87782658,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -165,16 +649,16 @@
       "pkg": "com.twitter.android",
       "icon": "https://cdn.simpleicons.org/x/000000",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "12.19.1-release.0",
+      "assetName": "Twitter-12.19.1-release.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Twitter-12.19.1-release.0.apk",
+      "size": 205851037,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -200,18 +684,18 @@
       "pkg": "com.twitter.android",
       "icon": "https://cdn.simpleicons.org/x/000000",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "12.24.0-prod.02",
+      "assetName": "Twitter-X-12.24.0-prod.02.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Twitter-X-12.24.0-prod.02.apk",
+      "size": 137436063,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
-        "downloadsThisRelease": 0,
-        "total": 0
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "piko-newx",
@@ -236,18 +720,18 @@
       "pkg": "com.instagram.android",
       "icon": "https://cdn.simpleicons.org/instagram/E4405F",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "439.0.0.37.89",
+      "assetName": "Instagram-439.0.0.37.89.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Instagram-439.0.0.37.89.apk",
+      "size": 146179118,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
-        "downloadsThisRelease": 0,
-        "total": 0
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "piko"
@@ -271,16 +755,16 @@
       "pkg": "com.google.android.inputmethod.latin",
       "icon": "https://cdn.simpleicons.org/google/4285F4",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "18.0.3.954559732",
+      "assetName": "Gboard-18.0.3.954559732.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Gboard-18.0.3.954559732.apk",
+      "size": 89565097,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -306,16 +790,16 @@
       "pkg": "org.zwanoo.android.speedtest",
       "icon": "https://www.google.com/s2/favicons?sz=128&domain=speedtest.net",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "7.0.7",
+      "assetName": "Speedtest-7.0.7.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Speedtest-7.0.7.apk",
+      "size": 28549591,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -341,16 +825,16 @@
       "pkg": "com.brave.browser",
       "icon": "https://cdn.simpleicons.org/brave/FB542B",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "1.92.140",
+      "assetName": "Brave-1.92.140.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Brave-1.92.140.apk",
+      "size": 277693875,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -411,16 +895,16 @@
       "pkg": "com.zhiliaoapp.musically",
       "icon": "https://cdn.simpleicons.org/tiktok",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "46.2.3",
+      "assetName": "TikTok-46.2.3-icysymmetra.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/TikTok-46.2.3-icysymmetra.apk",
+      "size": 413802519,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -447,18 +931,18 @@
       "pkg": "com.zhiliaoapp.musically",
       "icon": "https://cdn.simpleicons.org/tiktok",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "46.2.3",
+      "assetName": "TikTok-46.2.3-hxreborn.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/TikTok-46.2.3-hxreborn.apk",
+      "size": 412958743,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
-        "downloadsThisRelease": 0,
-        "total": 0
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "hxreborn-tiktok",
@@ -483,16 +967,16 @@
       "pkg": "com.cloudflare.onedotonedotonedotone",
       "icon": "https://cdn.simpleicons.org/1dot1dot1dot1",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "6.38.9",
+      "assetName": "1.1.1.1-6.38.9.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/1.1.1.1-6.38.9.apk",
+      "size": 48276245,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -518,16 +1002,16 @@
       "pkg": "com.camerasideas.instashot",
       "icon": "https://www.google.com/s2/favicons?sz=128&domain=inshot.com",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "2.214.1539",
+      "assetName": "InShot-2.214.1539.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/InShot-2.214.1539.apk",
+      "size": 90140962,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -588,16 +1072,16 @@
       "pkg": "app.simple.inure",
       "icon": "https://files.svgcdn.io/arcticons/inure.svg",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "107.2.1",
+      "assetName": "inure-Github-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/inure-Github-107.2.1.apk",
+      "size": 25988011,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -623,16 +1107,16 @@
       "pkg": "app.simple.inure.play",
       "icon": "https://files.svgcdn.io/arcticons/inure.svg",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "107.2.1",
+      "assetName": "inure-PlayStore-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/inure-PlayStore-107.2.1.apk",
+      "size": 25388793,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -693,16 +1177,16 @@
       "pkg": "com.streetwriters.notesnook",
       "icon": "https://www.google.com/s2/favicons?sz=128&domain=notesnook.com",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "3.4.12",
+      "assetName": "Notesnook-3.4.12.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Notesnook-3.4.12.apk",
+      "size": 68392375,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },
@@ -728,16 +1212,16 @@
       "pkg": "com.server.auditor.ssh.client",
       "icon": "https://www.google.com/s2/favicons?sz=128&domain=termius.com",
       "arch": "arm64-v8a",
-      "status": "pending",
+      "status": "published",
       "stale": false,
-      "version": null,
-      "assetName": null,
-      "downloadUrl": null,
-      "size": null,
-      "publishedAt": null,
+      "version": "7.8.2",
+      "assetName": "Termius-7.8.2.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T10-42-41/Termius-7.8.2.apk",
+      "size": 48163832,
+      "publishedAt": "2026-09-12T10:48:02Z",
       "downloads": {
         "cumulativeBaseline": 0,
-        "lastReleaseTag": null,
+        "lastReleaseTag": "build-2026-09-12T10-42-41",
         "downloadsThisRelease": 0,
         "total": 0
       },

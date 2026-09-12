@@ -1,3 +1,130 @@
 {
-  "apps": []
+  "apps": [
+    {
+      "id": "com.google.android.youtube",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "YouTube (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^YouTube-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"YouTube (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.google.android.apps.youtube.music",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "YT.Music (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^YT\\\\.Music-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"YT.Music (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.reddit.frontpage",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Reddit (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Reddit-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Reddit (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.reddit.frontpage",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Reddit-Adobo (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Reddit\\\\-Adobo-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Reddit-Adobo (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.twitter.android",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Twitter (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Twitter-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Twitter (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.twitter.android",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Twitter-X (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Twitter\\\\-X-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Twitter-X (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.instagram.android",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Instagram (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Instagram-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Instagram (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.google.android.inputmethod.latin",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Gboard (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Gboard-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Gboard (Builder-Morphe)\"}"
+    },
+    {
+      "id": "org.zwanoo.android.speedtest",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Speedtest (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Speedtest-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Speedtest (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.brave.browser",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Brave (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Brave-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Brave (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.zhiliaoapp.musically",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "TikTok (Builder-Morphe · icysymmetra)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^TikTok-.*-icysymmetra\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"TikTok (Builder-Morphe \\u00b7 icysymmetra)\"}"
+    },
+    {
+      "id": "com.zhiliaoapp.musically",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "TikTok (Builder-Morphe · hxreborn)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^TikTok-.*-hxreborn\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"TikTok (Builder-Morphe \\u00b7 hxreborn)\"}"
+    },
+    {
+      "id": "com.cloudflare.onedotonedotonedotone",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "1.1.1.1 (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^1\\\\.1\\\\.1\\\\.1-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"1.1.1.1 (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.camerasideas.instashot",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "InShot (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^InShot-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"InShot (Builder-Morphe)\"}"
+    },
+    {
+      "id": "app.simple.inure",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "inure-Github (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^inure\\\\-Github-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"inure-Github (Builder-Morphe)\"}"
+    },
+    {
+      "id": "app.simple.inure.play",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "inure-PlayStore (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^inure\\\\-PlayStore-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"inure-PlayStore (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.streetwriters.notesnook",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Notesnook (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Notesnook-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Notesnook (Builder-Morphe)\"}"
+    },
+    {
+      "id": "com.server.auditor.ssh.client",
+      "url": "https://github.com/Erlikx/Builder-Morphe",
+      "author": "Erlikx",
+      "name": "Termius (Builder-Morphe)",
+      "additionalSettings": "{\"apkFilterRegEx\": \"^Termius-.*\\\\.apk$\", \"invertAPKFilter\": false, \"autoApkFilterByArch\": true, \"appName\": \"Termius (Builder-Morphe)\"}"
+    }
+  ]
 }
