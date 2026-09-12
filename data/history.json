@@ -1,5 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T20:21:12Z",
-  "entries": []
+  "generatedAt": "2026-09-12T22:28:52Z",
+  "entries": [
+    {
+      "appKey": "reddit",
+      "displayName": "Reddit",
+      "fromVersion": "2026.35.0",
+      "toVersion": "2026.37.0",
+      "at": "2026-09-12T22:28:52Z",
+      "releaseTag": "build-2026-09-12T22-05-57"
+    }
+  ]
 }
