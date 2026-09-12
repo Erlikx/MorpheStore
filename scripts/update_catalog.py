@@ -427,7 +427,15 @@ def build_catalog() -> tuple[dict, dict, dict]:
                         "releaseTag": release_tag,
                     }
                 )
-            elif not prev:
+            elif not prev_version:
+                # Covers both "never seen this app_key before" (prev is
+                # None) and "seen it, but only ever as a pending stub with
+                # no real version yet" (prev exists, prev["version"] is
+                # None) — both are "first time this app was actually
+                # published" from history's point of view. Checking
+                # `not prev` here instead would miss the pending-still
+                # case, since Builder-Morphe apps start out in apps.json
+                # as pending placeholders rather than being absent.
                 history_events.append(
                     {
                         "appKey": app_key,
