@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T10:31:02Z",
+  "generatedAt": "2026-09-13T14:51:34Z",
   "entries": [
+    {
+      "appKey": "twitter-x",
+      "displayName": "Twitter-X",
+      "fromVersion": "12.24.0-prod.02",
+      "toVersion": "12.25.0-prod.01",
+      "at": "2026-09-13T14:51:34Z",
+      "releaseTag": "build-2026-09-13T11-48-08"
+    },
     {
       "appKey": "reddit",
       "displayName": "Reddit",
