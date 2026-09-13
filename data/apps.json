@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T00:13:03Z",
+  "generatedAt": "2026-09-13T05:14:37Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -14,7 +14,7 @@
   "stats": {
     "totalApps": 21,
     "publishedApps": 17,
-    "totalDownloads": 28
+    "totalDownloads": 45
   },
   "microg": {
     "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-12T22-05-57/MicroG.apk",
@@ -106,37 +106,37 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.19.3",
-      "latestPublishedAt": "2026-09-12T03:39:13Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.19.3",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** support 12.26.0-alpha.03 ([0394de0](https://github.com/crimera/piko/commit/0394de0ff0f6983f175219e27d127c40bb7d8150))",
+      "latestTag": "v3.21.1",
+      "latestPublishedAt": "2026-09-13T04:46:03Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.21.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** inline download button showing the share icon ([f94e38c](https://github.com/crimera/piko/commit/f94e38c52418e06d607fdd6382caf027ae0e6760))\n* **Twitter - newx:** validate dynamic choice resources ([0c01bf1](https://github.com/crimera/piko/commit/0c01bf1cb8db738d4046eb1602dc2dde56051349))",
       "history": [
+        {
+          "tag": "v3.21.0",
+          "publishedAt": "2026-09-13T02:44:29Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.21.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** inline download icon classification ([47e6a6d](https://github.com/crimera/piko/commit/47e6a6db8e42b28301cd2b20a474f80629d0ee34))\n* **Twitter:** group custom NewX post menu options ([ddacbad](https://github.com/crimera/piko/commit/ddacbad92cb4c65c8eaa1d3126ec44791121a223))\n\n### ✨ New Features\n* **Twitter - newx:** register dynamic choice resources ([fbf56bf](https://github.com/crimera/piko/commit/fbf56bfebdd021c9784ada806f4ed989b5cf4ec9))\n\n### 🔧 Improvements\n* **Twitter - newx:** discover drawer options dynamically ([7f21814](https://github.com/crimera/piko/commit/7f2181486a390b2d30ad27263f60340171e24415))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.20.0",
+          "publishedAt": "2026-09-13T01:10:24Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.20.0",
+          "changelog": "### ✨ New Features\n* **Twitter - newx:** hide post and reply dividers ([46c7e67](https://github.com/crimera/piko/commit/46c7e6787c7a882485769790e7d8e0e6f6b1d519))\n\nNew patches:\n- NewX: Hide post dividers",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.19.3",
+          "publishedAt": "2026-09-12T03:39:13Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.19.3",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** support 12.26.0-alpha.03 ([0394de0](https://github.com/crimera/piko/commit/0394de0ff0f6983f175219e27d127c40bb7d8150))",
+          "prerelease": false
+        },
         {
           "tag": "v3.19.2",
           "publishedAt": "2026-09-12T03:08:49Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.19.2",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** preserve inline download icon on recomposition ([baf3189](https://github.com/crimera/piko/commit/baf3189040abdfddb40cb76ecffd233846d8e995))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.19.1",
-          "publishedAt": "2026-09-11T04:01:26Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.19.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep dynamic color resolver API 29 compatible ([7242871](https://github.com/crimera/piko/commit/72428718c7e5de462ca81fecd9aa72eeedf0d2bf))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.19.0",
-          "publishedAt": "2026-09-11T02:43:20Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.19.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** scope timeline position restoration ([a238d89](https://github.com/crimera/piko/commit/a238d895f6c442de0d287f2a09ce9482824dc58f))\n\n### ✨ New Features\n* **Twitter - newx:** identify download notifications by username ([5554a69](https://github.com/crimera/piko/commit/5554a693357ef7113796496da59f59790cd2e8a8))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.18.1",
-          "publishedAt": "2026-09-11T01:19:46Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.18.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** support alpha.02 drawer renderer ([a4a44ad](https://github.com/crimera/piko/commit/a4a44ad50c6568822290e81f570b68156bb5e347))",
           "prerelease": false
         }
       ]
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.20.0",
-      "latestPublishedAt": "2026-09-12T17:40:50Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.0",
-      "changelog": "## [1.20.0](https://github.com/hxreborn/morphe-patches/compare/v1.19.1...v1.20.0) (2026-09-12)\n\n### Bug Fixes\n\n* **iJiami:** disable packer checks at their call sites to close crash race at launch ([b385011](https://github.com/hxreborn/morphe-patches/commit/b385011bc484cc352e1fe0a777da1d662bcadc48))\n* **MovieBox - All-In-One:** report no SIM operator ([d2af9f8](https://github.com/hxreborn/morphe-patches/commit/d2af9f83849376ce918ebd40ef28ce164db20eb0))\n\n### New Features\n\n* **MovieBox - All-In-One:** remove password access to Laboratory under Me → Settings → About us ([3373cce](https://github.com/hxreborn/morphe-patches/commit/3373cce8a95e004fb64e5ef225e7942c09e75d4d))\n",
+      "latestTag": "v1.20.1",
+      "latestPublishedAt": "2026-09-13T04:21:49Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.1",
+      "changelog": "## [1.20.1](https://github.com/hxreborn/morphe-patches/compare/v1.20.0...v1.20.1) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** log component factory, class loader and application stages at launch ([7f9a757](https://github.com/hxreborn/morphe-patches/commit/7f9a757009d5e9eab227fbcc65d7a9cc67782738))\n* **iJiami:** stop packer watchdogs killing patched apps one second after launch ([55eabcb](https://github.com/hxreborn/morphe-patches/commit/55eabcb726467e0c3580df8db9a66a350a2388c3))\n* **MovieBox - All-In-One:** retry the playback hook and warn when it never installs ([c8f09e1](https://github.com/hxreborn/morphe-patches/commit/c8f09e1d32a39454d8a713952d585dd842ad99c7))\n",
       "history": [
+        {
+          "tag": "v1.20.0",
+          "publishedAt": "2026-09-12T17:40:50Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.0",
+          "changelog": "## [1.20.0](https://github.com/hxreborn/morphe-patches/compare/v1.19.1...v1.20.0) (2026-09-12)\n\n### Bug Fixes\n\n* **iJiami:** disable packer checks at their call sites to close crash race at launch ([b385011](https://github.com/hxreborn/morphe-patches/commit/b385011bc484cc352e1fe0a777da1d662bcadc48))\n* **MovieBox - All-In-One:** report no SIM operator ([d2af9f8](https://github.com/hxreborn/morphe-patches/commit/d2af9f83849376ce918ebd40ef28ce164db20eb0))\n\n### New Features\n\n* **MovieBox - All-In-One:** remove password access to Laboratory under Me → Settings → About us ([3373cce](https://github.com/hxreborn/morphe-patches/commit/3373cce8a95e004fb64e5ef225e7942c09e75d4d))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.19.1",
           "publishedAt": "2026-09-12T13:55:45Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-09-11T17:51:14Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.18.0",
           "changelog": "## [1.18.0](https://github.com/hxreborn/morphe-patches/compare/v1.17.0...v1.18.0) (2026-09-11)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** load content on devices with a region-restricted SIM ([666fa11](https://github.com/hxreborn/morphe-patches/commit/666fa11d1fddccbacfda8f3d82b1d003e59b3812)), thanks [@rushiranpise](https://github.com/rushiranpise) for the help\n\n### New Features\n\n* **AlpineQuest:** add support for 2.4.0e ([6133b04](https://github.com/hxreborn/morphe-patches/commit/6133b042a15a1ba919b58b608db9ab763375459b))\n* **Audible:** add support for 26.30.05 ([1ad5ed1](https://github.com/hxreborn/morphe-patches/commit/1ad5ed1e426bce42c236383c3bef4d3d62e1185c))\n* **ForusApp:** add support for 3.0.15 ([b9e91b1](https://github.com/hxreborn/morphe-patches/commit/b9e91b194600949ab999418c75f551fb3521f422))\n* **MovieBox - All-In-One:** open titles in streaming mode regardless of region ([3ffd22b](https://github.com/hxreborn/morphe-patches/commit/3ffd22b9fd28ae686696ad789e57acfc0325a442))\n* **Notesnook:** add support for 3.4.12 ([496b6d0](https://github.com/hxreborn/morphe-patches/commit/496b6d08a133ee43c7924fa7f7de8f83be9c0b08))\n* **Perplexity:** add support for 2.95.0 ([53d7a3b](https://github.com/hxreborn/morphe-patches/commit/53d7a3bcb80738b69618e03a2ce4faf07e2e1e48))\n* **Projectivy:** add support for 4.70 and 4.71 ([a73a0c1](https://github.com/hxreborn/morphe-patches/commit/a73a0c1776582fea8b32cc0a7924f1eadcad0eb1))\n* **RateGlance:** add support for 1.14.8 ([b459e41](https://github.com/hxreborn/morphe-patches/commit/b459e41a4e60f8e8720723199ea6099182bd0dc7))\n* **RISE - Disable telemetry:** stop crash and error reports going to Sentry ([8c407fc](https://github.com/hxreborn/morphe-patches/commit/8c407fcd4a77668a3794ecba46f66f5f4d072158))\n* **RISE - Disable usage tracking:** stop app usage events being uploaded ([c6012b8](https://github.com/hxreborn/morphe-patches/commit/c6012b8e1e8a2dd0588ab8aafd330ef466648a8e))\n* **Rubber Bands:** add support for 3.9 ([b752035](https://github.com/hxreborn/morphe-patches/commit/b75203524b307be9e950bbdf8f21a5150f7838ac))\n* **Showly:** add support for 3.70.0 ([290b1ff](https://github.com/hxreborn/morphe-patches/commit/290b1ff1defe694bd810de0d12b25d2f5622da94))\n* **Symfonium:** support 15.0.1 ([b67007c](https://github.com/hxreborn/morphe-patches/commit/b67007c16997d9fccccdaaeb763bc28c89293595))\n\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.17.0",
-          "publishedAt": "2026-09-11T06:53:48Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.17.0",
-          "changelog": "## [1.17.0](https://github.com/hxreborn/morphe-patches/compare/v1.16.0...v1.17.0) (2026-09-11)\n\n### Bug Fixes\n\n* **iJiami:** run app hook on loaded app class loader ([84bcb4c](https://github.com/hxreborn/morphe-patches/commit/84bcb4ceaad7e3d100d956f832de50e1b6b21653))\n* **RevenueCat unlock:** keep premium active on accounts with lapsed subscriptions ([b03aa4c](https://github.com/hxreborn/morphe-patches/commit/b03aa4c17615100583a32c240430a88a688b3a84))\n\n### New Features\n\n* **360 Jiagu packer:** add initial support for Jiagu-packed apps with patch-time payload rewriting ([c147073](https://github.com/hxreborn/morphe-patches/commit/c14707335218be96a8c9915e81b88b9dae181fa7))\n* **DWG FastView - Block telemetry:** block analytics and ad network endpoints ([3df50f9](https://github.com/hxreborn/morphe-patches/commit/3df50f97f47784c9c82a57e23e71d57f4638253a))\n* **DWG FastView - Hide rating dialog:** remove prompt asking for store review ([1a4530d](https://github.com/hxreborn/morphe-patches/commit/1a4530ded4024b9636965307526356e60b7e20d3))\n* **DWG FastView - Unlock premium:** unlock paid drawing and measurement tools and remove ads ([135eb68](https://github.com/hxreborn/morphe-patches/commit/135eb68034a3a2b8b0b0d5482f0562b38caedd23))\n* **DWG FastView:** add support for 5.19.4, 5.20.0 and 5.21.0 ([d1c5802](https://github.com/hxreborn/morphe-patches/commit/d1c5802fe84e45253bc7ee1746f103c491fbf5da))\n* **iJiami packer:** add initial profile-based support for apps protected by iJiami ([b38b485](https://github.com/hxreborn/morphe-patches/commit/b38b4859fe4c249b48c570d69d61cada64cd7399))\n* **iJiami packer:** add support for per-app runtime hook dexes in apps protected by iJiami ([508b956](https://github.com/hxreborn/morphe-patches/commit/508b9562a7567729210dd10f67ae67b7ae193f56))\n* **MovieBox - All-In-One:** enable video playback and downloads ([33868b2](https://github.com/hxreborn/morphe-patches/commit/33868b2eef8102eded2526844f78dd176e0664c1))\n* **MovieBox - All-In-One:** mark unhosted titles unavailable and show member days ([3267403](https://github.com/hxreborn/morphe-patches/commit/32674031ad979e269086a3de0d743ec7035d68e1))\n* **MovieBox - All-In-One:** move the port from 3.0.14 to the 4.0.02 builds protected by iJiami ([02dc6f9](https://github.com/hxreborn/morphe-patches/commit/02dc6f9c2f61406c15009ffb6b0a9c911f1c3700))\n* **MovieBox - All-In-One:** port rushiranpise's 3.0.14 unlock, ad removal and region bypass ([0d0c3fa](https://github.com/hxreborn/morphe-patches/commit/0d0c3fa8ca7373260e25a66e2a5e9d5b2c94127d))\n\n### Improvements\n\n* **DWG FastView - Unlock premium:** drop 4 MB of pre-patched ciphertext from bundle ([c8a8b53](https://github.com/hxreborn/morphe-patches/commit/c8a8b537d340c66b354921d5715d3df8a26cd45b))\n",
           "prerelease": false
         }
       ]
@@ -519,8 +519,8 @@
       "downloads": {
         "cumulativeBaseline": 3,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 4
+        "downloadsThisRelease": 2,
+        "total": 5
       },
       "patchSources": [
         "morphe"
@@ -554,8 +554,8 @@
       "downloads": {
         "cumulativeBaseline": 2,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 3
+        "downloadsThisRelease": 2,
+        "total": 4
       },
       "patchSources": [
         "morphe"
@@ -589,8 +589,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "morphe"
@@ -659,8 +659,8 @@
       "downloads": {
         "cumulativeBaseline": 0,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 0,
-        "total": 0
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "piko"
@@ -694,8 +694,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 0,
-        "total": 1
+        "downloadsThisRelease": 1,
+        "total": 2
       },
       "patchSources": [
         "piko-newx",
@@ -730,8 +730,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 0,
-        "total": 1
+        "downloadsThisRelease": 1,
+        "total": 2
       },
       "patchSources": [
         "piko"
@@ -765,8 +765,8 @@
       "downloads": {
         "cumulativeBaseline": 0,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 1
+        "downloadsThisRelease": 2,
+        "total": 2
       },
       "patchSources": [
         "jasonwu"
@@ -800,8 +800,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "rushi",
@@ -836,8 +836,8 @@
       "downloads": {
         "cumulativeBaseline": 0,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 0,
-        "total": 0
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "dh6k"
@@ -906,8 +906,8 @@
       "downloads": {
         "cumulativeBaseline": 0,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 0,
-        "total": 0
+        "downloadsThisRelease": 1,
+        "total": 1
       },
       "patchSources": [
         "tiktok",
@@ -942,8 +942,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 0,
-        "total": 1
+        "downloadsThisRelease": 1,
+        "total": 2
       },
       "patchSources": [
         "hxreborn-tiktok",
@@ -978,8 +978,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "rushi"
@@ -1013,8 +1013,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "hooman"
@@ -1083,8 +1083,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "rushi"
@@ -1118,8 +1118,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "rushi"
@@ -1188,8 +1188,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "hxreborn"
@@ -1223,8 +1223,8 @@
       "downloads": {
         "cumulativeBaseline": 1,
         "lastReleaseTag": "build-2026-09-12T22-05-57",
-        "downloadsThisRelease": 1,
-        "total": 2
+        "downloadsThisRelease": 2,
+        "total": 3
       },
       "patchSources": [
         "rushi"
