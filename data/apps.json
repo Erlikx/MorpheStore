@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T17:59:56Z",
+  "generatedAt": "2026-09-13T20:42:48Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
     "repoUrl": "https://github.com/Erlikx/Builder-Morphe",
     "hasRelease": true,
-    "releaseTag": "build-2026-09-13T17-18-14",
+    "releaseTag": "build-2026-09-13T18-23-36",
     "releaseName": "Patched APKs - 13 September 2026",
-    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-13T17-18-14",
-    "publishedAt": "2026-09-13T17:25:04Z"
+    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-13T18-23-36",
+    "publishedAt": "2026-09-13T18:28:57Z"
   },
   "stats": {
     "totalApps": 21,
-    "publishedApps": 15,
+    "publishedApps": 18,
     "totalDownloads": 73
   },
   "microg": null,
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.43.0-dev.3",
-      "latestPublishedAt": "2026-09-13T10:45:37Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.3",
-      "changelog": "## [1.43.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.2...v1.43.0-dev.3) (2026-09-13)\n\n### 🐛 Bug Fixes\n\n* **Theme:** Show the color the app draws when a color the user picked needs an overlay the app cannot register ([a4c1539](https://github.com/MorpheApp/morphe-patches/commit/a4c1539ac45233862f2b7594f322328a33b5d218))\n* **Theme:** Use the nearest palette color when the app is not given an overlay manager ([#2926](https://github.com/MorpheApp/morphe-patches/issues/2926)) ([86e146c](https://github.com/MorpheApp/morphe-patches/commit/86e146c54bad8450265f2ac2d734722fd682794c))\n* **YouTube - Disable fullscreen gestures:** Restore pinch-to-zoom past fill on `21.36`+ ([#2876](https://github.com/MorpheApp/morphe-patches/issues/2876)) ([dd76cc1](https://github.com/MorpheApp/morphe-patches/commit/dd76cc1198fffb42d99f993ae03bd6e6cdcb4cf7))\n\n### ✨ New Features\n\n* **YouTube - Fullscreen video scale:** Add option to show scale button only in fullscreen ([#2878](https://github.com/MorpheApp/morphe-patches/issues/2878)) ([f4bb073](https://github.com/MorpheApp/morphe-patches/commit/f4bb07318ee181502b00eb8e009aed7df42b78bc))\n* **YouTube - Spoof app version:** Add \"Restore old captions behavior\" spoof target ([eea2f2a](https://github.com/MorpheApp/morphe-patches/commit/eea2f2a052bb64bbf763a0eaa8323f95506c9faa))\n",
+      "latestTag": "v1.43.0-dev.4",
+      "latestPublishedAt": "2026-09-13T19:00:01Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.4",
+      "changelog": "## [1.43.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.3...v1.43.0-dev.4) (2026-09-13)\n\n### ✨ New Features\n\n* **Custom branding:** Add an app icon patch option and support mounted installations ([#2518](https://github.com/MorpheApp/morphe-patches/issues/2518)) ([e7a508f](https://github.com/MorpheApp/morphe-patches/commit/e7a508f2b1b629066e49776254e5c2e2f625976a))\n* **Reddit:** Add `Custom app icon` patch ([#2937](https://github.com/MorpheApp/morphe-patches/issues/2937)) ([c17f699](https://github.com/MorpheApp/morphe-patches/commit/c17f6990a6d3ed5f8041f07eb3cb129a939e529e))\n",
       "history": [
+        {
+          "tag": "v1.43.0-dev.3",
+          "publishedAt": "2026-09-13T10:45:37Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.3",
+          "changelog": "## [1.43.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.2...v1.43.0-dev.3) (2026-09-13)\n\n### 🐛 Bug Fixes\n\n* **Theme:** Show the color the app draws when a color the user picked needs an overlay the app cannot register ([a4c1539](https://github.com/MorpheApp/morphe-patches/commit/a4c1539ac45233862f2b7594f322328a33b5d218))\n* **Theme:** Use the nearest palette color when the app is not given an overlay manager ([#2926](https://github.com/MorpheApp/morphe-patches/issues/2926)) ([86e146c](https://github.com/MorpheApp/morphe-patches/commit/86e146c54bad8450265f2ac2d734722fd682794c))\n* **YouTube - Disable fullscreen gestures:** Restore pinch-to-zoom past fill on `21.36`+ ([#2876](https://github.com/MorpheApp/morphe-patches/issues/2876)) ([dd76cc1](https://github.com/MorpheApp/morphe-patches/commit/dd76cc1198fffb42d99f993ae03bd6e6cdcb4cf7))\n\n### ✨ New Features\n\n* **YouTube - Fullscreen video scale:** Add option to show scale button only in fullscreen ([#2878](https://github.com/MorpheApp/morphe-patches/issues/2878)) ([f4bb073](https://github.com/MorpheApp/morphe-patches/commit/f4bb07318ee181502b00eb8e009aed7df42b78bc))\n* **YouTube - Spoof app version:** Add \"Restore old captions behavior\" spoof target ([eea2f2a](https://github.com/MorpheApp/morphe-patches/commit/eea2f2a052bb64bbf763a0eaa8323f95506c9faa))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.43.0-dev.2",
           "publishedAt": "2026-09-12T22:06:22Z",
@@ -48,13 +55,6 @@
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.1-dev.3",
           "changelog": "## [1.42.1-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.42.1-dev.2...v1.42.1-dev.3) (2026-09-11)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide layout components:** Patch failing on `20.21.37` ([41d89ef](https://github.com/MorpheApp/morphe-patches/commit/41d89ef38ae4feb744054656a6b6a8a653f14eaa))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.42.1-dev.2",
-          "publishedAt": "2026-09-11T10:20:03Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.1-dev.2",
-          "changelog": "## [1.42.1-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.42.1-dev.1...v1.42.1-dev.2) (2026-09-11)\n\n### 🐛 Bug Fixes\n\n* **YouTube - FlyoutUtils:** Injected buttons are shown in collaborators panel ([#2867](https://github.com/MorpheApp/morphe-patches/issues/2867)) ([b595f8d](https://github.com/MorpheApp/morphe-patches/commit/b595f8d60023b127a67c4238bf285e12ebeee427))\n* **YouTube - Hide layout components:** Fix UI padding in comment replies and incognito search ([#2891](https://github.com/MorpheApp/morphe-patches/issues/2891)) ([59485db](https://github.com/MorpheApp/morphe-patches/commit/59485db96f29c9fa458ceca5f29e1754197220f4))\n* **YouTube - Loop video:** Respect sleep timer end of video state ([#2890](https://github.com/MorpheApp/morphe-patches/issues/2890)) ([9f4f2a8](https://github.com/MorpheApp/morphe-patches/commit/9f4f2a8a6a8bef2627f8809cdec5b9b40773855a))\n",
-          "prerelease": true
         }
       ]
     },
@@ -63,11 +63,18 @@
       "repo": "piko",
       "label": "✖️ Piko",
       "repoUrl": "https://github.com/crimera/piko",
-      "latestTag": "v3.10.0-dev.6",
-      "latestPublishedAt": "2026-09-10T01:22:23Z",
-      "latestUrl": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.6",
-      "changelog": "## [3.10.0-dev.6](https://github.com/crimera/piko/compare/v3.10.0-dev.5...v3.10.0-dev.6) (2026-09-10)\n\n### 🐛 Bug Fixes\n\n* **Twitter - Show changelogs:** Error message is shown with changelog dialog ([e1238c3](https://github.com/crimera/piko/commit/e1238c3ffd38b1573a11a411000080f825f79583))\n* **Twitter:** Restore timeline position on startup ([ae231c5](https://github.com/crimera/piko/commit/ae231c596bf9b7d3b1f2a1cff9ef5e74151cd6b9))\n\n### ✨ New Features\n\n* **Twitter:** Add bulk feature flag selection and validation ([#1846](https://github.com/crimera/piko/issues/1846)) ([7b92ac8](https://github.com/crimera/piko/commit/7b92ac8626b2ff907769503ae85b688fd2471c36))\n",
+      "latestTag": "v3.10.0-dev.7",
+      "latestPublishedAt": "2026-09-13T18:20:38Z",
+      "latestUrl": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.7",
+      "changelog": "## [3.10.0-dev.7](https://github.com/crimera/piko/compare/v3.10.0-dev.6...v3.10.0-dev.7) (2026-09-13)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Keep settings switch animations consistent after shortcut launch ([#1883](https://github.com/crimera/piko/issues/1883)) ([6ffb046](https://github.com/crimera/piko/commit/6ffb046f68cf0d82c36d9c9837d695d259838331))\n* **Instagram:** Preserve the startup tab while editing navigation ([#1880](https://github.com/crimera/piko/issues/1880)) ([cb1241f](https://github.com/crimera/piko/commit/cb1241f236801e8b5d58722e7db0b6d12680d08d))\n* **Instagram:** Preserve unobserved theme state ([#1872](https://github.com/crimera/piko/issues/1872)) ([cf7cd66](https://github.com/crimera/piko/commit/cf7cd668dfe554a3a2de016524c88f92e7fb6303))\n* **Instagram:** Skip event dispatch when analytics are disabled ([#1877](https://github.com/crimera/piko/issues/1877)) ([7a44c6d](https://github.com/crimera/piko/commit/7a44c6d8306a1c2ca32502b3497308af8e1677b0))\n* **Instagram:** Sync ghost mode icons when settings change ([#1875](https://github.com/crimera/piko/issues/1875)) ([dc12da8](https://github.com/crimera/piko/commit/dc12da8f03703fb6fa50ce11d009e32754c0761b))\n* **Twitter:** avoid copying editor spans in custom font hook ([c6deb8d](https://github.com/crimera/piko/commit/c6deb8daa5cd1f41a3a368802cf87c6f5dbf2749))\n\n### ✨ New Features\n\n* **Instagram:** Add startup tab selection ([#1869](https://github.com/crimera/piko/issues/1869)) ([d284f62](https://github.com/crimera/piko/commit/d284f629056344bec9351fe86afd73f07ef25818))\n* **Instagram:** Add story seen button ([#1884](https://github.com/crimera/piko/issues/1884)) ([c39e122](https://github.com/crimera/piko/commit/c39e122dbce23d9d603bc73010e0aeaccdfe88bd))\n* **Instagram:** Add visibility controls for create and notification buttons ([#1870](https://github.com/crimera/piko/issues/1870)) ([a1c0866](https://github.com/crimera/piko/commit/a1c0866824ef72cd40b5d03d3ec2a46bf5f8cdaf))\n* **Instagram:** Customize navigation bar ([#1867](https://github.com/crimera/piko/issues/1867)) ([bbd335c](https://github.com/crimera/piko/commit/bbd335ca7764ec99c3c9936e0ffd71723699e627))\n",
       "history": [
+        {
+          "tag": "v3.10.0-dev.6",
+          "publishedAt": "2026-09-10T01:22:23Z",
+          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.6",
+          "changelog": "## [3.10.0-dev.6](https://github.com/crimera/piko/compare/v3.10.0-dev.5...v3.10.0-dev.6) (2026-09-10)\n\n### 🐛 Bug Fixes\n\n* **Twitter - Show changelogs:** Error message is shown with changelog dialog ([e1238c3](https://github.com/crimera/piko/commit/e1238c3ffd38b1573a11a411000080f825f79583))\n* **Twitter:** Restore timeline position on startup ([ae231c5](https://github.com/crimera/piko/commit/ae231c596bf9b7d3b1f2a1cff9ef5e74151cd6b9))\n\n### ✨ New Features\n\n* **Twitter:** Add bulk feature flag selection and validation ([#1846](https://github.com/crimera/piko/issues/1846)) ([7b92ac8](https://github.com/crimera/piko/commit/7b92ac8626b2ff907769503ae85b688fd2471c36))\n",
+          "prerelease": true
+        },
         {
           "tag": "v3.10.0-dev.5",
           "publishedAt": "2026-09-07T01:37:01Z",
@@ -87,13 +94,6 @@
           "publishedAt": "2026-09-04T04:50:10Z",
           "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.3",
           "changelog": "## [3.10.0-dev.3](https://github.com/crimera/piko/compare/v3.10.0-dev.2...v3.10.0-dev.3) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* Revert \"fix(twitter - `Bring Back Twitter`): support to new versions\" ([df9b407](https://github.com/crimera/piko/commit/df9b4079d33aea17dcda5e4ebacd7bc4307421b9))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v3.10.0-dev.2",
-          "publishedAt": "2026-09-04T02:56:10Z",
-          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.2",
-          "changelog": "## [3.10.0-dev.2](https://github.com/crimera/piko/compare/v3.10.0-dev.1...v3.10.0-dev.2) (2026-09-04)\n\n### 🐛 Bug Fixes\n\n* **github:** use existing enhancement label and add missing twitter label ([6337845](https://github.com/crimera/piko/commit/63378453c020ce89f490e802356418816be6820a))\n* **twitter - `Bring Back Twitter`:** support to new versions ([ff97563](https://github.com/crimera/piko/commit/ff975634c0e30b87fbb06cdcae556ff00f351a7a))\n\n### ✨ New Features\n\n* **Instagram:** Embed metadata in downloaded videos ([#1828](https://github.com/crimera/piko/issues/1828)) ([9493252](https://github.com/crimera/piko/commit/949325266af15c51477101be81ad8692bb439557))\n",
           "prerelease": true
         }
       ]
@@ -423,11 +423,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.20.4",
-      "latestPublishedAt": "2026-09-13T15:29:38Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.4",
-      "changelog": "## [1.20.4](https://github.com/hxreborn/morphe-patches/compare/v1.20.3...v1.20.4) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** stop patched apps crashing at launch ([a602d48](https://github.com/hxreborn/morphe-patches/commit/a602d48652d9710143fa5f57d15cc9a26d47397b))\n",
+      "latestTag": "v1.21.0",
+      "latestPublishedAt": "2026-09-13T19:40:26Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.21.0",
+      "changelog": "## [1.21.0](https://github.com/hxreborn/morphe-patches/compare/v1.20.4...v1.21.0) (2026-09-13)\n\n### New Features\n\n* **iJiami:** warn when device architecture optimization removes native libraries ([c00bc59](https://github.com/hxreborn/morphe-patches/commit/c00bc59dd2d0c1f4d0a31b0355584d70f15ca045))\n",
       "history": [
+        {
+          "tag": "v1.20.4",
+          "publishedAt": "2026-09-13T15:29:38Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.4",
+          "changelog": "## [1.20.4](https://github.com/hxreborn/morphe-patches/compare/v1.20.3...v1.20.4) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** stop patched apps crashing at launch ([a602d48](https://github.com/hxreborn/morphe-patches/commit/a602d48652d9710143fa5f57d15cc9a26d47397b))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.20.3",
           "publishedAt": "2026-09-13T13:43:13Z",
@@ -447,13 +454,6 @@
           "publishedAt": "2026-09-13T04:21:49Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.1",
           "changelog": "## [1.20.1](https://github.com/hxreborn/morphe-patches/compare/v1.20.0...v1.20.1) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** log component factory, class loader and application stages at launch ([7f9a757](https://github.com/hxreborn/morphe-patches/commit/7f9a757009d5e9eab227fbcc65d7a9cc67782738))\n* **iJiami:** stop packer watchdogs killing patched apps one second after launch ([55eabcb](https://github.com/hxreborn/morphe-patches/commit/55eabcb726467e0c3580df8db9a66a350a2388c3))\n* **MovieBox - All-In-One:** retry the playback hook and warn when it never installs ([c8f09e1](https://github.com/hxreborn/morphe-patches/commit/c8f09e1d32a39454d8a713952d585dd842ad99c7))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.20.0",
-          "publishedAt": "2026-09-12T17:40:50Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.0",
-          "changelog": "## [1.20.0](https://github.com/hxreborn/morphe-patches/compare/v1.19.1...v1.20.0) (2026-09-12)\n\n### Bug Fixes\n\n* **iJiami:** disable packer checks at their call sites to close crash race at launch ([b385011](https://github.com/hxreborn/morphe-patches/commit/b385011bc484cc352e1fe0a777da1d662bcadc48))\n* **MovieBox - All-In-One:** report no SIM operator ([d2af9f8](https://github.com/hxreborn/morphe-patches/commit/d2af9f83849376ce918ebd40ef28ce164db20eb0))\n\n### New Features\n\n* **MovieBox - All-In-One:** remove password access to Laboratory under Me → Settings → About us ([3373cce](https://github.com/hxreborn/morphe-patches/commit/3373cce8a95e004fb64e5ef225e7942c09e75d4d))\n",
           "prerelease": false
         }
       ]
@@ -507,16 +507,16 @@
       "icon": "https://cdn.simpleicons.org/youtube/FF0000",
       "arch": "arm64-v8a",
       "status": "published",
-      "stale": true,
+      "stale": false,
       "version": "21.36.45",
       "assetName": "YouTube-21.36.45.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T11-48-08/YouTube-21.36.45.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/YouTube-21.36.45.apk",
       "size": 110311475,
-      "publishedAt": "2026-09-13T11:53:56Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
-        "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-13T11-48-08",
-        "downloadsThisRelease": 2,
+        "cumulativeBaseline": 8,
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "downloadsThisRelease": 0,
         "total": 8
       },
       "patchSources": [
@@ -545,12 +545,12 @@
       "stale": false,
       "version": "9.36.50",
       "assetName": "YT.Music-9.36.50.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/YT.Music-9.36.50.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/YT.Music-9.36.50.apk",
       "size": 78550283,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 7,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 7
       },
@@ -580,12 +580,12 @@
       "stale": false,
       "version": "2026.37.0",
       "assetName": "Reddit-2026.37.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Reddit-2026.37.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Reddit-2026.37.0.apk",
       "size": 91248920,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 6
       },
@@ -615,12 +615,12 @@
       "stale": false,
       "version": "2026.35.0",
       "assetName": "Reddit-Adobo-2026.35.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Reddit-Adobo-2026.35.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Reddit-Adobo-2026.35.0.apk",
       "size": 87782658,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 3,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 3
       },
@@ -650,12 +650,12 @@
       "stale": false,
       "version": "12.19.1-release.0",
       "assetName": "Twitter-12.19.1-release.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Twitter-12.19.1-release.0.apk",
-      "size": 205851037,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Twitter-12.19.1-release.0.apk",
+      "size": 205859229,
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 1,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 1
       },
@@ -685,12 +685,12 @@
       "stale": false,
       "version": "12.25.0-prod.01",
       "assetName": "Twitter-X-12.25.0-prod.01.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Twitter-X-12.25.0-prod.01.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Twitter-X-12.25.0-prod.01.apk",
       "size": 137567266,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 3,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 3
       },
@@ -721,12 +721,12 @@
       "stale": false,
       "version": "439.0.0.37.89",
       "assetName": "Instagram-439.0.0.37.89.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Instagram-439.0.0.37.89.apk",
-      "size": 146179127,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Instagram-439.0.0.37.89.apk",
+      "size": 146335140,
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 2
       },
@@ -756,12 +756,12 @@
       "stale": false,
       "version": "18.0.3.954559732",
       "assetName": "Gboard-18.0.3.954559732.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Gboard-18.0.3.954559732.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Gboard-18.0.3.954559732.apk",
       "size": 89565097,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -791,12 +791,12 @@
       "stale": false,
       "version": "7.0.7",
       "assetName": "Speedtest-7.0.7.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Speedtest-7.0.7.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Speedtest-7.0.7.apk",
       "size": 28668087,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 6
       },
@@ -827,12 +827,12 @@
       "stale": false,
       "version": "1.92.140",
       "assetName": "Brave-1.92.140.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Brave-1.92.140.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Brave-1.92.140.apk",
       "size": 277693875,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 1,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 1
       },
@@ -897,12 +897,12 @@
       "stale": false,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-icysymmetra.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/TikTok-46.2.3-icysymmetra.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/TikTok-46.2.3-icysymmetra.apk",
       "size": 413802519,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 1,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 1
       },
@@ -930,15 +930,15 @@
       "icon": "https://cdn.simpleicons.org/tiktok",
       "arch": "arm64-v8a",
       "status": "published",
-      "stale": true,
+      "stale": false,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-hxreborn.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T11-48-08/TikTok-46.2.3-hxreborn.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/TikTok-46.2.3-hxreborn.apk",
       "size": 412958743,
-      "publishedAt": "2026-09-13T11:53:56Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-13T11-48-08",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 2
       },
@@ -969,12 +969,12 @@
       "stale": false,
       "version": "6.38.9",
       "assetName": "1.1.1.1-6.38.9.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/1.1.1.1-6.38.9.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/1.1.1.1-6.38.9.apk",
       "size": 48276245,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1004,12 +1004,12 @@
       "stale": false,
       "version": "2.214.1539",
       "assetName": "InShot-2.214.1539.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/InShot-2.214.1539.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/InShot-2.214.1539.apk",
       "size": 90140962,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -1074,12 +1074,12 @@
       "stale": false,
       "version": "107.2.1",
       "assetName": "inure-Github-107.2.1.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/inure-Github-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/inure-Github-107.2.1.apk",
       "size": 25988011,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1109,12 +1109,12 @@
       "stale": false,
       "version": "107.2.1",
       "assetName": "inure-PlayStore-107.2.1.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/inure-PlayStore-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/inure-PlayStore-107.2.1.apk",
       "size": 25388793,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1176,16 +1176,16 @@
       "icon": "https://www.google.com/s2/favicons?sz=128&domain=notesnook.com",
       "arch": "arm64-v8a",
       "status": "published",
-      "stale": true,
+      "stale": false,
       "version": "3.4.12",
       "assetName": "Notesnook-3.4.12.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T11-48-08/Notesnook-3.4.12.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Notesnook-3.4.12.apk",
       "size": 68392375,
-      "publishedAt": "2026-09-13T11:53:56Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
-        "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-13T11-48-08",
-        "downloadsThisRelease": 1,
+        "cumulativeBaseline": 5,
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "downloadsThisRelease": 0,
         "total": 5
       },
       "patchSources": [
@@ -1214,12 +1214,12 @@
       "stale": false,
       "version": "7.8.2",
       "assetName": "Termius-7.8.2.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T17-18-14/Termius-7.8.2.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Termius-7.8.2.apk",
       "size": 48163832,
-      "publishedAt": "2026-09-13T17:25:04Z",
+      "publishedAt": "2026-09-13T18:28:57Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T17-18-14",
+        "lastReleaseTag": "build-2026-09-13T18-23-36",
         "downloadsThisRelease": 0,
         "total": 5
       },
