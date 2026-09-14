@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T19:07:23Z",
+  "generatedAt": "2026-09-14T22:39:49Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -303,11 +303,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.8.0-dev.10",
-      "latestPublishedAt": "2026-09-14T08:54:19Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.10",
-      "changelog": "# [0.8.0-dev.10](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.9...v0.8.0-dev.10) (2026-09-14)\n\n\n### Bug Fixes\n\n* **tiktok:** extend ad filtering coverage ([154e0be](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/154e0be78aee40da6d2987e78760ac96c8820d01))\n\n\n\n\n\n## 0.8.0-dev.10",
+      "latestTag": "v0.8.0-dev.11",
+      "latestPublishedAt": "2026-09-14T21:05:20Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.11",
+      "changelog": "# [0.8.0-dev.11](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.10...v0.8.0-dev.11) (2026-09-14)\n\n\n### Bug Fixes\n\n* **tiktok:** block dedicated profile ad requests ([e82cfcd](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e82cfcd2a9c77a7232b52d4b507ab226caee6741))\n\n\n\n\n\n## 0.8.0-dev.11",
       "history": [
+        {
+          "tag": "v0.8.0-dev.10",
+          "publishedAt": "2026-09-14T08:54:19Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.10",
+          "changelog": "# [0.8.0-dev.10](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.9...v0.8.0-dev.10) (2026-09-14)\n\n\n### Bug Fixes\n\n* **tiktok:** extend ad filtering coverage ([154e0be](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/154e0be78aee40da6d2987e78760ac96c8820d01))\n\n\n\n\n\n## 0.8.0-dev.10",
+          "prerelease": true
+        },
         {
           "tag": "v0.8.0-dev.9",
           "publishedAt": "2026-09-11T18:21:08Z",
@@ -327,13 +334,6 @@
           "publishedAt": "2026-09-07T22:23:44Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.7",
           "changelog": "# [0.8.0-dev.7](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.6...v0.8.0-dev.7) (2026-09-07)\n\n\n### Bug Fixes\n\n* **tiktok:** split auto scroll into separate patch ([683979b](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/683979b1ff98d5fc707a4ae401a8365306ec47b7))\n\n\n\n\n\n## 0.8.0-dev.7",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.8.0-dev.6",
-          "publishedAt": "2026-09-07T10:43:47Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.6",
-          "changelog": "# [0.8.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.5...v0.8.0-dev.6) (2026-09-07)\n\n\n### Features\n\n* **tiktok:** add native comment sort controls ([e1fb74c](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e1fb74c740f862d702b2d03a2968960ca5d9d954))\n\n\n\n\n\n## 0.8.0-dev.6",
           "prerelease": true
         }
       ]
