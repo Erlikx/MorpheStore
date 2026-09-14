@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T13:46:14Z",
+  "generatedAt": "2026-09-14T19:07:23Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -423,11 +423,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.21.0",
-      "latestPublishedAt": "2026-09-13T19:40:26Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.21.0",
-      "changelog": "## [1.21.0](https://github.com/hxreborn/morphe-patches/compare/v1.20.4...v1.21.0) (2026-09-13)\n\n### New Features\n\n* **iJiami:** warn when device architecture optimization removes native libraries ([c00bc59](https://github.com/hxreborn/morphe-patches/commit/c00bc59dd2d0c1f4d0a31b0355584d70f15ca045))\n",
+      "latestTag": "v1.22.0",
+      "latestPublishedAt": "2026-09-14T14:12:59Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.22.0",
+      "changelog": "## [1.22.0](https://github.com/hxreborn/morphe-patches/compare/v1.21.0...v1.22.0) (2026-09-14)\n\n### New Features\n\n* **VPN Super Unlimited Proxy - Unlock premium:** unlock all locations and remove ads and upsells ([19c088c](https://github.com/hxreborn/morphe-patches/commit/19c088c9320def996ff6e8bf50c9bece3137c2d1))\n",
       "history": [
+        {
+          "tag": "v1.21.0",
+          "publishedAt": "2026-09-13T19:40:26Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.21.0",
+          "changelog": "## [1.21.0](https://github.com/hxreborn/morphe-patches/compare/v1.20.4...v1.21.0) (2026-09-13)\n\n### New Features\n\n* **iJiami:** warn when device architecture optimization removes native libraries ([c00bc59](https://github.com/hxreborn/morphe-patches/commit/c00bc59dd2d0c1f4d0a31b0355584d70f15ca045))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.20.4",
           "publishedAt": "2026-09-13T15:29:38Z",
@@ -447,13 +454,6 @@
           "publishedAt": "2026-09-13T11:32:37Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.2",
           "changelog": "## [1.20.2](https://github.com/hxreborn/morphe-patches/compare/v1.20.1...v1.20.2) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** return from watchdog thread entries and trap kill sites for crash reports ([c1d4b94](https://github.com/hxreborn/morphe-patches/commit/c1d4b94423d447a9e8a1e85cc0eafa6cac92287c))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.20.1",
-          "publishedAt": "2026-09-13T04:21:49Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.1",
-          "changelog": "## [1.20.1](https://github.com/hxreborn/morphe-patches/compare/v1.20.0...v1.20.1) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** log component factory, class loader and application stages at launch ([7f9a757](https://github.com/hxreborn/morphe-patches/commit/7f9a757009d5e9eab227fbcc65d7a9cc67782738))\n* **iJiami:** stop packer watchdogs killing patched apps one second after launch ([55eabcb](https://github.com/hxreborn/morphe-patches/commit/55eabcb726467e0c3580df8db9a66a350a2388c3))\n* **MovieBox - All-In-One:** retry the playback hook and warn when it never installs ([c8f09e1](https://github.com/hxreborn/morphe-patches/commit/c8f09e1d32a39454d8a713952d585dd842ad99c7))\n",
           "prerelease": false
         }
       ]
