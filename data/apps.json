@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T06:52:41Z",
+  "generatedAt": "2026-09-14T13:46:14Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
     "repoUrl": "https://github.com/Erlikx/Builder-Morphe",
     "hasRelease": true,
-    "releaseTag": "build-2026-09-13T18-23-36",
-    "releaseName": "Patched APKs - 13 September 2026",
-    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-13T18-23-36",
-    "publishedAt": "2026-09-13T18:28:57Z"
+    "releaseTag": "build-2026-09-14T11-19-44",
+    "releaseName": "Patched APKs - 14 September 2026",
+    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-14T11-19-44",
+    "publishedAt": "2026-09-14T11:24:43Z"
   },
   "stats": {
     "totalApps": 21,
@@ -23,11 +23,25 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.43.0-dev.6",
-      "latestPublishedAt": "2026-09-14T00:38:22Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.6",
-      "changelog": "## [1.43.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.5...v1.43.0-dev.6) (2026-09-14)\n\n### 🐛 Bug Fixes\n\n* **YouTube - FlyoutUtils:** Fetch element description straight from ViewGroup instead componentHost ([7565b9d](https://github.com/MorpheApp/morphe-patches/commit/7565b9d4409d20cf58075fb7d53eca081d2ac282))\n",
+      "latestTag": "v1.43.0",
+      "latestPublishedAt": "2026-09-14T12:57:41Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0",
+      "changelog": "## [1.43.0](https://github.com/MorpheApp/morphe-patches/compare/v1.42.0...v1.43.0) (2026-09-14)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **Theme:** Use the nearest palette color when the app is not given an overlay manager ([#2926](https://github.com/MorpheApp/morphe-patches/issues/2926)) ([86e146c](https://github.com/MorpheApp/morphe-patches/commit/86e146c54bad8450265f2ac2d734722fd682794c))\r\n* **YouTube - Change header:** Apply custom header logo to explore menu ([#2910](https://github.com/MorpheApp/morphe-patches/issues/2910)) ([e549894](https://github.com/MorpheApp/morphe-patches/commit/e549894d1c8dd2e9909a5c773c3c9c81a4df64a5))\r\n* **YouTube - Disable fullscreen gestures:** Restore pinch-to-zoom past fill on `21.36`+ ([#2876](https://github.com/MorpheApp/morphe-patches/issues/2876)) ([dd76cc1](https://github.com/MorpheApp/morphe-patches/commit/dd76cc1198fffb42d99f993ae03bd6e6cdcb4cf7))\r\n* **YouTube - Fullscreen video scale:** Restore UI after leaving fullscreen on tablet/foldable landscape ([#2874](https://github.com/MorpheApp/morphe-patches/issues/2874)) ([75f477f](https://github.com/MorpheApp/morphe-patches/commit/75f477f5c8834bd30cb27f66cc13b7f9c1f4c981))\r\n* **YouTube - Hide layout components:** Fix UI padding in comment replies and incognito search ([#2891](https://github.com/MorpheApp/morphe-patches/issues/2891)) ([59485db](https://github.com/MorpheApp/morphe-patches/commit/59485db96f29c9fa458ceca5f29e1754197220f4))\r\n* **YouTube - Loop video:** Respect sleep timer end of video state ([#2890](https://github.com/MorpheApp/morphe-patches/issues/2890)) ([9f4f2a8](https://github.com/MorpheApp/morphe-patches/commit/9f4f2a8a6a8bef2627f8809cdec5b9b40773855a))\r\n* **YouTube - Navigation bar:** Keep the app edge to edge when the translucent navigation bar is disabled ([7f2153d](https://github.com/MorpheApp/morphe-patches/commit/7f2153d58830debfe44b9feb94d4a064dd6f56d5))\r\n* **YouTube - Video quality:** Prevent infinite loading when opening videos from Shorts ([#2871](https://github.com/MorpheApp/morphe-patches/issues/2871)) ([8fb3e31](https://github.com/MorpheApp/morphe-patches/commit/8fb3e318dc19fa25f96c85b1759c1d534a7a931f))\r\n* **YouTube Music - Remember shuffle state:** Prevent continuous queue shuffling ([#2870](https://github.com/MorpheApp/morphe-patches/issues/2870)) ([b58019c](https://github.com/MorpheApp/morphe-patches/commit/b58019c16a54b315533cc5f61f6f8718c6d66651))\r\n* **YouTube:** Remove \"Restore old player button style\" from `21.36` and later experimental targets ([8cc2f54](https://github.com/MorpheApp/morphe-patches/commit/8cc2f549833219384320bf5d43128702bbc1b2bb))\r\n\r\n### ✨ New Features\r\n\r\n* **Custom branding:** Add an app icon patch option and support mounted installations ([#2518](https://github.com/MorpheApp/morphe-patches/issues/2518)) ([e7a508f](https://github.com/MorpheApp/morphe-patches/commit/e7a508f2b1b629066e49776254e5c2e2f625976a))\r\n* **GmsCore support:** Handle conflicting MicroG installs ([#2907](https://github.com/MorpheApp/morphe-patches/issues/2907)) ([31a66d9](https://github.com/MorpheApp/morphe-patches/commit/31a66d95932f6ccf4e39a5804c750af72a606d15))\r\n* **Reddit:** Add `Custom app icon` patch ([#2937](https://github.com/MorpheApp/morphe-patches/issues/2937)) ([c17f699](https://github.com/MorpheApp/morphe-patches/commit/c17f6990a6d3ed5f8041f07eb3cb129a939e529e))\r\n* **YouTube - Fullscreen video scale:** Add option to show scale button only in fullscreen ([#2878](https://github.com/MorpheApp/morphe-patches/issues/2878)) ([f4bb073](https://github.com/MorpheApp/morphe-patches/commit/f4bb07318ee181502b00eb8e009aed7df42b78bc))\r\n* **YouTube - Miniplayer:** Add \"Minimal 2\" miniplayer type ([#2928](https://github.com/MorpheApp/morphe-patches/issues/2928)) ([3ae8dd1](https://github.com/MorpheApp/morphe-patches/commit/3ae8dd17d0b1ad543a994dbb3bf1b076e1eb7301))\r\n* **YouTube - Miniplayer:** Restore the minimal miniplayer on 21.29+ ([#2911](https://github.com/MorpheApp/morphe-patches/issues/2911)) ([af1a457](https://github.com/Mor\n\n…",
       "history": [
+        {
+          "tag": "v1.43.0-dev.7",
+          "publishedAt": "2026-09-14T10:12:45Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.7",
+          "changelog": "## [1.43.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.6...v1.43.0-dev.7) (2026-09-14)\n\n### ✨ New Features\n\n* **YouTube - Miniplayer:** Add \"Minimal 2\" miniplayer type ([#2928](https://github.com/MorpheApp/morphe-patches/issues/2928)) ([3ae8dd1](https://github.com/MorpheApp/morphe-patches/commit/3ae8dd17d0b1ad543a994dbb3bf1b076e1eb7301))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.43.0-dev.6",
+          "publishedAt": "2026-09-14T00:38:22Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.6",
+          "changelog": "## [1.43.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.5...v1.43.0-dev.6) (2026-09-14)\n\n### 🐛 Bug Fixes\n\n* **YouTube - FlyoutUtils:** Fetch element description straight from ViewGroup instead componentHost ([7565b9d](https://github.com/MorpheApp/morphe-patches/commit/7565b9d4409d20cf58075fb7d53eca081d2ac282))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.43.0-dev.5",
           "publishedAt": "2026-09-13T23:28:31Z",
@@ -40,20 +54,6 @@
           "publishedAt": "2026-09-13T19:00:01Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.4",
           "changelog": "## [1.43.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.3...v1.43.0-dev.4) (2026-09-13)\r\n\r\n### ✨ New Features\r\n\r\n* **Custom branding:** Add an app icon patch option and support mounted installations ([#2518](https://github.com/MorpheApp/morphe-patches/issues/2518)) ([e7a508f](https://github.com/MorpheApp/morphe-patches/commit/e7a508f2b1b629066e49776254e5c2e2f625976a))\r\n* **Reddit:** Add `App icon` patch ([#2937](https://github.com/MorpheApp/morphe-patches/issues/2937)) ([c17f699](https://github.com/MorpheApp/morphe-patches/commit/c17f6990a6d3ed5f8041f07eb3cb129a939e529e))\r\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.43.0-dev.3",
-          "publishedAt": "2026-09-13T10:45:37Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.3",
-          "changelog": "## [1.43.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.2...v1.43.0-dev.3) (2026-09-13)\n\n### 🐛 Bug Fixes\n\n* **Theme:** Show the color the app draws when a color the user picked needs an overlay the app cannot register ([a4c1539](https://github.com/MorpheApp/morphe-patches/commit/a4c1539ac45233862f2b7594f322328a33b5d218))\n* **Theme:** Use the nearest palette color when the app is not given an overlay manager ([#2926](https://github.com/MorpheApp/morphe-patches/issues/2926)) ([86e146c](https://github.com/MorpheApp/morphe-patches/commit/86e146c54bad8450265f2ac2d734722fd682794c))\n* **YouTube - Disable fullscreen gestures:** Restore pinch-to-zoom past fill on `21.36`+ ([#2876](https://github.com/MorpheApp/morphe-patches/issues/2876)) ([dd76cc1](https://github.com/MorpheApp/morphe-patches/commit/dd76cc1198fffb42d99f993ae03bd6e6cdcb4cf7))\n\n### ✨ New Features\n\n* **YouTube - Fullscreen video scale:** Add option to show scale button only in fullscreen ([#2878](https://github.com/MorpheApp/morphe-patches/issues/2878)) ([f4bb073](https://github.com/MorpheApp/morphe-patches/commit/f4bb07318ee181502b00eb8e009aed7df42b78bc))\n* **YouTube - Spoof app version:** Add \"Restore old captions behavior\" spoof target ([eea2f2a](https://github.com/MorpheApp/morphe-patches/commit/eea2f2a052bb64bbf763a0eaa8323f95506c9faa))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.43.0-dev.2",
-          "publishedAt": "2026-09-12T22:06:22Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.2",
-          "changelog": "## [1.43.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.1...v1.43.0-dev.2) (2026-09-12)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Change header:** Apply custom header logo to explore menu ([#2910](https://github.com/MorpheApp/morphe-patches/issues/2910)) ([e549894](https://github.com/MorpheApp/morphe-patches/commit/e549894d1c8dd2e9909a5c773c3c9c81a4df64a5))\n* **YouTube - Navigation bar:** Keep the app edge to edge when the translucent navigation bar is disabled ([7f2153d](https://github.com/MorpheApp/morphe-patches/commit/7f2153d58830debfe44b9feb94d4a064dd6f56d5))\n* **YouTube - Spoof video streams:** Show AV1 toggle when 'Android VR' client is selected ([19f2325](https://github.com/MorpheApp/morphe-patches/commit/19f232578d8f65c77a90de6da021c5bea59f31d9))\n\n### ✨ New Features\n\n* **YouTube - Miniplayer:** Restore the minimal miniplayer on 21.29+ ([#2911](https://github.com/MorpheApp/morphe-patches/issues/2911)) ([af1a457](https://github.com/MorpheApp/morphe-patches/commit/af1a457e6c62888c1d5de81a54ceefe8edff9abc))\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.36.0` & `2026.37.0` ([596c812](https://github.com/MorpheApp/morphe-patches/commit/596c81283a2666cbb3568786fdb40d587a0bb986))\n",
           "prerelease": true
         }
       ]
@@ -103,11 +103,25 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.23.1",
-      "latestPublishedAt": "2026-09-14T05:45:37Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.23.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** restore Ranked Following scroll position ([26874a4](https://github.com/crimera/piko/commit/26874a446554910f744425074d660b4adfdb1148))",
+      "latestTag": "v3.23.3",
+      "latestPublishedAt": "2026-09-14T09:55:20Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.23.3",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** preserve thread connectors when hiding dividers ([68170cd](https://github.com/crimera/piko/commit/68170cd326aeb1c3c5e39b3fc66468dda5782d73))",
       "history": [
+        {
+          "tag": "v3.23.2",
+          "publishedAt": "2026-09-14T09:41:59Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.23.2",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** optimize NewX extension runtime hot paths ([9f8a462](https://github.com/crimera/piko/commit/9f8a462a9502fc283ff443a5691887482471bf68))\n* **Twitter:** optimize NewX patch and runtime performance ([5fc1d2f](https://github.com/crimera/piko/commit/5fc1d2fe08ae37c42d1e8c42ee3e35d0f43b3174))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.23.1",
+          "publishedAt": "2026-09-14T05:45:37Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.23.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** restore Ranked Following scroll position ([26874a4](https://github.com/crimera/piko/commit/26874a446554910f744425074d660b4adfdb1148))",
+          "prerelease": false
+        },
         {
           "tag": "v3.23.0",
           "publishedAt": "2026-09-14T04:39:36Z",
@@ -120,20 +134,6 @@
           "publishedAt": "2026-09-14T03:43:48Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.22.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** eliminate timeline success constructor register corruption and VerifyError ([6049e08](https://github.com/crimera/piko/commit/6049e089f621a7f3700166a9e7122632655dbab5))\n* **Twitter - newx:** make drawer content resolver semantic and deprecate 12.24 ([af4f1e4](https://github.com/crimera/piko/commit/af4f1e433429c44c066f2cdeb580bcfaef7061b9))\n* **Twitter - newx:** resolve runtime verify errors and restore inline download icon in 12.27 ([2c4da85](https://github.com/crimera/piko/commit/2c4da853d752f8ab0f40c0c4a07a43ee1e79fe6d))\n* **Twitter - newx:** port failing patches to 12.27.0-alpha.01 ([dec951d](https://github.com/crimera/piko/commit/dec951d008d8a617d234b374563408ba5d364c75))\n* **Twitter - newx:** custom font patch for 12.27 Compose refactor ([d6efb26](https://github.com/crimera/piko/commit/d6efb26d263000ed9960069dd6fdc93348f12d90))\n* **Twitter - newx:** support 12.27 settings renderer ([ee13d2f](https://github.com/crimera/piko/commit/ee13d2f7526d770ffb0b8b95c72fde3e4cd1a62d))\n\n### ✨ New Features\n* **Twitter - newx:** add 12.25.2-prod.01 to compatibility targets ([228a344](https://github.com/crimera/piko/commit/228a3440f3998f8e299ea0a484d782ed21d5ceb9))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.21.2",
-          "publishedAt": "2026-09-13T09:52:32Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.21.2",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stabilize inline download icon selection ([764cd7b](https://github.com/crimera/piko/commit/764cd7bf765d96482b3412f356710098ce55fa97))\n* **Twitter - newx:** skip disabled inline download render hooks ([3da9efd](https://github.com/crimera/piko/commit/3da9efdbe81d02dabf5c367726069878ab476742))\n* **Twitter - newx:** make inline action membership identity based ([d2b0adb](https://github.com/crimera/piko/commit/d2b0adba393b38a49c9a3733f644bb5bd7051ca7))\n* **Twitter - newx:** skip unnecessary inline media inspection ([148c74b](https://github.com/crimera/piko/commit/148c74bd9472b8783df5690d4dd25bfb62af0f66))\n* **Twitter - newx:** avoid full media parsing during composition ([3bfd7ad](https://github.com/crimera/piko/commit/3bfd7ad087233e3fb867b211635364be21b79357))\n* **Twitter - newx:** gate inline download diagnostics ([2391e51](https://github.com/crimera/piko/commit/2391e5129a37c843345c57921ae3d72a5d3f49e2))\n\n### 🔧 Improvements\n* **Twitter:** prune low-value NewX tests, add test policy to AGENTS.md ([88bd311](https://github.com/crimera/piko/commit/88bd311247e1992d383bbed8d8fe37b6f5555479))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.21.1",
-          "publishedAt": "2026-09-13T04:46:03Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.21.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** inline download button showing the share icon ([f94e38c](https://github.com/crimera/piko/commit/f94e38c52418e06d607fdd6382caf027ae0e6760))\n* **Twitter - newx:** validate dynamic choice resources ([0c01bf1](https://github.com/crimera/piko/commit/0c01bf1cb8db738d4046eb1602dc2dde56051349))",
           "prerelease": false
         }
       ]
@@ -303,11 +303,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.8.0-dev.9",
-      "latestPublishedAt": "2026-09-11T18:21:08Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.9",
-      "changelog": "# [0.8.0-dev.9](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.8...v0.8.0-dev.9) (2026-09-11)\n\n\n### Features\n\n* add share sheet modifications ([3e92957](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/3e92957509558f5b3c89817c6cb1e69fd27a2980))\n* Add Split-View Comment Section for Foldable/Wide Devices ([2fc6eb1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/2fc6eb148d5b8cb717192643c505ca30cad02d33))\n\n\n\n\n\n## 0.8.0-dev.9",
+      "latestTag": "v0.8.0-dev.10",
+      "latestPublishedAt": "2026-09-14T08:54:19Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.10",
+      "changelog": "# [0.8.0-dev.10](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.9...v0.8.0-dev.10) (2026-09-14)\n\n\n### Bug Fixes\n\n* **tiktok:** extend ad filtering coverage ([154e0be](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/154e0be78aee40da6d2987e78760ac96c8820d01))\n\n\n\n\n\n## 0.8.0-dev.10",
       "history": [
+        {
+          "tag": "v0.8.0-dev.9",
+          "publishedAt": "2026-09-11T18:21:08Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.9",
+          "changelog": "# [0.8.0-dev.9](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.8...v0.8.0-dev.9) (2026-09-11)\n\n\n### Features\n\n* add share sheet modifications ([3e92957](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/3e92957509558f5b3c89817c6cb1e69fd27a2980))\n* Add Split-View Comment Section for Foldable/Wide Devices ([2fc6eb1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/2fc6eb148d5b8cb717192643c505ca30cad02d33))\n\n\n\n\n\n## 0.8.0-dev.9",
+          "prerelease": true
+        },
         {
           "tag": "v0.8.0-dev.8",
           "publishedAt": "2026-09-11T09:29:43Z",
@@ -327,13 +334,6 @@
           "publishedAt": "2026-09-07T10:43:47Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.6",
           "changelog": "# [0.8.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.5...v0.8.0-dev.6) (2026-09-07)\n\n\n### Features\n\n* **tiktok:** add native comment sort controls ([e1fb74c](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e1fb74c740f862d702b2d03a2968960ca5d9d954))\n\n\n\n\n\n## 0.8.0-dev.6",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.8.0-dev.5",
-          "publishedAt": "2026-09-06T23:41:09Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.5",
-          "changelog": "# [0.8.0-dev.5](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.4...v0.8.0-dev.5) (2026-09-06)\n\n\n### Features\n\n* **tiktok:** add reviewed local feature patches ([0e4a6e1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0e4a6e1d9b4687f41328d3112ef8c341de4a081a))\n\n\n\n\n\n## 0.8.0-dev.5",
           "prerelease": true
         }
       ]
@@ -510,12 +510,12 @@
       "stale": false,
       "version": "21.36.45",
       "assetName": "YouTube-21.36.45.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/YouTube-21.36.45.apk",
-      "size": 110311475,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/YouTube-21.36.45.apk",
+      "size": 110323763,
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 8,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 8
       },
@@ -545,12 +545,12 @@
       "stale": false,
       "version": "9.36.50",
       "assetName": "YT.Music-9.36.50.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/YT.Music-9.36.50.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/YT.Music-9.36.50.apk",
       "size": 78550283,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 7,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 7
       },
@@ -580,12 +580,12 @@
       "stale": false,
       "version": "2026.37.0",
       "assetName": "Reddit-2026.37.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Reddit-2026.37.0.apk",
-      "size": 91248920,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Reddit-2026.37.0.apk",
+      "size": 91261208,
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 6
       },
@@ -615,12 +615,12 @@
       "stale": false,
       "version": "2026.35.0",
       "assetName": "Reddit-Adobo-2026.35.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Reddit-Adobo-2026.35.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Reddit-Adobo-2026.35.0.apk",
       "size": 87782658,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 3,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 3
       },
@@ -650,12 +650,12 @@
       "stale": false,
       "version": "12.19.1-release.0",
       "assetName": "Twitter-12.19.1-release.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Twitter-12.19.1-release.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Twitter-12.19.1-release.0.apk",
       "size": 205859229,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 1,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 1
       },
@@ -685,12 +685,12 @@
       "stale": false,
       "version": "12.25.0-prod.01",
       "assetName": "Twitter-X-12.25.0-prod.01.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Twitter-X-12.25.0-prod.01.apk",
-      "size": 137567266,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Twitter-X-12.25.0-prod.01.apk",
+      "size": 137595938,
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 3,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 3
       },
@@ -721,12 +721,12 @@
       "stale": false,
       "version": "439.0.0.37.89",
       "assetName": "Instagram-439.0.0.37.89.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Instagram-439.0.0.37.89.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Instagram-439.0.0.37.89.apk",
       "size": 146335140,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 2
       },
@@ -756,12 +756,12 @@
       "stale": false,
       "version": "18.0.3.954559732",
       "assetName": "Gboard-18.0.3.954559732.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Gboard-18.0.3.954559732.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Gboard-18.0.3.954559732.apk",
       "size": 89565097,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -791,12 +791,12 @@
       "stale": false,
       "version": "7.0.7",
       "assetName": "Speedtest-7.0.7.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Speedtest-7.0.7.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Speedtest-7.0.7.apk",
       "size": 28668087,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 6
       },
@@ -827,13 +827,13 @@
       "stale": false,
       "version": "1.92.140",
       "assetName": "Brave-1.92.140.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Brave-1.92.140.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Brave-1.92.140.apk",
       "size": 277693875,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
-        "cumulativeBaseline": 1,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
-        "downloadsThisRelease": 1,
+        "cumulativeBaseline": 2,
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
+        "downloadsThisRelease": 0,
         "total": 2
       },
       "patchSources": [
@@ -897,12 +897,12 @@
       "stale": false,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-icysymmetra.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/TikTok-46.2.3-icysymmetra.apk",
-      "size": 413802519,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/TikTok-46.2.3-icysymmetra.apk",
+      "size": 413806615,
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 1,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 1
       },
@@ -933,12 +933,12 @@
       "stale": false,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-hxreborn.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/TikTok-46.2.3-hxreborn.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/TikTok-46.2.3-hxreborn.apk",
       "size": 412958743,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 2
       },
@@ -969,12 +969,12 @@
       "stale": false,
       "version": "6.38.9",
       "assetName": "1.1.1.1-6.38.9.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/1.1.1.1-6.38.9.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/1.1.1.1-6.38.9.apk",
       "size": 48276245,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1004,12 +1004,12 @@
       "stale": false,
       "version": "2.214.1539",
       "assetName": "InShot-2.214.1539.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/InShot-2.214.1539.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/InShot-2.214.1539.apk",
       "size": 90140962,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -1074,12 +1074,12 @@
       "stale": false,
       "version": "107.2.1",
       "assetName": "inure-Github-107.2.1.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/inure-Github-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/inure-Github-107.2.1.apk",
       "size": 25988011,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1109,12 +1109,12 @@
       "stale": false,
       "version": "107.2.1",
       "assetName": "inure-PlayStore-107.2.1.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/inure-PlayStore-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/inure-PlayStore-107.2.1.apk",
       "size": 25388793,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1179,12 +1179,12 @@
       "stale": false,
       "version": "3.4.12",
       "assetName": "Notesnook-3.4.12.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Notesnook-3.4.12.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Notesnook-3.4.12.apk",
       "size": 68392375,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1214,12 +1214,12 @@
       "stale": false,
       "version": "7.8.2",
       "assetName": "Termius-7.8.2.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-13T18-23-36/Termius-7.8.2.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-14T11-19-44/Termius-7.8.2.apk",
       "size": 48163832,
-      "publishedAt": "2026-09-13T18:28:57Z",
+      "publishedAt": "2026-09-14T11:24:43Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-13T18-23-36",
+        "lastReleaseTag": "build-2026-09-14T11-19-44",
         "downloadsThisRelease": 0,
         "total": 5
       },
