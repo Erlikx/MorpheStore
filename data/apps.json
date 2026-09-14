@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T23:00:50Z",
+  "generatedAt": "2026-09-14T01:25:49Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,25 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.43.0-dev.4",
-      "latestPublishedAt": "2026-09-13T19:00:01Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.4",
-      "changelog": "## [1.43.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.3...v1.43.0-dev.4) (2026-09-13)\n\n### ✨ New Features\n\n* **Custom branding:** Add an app icon patch option and support mounted installations ([#2518](https://github.com/MorpheApp/morphe-patches/issues/2518)) ([e7a508f](https://github.com/MorpheApp/morphe-patches/commit/e7a508f2b1b629066e49776254e5c2e2f625976a))\n* **Reddit:** Add `Custom app icon` patch ([#2937](https://github.com/MorpheApp/morphe-patches/issues/2937)) ([c17f699](https://github.com/MorpheApp/morphe-patches/commit/c17f6990a6d3ed5f8041f07eb3cb129a939e529e))\n",
+      "latestTag": "v1.43.0-dev.6",
+      "latestPublishedAt": "2026-09-14T00:38:22Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.6",
+      "changelog": "## [1.43.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.5...v1.43.0-dev.6) (2026-09-14)\n\n### 🐛 Bug Fixes\n\n* **YouTube - FlyoutUtils:** Fetch element description straight from ViewGroup instead componentHost ([7565b9d](https://github.com/MorpheApp/morphe-patches/commit/7565b9d4409d20cf58075fb7d53eca081d2ac282))\n",
       "history": [
+        {
+          "tag": "v1.43.0-dev.5",
+          "publishedAt": "2026-09-13T23:28:31Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.5",
+          "changelog": "## [1.43.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.4...v1.43.0-dev.5) (2026-09-13)\n\n### ✨ New Features\n\n* **YouTube - Swipe controls:** Add a volume steps option and set the swipe distance per step ([#2938](https://github.com/MorpheApp/morphe-patches/issues/2938)) ([f06d565](https://github.com/MorpheApp/morphe-patches/commit/f06d565ad899c022370237d9694aa29fbe22e95b))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.43.0-dev.4",
+          "publishedAt": "2026-09-13T19:00:01Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.4",
+          "changelog": "## [1.43.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.3...v1.43.0-dev.4) (2026-09-13)\r\n\r\n### ✨ New Features\r\n\r\n* **Custom branding:** Add an app icon patch option and support mounted installations ([#2518](https://github.com/MorpheApp/morphe-patches/issues/2518)) ([e7a508f](https://github.com/MorpheApp/morphe-patches/commit/e7a508f2b1b629066e49776254e5c2e2f625976a))\r\n* **Reddit:** Add `App icon` patch ([#2937](https://github.com/MorpheApp/morphe-patches/issues/2937)) ([c17f699](https://github.com/MorpheApp/morphe-patches/commit/c17f6990a6d3ed5f8041f07eb3cb129a939e529e))\r\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.43.0-dev.3",
           "publishedAt": "2026-09-13T10:45:37Z",
@@ -40,20 +54,6 @@
           "publishedAt": "2026-09-12T22:06:22Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.2",
           "changelog": "## [1.43.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.1...v1.43.0-dev.2) (2026-09-12)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Change header:** Apply custom header logo to explore menu ([#2910](https://github.com/MorpheApp/morphe-patches/issues/2910)) ([e549894](https://github.com/MorpheApp/morphe-patches/commit/e549894d1c8dd2e9909a5c773c3c9c81a4df64a5))\n* **YouTube - Navigation bar:** Keep the app edge to edge when the translucent navigation bar is disabled ([7f2153d](https://github.com/MorpheApp/morphe-patches/commit/7f2153d58830debfe44b9feb94d4a064dd6f56d5))\n* **YouTube - Spoof video streams:** Show AV1 toggle when 'Android VR' client is selected ([19f2325](https://github.com/MorpheApp/morphe-patches/commit/19f232578d8f65c77a90de6da021c5bea59f31d9))\n\n### ✨ New Features\n\n* **YouTube - Miniplayer:** Restore the minimal miniplayer on 21.29+ ([#2911](https://github.com/MorpheApp/morphe-patches/issues/2911)) ([af1a457](https://github.com/MorpheApp/morphe-patches/commit/af1a457e6c62888c1d5de81a54ceefe8edff9abc))\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.36.0` & `2026.37.0` ([596c812](https://github.com/MorpheApp/morphe-patches/commit/596c81283a2666cbb3568786fdb40d587a0bb986))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.43.0-dev.1",
-          "publishedAt": "2026-09-12T07:43:59Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.1",
-          "changelog": "## [1.43.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.42.1-dev.3...v1.43.0-dev.1) (2026-09-12)\n\n### ✨ New Features\n\n* **GmsCore support:** Handle conflicting MicroG installs ([#2907](https://github.com/MorpheApp/morphe-patches/issues/2907)) ([31a66d9](https://github.com/MorpheApp/morphe-patches/commit/31a66d95932f6ccf4e39a5804c750af72a606d15))\n\n### 🚀 Updated App Support\n\n* **YouTube Music:** Add experimental support for `9.36.50` ([da8c85d](https://github.com/MorpheApp/morphe-patches/commit/da8c85d88a3c34597426525f5a81f69a4efdcd75))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.42.1-dev.3",
-          "publishedAt": "2026-09-11T12:32:37Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.1-dev.3",
-          "changelog": "## [1.42.1-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.42.1-dev.2...v1.42.1-dev.3) (2026-09-11)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide layout components:** Patch failing on `20.21.37` ([41d89ef](https://github.com/MorpheApp/morphe-patches/commit/41d89ef38ae4feb744054656a6b6a8a653f14eaa))\n",
           "prerelease": true
         }
       ]
