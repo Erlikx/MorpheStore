@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T12:32:14Z",
+  "generatedAt": "2026-09-15T17:33:29Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,16 +23,23 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.43.1-dev.2",
-      "latestPublishedAt": "2026-09-15T11:58:50Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.1-dev.2",
-      "changelog": "## [1.43.1-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.43.1-dev.1...v1.43.1-dev.2) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Improved type 2 bar UI ([299af68](https://github.com/MorpheApp/morphe-patches/commit/299af68d5e90326a76febbaa0a28bbe7b7600986))\n* **YouTube - Miniplayer:** Default size setting is not grayed out with modern minimal ([aa9bc8e](https://github.com/MorpheApp/morphe-patches/commit/aa9bc8e6b51f81b9dc497f006372efb0a13f798b))\n* **YouTube:** Deprecated componentHost extension ([c42f07d](https://github.com/MorpheApp/morphe-patches/commit/c42f07df385805aa22744fd2bc169f77b24a77c0))\n",
+      "latestTag": "v1.44.0-dev.1",
+      "latestPublishedAt": "2026-09-15T17:30:22Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.1",
+      "changelog": "## [1.44.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.43.1-dev.2...v1.44.0-dev.1) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* **YouTube - GmsCore support:** \"Play Protect certification\" screen is shown on startup ([#2977](https://github.com/MorpheApp/morphe-patches/issues/2977)) ([e250326](https://github.com/MorpheApp/morphe-patches/commit/e25032649908890ae848ee012befbb266deb08e8))\n\n### ✨ New Features\n\n* **Custom branding:** Warn that the app icon setting only changes the launcher icon ([8607c76](https://github.com/MorpheApp/morphe-patches/commit/8607c76d33e931fc0931de8e2a52d5ac9b4d3dc6))\n* **YouTube:** Add `Channel search` patch ([#2964](https://github.com/MorpheApp/morphe-patches/issues/2964)) ([acd856c](https://github.com/MorpheApp/morphe-patches/commit/acd856cc27dde7f33042ddced67c8ee6a8c31e30))\n",
       "history": [
+        {
+          "tag": "v1.43.1-dev.2",
+          "publishedAt": "2026-09-15T11:58:50Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.1-dev.2",
+          "changelog": "## [1.43.1-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.43.1-dev.1...v1.43.1-dev.2) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Improved type 2 bar UI ([299af68](https://github.com/MorpheApp/morphe-patches/commit/299af68d5e90326a76febbaa0a28bbe7b7600986))\n* **YouTube - Miniplayer:** Default size setting is not grayed out with modern minimal ([aa9bc8e](https://github.com/MorpheApp/morphe-patches/commit/aa9bc8e6b51f81b9dc497f006372efb0a13f798b))\n* **YouTube:** Deprecated componentHost extension ([c42f07d](https://github.com/MorpheApp/morphe-patches/commit/c42f07df385805aa22744fd2bc169f77b24a77c0))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.43.1-dev.1",
           "publishedAt": "2026-09-15T08:51:15Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.1-dev.1",
-          "changelog": "## [1.43.1-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0...v1.43.1-dev.1) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* **Reddit - App icon:** Support changing icon on cloned installs ([22c4443](https://github.com/MorpheApp/morphe-patches/commit/22c4443912d60641e710a7a12c4dfc0c88ab8100))\n* **YouTube - Minimal miniplayer:** Slide the bar clear of the screen when closing it ([680ef54](https://github.com/MorpheApp/morphe-patches/commit/680ef54c555b829ddf0bf8cb17637734478563ac))\n* **YouTube - Minimal miniplayer:** Span the type 2 bar with the video at any aspect ratio ([4ed999f](https://github.com/MorpheApp/morphe-patches/commit/4ed999f243a18ee859279fddf40c80a9a2b1123b))\n* **YouTube - Settings:** Fix crash opening settings after the app process is restarted ([#2958](https://github.com/MorpheApp/morphe-patches/issues/2958)) ([89b7bb0](https://github.com/MorpheApp/morphe-patches/commit/89b7bb0cf8bc0553afa56c982bdf234f8ac68298))\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add experimental support for `21.47.42` ([#2962](https://github.com/MorpheApp/morphe-patches/issues/2962)) ([9418faa](https://github.com/MorpheApp/morphe-patches/commit/9418faaf46610875781a4952a379523c09a462db))\n",
+          "changelog": "## [1.43.1-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0...v1.43.1-dev.1) (2026-09-15)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **Reddit - App icon:** Support changing icon on cloned installs ([22c4443](https://github.com/MorpheApp/morphe-patches/commit/22c4443912d60641e710a7a12c4dfc0c88ab8100))\r\n* **YouTube - Minimal miniplayer:** Slide the bar clear of the screen when closing it ([680ef54](https://github.com/MorpheApp/morphe-patches/commit/680ef54c555b829ddf0bf8cb17637734478563ac))\r\n* **YouTube - Minimal miniplayer:** Span the type 2 bar with the video at any aspect ratio ([4ed999f](https://github.com/MorpheApp/morphe-patches/commit/4ed999f243a18ee859279fddf40c80a9a2b1123b))\r\n* **YouTube - Settings:** Fix crash opening settings after the app process is restarted ([#2958](https://github.com/MorpheApp/morphe-patches/issues/2958)) ([89b7bb0](https://github.com/MorpheApp/morphe-patches/commit/89b7bb0cf8bc0553afa56c982bdf234f8ac68298))\r\n\r\n### 🚀 Updated App Support\r\n\r\n* **YouTube:** Add experimental support for `21.37.42` ([#2962](https://github.com/MorpheApp/morphe-patches/issues/2962)) ([9418faa](https://github.com/MorpheApp/morphe-patches/commit/9418faaf46610875781a4952a379523c09a462db))\r\n",
           "prerelease": true
         },
         {
@@ -47,13 +54,6 @@
           "publishedAt": "2026-09-14T10:12:45Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.7",
           "changelog": "## [1.43.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.6...v1.43.0-dev.7) (2026-09-14)\n\n### ✨ New Features\n\n* **YouTube - Miniplayer:** Add \"Minimal 2\" miniplayer type ([#2928](https://github.com/MorpheApp/morphe-patches/issues/2928)) ([3ae8dd1](https://github.com/MorpheApp/morphe-patches/commit/3ae8dd17d0b1ad543a994dbb3bf1b076e1eb7301))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.43.0-dev.6",
-          "publishedAt": "2026-09-14T00:38:22Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0-dev.6",
-          "changelog": "## [1.43.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.5...v1.43.0-dev.6) (2026-09-14)\n\n### 🐛 Bug Fixes\n\n* **YouTube - FlyoutUtils:** Fetch element description straight from ViewGroup instead componentHost ([7565b9d](https://github.com/MorpheApp/morphe-patches/commit/7565b9d4409d20cf58075fb7d53eca081d2ac282))\n",
           "prerelease": true
         }
       ]
