@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T17:33:29Z",
+  "generatedAt": "2026-09-15T21:02:15Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -183,11 +183,25 @@
       "repo": "morphe-patches",
       "label": "⚡ Rushiranpise",
       "repoUrl": "https://github.com/rushiranpise/morphe-patches",
-      "latestTag": "v1.21.5",
-      "latestPublishedAt": "2026-09-08T05:16:26Z",
-      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5",
-      "changelog": "## [1.21.5](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5) (2026-09-08)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\r\n* Moviebox latest update has introduced server-side app checks. While it’s still possible to keep using the older version, there’s no guarantee how long it will continue to work. There’s also new APK protection on top of that, so the app has been removed from the patches.\r\n",
+      "latestTag": "v1.22.0",
+      "latestPublishedAt": "2026-09-15T20:58:05Z",
+      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0",
+      "changelog": "## [1.22.0](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### ✨ New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
       "history": [
+        {
+          "tag": "v1.22.0-dev.1",
+          "publishedAt": "2026-09-15T20:50:28Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0-dev.1",
+          "changelog": "## [1.22.0-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0-dev.1) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### ✨ New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.21.5",
+          "publishedAt": "2026-09-08T05:16:26Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5",
+          "changelog": "## [1.21.5](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5) (2026-09-08)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\r\n* Moviebox latest update has introduced server-side app checks. While it’s still possible to keep using the older version, there’s no guarantee how long it will continue to work. There’s also new APK protection on top of that, so the app has been removed from the patches.\r\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.21.5-dev.1",
           "publishedAt": "2026-09-08T05:10:27Z",
@@ -200,20 +214,6 @@
           "publishedAt": "2026-09-01T12:53:18Z",
           "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.4",
           "changelog": "## [1.21.4](https://github.com/rushiranpise/morphe-patches/compare/v1.21.3...v1.21.4) (2026-09-01)\n\n### 🐛 Bug Fixes\n\n* remove drivvo ([9863742](https://github.com/rushiranpise/morphe-patches/commit/98637422416922553c37ec557a4f2327b95f9cf1))\n* remove pixel patches ([4036563](https://github.com/rushiranpise/morphe-patches/commit/40365632f5d5e9d50f1b35f6288109d743447236))\n* remove tradingview ([4806a8f](https://github.com/rushiranpise/morphe-patches/commit/4806a8feb3cd5abe5fb801e2d0d87613a12c0b10))\n* remove universal patches ([55f11fe](https://github.com/rushiranpise/morphe-patches/commit/55f11feae7749990252dfe7f1aede8536aab062a))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.21.4-dev.1",
-          "publishedAt": "2026-09-01T12:48:16Z",
-          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.4-dev.1",
-          "changelog": "## [1.21.4-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.3...v1.21.4-dev.1) (2026-09-01)\n\n### 🐛 Bug Fixes\n\n* remove drivvo ([9863742](https://github.com/rushiranpise/morphe-patches/commit/98637422416922553c37ec557a4f2327b95f9cf1))\n* remove pixel patches ([4036563](https://github.com/rushiranpise/morphe-patches/commit/40365632f5d5e9d50f1b35f6288109d743447236))\n* remove tradingview ([4806a8f](https://github.com/rushiranpise/morphe-patches/commit/4806a8feb3cd5abe5fb801e2d0d87613a12c0b10))\n* remove universal patches ([55f11fe](https://github.com/rushiranpise/morphe-patches/commit/55f11feae7749990252dfe7f1aede8536aab062a))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.21.3",
-          "publishedAt": "2026-08-31T22:35:28Z",
-          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.3",
-          "changelog": "## [1.21.3](https://github.com/rushiranpise/morphe-patches/compare/v1.21.2...v1.21.3) (2026-08-31)\n\n### 🐛 Bug Fixes\n\n* remove Duolingo ([88b7c17](https://github.com/rushiranpise/morphe-patches/commit/88b7c179d6c3584ce2b79a2f67e6c2e240ea2cda))\n* remove terabox ([72ae34f](https://github.com/rushiranpise/morphe-patches/commit/72ae34fe314c485c84581e98f2fe4e2ab216d911))\n",
           "prerelease": false
         }
       ]
