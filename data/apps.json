@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T14:18:38Z",
+  "generatedAt": "2026-09-16T18:20:10Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,25 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.24.2",
-      "latestPublishedAt": "2026-09-16T11:49:39Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.24.2",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** show selected destination icon ([02f91e5](https://github.com/crimera/piko/commit/02f91e57cf21e45b44c7e2c1dabdbacd9a186604))",
+      "latestTag": "v3.25.1",
+      "latestPublishedAt": "2026-09-16T17:04:25Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.25.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** auto-scroll navbar editor ([3ecf15b](https://github.com/crimera/piko/commit/3ecf15b5dca2d5de53c4721d11a8c37c57359af4))",
       "history": [
+        {
+          "tag": "v3.25.0",
+          "publishedAt": "2026-09-16T16:56:23Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.25.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** improve navbar editor drag feedback ([ac98563](https://github.com/crimera/piko/commit/ac985637a8d07c42ffb67abdeb2031635b9dc4c6))\n\n### ✨ New Features\n* **Twitter - newx:** overhaul navbar customization ([228171b](https://github.com/crimera/piko/commit/228171b6d9b9a509438009ba93984b60f99e2616))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.24.2",
+          "publishedAt": "2026-09-16T11:49:39Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.24.2",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** show selected destination icon ([02f91e5](https://github.com/crimera/piko/commit/02f91e57cf21e45b44c7e2c1dabdbacd9a186604))",
+          "prerelease": false
+        },
         {
           "tag": "v3.24.1",
           "publishedAt": "2026-09-16T11:05:40Z",
@@ -120,20 +134,6 @@
           "publishedAt": "2026-09-16T10:57:10Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.24.0",
           "changelog": "### ✨ New Features\n* **Twitter - newx:** add drawer destinations to navbar editor ([d8a1526](https://github.com/crimera/piko/commit/d8a15266fc673fcad19c67532424a33f3ae51846))\n* **Twitter - newx:** add customizable navigation bar ([032513b](https://github.com/crimera/piko/commit/032513bc4e04e565cc047a48749fac9f2c0dd76b))\n\nNew patches:\n- NewX: Customize navigation bar",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.23.3",
-          "publishedAt": "2026-09-14T09:55:20Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.23.3",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** preserve thread connectors when hiding dividers ([68170cd](https://github.com/crimera/piko/commit/68170cd326aeb1c3c5e39b3fc66468dda5782d73))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.23.2",
-          "publishedAt": "2026-09-14T09:41:59Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.23.2",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** optimize NewX extension runtime hot paths ([9f8a462](https://github.com/crimera/piko/commit/9f8a462a9502fc283ff443a5691887482471bf68))\n* **Twitter:** optimize NewX patch and runtime performance ([5fc1d2f](https://github.com/crimera/piko/commit/5fc1d2fe08ae37c42d1e8c42ee3e35d0f43b3174))",
           "prerelease": false
         }
       ]
