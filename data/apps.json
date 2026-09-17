@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T15:12:31Z",
+  "generatedAt": "2026-09-17T19:11:28Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.44.0-dev.3",
-      "latestPublishedAt": "2026-09-17T11:52:11Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.3",
-      "changelog": "## [1.44.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.2...v1.44.0-dev.3) (2026-09-17)\n\n### 🐛 Bug Fixes\n\n* **YouTube - SponsorBlock:** Auto-hide skip button is sometimes shown when not inside a skippable segment ([2655af1](https://github.com/MorpheApp/morphe-patches/commit/2655af1d4240f5cd35844676fad82b489e7597c5))\n* **YouTube Music - Hide ads:** Premium promotion banners are not hidden ([5529b68](https://github.com/MorpheApp/morphe-patches/commit/5529b6887aac2728fafef8fe39c1b011742e03d7))\n\n### ✨ New Features\n\n* **YouTube - Save to Watch later:** Add support for Shorts ([#2934](https://github.com/MorpheApp/morphe-patches/issues/2934)) ([b4540c9](https://github.com/MorpheApp/morphe-patches/commit/b4540c91b1ae361f5184b96438d8f3a627a8367a))\n* **YouTube Music:** Add offline audio downloads ([#2528](https://github.com/MorpheApp/morphe-patches/issues/2528)) ([d9999ca](https://github.com/MorpheApp/morphe-patches/commit/d9999ca6695be270461b46bf41ee6e5e6ca3d0e6))\n",
+      "latestTag": "v1.44.0-dev.4",
+      "latestPublishedAt": "2026-09-17T18:00:26Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.4",
+      "changelog": "## [1.44.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.3...v1.44.0-dev.4) (2026-09-17)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Override YouTube Music buttons:** App can crash on devices with an OEM media route provider ([#3025](https://github.com/MorpheApp/morphe-patches/issues/3025)) ([ef5652d](https://github.com/MorpheApp/morphe-patches/commit/ef5652d610fa4613b2dee327ca562ab89c25d78d))\n",
       "history": [
+        {
+          "tag": "v1.44.0-dev.3",
+          "publishedAt": "2026-09-17T11:52:11Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.3",
+          "changelog": "## [1.44.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.2...v1.44.0-dev.3) (2026-09-17)\n\n### 🐛 Bug Fixes\n\n* **YouTube - SponsorBlock:** Auto-hide skip button is sometimes shown when not inside a skippable segment ([2655af1](https://github.com/MorpheApp/morphe-patches/commit/2655af1d4240f5cd35844676fad82b489e7597c5))\n* **YouTube Music - Hide ads:** Premium promotion banners are not hidden ([5529b68](https://github.com/MorpheApp/morphe-patches/commit/5529b6887aac2728fafef8fe39c1b011742e03d7))\n\n### ✨ New Features\n\n* **YouTube - Save to Watch later:** Add support for Shorts ([#2934](https://github.com/MorpheApp/morphe-patches/issues/2934)) ([b4540c9](https://github.com/MorpheApp/morphe-patches/commit/b4540c91b1ae361f5184b96438d8f3a627a8367a))\n* **YouTube Music:** Add offline audio downloads ([#2528](https://github.com/MorpheApp/morphe-patches/issues/2528)) ([d9999ca](https://github.com/MorpheApp/morphe-patches/commit/d9999ca6695be270461b46bf41ee6e5e6ca3d0e6))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.44.0-dev.2",
           "publishedAt": "2026-09-16T11:52:58Z",
@@ -47,13 +54,6 @@
           "publishedAt": "2026-09-15T11:58:50Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.1-dev.2",
           "changelog": "## [1.43.1-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.43.1-dev.1...v1.43.1-dev.2) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Improved type 2 bar UI ([299af68](https://github.com/MorpheApp/morphe-patches/commit/299af68d5e90326a76febbaa0a28bbe7b7600986))\n* **YouTube - Miniplayer:** Default size setting is not grayed out with modern minimal ([aa9bc8e](https://github.com/MorpheApp/morphe-patches/commit/aa9bc8e6b51f81b9dc497f006372efb0a13f798b))\n* **YouTube:** Deprecated componentHost extension ([c42f07d](https://github.com/MorpheApp/morphe-patches/commit/c42f07df385805aa22744fd2bc169f77b24a77c0))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.43.1-dev.1",
-          "publishedAt": "2026-09-15T08:51:15Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.1-dev.1",
-          "changelog": "## [1.43.1-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0...v1.43.1-dev.1) (2026-09-15)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **Reddit - App icon:** Support changing icon on cloned installs ([22c4443](https://github.com/MorpheApp/morphe-patches/commit/22c4443912d60641e710a7a12c4dfc0c88ab8100))\r\n* **YouTube - Minimal miniplayer:** Slide the bar clear of the screen when closing it ([680ef54](https://github.com/MorpheApp/morphe-patches/commit/680ef54c555b829ddf0bf8cb17637734478563ac))\r\n* **YouTube - Minimal miniplayer:** Span the type 2 bar with the video at any aspect ratio ([4ed999f](https://github.com/MorpheApp/morphe-patches/commit/4ed999f243a18ee859279fddf40c80a9a2b1123b))\r\n* **YouTube - Settings:** Fix crash opening settings after the app process is restarted ([#2958](https://github.com/MorpheApp/morphe-patches/issues/2958)) ([89b7bb0](https://github.com/MorpheApp/morphe-patches/commit/89b7bb0cf8bc0553afa56c982bdf234f8ac68298))\r\n\r\n### 🚀 Updated App Support\r\n\r\n* **YouTube:** Add experimental support for `21.37.42` ([#2962](https://github.com/MorpheApp/morphe-patches/issues/2962)) ([9418faa](https://github.com/MorpheApp/morphe-patches/commit/9418faaf46610875781a4952a379523c09a462db))\r\n",
           "prerelease": true
         }
       ]
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.26.1",
-      "latestPublishedAt": "2026-09-17T10:42:58Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.26.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stabilize drawer choice option IDs across app updates ([95226c8](https://github.com/crimera/piko/commit/95226c86aebea587e97d2dbd5e504fa4407a7290))\n* **Twitter - newx:** dynamically resolve URT repository request in timeline refresh patch ([96245a7](https://github.com/crimera/piko/commit/96245a7f102042cf847837236ad85fd33ef83dbb))\n* **Twitter - newx:** dynamically resolve compose settings row layout for 12.28 ([7bae415](https://github.com/crimera/piko/commit/7bae415ebc05f28daec60a094e4667e58215d9c3))\n* **Twitter - newx:** harden drawer patch fingerprint and close argument resolution ([ac32219](https://github.com/crimera/piko/commit/ac32219b45d0ebad7c83fca4ece0ef3726887079))",
+      "latestTag": "v3.26.2",
+      "latestPublishedAt": "2026-09-17T15:44:22Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.26.2",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** Move NewX inline download click handling off the UI thread ([632b153](https://github.com/crimera/piko/commit/632b1538c44ae9851ebab03528c48e4599bc1191))",
       "history": [
+        {
+          "tag": "v3.26.1",
+          "publishedAt": "2026-09-17T10:42:58Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stabilize drawer choice option IDs across app updates ([95226c8](https://github.com/crimera/piko/commit/95226c86aebea587e97d2dbd5e504fa4407a7290))\n* **Twitter - newx:** dynamically resolve URT repository request in timeline refresh patch ([96245a7](https://github.com/crimera/piko/commit/96245a7f102042cf847837236ad85fd33ef83dbb))\n* **Twitter - newx:** dynamically resolve compose settings row layout for 12.28 ([7bae415](https://github.com/crimera/piko/commit/7bae415ebc05f28daec60a094e4667e58215d9c3))\n* **Twitter - newx:** harden drawer patch fingerprint and close argument resolution ([ac32219](https://github.com/crimera/piko/commit/ac32219b45d0ebad7c83fca4ece0ef3726887079))",
+          "prerelease": false
+        },
         {
           "tag": "v3.26.0",
           "publishedAt": "2026-09-17T08:09:46Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-16T16:56:23Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.25.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** improve navbar editor drag feedback ([ac98563](https://github.com/crimera/piko/commit/ac985637a8d07c42ffb67abdeb2031635b9dc4c6))\n\n### ✨ New Features\n* **Twitter - newx:** overhaul navbar customization ([228171b](https://github.com/crimera/piko/commit/228171b6d9b9a509438009ba93984b60f99e2616))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.24.2",
-          "publishedAt": "2026-09-16T11:49:39Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.24.2",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** show selected destination icon ([02f91e5](https://github.com/crimera/piko/commit/02f91e57cf21e45b44c7e2c1dabdbacd9a186604))",
           "prerelease": false
         }
       ]
@@ -263,11 +263,18 @@
       "repo": "morphe-patches",
       "label": "🍃 hoo-dles",
       "repoUrl": "https://github.com/hoo-dles/morphe-patches",
-      "latestTag": "v1.44.1-dev.1",
-      "latestPublishedAt": "2026-09-16T22:13:20Z",
-      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.1-dev.1",
-      "changelog": "## [1.44.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.44.0...v1.44.1-dev.1) (2026-09-16)\n\n\n### Bug Fixes\n\n* **Lightroom:** Fix pairip stripping and update patches to `11.5.22` ([2c1b213](https://github.com/hoo-dles/morphe-patches/commit/2c1b213cbfe3665b3d1330065c31d7f807fe7919))\n\n\n\n",
+      "latestTag": "v1.44.1",
+      "latestPublishedAt": "2026-09-17T16:37:30Z",
+      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.1",
+      "changelog": "## [1.44.1](https://github.com/hoo-dles/morphe-patches/compare/v1.44.0...v1.44.1) (2026-09-17)\n\n\n### Bug Fixes\n\n* **Lightroom:** Fix pairip stripping and update patches to `11.5.22` ([2c1b213](https://github.com/hoo-dles/morphe-patches/commit/2c1b213cbfe3665b3d1330065c31d7f807fe7919))\n\n\n\n",
       "history": [
+        {
+          "tag": "v1.44.1-dev.1",
+          "publishedAt": "2026-09-16T22:13:20Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.1-dev.1",
+          "changelog": "## [1.44.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.44.0...v1.44.1-dev.1) (2026-09-16)\n\n\n### Bug Fixes\n\n* **Lightroom:** Fix pairip stripping and update patches to `11.5.22` ([2c1b213](https://github.com/hoo-dles/morphe-patches/commit/2c1b213cbfe3665b3d1330065c31d7f807fe7919))\n\n\n\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.44.0",
           "publishedAt": "2026-09-07T01:13:25Z",
@@ -288,13 +295,6 @@
           "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.0-dev.1",
           "changelog": "# [1.44.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.43.0...v1.44.0-dev.1) (2026-09-01)\n\n\n### Features\n\n* **ASL Bloom:** Add `Enable Premium` patch ([3dde853](https://github.com/hoo-dles/morphe-patches/commit/3dde853c2362849e336277e556e9a2e84a36137f))\n\n\n\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.43.0",
-          "publishedAt": "2026-08-30T00:32:47Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.43.0",
-          "changelog": "# [1.43.0](https://github.com/hoo-dles/morphe-patches/compare/v1.42.0...v1.43.0) (2026-08-30)\n\n\n### Bug Fixes\n\n* **AdGuard:** Add version code for correct APK discovery ([d08ac92](https://github.com/hoo-dles/morphe-patches/commit/d08ac92d55211c5b9faef91d94245cd076ed0550))\n* **Niagara:** Bump supported version to `1.16.24` and fix patch failure ([d2344ae](https://github.com/hoo-dles/morphe-patches/commit/d2344ae2726b5ab5f7e14fa75e52d0990a8a22e5))\n* **Showly:** Fix news feed not loading ([828698e](https://github.com/hoo-dles/morphe-patches/commit/828698efb3ece50b5e07a9cc8dcc4c4d3b1490e0))\n\n\n### Features\n\n* **Bend:** Add `Enable Premium` patch ([d3ee74f](https://github.com/hoo-dles/morphe-patches/commit/d3ee74f73ad1239cb580a485e1c0bc97ab0510f1))\n\n\n\n",
-          "prerelease": false
         }
       ]
     },
@@ -383,11 +383,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v3.10.0",
-      "latestPublishedAt": "2026-09-02T10:45:23Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.10.0",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Backup & Restore` patch for exporting and restoring all patch settings, and for backing up, comparing, and restoring Gboard's PB/XML flag stores.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Backup & Restore` Patch，可匯出與還原所有 Patch 設定，並支援備份、比較及還原 Gboard 的 PB/XML flag store。\n",
+      "latestTag": "custom-theme-previews-v1",
+      "latestPublishedAt": "2026-09-17T16:50:03Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/custom-theme-previews-v1",
+      "changelog": "👀",
       "history": [
+        {
+          "tag": "v3.10.0",
+          "publishedAt": "2026-09-02T10:45:23Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.10.0",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Backup & Restore` patch for exporting and restoring all patch settings, and for backing up, comparing, and restoring Gboard's PB/XML flag stores.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Backup & Restore` Patch，可匯出與還原所有 Patch 設定，並支援備份、比較及還原 Gboard 的 PB/XML flag store。\n",
+          "prerelease": false
+        },
         {
           "tag": "v3.10.0-dev.3",
           "publishedAt": "2026-09-01T22:42:41Z",
@@ -408,13 +415,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.9.0-dev.1",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Simple Calculator` patch. Enter an expression directly to display both the expression and its result in Gboard's suggestion strip.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Simple Calculator` Patch；直接輸入算式，即可在 Gboard 推薦列顯示算式與計算結果。\n",
           "prerelease": true
-        },
-        {
-          "tag": "v3.8.0",
-          "publishedAt": "2026-08-31T10:14:13Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.8.0",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `FTP Server` patch, providing a LAN FTP server for browsing and transferring files with resume support. Why would a keyboard app need an FTP server? You're right—it doesn't, but I do 😂\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue in the `Long-Press Editing Shortcuts` patch that could occasionally enter unintended text when switching languages.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `FTP Server` Patch，提供區域網路 FTP 伺服器，支援檔案瀏覽、傳輸與續傳。為什麼鍵盤 App 會需要 FTP 伺服器？沒錯，鍵盤不需要，但我需要 😂\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Long-Press Editing Shortcuts` Patch 在某些情況下切換語言時會意外輸入文字的問題。\n",
-          "prerelease": false
         }
       ]
     },
@@ -423,11 +423,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.23.0",
-      "latestPublishedAt": "2026-09-15T05:51:29Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.23.0",
-      "changelog": "## [1.23.0](https://github.com/hxreborn/morphe-patches/compare/v1.22.0...v1.23.0) (2026-09-15)\n\n### New Features\n\n* **Proton Mail - AMOLED dark theme:** add a runtime toggle ([9a821a4](https://github.com/hxreborn/morphe-patches/commit/9a821a4c27ec5bba5eee69aa3080327152892f68))\n* **Proton Mail - Hide upgrade promotions:** add a runtime toggle for the hidden promotions ([5161d22](https://github.com/hxreborn/morphe-patches/commit/5161d22b56207236cc395090f4cbfa0cd00c10c2))\n* **Proton Mail - Hide upgrade upselling:** hide auto-delete upgrade banner in Trash and Spam ([7fd220a](https://github.com/hxreborn/morphe-patches/commit/7fd220ad9854ef14167de6db6f1bed74c48f40f0))\n* **Proton Mail - Scheduled Trash and Spam deletion:** delete Trash and Spam on a schedule ([5020e22](https://github.com/hxreborn/morphe-patches/commit/5020e22e70591eefefd2bfe9482360a645d1e1bb))\n* **Proton Mail:** add an in-app patches menu listing applied patches and their settings ([560fa12](https://github.com/hxreborn/morphe-patches/commit/560fa12e3303d7ef254732bc8b0ff12ee6d4710a))\n",
+      "latestTag": "v1.24.0",
+      "latestPublishedAt": "2026-09-17T15:12:45Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.24.0",
+      "changelog": "## [1.24.0](https://github.com/hxreborn/morphe-patches/compare/v1.23.0...v1.24.0) (2026-09-17)\n\n### New Features\n\n* **Proton Mail - Custom accent color:** add custom accent for app and settings webview pages ([8f3013e](https://github.com/hxreborn/morphe-patches/commit/8f3013ef4bda82a7a00421f1b0a0d12736a0b068))\n* **Proton Mail - Scheduled Trash and Spam deletion:** delete Trash and Spam on separate schedules ([925642a](https://github.com/hxreborn/morphe-patches/commit/925642ad7043ec6eb411d41455858e8a287d0685))\n* **Ringtone Maker - Remove rating prompts:** remove the rate us dialogs ([3971b61](https://github.com/hxreborn/morphe-patches/commit/3971b61bf42b023a0045989e868c4f9fe77cdaff))\n* **Ringtone Maker - Unlock premium:** unlock pro features, remove ads and skip upgrade screens ([56a2776](https://github.com/hxreborn/morphe-patches/commit/56a2776d298ea4896e9b10b5cc233776ba2f45de))\n* **VPN Super Unlimited Proxy - Unlock premium:** skip Android TV sign-in screen ([7709a41](https://github.com/hxreborn/morphe-patches/commit/7709a41538a61aee0fa6511839d81fb8aca01443))\n",
       "history": [
+        {
+          "tag": "v1.23.0",
+          "publishedAt": "2026-09-15T05:51:29Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.23.0",
+          "changelog": "## [1.23.0](https://github.com/hxreborn/morphe-patches/compare/v1.22.0...v1.23.0) (2026-09-15)\n\n### New Features\n\n* **Proton Mail - AMOLED dark theme:** add a runtime toggle ([9a821a4](https://github.com/hxreborn/morphe-patches/commit/9a821a4c27ec5bba5eee69aa3080327152892f68))\n* **Proton Mail - Hide upgrade promotions:** add a runtime toggle for the hidden promotions ([5161d22](https://github.com/hxreborn/morphe-patches/commit/5161d22b56207236cc395090f4cbfa0cd00c10c2))\n* **Proton Mail - Hide upgrade upselling:** hide auto-delete upgrade banner in Trash and Spam ([7fd220a](https://github.com/hxreborn/morphe-patches/commit/7fd220ad9854ef14167de6db6f1bed74c48f40f0))\n* **Proton Mail - Scheduled Trash and Spam deletion:** delete Trash and Spam on a schedule ([5020e22](https://github.com/hxreborn/morphe-patches/commit/5020e22e70591eefefd2bfe9482360a645d1e1bb))\n* **Proton Mail:** add an in-app patches menu listing applied patches and their settings ([560fa12](https://github.com/hxreborn/morphe-patches/commit/560fa12e3303d7ef254732bc8b0ff12ee6d4710a))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.22.0",
           "publishedAt": "2026-09-14T14:12:59Z",
@@ -447,13 +454,6 @@
           "publishedAt": "2026-09-13T15:29:38Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.4",
           "changelog": "## [1.20.4](https://github.com/hxreborn/morphe-patches/compare/v1.20.3...v1.20.4) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** stop patched apps crashing at launch ([a602d48](https://github.com/hxreborn/morphe-patches/commit/a602d48652d9710143fa5f57d15cc9a26d47397b))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.20.3",
-          "publishedAt": "2026-09-13T13:43:13Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.20.3",
-          "changelog": "## [1.20.3](https://github.com/hxreborn/morphe-patches/compare/v1.20.2...v1.20.3) (2026-09-13)\n\n### Bug Fixes\n\n* **iJiami:** stop patched apps crashing when packer watchdog counter trips ([f81ab5d](https://github.com/hxreborn/morphe-patches/commit/f81ab5dd86482ec30055e3b1552acddadf6eb3c7))\n* **MovieBox - All-In-One:** warn when a title has no signed stream to play ([a06ce46](https://github.com/hxreborn/morphe-patches/commit/a06ce4627abc85e3b9615b6581191f3c8103560c))\n",
           "prerelease": false
         }
       ]
