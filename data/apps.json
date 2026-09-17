@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T10:18:10Z",
+  "generatedAt": "2026-09-17T15:12:31Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.44.0-dev.2",
-      "latestPublishedAt": "2026-09-16T11:52:58Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.2",
-      "changelog": "## [1.44.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.1...v1.44.0-dev.2) (2026-09-16)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Channel search:** Search is scoped to a channel after leaving its page ([#2997](https://github.com/MorpheApp/morphe-patches/issues/2997)) ([3cc051b](https://github.com/MorpheApp/morphe-patches/commit/3cc051bfffaaee21a579a059a9be198b6d887f74))\n* **YouTube - Hide layout components:** Hide movie shelf in search results ([#2933](https://github.com/MorpheApp/morphe-patches/issues/2933)) ([032e0f5](https://github.com/MorpheApp/morphe-patches/commit/032e0f51f6ccf2ebbaff0c4d57f2f12b32bd8be8))\n* **YouTube:** Player seekbar is not shown for some users ([bb2b91e](https://github.com/MorpheApp/morphe-patches/commit/bb2b91e118f1d3e6766340226e4697c758e8efe3))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** Add syllable lyrics, new providers, romanized lyrics, mediasession lyrics, miniplayer lyrics ([#2625](https://github.com/MorpheApp/morphe-patches/issues/2625)) ([ea883b3](https://github.com/MorpheApp/morphe-patches/commit/ea883b34f6a750eb3f6b954742d41088b6b99879))\n",
+      "latestTag": "v1.44.0-dev.3",
+      "latestPublishedAt": "2026-09-17T11:52:11Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.3",
+      "changelog": "## [1.44.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.2...v1.44.0-dev.3) (2026-09-17)\n\n### 🐛 Bug Fixes\n\n* **YouTube - SponsorBlock:** Auto-hide skip button is sometimes shown when not inside a skippable segment ([2655af1](https://github.com/MorpheApp/morphe-patches/commit/2655af1d4240f5cd35844676fad82b489e7597c5))\n* **YouTube Music - Hide ads:** Premium promotion banners are not hidden ([5529b68](https://github.com/MorpheApp/morphe-patches/commit/5529b6887aac2728fafef8fe39c1b011742e03d7))\n\n### ✨ New Features\n\n* **YouTube - Save to Watch later:** Add support for Shorts ([#2934](https://github.com/MorpheApp/morphe-patches/issues/2934)) ([b4540c9](https://github.com/MorpheApp/morphe-patches/commit/b4540c91b1ae361f5184b96438d8f3a627a8367a))\n* **YouTube Music:** Add offline audio downloads ([#2528](https://github.com/MorpheApp/morphe-patches/issues/2528)) ([d9999ca](https://github.com/MorpheApp/morphe-patches/commit/d9999ca6695be270461b46bf41ee6e5e6ca3d0e6))\n",
       "history": [
+        {
+          "tag": "v1.44.0-dev.2",
+          "publishedAt": "2026-09-16T11:52:58Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.2",
+          "changelog": "## [1.44.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.1...v1.44.0-dev.2) (2026-09-16)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Channel search:** Search is scoped to a channel after leaving its page ([#2997](https://github.com/MorpheApp/morphe-patches/issues/2997)) ([3cc051b](https://github.com/MorpheApp/morphe-patches/commit/3cc051bfffaaee21a579a059a9be198b6d887f74))\n* **YouTube - Hide layout components:** Hide movie shelf in search results ([#2933](https://github.com/MorpheApp/morphe-patches/issues/2933)) ([032e0f5](https://github.com/MorpheApp/morphe-patches/commit/032e0f51f6ccf2ebbaff0c4d57f2f12b32bd8be8))\n* **YouTube:** Player seekbar is not shown for some users ([bb2b91e](https://github.com/MorpheApp/morphe-patches/commit/bb2b91e118f1d3e6766340226e4697c758e8efe3))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** Add syllable lyrics, new providers, romanized lyrics, mediasession lyrics, miniplayer lyrics ([#2625](https://github.com/MorpheApp/morphe-patches/issues/2625)) ([ea883b3](https://github.com/MorpheApp/morphe-patches/commit/ea883b34f6a750eb3f6b954742d41088b6b99879))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.44.0-dev.1",
           "publishedAt": "2026-09-15T17:30:22Z",
@@ -48,13 +55,6 @@
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.1-dev.1",
           "changelog": "## [1.43.1-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0...v1.43.1-dev.1) (2026-09-15)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **Reddit - App icon:** Support changing icon on cloned installs ([22c4443](https://github.com/MorpheApp/morphe-patches/commit/22c4443912d60641e710a7a12c4dfc0c88ab8100))\r\n* **YouTube - Minimal miniplayer:** Slide the bar clear of the screen when closing it ([680ef54](https://github.com/MorpheApp/morphe-patches/commit/680ef54c555b829ddf0bf8cb17637734478563ac))\r\n* **YouTube - Minimal miniplayer:** Span the type 2 bar with the video at any aspect ratio ([4ed999f](https://github.com/MorpheApp/morphe-patches/commit/4ed999f243a18ee859279fddf40c80a9a2b1123b))\r\n* **YouTube - Settings:** Fix crash opening settings after the app process is restarted ([#2958](https://github.com/MorpheApp/morphe-patches/issues/2958)) ([89b7bb0](https://github.com/MorpheApp/morphe-patches/commit/89b7bb0cf8bc0553afa56c982bdf234f8ac68298))\r\n\r\n### 🚀 Updated App Support\r\n\r\n* **YouTube:** Add experimental support for `21.37.42` ([#2962](https://github.com/MorpheApp/morphe-patches/issues/2962)) ([9418faa](https://github.com/MorpheApp/morphe-patches/commit/9418faaf46610875781a4952a379523c09a462db))\r\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.43.0",
-          "publishedAt": "2026-09-14T12:57:41Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.43.0",
-          "changelog": "## [1.43.0](https://github.com/MorpheApp/morphe-patches/compare/v1.42.0...v1.43.0) (2026-09-14)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **Theme:** Use the nearest palette color when the app is not given an overlay manager ([#2926](https://github.com/MorpheApp/morphe-patches/issues/2926)) ([86e146c](https://github.com/MorpheApp/morphe-patches/commit/86e146c54bad8450265f2ac2d734722fd682794c))\r\n* **YouTube - Change header:** Apply custom header logo to explore menu ([#2910](https://github.com/MorpheApp/morphe-patches/issues/2910)) ([e549894](https://github.com/MorpheApp/morphe-patches/commit/e549894d1c8dd2e9909a5c773c3c9c81a4df64a5))\r\n* **YouTube - Disable fullscreen gestures:** Restore pinch-to-zoom past fill on `21.36`+ ([#2876](https://github.com/MorpheApp/morphe-patches/issues/2876)) ([dd76cc1](https://github.com/MorpheApp/morphe-patches/commit/dd76cc1198fffb42d99f993ae03bd6e6cdcb4cf7))\r\n* **YouTube - Fullscreen video scale:** Restore UI after leaving fullscreen on tablet/foldable landscape ([#2874](https://github.com/MorpheApp/morphe-patches/issues/2874)) ([75f477f](https://github.com/MorpheApp/morphe-patches/commit/75f477f5c8834bd30cb27f66cc13b7f9c1f4c981))\r\n* **YouTube - Hide layout components:** Fix UI padding in comment replies and incognito search ([#2891](https://github.com/MorpheApp/morphe-patches/issues/2891)) ([59485db](https://github.com/MorpheApp/morphe-patches/commit/59485db96f29c9fa458ceca5f29e1754197220f4))\r\n* **YouTube - Loop video:** Respect sleep timer end of video state ([#2890](https://github.com/MorpheApp/morphe-patches/issues/2890)) ([9f4f2a8](https://github.com/MorpheApp/morphe-patches/commit/9f4f2a8a6a8bef2627f8809cdec5b9b40773855a))\r\n* **YouTube - Navigation bar:** Keep the app edge to edge when the translucent navigation bar is disabled ([7f2153d](https://github.com/MorpheApp/morphe-patches/commit/7f2153d58830debfe44b9feb94d4a064dd6f56d5))\r\n* **YouTube - Video quality:** Prevent infinite loading when opening videos from Shorts ([#2871](https://github.com/MorpheApp/morphe-patches/issues/2871)) ([8fb3e31](https://github.com/MorpheApp/morphe-patches/commit/8fb3e318dc19fa25f96c85b1759c1d534a7a931f))\r\n* **YouTube Music - Remember shuffle state:** Prevent continuous queue shuffling ([#2870](https://github.com/MorpheApp/morphe-patches/issues/2870)) ([b58019c](https://github.com/MorpheApp/morphe-patches/commit/b58019c16a54b315533cc5f61f6f8718c6d66651))\r\n* **YouTube:** Remove \"Restore old player button style\" from `21.36` and later experimental targets ([8cc2f54](https://github.com/MorpheApp/morphe-patches/commit/8cc2f549833219384320bf5d43128702bbc1b2bb))\r\n\r\n### ✨ New Features\r\n\r\n* **Custom branding:** Add an app icon patch option and support mounted installations ([#2518](https://github.com/MorpheApp/morphe-patches/issues/2518)) ([e7a508f](https://github.com/MorpheApp/morphe-patches/commit/e7a508f2b1b629066e49776254e5c2e2f625976a))\r\n* **GmsCore support:** Handle conflicting MicroG installs ([#2907](https://github.com/MorpheApp/morphe-patches/issues/2907)) ([31a66d9](https://github.com/MorpheApp/morphe-patches/commit/31a66d95932f6ccf4e39a5804c750af72a606d15))\r\n* **Reddit:** Add `Custom app icon` patch ([#2937](https://github.com/MorpheApp/morphe-patches/issues/2937)) ([c17f699](https://github.com/MorpheApp/morphe-patches/commit/c17f6990a6d3ed5f8041f07eb3cb129a939e529e))\r\n* **YouTube - Fullscreen video scale:** Add option to show scale button only in fullscreen ([#2878](https://github.com/MorpheApp/morphe-patches/issues/2878)) ([f4bb073](https://github.com/MorpheApp/morphe-patches/commit/f4bb07318ee181502b00eb8e009aed7df42b78bc))\r\n* **YouTube - Miniplayer:** Add \"Minimal 2\" miniplayer type ([#2928](https://github.com/MorpheApp/morphe-patches/issues/2928)) ([3ae8dd1](https://github.com/MorpheApp/morphe-patches/commit/3ae8dd17d0b1ad543a994dbb3bf1b076e1eb7301))\r\n* **YouTube - Miniplayer:** Restore the minimal miniplayer on 21.29+ ([#2911](https://github.com/MorpheApp/morphe-patches/issues/2911)) ([af1a457](https://github.com/Mor\n\n…",
-          "prerelease": false
         }
       ]
     },
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.26.0",
-      "latestPublishedAt": "2026-09-17T08:09:46Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.26.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** differentiate navigation editor icon ([1ba8355](https://github.com/crimera/piko/commit/1ba8355fa72811eb6a9ab36cee7bff02025d4e4e))\n\n### ✨ New Features\n* **Twitter - newx:** overhaul drawer items customization ([244602b](https://github.com/crimera/piko/commit/244602bdddb581a40a76c989c1172d934dc50ca2))",
+      "latestTag": "v3.26.1",
+      "latestPublishedAt": "2026-09-17T10:42:58Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.26.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stabilize drawer choice option IDs across app updates ([95226c8](https://github.com/crimera/piko/commit/95226c86aebea587e97d2dbd5e504fa4407a7290))\n* **Twitter - newx:** dynamically resolve URT repository request in timeline refresh patch ([96245a7](https://github.com/crimera/piko/commit/96245a7f102042cf847837236ad85fd33ef83dbb))\n* **Twitter - newx:** dynamically resolve compose settings row layout for 12.28 ([7bae415](https://github.com/crimera/piko/commit/7bae415ebc05f28daec60a094e4667e58215d9c3))\n* **Twitter - newx:** harden drawer patch fingerprint and close argument resolution ([ac32219](https://github.com/crimera/piko/commit/ac32219b45d0ebad7c83fca4ece0ef3726887079))",
       "history": [
+        {
+          "tag": "v3.26.0",
+          "publishedAt": "2026-09-17T08:09:46Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** differentiate navigation editor icon ([1ba8355](https://github.com/crimera/piko/commit/1ba8355fa72811eb6a9ab36cee7bff02025d4e4e))\n\n### ✨ New Features\n* **Twitter - newx:** overhaul drawer items customization ([244602b](https://github.com/crimera/piko/commit/244602bdddb581a40a76c989c1172d934dc50ca2))",
+          "prerelease": false
+        },
         {
           "tag": "v3.25.1",
           "publishedAt": "2026-09-16T17:04:25Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-16T11:49:39Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.24.2",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** show selected destination icon ([02f91e5](https://github.com/crimera/piko/commit/02f91e57cf21e45b44c7e2c1dabdbacd9a186604))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.24.1",
-          "publishedAt": "2026-09-16T11:05:40Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.24.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** reduce navbar patch memory usage ([c36262f](https://github.com/crimera/piko/commit/c36262f1af8dfd29d4833452a1caa58fffd80dab))\n* **Twitter - newx:** make restored splash background theme-aware ([84a4a39](https://github.com/crimera/piko/commit/84a4a3996e4b4b7ff58d0391920195a1cffa44b6))\n* **Twitter - newx:** restore twitter blue app icon & splash colors ([e0b50c2](https://github.com/crimera/piko/commit/e0b50c2826ee5f9d16e01fb8540ad3b1bf95ca4e))",
           "prerelease": false
         }
       ]
