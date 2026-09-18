@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T00:41:01Z",
+  "generatedAt": "2026-09-18T05:39:46Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.26.2",
-      "latestPublishedAt": "2026-09-17T15:44:22Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.26.2",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** Move NewX inline download click handling off the UI thread ([632b153](https://github.com/crimera/piko/commit/632b1538c44ae9851ebab03528c48e4599bc1191))",
+      "latestTag": "v3.27.0",
+      "latestPublishedAt": "2026-09-18T01:21:08Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.27.0",
+      "changelog": "### ✨ New Features\n* **Twitter - newx:** hide badges from custom navigation bar items ([6c27e79](https://github.com/crimera/piko/commit/6c27e79dee4e6be5a1bf03e9c85b333f5e14781c))",
       "history": [
+        {
+          "tag": "v3.26.2",
+          "publishedAt": "2026-09-17T15:44:22Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.2",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** Move NewX inline download click handling off the UI thread ([632b153](https://github.com/crimera/piko/commit/632b1538c44ae9851ebab03528c48e4599bc1191))",
+          "prerelease": false
+        },
         {
           "tag": "v3.26.1",
           "publishedAt": "2026-09-17T10:42:58Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-16T17:04:25Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.25.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** auto-scroll navbar editor ([3ecf15b](https://github.com/crimera/piko/commit/3ecf15b5dca2d5de53c4721d11a8c37c57359af4))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.25.0",
-          "publishedAt": "2026-09-16T16:56:23Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.25.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** improve navbar editor drag feedback ([ac98563](https://github.com/crimera/piko/commit/ac985637a8d07c42ffb67abdeb2031635b9dc4c6))\n\n### ✨ New Features\n* **Twitter - newx:** overhaul navbar customization ([228171b](https://github.com/crimera/piko/commit/228171b6d9b9a509438009ba93984b60f99e2616))",
           "prerelease": false
         }
       ]
