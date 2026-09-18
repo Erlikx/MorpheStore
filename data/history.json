@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T14:51:01Z",
+  "generatedAt": "2026-09-18T18:10:46Z",
   "entries": [
+    {
+      "appKey": "twitter-x",
+      "displayName": "Twitter-X",
+      "fromVersion": "12.25.0-prod.01",
+      "toVersion": "12.27.0-prod.01",
+      "at": "2026-09-18T18:10:46Z",
+      "releaseTag": "build-2026-09-18T15-34-00"
+    },
     {
       "appKey": "youtube",
       "displayName": "YouTube",
