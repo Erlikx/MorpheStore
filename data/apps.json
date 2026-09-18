@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T10:51:53Z",
+  "generatedAt": "2026-09-18T14:51:01Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -383,11 +383,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "custom-theme-previews-v1",
-      "latestPublishedAt": "2026-09-17T16:50:03Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/custom-theme-previews-v1",
-      "changelog": "👀",
+      "latestTag": "v3.11.0-dev.2",
+      "latestPublishedAt": "2026-09-18T14:38:25Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0-dev.2",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Custom Theme` patch, supporting custom ZIP theme imports and a selection of beautiful themes from Rboard's official repository.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where `Custom Symbols` history entries were incorrectly saved to `Emoticon` history.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Custom Theme` Patch，支援匯入自訂 ZIP 主題，也能從 Rboard 官方儲存庫匯入精美主題。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Custom Symbols` 歷史記錄誤寫入 `Emoticon` 歷史記錄的問題。\n",
       "history": [
+        {
+          "tag": "custom-theme-previews-v1",
+          "publishedAt": "2026-09-17T16:50:03Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/custom-theme-previews-v1",
+          "changelog": "👀",
+          "prerelease": false
+        },
         {
           "tag": "v3.10.0",
           "publishedAt": "2026-09-02T10:45:23Z",
@@ -408,13 +415,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.9.0",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Simple Calculator` patch. Enter an expression directly to display both the expression and its result in Gboard's suggestion strip.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Simple Calculator` Patch；直接輸入算式，即可在 Gboard 推薦列顯示算式與計算結果。\n",
           "prerelease": false
-        },
-        {
-          "tag": "v3.9.0-dev.1",
-          "publishedAt": "2026-09-01T04:50:25Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.9.0-dev.1",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Simple Calculator` patch. Enter an expression directly to display both the expression and its result in Gboard's suggestion strip.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Simple Calculator` Patch；直接輸入算式，即可在 Gboard 推薦列顯示算式與計算結果。\n",
-          "prerelease": true
         }
       ]
     },
