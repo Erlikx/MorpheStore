@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T16:22:25Z",
+  "generatedAt": "2026-09-19T18:44:58Z",
   "entries": [
+    {
+      "appKey": "youtube",
+      "displayName": "YouTube",
+      "fromVersion": "21.37.42",
+      "toVersion": "21.38.123",
+      "at": "2026-09-19T18:44:58Z",
+      "releaseTag": "build-2026-09-19T16-29-16"
+    },
+    {
+      "appKey": "reddit",
+      "displayName": "Reddit",
+      "fromVersion": "2026.37.0",
+      "toVersion": "2026.38.0",
+      "at": "2026-09-19T18:44:58Z",
+      "releaseTag": "build-2026-09-19T16-29-16"
+    },
+    {
+      "appKey": "reddit-adobo",
+      "displayName": "Reddit-Adobo",
+      "fromVersion": "2026.35.0",
+      "toVersion": "2026.38.0",
+      "at": "2026-09-19T18:44:58Z",
+      "releaseTag": "build-2026-09-19T16-29-16"
+    },
     {
       "appKey": "twitter-x",
       "displayName": "Twitter-X",
