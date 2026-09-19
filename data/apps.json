@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T21:21:38Z",
+  "generatedAt": "2026-09-19T23:23:43Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.29.0",
-      "latestPublishedAt": "2026-09-19T14:55:15Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.29.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** refactor NewX source identity resolution ([45b230e](https://github.com/crimera/piko/commit/45b230e18a686afd97c6b386077303a2d6bd161d))\n\n### ✨ New Features\n* **Twitter:** add profile photos gallery view ([9daf4a3](https://github.com/crimera/piko/commit/9daf4a31a8daf97c8105a5da2e8c1894740d0df6))\n* **Twitter:** add more post menu hide options ([2c7c268](https://github.com/crimera/piko/commit/2c7c268aef36aaf0dd365339c137c804ca449e98))\n* **Twitter - newx:** add dislike inline action toggle ([ae7cdd2](https://github.com/crimera/piko/commit/ae7cdd2c729e8c30d6dea584320f7efd20f5cb68))\n\nNew patches:\n- NewX: Gallery profile Photos tab",
+      "latestTag": "v3.29.1",
+      "latestPublishedAt": "2026-09-19T22:23:02Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.29.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** drop legacy 12.25 targets ([e4a1e2e](https://github.com/crimera/piko/commit/e4a1e2e5026d73277b64b7a65d2d28dc04d69dad))",
       "history": [
+        {
+          "tag": "v3.29.0",
+          "publishedAt": "2026-09-19T14:55:15Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.29.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** refactor NewX source identity resolution ([45b230e](https://github.com/crimera/piko/commit/45b230e18a686afd97c6b386077303a2d6bd161d))\n\n### ✨ New Features\n* **Twitter:** add profile photos gallery view ([9daf4a3](https://github.com/crimera/piko/commit/9daf4a31a8daf97c8105a5da2e8c1894740d0df6))\n* **Twitter:** add more post menu hide options ([2c7c268](https://github.com/crimera/piko/commit/2c7c268aef36aaf0dd365339c137c804ca449e98))\n* **Twitter - newx:** add dislike inline action toggle ([ae7cdd2](https://github.com/crimera/piko/commit/ae7cdd2c729e8c30d6dea584320f7efd20f5cb68))\n\nNew patches:\n- NewX: Gallery profile Photos tab",
+          "prerelease": false
+        },
         {
           "tag": "v3.28.0",
           "publishedAt": "2026-09-19T06:39:18Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-18T01:21:08Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.27.0",
           "changelog": "### ✨ New Features\n* **Twitter - newx:** hide badges from custom navigation bar items ([6c27e79](https://github.com/crimera/piko/commit/6c27e79dee4e6be5a1bf03e9c85b333f5e14781c))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.26.2",
-          "publishedAt": "2026-09-17T15:44:22Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.2",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** Move NewX inline download click handling off the UI thread ([632b153](https://github.com/crimera/piko/commit/632b1538c44ae9851ebab03528c48e4599bc1191))",
           "prerelease": false
         }
       ]
