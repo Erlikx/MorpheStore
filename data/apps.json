@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T03:54:48Z",
+  "generatedAt": "2026-09-19T08:41:13Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.27.1",
-      "latestPublishedAt": "2026-09-18T23:15:18Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.27.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** add 12.27 prod ([4821dd1](https://github.com/crimera/piko/commit/4821dd10a7cdbc97a8d78e72e2b2b2b01b471d38))",
+      "latestTag": "v3.28.0",
+      "latestPublishedAt": "2026-09-19T06:39:18Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.28.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** share crash log via direct activity intent ([b942d2b](https://github.com/crimera/piko/commit/b942d2b70bf021844aefba092a9469c672789725))\n\n### ✨ New Features\n* **Twitter - newx:** add crash test triggers to developer tools ([5b2b4a4](https://github.com/crimera/piko/commit/5b2b4a456c07063a3710c15b6f988b780ee8d974))\n* **Twitter - newx:** add crash logs with share and copy actions ([5feb43d](https://github.com/crimera/piko/commit/5feb43d3ccf0390405963bad742cdcc0e329e21a))\n\nNew patches:\n- NewX: Crash logs",
       "history": [
+        {
+          "tag": "v3.27.1",
+          "publishedAt": "2026-09-18T23:15:18Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.27.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** add 12.27 prod ([4821dd1](https://github.com/crimera/piko/commit/4821dd10a7cdbc97a8d78e72e2b2b2b01b471d38))",
+          "prerelease": false
+        },
         {
           "tag": "v3.27.0",
           "publishedAt": "2026-09-18T01:21:08Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-17T10:42:58Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stabilize drawer choice option IDs across app updates ([95226c8](https://github.com/crimera/piko/commit/95226c86aebea587e97d2dbd5e504fa4407a7290))\n* **Twitter - newx:** dynamically resolve URT repository request in timeline refresh patch ([96245a7](https://github.com/crimera/piko/commit/96245a7f102042cf847837236ad85fd33ef83dbb))\n* **Twitter - newx:** dynamically resolve compose settings row layout for 12.28 ([7bae415](https://github.com/crimera/piko/commit/7bae415ebc05f28daec60a094e4667e58215d9c3))\n* **Twitter - newx:** harden drawer patch fingerprint and close argument resolution ([ac32219](https://github.com/crimera/piko/commit/ac32219b45d0ebad7c83fca4ece0ef3726887079))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.26.0",
-          "publishedAt": "2026-09-17T08:09:46Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** differentiate navigation editor icon ([1ba8355](https://github.com/crimera/piko/commit/1ba8355fa72811eb6a9ab36cee7bff02025d4e4e))\n\n### ✨ New Features\n* **Twitter - newx:** overhaul drawer items customization ([244602b](https://github.com/crimera/piko/commit/244602bdddb581a40a76c989c1172d934dc50ca2))",
           "prerelease": false
         }
       ]
