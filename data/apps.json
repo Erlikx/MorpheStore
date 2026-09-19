@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T12:58:39Z",
+  "generatedAt": "2026-09-19T16:22:25Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.44.0-dev.8",
-      "latestPublishedAt": "2026-09-19T11:51:27Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.8",
-      "changelog": "## [1.44.0-dev.8](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.7...v1.44.0-dev.8) (2026-09-19)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Theme:** Experimental app targets can show white Shorts seekbar ([aaeca6a](https://github.com/MorpheApp/morphe-patches/commit/aaeca6a75bf7d1e14e6c31fbbeffa50bda55ac0f))\n",
+      "latestTag": "v1.44.0-dev.9",
+      "latestPublishedAt": "2026-09-19T15:08:08Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.9",
+      "changelog": "## [1.44.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.8...v1.44.0-dev.9) (2026-09-19)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Controls fade-in animation doesn't work ([396a0bc](https://github.com/MorpheApp/morphe-patches/commit/396a0bcd333423bb17cbe501599e70d80591f8d0))\n* **YouTube - Minimal miniplayer:** Interpolate minimizing transitions. ([13e653a](https://github.com/MorpheApp/morphe-patches/commit/13e653a68943b548728d85042e6785058b3cedb2))\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.38.0` ([404fc59](https://github.com/MorpheApp/morphe-patches/commit/404fc599fa082fd958780450a1ec57476295c712))\n",
       "history": [
+        {
+          "tag": "v1.44.0-dev.8",
+          "publishedAt": "2026-09-19T11:51:27Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.8",
+          "changelog": "## [1.44.0-dev.8](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.7...v1.44.0-dev.8) (2026-09-19)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Theme:** Experimental app targets can show white Shorts seekbar ([aaeca6a](https://github.com/MorpheApp/morphe-patches/commit/aaeca6a75bf7d1e14e6c31fbbeffa50bda55ac0f))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.44.0-dev.7",
           "publishedAt": "2026-09-19T09:58:14Z",
@@ -36,24 +43,17 @@
           "prerelease": true
         },
         {
+          "tag": "v1.44.0-dev.10",
+          "publishedAt": "2026-09-19T15:45:23Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.10",
+          "changelog": "## [1.44.0-dev.10](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.9...v1.44.0-dev.10) (2026-09-19)\n\n### 🚀 Updated App Support\n\n* **YouTube Music:** Add experimental support for `9.37.54` ([04f67ae](https://github.com/MorpheApp/morphe-patches/commit/04f67ae150d23b1c888061e9d723459736f8f52c))\n",
+          "prerelease": true
+        },
+        {
           "tag": "v1.44.0-dev.6",
           "publishedAt": "2026-09-18T16:39:09Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.6",
           "changelog": "## [1.44.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.5...v1.44.0-dev.6) (2026-09-18)\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add support for `21.16.256` ([900575c](https://github.com/MorpheApp/morphe-patches/commit/900575ccc97cb8faf831786afd693c30d28e4f9f))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.44.0-dev.5",
-          "publishedAt": "2026-09-18T07:55:08Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.5",
-          "changelog": "## [1.44.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.4...v1.44.0-dev.5) (2026-09-18)\n\n### 🐛 Bug Fixes\n\n* **YouTube Music - Download in app:** Downloads fail when 'Spoof video streams' is turned off ([#3034](https://github.com/MorpheApp/morphe-patches/issues/3034)) ([64249b8](https://github.com/MorpheApp/morphe-patches/commit/64249b8471dd508351b9e7cfb13586812525993e))\n* **YouTube Music - Third-party lyrics:** Lyrics are not shown in a panel that has no heading ([#3033](https://github.com/MorpheApp/morphe-patches/issues/3033)) ([4d5988b](https://github.com/MorpheApp/morphe-patches/commit/4d5988b0eff3bce79b2ab3301d203f27e1318b43))\n* **YouTube Music - Third-party lyrics:** Musixmatch cannot be turned on and Deezer returns no lyrics ([f6c0213](https://github.com/MorpheApp/morphe-patches/commit/f6c021343a3aa9ddf62c1cc0ec168765cfc57882))\n* **YouTube Music - Third-party lyrics:** Right to left lyrics are garbled while being highlighted ([72798cb](https://github.com/MorpheApp/morphe-patches/commit/72798cb704b886cdd5606e6a29298e8338f5f312))\n* **YouTube:** Hide player time bar backgrounds ([#3030](https://github.com/MorpheApp/morphe-patches/issues/3030)) ([a11b9b1](https://github.com/MorpheApp/morphe-patches/commit/a11b9b1248b0f4232b7892ad4dbe4de19caa4d2b))\n* **YouTube:** Preserve fullscreen button when scale button is hidden ([#3027](https://github.com/MorpheApp/morphe-patches/issues/3027)) ([7d4ab61](https://github.com/MorpheApp/morphe-patches/commit/7d4ab619163fba7c20dd4666ca0fe2240eb16380))\n* **YouTube:** Support Unicode AISList channel handles ([#3028](https://github.com/MorpheApp/morphe-patches/issues/3028)) ([fcf415f](https://github.com/MorpheApp/morphe-patches/commit/fcf415f43d78cb6833e2ae14db245989240f7f5e))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** Animate the panel buttons between their states ([abec544](https://github.com/MorpheApp/morphe-patches/commit/abec5445a13bb366a63109a003d8a9444f96cdf7))\n* **YouTube:** Add `Force fullscreen landscape mode` patch ([#2431](https://github.com/MorpheApp/morphe-patches/issues/2431)) ([a037335](https://github.com/MorpheApp/morphe-patches/commit/a03733538e5a56957b525a17668253eb5da404da))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.44.0-dev.4",
-          "publishedAt": "2026-09-17T18:00:26Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.4",
-          "changelog": "## [1.44.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.3...v1.44.0-dev.4) (2026-09-17)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Override YouTube Music buttons:** App can crash on devices with an OEM media route provider ([#3025](https://github.com/MorpheApp/morphe-patches/issues/3025)) ([ef5652d](https://github.com/MorpheApp/morphe-patches/commit/ef5652d610fa4613b2dee327ca562ab89c25d78d))\n",
           "prerelease": true
         }
       ]
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.28.0",
-      "latestPublishedAt": "2026-09-19T06:39:18Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.28.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** share crash log via direct activity intent ([b942d2b](https://github.com/crimera/piko/commit/b942d2b70bf021844aefba092a9469c672789725))\n\n### ✨ New Features\n* **Twitter - newx:** add crash test triggers to developer tools ([5b2b4a4](https://github.com/crimera/piko/commit/5b2b4a456c07063a3710c15b6f988b780ee8d974))\n* **Twitter - newx:** add crash logs with share and copy actions ([5feb43d](https://github.com/crimera/piko/commit/5feb43d3ccf0390405963bad742cdcc0e329e21a))\n\nNew patches:\n- NewX: Crash logs",
+      "latestTag": "v3.29.0",
+      "latestPublishedAt": "2026-09-19T14:55:15Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.29.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** refactor NewX source identity resolution ([45b230e](https://github.com/crimera/piko/commit/45b230e18a686afd97c6b386077303a2d6bd161d))\n\n### ✨ New Features\n* **Twitter:** add profile photos gallery view ([9daf4a3](https://github.com/crimera/piko/commit/9daf4a31a8daf97c8105a5da2e8c1894740d0df6))\n* **Twitter:** add more post menu hide options ([2c7c268](https://github.com/crimera/piko/commit/2c7c268aef36aaf0dd365339c137c804ca449e98))\n* **Twitter - newx:** add dislike inline action toggle ([ae7cdd2](https://github.com/crimera/piko/commit/ae7cdd2c729e8c30d6dea584320f7efd20f5cb68))\n\nNew patches:\n- NewX: Gallery profile Photos tab",
       "history": [
+        {
+          "tag": "v3.28.0",
+          "publishedAt": "2026-09-19T06:39:18Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.28.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** share crash log via direct activity intent ([b942d2b](https://github.com/crimera/piko/commit/b942d2b70bf021844aefba092a9469c672789725))\n\n### ✨ New Features\n* **Twitter - newx:** add crash test triggers to developer tools ([5b2b4a4](https://github.com/crimera/piko/commit/5b2b4a456c07063a3710c15b6f988b780ee8d974))\n* **Twitter - newx:** add crash logs with share and copy actions ([5feb43d](https://github.com/crimera/piko/commit/5feb43d3ccf0390405963bad742cdcc0e329e21a))\n\nNew patches:\n- NewX: Crash logs",
+          "prerelease": false
+        },
         {
           "tag": "v3.27.1",
           "publishedAt": "2026-09-18T23:15:18Z",
@@ -128,13 +135,6 @@
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.2",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter:** Move NewX inline download click handling off the UI thread ([632b153](https://github.com/crimera/piko/commit/632b1538c44ae9851ebab03528c48e4599bc1191))",
           "prerelease": false
-        },
-        {
-          "tag": "v3.26.1",
-          "publishedAt": "2026-09-17T10:42:58Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.26.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stabilize drawer choice option IDs across app updates ([95226c8](https://github.com/crimera/piko/commit/95226c86aebea587e97d2dbd5e504fa4407a7290))\n* **Twitter - newx:** dynamically resolve URT repository request in timeline refresh patch ([96245a7](https://github.com/crimera/piko/commit/96245a7f102042cf847837236ad85fd33ef83dbb))\n* **Twitter - newx:** dynamically resolve compose settings row layout for 12.28 ([7bae415](https://github.com/crimera/piko/commit/7bae415ebc05f28daec60a094e4667e58215d9c3))\n* **Twitter - newx:** harden drawer patch fingerprint and close argument resolution ([ac32219](https://github.com/crimera/piko/commit/ac32219b45d0ebad7c83fca4ece0ef3726887079))",
-          "prerelease": false
         }
       ]
     },
@@ -143,37 +143,37 @@
       "repo": "adobo",
       "label": "🥘 Adobo",
       "repoUrl": "https://github.com/jkennethcarino/adobo",
-      "latestTag": "v1.5.0-dev.2",
-      "latestPublishedAt": "2026-09-06T15:04:24Z",
-      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.2",
-      "changelog": "## [1.5.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n",
+      "latestTag": "v1.5.0",
+      "latestPublishedAt": "2026-09-19T15:26:04Z",
+      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0",
+      "changelog": "## [1.5.0](https://github.com/jkennethcarino/adobo/compare/v1.4.0...v1.5.0) (2026-09-19)\n\n### Bug Fixes\n\n* **Gboard - Toggle feature flags:** Allow resetting feature flag's default value ([5b82dc7](https://github.com/jkennethcarino/adobo/commit/5b82dc750a144dfd29a6174d36166d15cad4e1b8))\n\n### Features\n\n* **Reddit:** Add `Enable guest mode` patch ([a034454](https://github.com/jkennethcarino/adobo/commit/a03445494c27a07cfb80c19c86c6044ff92ec168))\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.36.0` ([8037af0](https://github.com/jkennethcarino/adobo/commit/8037af0ec2f26d0b3cb4a41864e5358155fee005))\n* **Reddit:** Add support for `2026.37.0` ([8c54c39](https://github.com/jkennethcarino/adobo/commit/8c54c39422a209795d972a64ed9a63e82610687a))\n* **Reddit:** Add support for `2026.38.0` ([d326d45](https://github.com/jkennethcarino/adobo/commit/d326d4525898ab9730f7b4fb894f85b924e0f786))\n",
       "history": [
+        {
+          "tag": "v1.5.0-dev.4",
+          "publishedAt": "2026-09-19T15:22:24Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.4",
+          "changelog": "## [1.5.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.3...v1.5.0-dev.4) (2026-09-19)\n\n### Bug Fixes\n\n* **Gboard - Toggle feature flags:** Allow resetting feature flag's default value ([5b82dc7](https://github.com/jkennethcarino/adobo/commit/5b82dc750a144dfd29a6174d36166d15cad4e1b8))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.5.0-dev.3",
+          "publishedAt": "2026-09-19T14:53:33Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.3",
+          "changelog": "## [1.5.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.2...v1.5.0-dev.3) (2026-09-19)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.36.0` ([8037af0](https://github.com/jkennethcarino/adobo/commit/8037af0ec2f26d0b3cb4a41864e5358155fee005))\n* **Reddit:** Add support for `2026.37.0` ([8c54c39](https://github.com/jkennethcarino/adobo/commit/8c54c39422a209795d972a64ed9a63e82610687a))\n* **Reddit:** Add support for `2026.38.0` ([d326d45](https://github.com/jkennethcarino/adobo/commit/d326d4525898ab9730f7b4fb894f85b924e0f786))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.5.0-dev.2",
+          "publishedAt": "2026-09-06T15:04:24Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.2",
+          "changelog": "## [1.5.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.5.0-dev.1",
           "publishedAt": "2026-09-06T11:29:28Z",
           "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.1",
           "changelog": "## [1.5.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.4.0...v1.5.0-dev.1) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Enable guest mode` patch ([a034454](https://github.com/jkennethcarino/adobo/commit/a03445494c27a07cfb80c19c86c6044ff92ec168))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.4.0",
-          "publishedAt": "2026-08-31T17:13:01Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.4.0",
-          "changelog": "## [1.4.0](https://github.com/jkennethcarino/adobo/compare/v1.3.0...v1.4.0) (2026-08-31)\n\n### Bug Fixes\n\n* **Disable mobile ads:** Block AdMob's app open ad and mediation ([63cf9ca](https://github.com/jkennethcarino/adobo/commit/63cf9ca17253621dd16ed0971b7e9598be8e79a3))\n* **Disable mobile ads:** Block Bytedance Pangle's ad entry points ([c3bde04](https://github.com/jkennethcarino/adobo/commit/c3bde042f5bc260bf644eec94ebb9becf43ac161))\n* **Reddit - Hide Ask button from search bar:** Remove new Ask pill ([3cf0852](https://github.com/jkennethcarino/adobo/commit/3cf0852b3413952b6eaf435b57938fa2799c6256))\n\n### Features\n\n* Add `Remove screenshot detection` patch ([02a62c0](https://github.com/jkennethcarino/adobo/commit/02a62c093f93202f340da698dccf0ce4d843e1bb))\n* **Gboard:** Add `Enable extended clipboard history` patch ([de234b7](https://github.com/jkennethcarino/adobo/commit/de234b7de9e77a2c88e496c7d1f8b2adcdad422e))\n* **Reddit:** Add `Disable home feed refresh on back to exit` patch ([9cf2579](https://github.com/jkennethcarino/adobo/commit/9cf2579ed7c0442b346b580a7ecc3c1b8557521e))\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.32.0` ([b6bde3a](https://github.com/jkennethcarino/adobo/commit/b6bde3aa67a440538870073b2b7ef836eb4b25b6))\n* **Reddit:** Add support for `2026.33.1` ([26da26a](https://github.com/jkennethcarino/adobo/commit/26da26a3b915268fa2e39fde3e157a92d33a537e))\n* **Reddit:** Add support for `2026.33.2` ([12a3efc](https://github.com/jkennethcarino/adobo/commit/12a3efc0fa0a00b27f4379b9e8203b20ec6558d4))\n* **Reddit:** Add support for `2026.34.0` ([6db6319](https://github.com/jkennethcarino/adobo/commit/6db6319aa138d6589fb89c5fd224548fb652024e))\n* **Reddit:** Add support for `2026.35.0` ([965fd7d](https://github.com/jkennethcarino/adobo/commit/965fd7d92e01b9b93d104efd29f6ce1af422cc72))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.4.0-dev.6",
-          "publishedAt": "2026-08-31T17:05:32Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.4.0-dev.6",
-          "changelog": "## [1.4.0-dev.6](https://github.com/jkennethcarino/adobo/compare/v1.4.0-dev.5...v1.4.0-dev.6) (2026-08-31)\n\n### Features\n\n* **Reddit:** Add `Disable home feed refresh on back to exit` patch ([9cf2579](https://github.com/jkennethcarino/adobo/commit/9cf2579ed7c0442b346b580a7ecc3c1b8557521e))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.4.0-dev.5",
-          "publishedAt": "2026-08-31T14:59:08Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.4.0-dev.5",
-          "changelog": "## [1.4.0-dev.5](https://github.com/jkennethcarino/adobo/compare/v1.4.0-dev.4...v1.4.0-dev.5) (2026-08-31)\n\n### Features\n\n* **Gboard:** Add `Enable extended clipboard history` patch ([de234b7](https://github.com/jkennethcarino/adobo/commit/de234b7de9e77a2c88e496c7d1f8b2adcdad422e))\n",
           "prerelease": true
         }
       ]
