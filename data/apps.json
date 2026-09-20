@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T12:07:41Z",
+  "generatedAt": "2026-09-20T16:24:23Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -143,11 +143,18 @@
       "repo": "adobo",
       "label": "🥘 Adobo",
       "repoUrl": "https://github.com/jkennethcarino/adobo",
-      "latestTag": "v1.5.0",
-      "latestPublishedAt": "2026-09-19T15:26:04Z",
-      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0",
-      "changelog": "## [1.5.0](https://github.com/jkennethcarino/adobo/compare/v1.4.0...v1.5.0) (2026-09-19)\n\n### Bug Fixes\n\n* **Gboard - Toggle feature flags:** Allow resetting feature flag's default value ([5b82dc7](https://github.com/jkennethcarino/adobo/commit/5b82dc750a144dfd29a6174d36166d15cad4e1b8))\n\n### Features\n\n* **Reddit:** Add `Enable guest mode` patch ([a034454](https://github.com/jkennethcarino/adobo/commit/a03445494c27a07cfb80c19c86c6044ff92ec168))\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.36.0` ([8037af0](https://github.com/jkennethcarino/adobo/commit/8037af0ec2f26d0b3cb4a41864e5358155fee005))\n* **Reddit:** Add support for `2026.37.0` ([8c54c39](https://github.com/jkennethcarino/adobo/commit/8c54c39422a209795d972a64ed9a63e82610687a))\n* **Reddit:** Add support for `2026.38.0` ([d326d45](https://github.com/jkennethcarino/adobo/commit/d326d4525898ab9730f7b4fb894f85b924e0f786))\n",
+      "latestTag": "v1.6.0-dev.1",
+      "latestPublishedAt": "2026-09-20T16:13:26Z",
+      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.1",
+      "changelog": "## [1.6.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.5.0...v1.6.0-dev.1) (2026-09-20)\n\n### Features\n\n* **Reddit:** Add `Hide crosspost` patch ([9932fe9](https://github.com/jkennethcarino/adobo/commit/9932fe9982b8c7b237fd0bd9bb39de6300c34c85))\n",
       "history": [
+        {
+          "tag": "v1.5.0",
+          "publishedAt": "2026-09-19T15:26:04Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0",
+          "changelog": "## [1.5.0](https://github.com/jkennethcarino/adobo/compare/v1.4.0...v1.5.0) (2026-09-19)\n\n### Bug Fixes\n\n* **Gboard - Toggle feature flags:** Allow resetting feature flag's default value ([5b82dc7](https://github.com/jkennethcarino/adobo/commit/5b82dc750a144dfd29a6174d36166d15cad4e1b8))\n\n### Features\n\n* **Reddit:** Add `Enable guest mode` patch ([a034454](https://github.com/jkennethcarino/adobo/commit/a03445494c27a07cfb80c19c86c6044ff92ec168))\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.36.0` ([8037af0](https://github.com/jkennethcarino/adobo/commit/8037af0ec2f26d0b3cb4a41864e5358155fee005))\n* **Reddit:** Add support for `2026.37.0` ([8c54c39](https://github.com/jkennethcarino/adobo/commit/8c54c39422a209795d972a64ed9a63e82610687a))\n* **Reddit:** Add support for `2026.38.0` ([d326d45](https://github.com/jkennethcarino/adobo/commit/d326d4525898ab9730f7b4fb894f85b924e0f786))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.5.0-dev.4",
           "publishedAt": "2026-09-19T15:22:24Z",
@@ -168,13 +175,6 @@
           "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.2",
           "changelog": "## [1.5.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.5.0-dev.1",
-          "publishedAt": "2026-09-06T11:29:28Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.1",
-          "changelog": "## [1.5.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.4.0...v1.5.0-dev.1) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Enable guest mode` patch ([a034454](https://github.com/jkennethcarino/adobo/commit/a03445494c27a07cfb80c19c86c6044ff92ec168))\n",
-          "prerelease": true
         }
       ]
     },
@@ -183,11 +183,18 @@
       "repo": "morphe-patches",
       "label": "⚡ Rushiranpise",
       "repoUrl": "https://github.com/rushiranpise/morphe-patches",
-      "latestTag": "v1.22.0",
-      "latestPublishedAt": "2026-09-15T20:58:05Z",
-      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0",
-      "changelog": "## [1.22.0](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### ✨ New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
+      "latestTag": "v1.23.0-dev.1",
+      "latestPublishedAt": "2026-09-20T12:55:20Z",
+      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0-dev.1",
+      "changelog": "## [1.23.0-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0-dev.1) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* remove Relane patches ([6e3fd04](https://github.com/rushiranpise/morphe-patches/commit/6e3fd045b219ac3650cacda5c9ba2a2ef7562ed2)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n\n### ✨ New Features\n\n* **life360:** add themed icon patch with adaptive support ([e7301d3](https://github.com/rushiranpise/morphe-patches/commit/e7301d324e4386f470e4299c44f10f8f959de950))\n",
       "history": [
+        {
+          "tag": "v1.22.0",
+          "publishedAt": "2026-09-15T20:58:05Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0",
+          "changelog": "## [1.22.0](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### ✨ New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.22.0-dev.1",
           "publishedAt": "2026-09-15T20:50:28Z",
@@ -208,13 +215,6 @@
           "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5-dev.1",
           "changelog": "## [1.21.5-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5-dev.1) (2026-09-08)\n\n### 🐛 Bug Fixes\n\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.21.4",
-          "publishedAt": "2026-09-01T12:53:18Z",
-          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.4",
-          "changelog": "## [1.21.4](https://github.com/rushiranpise/morphe-patches/compare/v1.21.3...v1.21.4) (2026-09-01)\n\n### 🐛 Bug Fixes\n\n* remove drivvo ([9863742](https://github.com/rushiranpise/morphe-patches/commit/98637422416922553c37ec557a4f2327b95f9cf1))\n* remove pixel patches ([4036563](https://github.com/rushiranpise/morphe-patches/commit/40365632f5d5e9d50f1b35f6288109d743447236))\n* remove tradingview ([4806a8f](https://github.com/rushiranpise/morphe-patches/commit/4806a8feb3cd5abe5fb801e2d0d87613a12c0b10))\n* remove universal patches ([55f11fe](https://github.com/rushiranpise/morphe-patches/commit/55f11feae7749990252dfe7f1aede8536aab062a))\n",
-          "prerelease": false
         }
       ]
     },
@@ -223,37 +223,37 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.6.0-dev.6",
-      "latestPublishedAt": "2026-09-06T05:21:07Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.6",
-      "changelog": "## [1.6.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.5...v1.6.0-dev.6) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** replace crashing D() tail hook with nearest-mode head const ([1432277](https://github.com/dh6k/morphe-patches/commit/1432277e053edbdddd417e529917153ee4c9ddc6))\n",
+      "latestTag": "v1.6.0",
+      "latestPublishedAt": "2026-09-20T14:57:59Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0",
+      "changelog": "## [1.6.0](https://github.com/dh6k/morphe-patches/compare/v1.5.0...v1.6.0) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **brave:** tolerate Origin restart-callback signature drift on 1.98.x ([63d88bc](https://github.com/dh6k/morphe-patches/commit/63d88bce30601c792c701cdc56482305189ac8b7)), closes [#18](https://github.com/dh6k/morphe-patches/issues/18) [#18](https://github.com/dh6k/morphe-patches/issues/18)\n* **build:** keep patchLocalApk providers lazy for CI configure ([d8f97ee](https://github.com/dh6k/morphe-patches/commit/d8f97eea2f6c648eff6a08f5c7f984709805964b))\n* **titanium:** make notification toggle actually hide ([f295b0e](https://github.com/dh6k/morphe-patches/commit/f295b0e39300248be67620713c3073c64ce62a3b))\n* **titanium:** replace crashing D() tail hook with nearest-mode head const ([1432277](https://github.com/dh6k/morphe-patches/commit/1432277e053edbdddd417e529917153ee4c9ddc6))\n* **titanium:** revert conditional pins that break smali parsing ([f76ab92](https://github.com/dh6k/morphe-patches/commit/f76ab92913cacc4d009f5484a3ab1be9f0ac090d))\n\n### ✨ New Features\n\n* **quetta:** force highest refresh rate with local fingerprints ([52f2c6f](https://github.com/dh6k/morphe-patches/commit/52f2c6f2a6b310b41dba3df99b12b8d5f713a439))\n* **titanium:** force highest refresh rate ([473eaae](https://github.com/dh6k/morphe-patches/commit/473eaaeadd5b1a7cff701153cb4573353354a9ac))\n* **titanium:** notification options for keep-alive patch ([c6b5620](https://github.com/dh6k/morphe-patches/commit/c6b5620da46cd9d6f33e1d7f64bb6467ab311260))\n\n### 🔧 Improvements\n\n* **titanium:** conditionalize keep-alive pins and streamline notification ([8ad79b1](https://github.com/dh6k/morphe-patches/commit/8ad79b1b7ca7203b1dc1479ce6fe81454502f31b))\n",
       "history": [
+        {
+          "tag": "v1.6.0-dev.8",
+          "publishedAt": "2026-09-20T14:51:07Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.8",
+          "changelog": "## [1.6.0-dev.8](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.7...v1.6.0-dev.8) (2026-09-20)\n\n### ✨ New Features\n\n* **quetta:** force highest refresh rate with local fingerprints ([52f2c6f](https://github.com/dh6k/morphe-patches/commit/52f2c6f2a6b310b41dba3df99b12b8d5f713a439))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.6.0-dev.7",
+          "publishedAt": "2026-09-20T13:54:49Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.7",
+          "changelog": "## [1.6.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.6...v1.6.0-dev.7) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **brave:** tolerate Origin restart-callback signature drift on 1.98.x ([63d88bc](https://github.com/dh6k/morphe-patches/commit/63d88bce30601c792c701cdc56482305189ac8b7)), closes [#18](https://github.com/dh6k/morphe-patches/issues/18) [#18](https://github.com/dh6k/morphe-patches/issues/18)\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.6.0-dev.6",
+          "publishedAt": "2026-09-06T05:21:07Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.6",
+          "changelog": "## [1.6.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.5...v1.6.0-dev.6) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** replace crashing D() tail hook with nearest-mode head const ([1432277](https://github.com/dh6k/morphe-patches/commit/1432277e053edbdddd417e529917153ee4c9ddc6))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.6.0-dev.5",
           "publishedAt": "2026-09-06T04:51:02Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.5",
           "changelog": "## [1.6.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.4...v1.6.0-dev.5) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **build:** keep patchLocalApk providers lazy for CI configure ([d8f97ee](https://github.com/dh6k/morphe-patches/commit/d8f97eea2f6c648eff6a08f5c7f984709805964b))\n\n### ✨ New Features\n\n* **titanium:** force highest refresh rate ([473eaae](https://github.com/dh6k/morphe-patches/commit/473eaaeadd5b1a7cff701153cb4573353354a9ac))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.6.0-dev.4",
-          "publishedAt": "2026-09-06T03:30:35Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.4",
-          "changelog": "## [1.6.0-dev.4](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.3...v1.6.0-dev.4) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** revert conditional pins that break smali parsing ([f76ab92](https://github.com/dh6k/morphe-patches/commit/f76ab92913cacc4d009f5484a3ab1be9f0ac090d))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.6.0-dev.3",
-          "publishedAt": "2026-09-06T03:17:35Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.3",
-          "changelog": "## [1.6.0-dev.3](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.2...v1.6.0-dev.3) (2026-09-06)\n\n### 🔧 Improvements\n\n* **titanium:** conditionalize keep-alive pins and streamline notification ([8ad79b1](https://github.com/dh6k/morphe-patches/commit/8ad79b1b7ca7203b1dc1479ce6fe81454502f31b))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.6.0-dev.2",
-          "publishedAt": "2026-09-06T02:44:20Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.2",
-          "changelog": "## [1.6.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.1...v1.6.0-dev.2) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** make notification toggle actually hide ([f295b0e](https://github.com/dh6k/morphe-patches/commit/f295b0e39300248be67620713c3073c64ce62a3b))\n",
           "prerelease": true
         }
       ]
