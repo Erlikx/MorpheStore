@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T06:52:29Z",
+  "generatedAt": "2026-09-20T12:07:41Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.29.1",
-      "latestPublishedAt": "2026-09-19T22:23:02Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.29.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** drop legacy 12.25 targets ([e4a1e2e](https://github.com/crimera/piko/commit/e4a1e2e5026d73277b64b7a65d2d28dc04d69dad))",
+      "latestTag": "v3.30.0",
+      "latestPublishedAt": "2026-09-20T08:36:36Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.30.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** shrink gallery loading spinner (32dp, 4dp stroke) ([3d3077a](https://github.com/crimera/piko/commit/3d3077ae9cfb76c843f66918f7b35f891f62f2ed))\n* **Twitter:** custom sharing domain patch support for 12.28 alpha 4 ([d109ef7](https://github.com/crimera/piko/commit/d109ef768eb376dd44f8eec1a2a91eb568790b0f))\n* **Twitter:** resolve reply bar renderer across test-tag relocation ([99a39dd](https://github.com/crimera/piko/commit/99a39ddca08d86e2380b5ed0f00c5787645704a2))\n* **Twitter:** accept hoisted divider lambda in module divider matcher ([513d36b](https://github.com/crimera/piko/commit/513d36bc409bca8735c8de28b1082fd2457a6701))\n* **Twitter:** derive gallery photo navigation from call graph ([61ad517](https://github.com/crimera/piko/commit/61ad5176fef904dc3f351bc34851e266d7d9a792))\n* **Twitter:** match inline-action renderer semantically, resolve slots dynamically ([b1fe23a](https://github.com/crimera/piko/commit/b1fe23a9aab7393b62225abf08e4e7884c5b5b63))\n* **Twitter:** reserve explicit registers for inline-actions setting read ([7772b6e](https://github.com/crimera/piko/commit/7772b6e0b59343a733e07a81e81222cf9d0da2d5))\n* **Twitter:** add bounded gallery thumbnail cache with developer stats screen ([f7377af](https://github.com/crimera/piko/commit/f7377afe26c7ee605fdb7002f0959357d466919e))\n* **Twitter:** route profile photo pagination to bottom paginator ([a5855d4](https://github.com/crimera/piko/commit/a5855d400454ec9e533ae3eba01afa3ad09cb2ad))\n\n### ✨ New Features\n* **Twitter:** experimental support for 12.28.0-alpha.04 ([8e97eae](https://github.com/crimera/piko/commit/8e97eae57a18d6865d61661fed71c1dd4a07d231))",
       "history": [
+        {
+          "tag": "v3.29.1",
+          "publishedAt": "2026-09-19T22:23:02Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.29.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** drop legacy 12.25 targets ([e4a1e2e](https://github.com/crimera/piko/commit/e4a1e2e5026d73277b64b7a65d2d28dc04d69dad))",
+          "prerelease": false
+        },
         {
           "tag": "v3.29.0",
           "publishedAt": "2026-09-19T14:55:15Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-18T23:15:18Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.27.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter:** add 12.27 prod ([4821dd1](https://github.com/crimera/piko/commit/4821dd10a7cdbc97a8d78e72e2b2b2b01b471d38))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.27.0",
-          "publishedAt": "2026-09-18T01:21:08Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.27.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** hide badges from custom navigation bar items ([6c27e79](https://github.com/crimera/piko/commit/6c27e79dee4e6be5a1bf03e9c85b333f5e14781c))",
           "prerelease": false
         }
       ]
