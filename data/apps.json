@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T18:58:45Z",
+  "generatedAt": "2026-09-20T21:27:07Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.44.0-dev.9",
-      "latestPublishedAt": "2026-09-19T15:08:08Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.9",
-      "changelog": "## [1.44.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.8...v1.44.0-dev.9) (2026-09-19)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Controls fade-in animation doesn't work ([396a0bc](https://github.com/MorpheApp/morphe-patches/commit/396a0bcd333423bb17cbe501599e70d80591f8d0))\n* **YouTube - Minimal miniplayer:** Interpolate minimizing transitions. ([13e653a](https://github.com/MorpheApp/morphe-patches/commit/13e653a68943b548728d85042e6785058b3cedb2))\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.38.0` ([404fc59](https://github.com/MorpheApp/morphe-patches/commit/404fc599fa082fd958780450a1ec57476295c712))\n",
+      "latestTag": "v1.44.0-dev.12",
+      "latestPublishedAt": "2026-09-20T20:57:18Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.12",
+      "changelog": "## [1.44.0-dev.12](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.11...v1.44.0-dev.12) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Navigation bar:** Use black system bars in Shorts ([#3088](https://github.com/MorpheApp/morphe-patches/issues/3088)) ([e88ec7d](https://github.com/MorpheApp/morphe-patches/commit/e88ec7db71993dd412f656a2c5d988edc07e00a1))\n* **YouTube:** Hide Shorts captions flyout item ([#3082](https://github.com/MorpheApp/morphe-patches/issues/3082)) ([a0d8171](https://github.com/MorpheApp/morphe-patches/commit/a0d8171790c2f6f50dfb8588d973697f731785c8))\n\n### ✨ New Features\n\n* **YouTube - Miniplayer:** Add option to hide Minimal 2 miniplayer title ([#3087](https://github.com/MorpheApp/morphe-patches/issues/3087)) ([6e1ca28](https://github.com/MorpheApp/morphe-patches/commit/6e1ca285e43094004fa6b828d4482ddab6949ff6))\n",
       "history": [
+        {
+          "tag": "v1.44.0-dev.9",
+          "publishedAt": "2026-09-19T15:08:08Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.9",
+          "changelog": "## [1.44.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.8...v1.44.0-dev.9) (2026-09-19)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Controls fade-in animation doesn't work ([396a0bc](https://github.com/MorpheApp/morphe-patches/commit/396a0bcd333423bb17cbe501599e70d80591f8d0))\n* **YouTube - Minimal miniplayer:** Interpolate minimizing transitions. ([13e653a](https://github.com/MorpheApp/morphe-patches/commit/13e653a68943b548728d85042e6785058b3cedb2))\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.38.0` ([404fc59](https://github.com/MorpheApp/morphe-patches/commit/404fc599fa082fd958780450a1ec57476295c712))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.44.0-dev.8",
           "publishedAt": "2026-09-19T11:51:27Z",
@@ -47,13 +54,6 @@
           "publishedAt": "2026-09-19T18:45:02Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.11",
           "changelog": "## [1.44.0-dev.11](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.10...v1.44.0-dev.11) (2026-09-19)\n\n### ✨ New Features\n\n* **YouTube - Channel search:** Show the searched channel in the results header ([c0e49d4](https://github.com/MorpheApp/morphe-patches/commit/c0e49d4ba97a5ca79033e379f3f581a395cda7a4))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.44.0-dev.10",
-          "publishedAt": "2026-09-19T15:45:23Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.10",
-          "changelog": "## [1.44.0-dev.10](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.9...v1.44.0-dev.10) (2026-09-19)\n\n### 🚀 Updated App Support\n\n* **YouTube Music:** Add experimental support for `9.37.54` ([04f67ae](https://github.com/MorpheApp/morphe-patches/commit/04f67ae150d23b1c888061e9d723459736f8f52c))\n",
           "prerelease": true
         }
       ]
