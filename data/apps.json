@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T23:25:46Z",
+  "generatedAt": "2026-09-21T01:27:42Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.44.0-dev.12",
-      "latestPublishedAt": "2026-09-20T20:57:18Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.12",
-      "changelog": "## [1.44.0-dev.12](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.11...v1.44.0-dev.12) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Navigation bar:** Use black system bars in Shorts ([#3088](https://github.com/MorpheApp/morphe-patches/issues/3088)) ([e88ec7d](https://github.com/MorpheApp/morphe-patches/commit/e88ec7db71993dd412f656a2c5d988edc07e00a1))\n* **YouTube:** Hide Shorts captions flyout item ([#3082](https://github.com/MorpheApp/morphe-patches/issues/3082)) ([a0d8171](https://github.com/MorpheApp/morphe-patches/commit/a0d8171790c2f6f50dfb8588d973697f731785c8))\n\n### ✨ New Features\n\n* **YouTube - Miniplayer:** Add option to hide Minimal 2 miniplayer title ([#3087](https://github.com/MorpheApp/morphe-patches/issues/3087)) ([6e1ca28](https://github.com/MorpheApp/morphe-patches/commit/6e1ca285e43094004fa6b828d4482ddab6949ff6))\n",
+      "latestTag": "v1.44.0-dev.13",
+      "latestPublishedAt": "2026-09-20T23:51:56Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.13",
+      "changelog": "## [1.44.0-dev.13](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.12...v1.44.0-dev.13) (2026-09-20)\n\n### ✨ New Features\n\n* **YouTube - Return YouTube Dislike:** Show like and dislike counts on the icon only video action bar ([#3075](https://github.com/MorpheApp/morphe-patches/issues/3075)) ([6934e0c](https://github.com/MorpheApp/morphe-patches/commit/6934e0c06dc8e6797f3217e8d609f7a6823b12c9))\n",
       "history": [
+        {
+          "tag": "v1.44.0-dev.12",
+          "publishedAt": "2026-09-20T20:57:18Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.12",
+          "changelog": "## [1.44.0-dev.12](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.11...v1.44.0-dev.12) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Navigation bar:** Use black system bars in Shorts ([#3088](https://github.com/MorpheApp/morphe-patches/issues/3088)) ([e88ec7d](https://github.com/MorpheApp/morphe-patches/commit/e88ec7db71993dd412f656a2c5d988edc07e00a1))\n* **YouTube:** Hide Shorts captions flyout item ([#3082](https://github.com/MorpheApp/morphe-patches/issues/3082)) ([a0d8171](https://github.com/MorpheApp/morphe-patches/commit/a0d8171790c2f6f50dfb8588d973697f731785c8))\n\n### ✨ New Features\n\n* **YouTube - Miniplayer:** Add option to hide Minimal 2 miniplayer title ([#3087](https://github.com/MorpheApp/morphe-patches/issues/3087)) ([6e1ca28](https://github.com/MorpheApp/morphe-patches/commit/6e1ca285e43094004fa6b828d4482ddab6949ff6))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.44.0-dev.9",
           "publishedAt": "2026-09-19T15:08:08Z",
@@ -47,13 +54,6 @@
           "publishedAt": "2026-09-19T09:58:14Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.7",
           "changelog": "## [1.44.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.6...v1.44.0-dev.7) (2026-09-19)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Fully expand the player width during the minimization animation. ([aaa1211](https://github.com/MorpheApp/morphe-patches/commit/aaa1211855d245b44940575dc8f9e3428593bde5))\n* **YouTube - Remove background playback restrictions:** Auto pause when video is loading ([#3060](https://github.com/MorpheApp/morphe-patches/issues/3060)) ([cbffcf3](https://github.com/MorpheApp/morphe-patches/commit/cbffcf3c09bde19ac1e16921cd5f359d1b9430be))\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add experimental support for `21.38.123` ([#3053](https://github.com/MorpheApp/morphe-patches/issues/3053)) ([fd4a726](https://github.com/MorpheApp/morphe-patches/commit/fd4a72611ea561f605085fc1512a91b8084410fe))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.44.0-dev.11",
-          "publishedAt": "2026-09-19T18:45:02Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.11",
-          "changelog": "## [1.44.0-dev.11](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.10...v1.44.0-dev.11) (2026-09-19)\n\n### ✨ New Features\n\n* **YouTube - Channel search:** Show the searched channel in the results header ([c0e49d4](https://github.com/MorpheApp/morphe-patches/commit/c0e49d4ba97a5ca79033e379f3f581a395cda7a4))\n",
           "prerelease": true
         }
       ]
@@ -343,11 +343,25 @@
       "repo": "hoomans-morphe-patches",
       "label": "🎬 Hooman's Patches",
       "repoUrl": "https://github.com/arandomhooman/hoomans-morphe-patches",
-      "latestTag": "v1.52.0",
-      "latestPublishedAt": "2026-09-20T00:18:01Z",
-      "latestUrl": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.52.0",
-      "changelog": "## [1.52.0](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.51.1...v1.52.0) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **tumblr:** guard ad filtering against null items ([41abcaf](https://github.com/arandomhooman/hoomans-morphe-patches/commit/41abcafa6f86e03547817f6479e089e6dd8ad6b1))\n* **twitch:** repair ads and deleted messages ([7db6045](https://github.com/arandomhooman/hoomans-morphe-patches/commit/7db604596da5f1d47123b1e60705b95b492ffda0))\n\n### ✨ New Features\n\n* **twitch:** restore push notifications ([0c11967](https://github.com/arandomhooman/hoomans-morphe-patches/commit/0c11967f4b1a92a3a655d2f0a687193607b383f7))\n",
+      "latestTag": "v1.53.0",
+      "latestPublishedAt": "2026-09-21T00:23:19Z",
+      "latestUrl": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.53.0",
+      "changelog": "## [1.53.0](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.52.1...v1.53.0) (2026-09-21)\n\n### ✨ New Features\n\n* **twitch:** add custom proxy URL option ([1b6c1c1](https://github.com/arandomhooman/hoomans-morphe-patches/commit/1b6c1c12aa748bdcb53afa8a3f61ec549a1ad0e3))\n",
       "history": [
+        {
+          "tag": "v1.52.1",
+          "publishedAt": "2026-09-21T00:09:07Z",
+          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.52.1",
+          "changelog": "## [1.52.1](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.52.0...v1.52.1) (2026-09-21)\n\n### 🐛 Bug Fixes\n\n* **quizlet:** respect textbook answer limits ([c34bf64](https://github.com/arandomhooman/hoomans-morphe-patches/commit/c34bf641031c74b23ccb8d104e942b43705bbb0a))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.52.0",
+          "publishedAt": "2026-09-20T00:18:01Z",
+          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.52.0",
+          "changelog": "## [1.52.0](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.51.1...v1.52.0) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **tumblr:** guard ad filtering against null items ([41abcaf](https://github.com/arandomhooman/hoomans-morphe-patches/commit/41abcafa6f86e03547817f6479e089e6dd8ad6b1))\n* **twitch:** repair ads and deleted messages ([7db6045](https://github.com/arandomhooman/hoomans-morphe-patches/commit/7db604596da5f1d47123b1e60705b95b492ffda0))\n\n### ✨ New Features\n\n* **twitch:** restore push notifications ([0c11967](https://github.com/arandomhooman/hoomans-morphe-patches/commit/0c11967f4b1a92a3a655d2f0a687193607b383f7))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.51.1",
           "publishedAt": "2026-08-25T18:01:14Z",
@@ -360,20 +374,6 @@
           "publishedAt": "2026-08-25T17:51:40Z",
           "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.51.0",
           "changelog": "## [1.51.0](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.50.3...v1.51.0) (2026-08-25)\n\n### ✨ New Features\n\n* add Todoist No date first patch ([e78242a](https://github.com/arandomhooman/hoomans-morphe-patches/commit/e78242ac03618423d1c261848defc6a4382fcdb3))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.50.3",
-          "publishedAt": "2026-08-19T00:30:47Z",
-          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.50.3",
-          "changelog": "## [1.50.3](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.50.2...v1.50.3) (2026-08-19)\n\n### 🐛 Bug Fixes\n\n* drop server-inserted sponsored timeline cards in Tumblr Remove ads ([9e872d0](https://github.com/arandomhooman/hoomans-morphe-patches/commit/9e872d037671e4edb3580c6eb5714ac7de2f169e))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.50.2",
-          "publishedAt": "2026-08-18T17:30:26Z",
-          "url": "https://github.com/arandomhooman/hoomans-morphe-patches/releases/tag/v1.50.2",
-          "changelog": "## [1.50.2](https://github.com/arandomhooman/hoomans-morphe-patches/compare/v1.50.1...v1.50.2) (2026-08-18)\n\n### 🐛 Bug Fixes\n\n* clarify Twitch 7TV and BTTV patch details ([702146d](https://github.com/arandomhooman/hoomans-morphe-patches/commit/702146df60fa1ffc9c8b76ef52ba50510252c625))\n",
           "prerelease": false
         }
       ]
