@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T01:30:31Z",
+  "generatedAt": "2026-09-22T07:30:16Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -383,11 +383,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v3.11.0-dev.3",
-      "latestPublishedAt": "2026-09-21T03:17:20Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0-dev.3",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n",
+      "latestTag": "v3.11.0",
+      "latestPublishedAt": "2026-09-22T06:59:02Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n* **Gboard:** add the `Custom Theme` patch, supporting custom ZIP theme imports and a selection of beautiful themes from Rboard's official repository.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where `Custom Symbols` history entries were incorrectly saved to `Emoticon` history.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n* **Gboard:** 新增 `Custom Theme` Patch，支援匯入自訂 ZIP 主題，也能從 Rboard 官方儲存庫匯入精美主題。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Custom Symbols` 歷史記錄誤寫入 `Emoticon` 歷史記錄的問題。\n",
       "history": [
+        {
+          "tag": "v3.11.0-dev.3",
+          "publishedAt": "2026-09-21T03:17:20Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0-dev.3",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n",
+          "prerelease": true
+        },
         {
           "tag": "v3.11.0-dev.2",
           "publishedAt": "2026-09-18T14:38:25Z",
@@ -408,13 +415,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.10.0",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Backup & Restore` patch for exporting and restoring all patch settings, and for backing up, comparing, and restoring Gboard's PB/XML flag stores.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Backup & Restore` Patch，可匯出與還原所有 Patch 設定，並支援備份、比較及還原 Gboard 的 PB/XML flag store。\n",
           "prerelease": false
-        },
-        {
-          "tag": "v3.10.0-dev.3",
-          "publishedAt": "2026-09-01T22:42:41Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.10.0-dev.3",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Backup & Restore` patch for exporting and restoring all patch settings, and for backing up, comparing, and restoring Gboard's PB/XML flag stores.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Backup & Restore` Patch，可匯出與還原所有 Patch 設定，並支援備份、比較及還原 Gboard 的 PB/XML flag store。\n",
-          "prerelease": true
         }
       ]
     },
