@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T22:45:03Z",
+  "generatedAt": "2026-09-22T01:30:31Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.30.4",
-      "latestPublishedAt": "2026-09-21T12:08:02Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.30.4",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** paginate Photos gallery when first page underfills viewport ([66e2e1c](https://github.com/crimera/piko/commit/66e2e1c3dac43b52e197ac88c2d7878a7fd215ad))",
+      "latestTag": "v3.31.0",
+      "latestPublishedAt": "2026-09-21T23:10:14Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.31.0",
+      "changelog": "### ✨ New Features\n* **Twitter - newx:** long press inline download to download all media ([5888f3a](https://github.com/crimera/piko/commit/5888f3a40b4bad9318d2c3d0aa94755886f9116c))",
       "history": [
+        {
+          "tag": "v3.30.4",
+          "publishedAt": "2026-09-21T12:08:02Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.30.4",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** paginate Photos gallery when first page underfills viewport ([66e2e1c](https://github.com/crimera/piko/commit/66e2e1c3dac43b52e197ac88c2d7878a7fd215ad))",
+          "prerelease": false
+        },
         {
           "tag": "v3.30.3",
           "publishedAt": "2026-09-21T10:46:44Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-20T22:25:41Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.30.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter:** Preserve Photos gallery scroll position ([2498fdf](https://github.com/crimera/piko/commit/2498fdfab06b6e61ef71e69080eb1c4e09f1dde3))\n* **Twitter:** NewX Photos gallery pagination ([0a0ad6a](https://github.com/crimera/piko/commit/0a0ad6a88ccd0d278542e4dc7833ff2fcf3b296b))\n* **Twitter:** open full viewer with post context from gallery taps ([1dcd2ff](https://github.com/crimera/piko/commit/1dcd2ff674cceef3082ddae38da8b8b1b1a2d2d3))\n* **Twitter:** open full screen image in gallery view ([fe9c751](https://github.com/crimera/piko/commit/fe9c751721170a06fd7d11e1f3f34fe92453efd3))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.30.0",
-          "publishedAt": "2026-09-20T08:36:36Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.30.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** shrink gallery loading spinner (32dp, 4dp stroke) ([3d3077a](https://github.com/crimera/piko/commit/3d3077ae9cfb76c843f66918f7b35f891f62f2ed))\n* **Twitter:** custom sharing domain patch support for 12.28 alpha 4 ([d109ef7](https://github.com/crimera/piko/commit/d109ef768eb376dd44f8eec1a2a91eb568790b0f))\n* **Twitter:** resolve reply bar renderer across test-tag relocation ([99a39dd](https://github.com/crimera/piko/commit/99a39ddca08d86e2380b5ed0f00c5787645704a2))\n* **Twitter:** accept hoisted divider lambda in module divider matcher ([513d36b](https://github.com/crimera/piko/commit/513d36bc409bca8735c8de28b1082fd2457a6701))\n* **Twitter:** derive gallery photo navigation from call graph ([61ad517](https://github.com/crimera/piko/commit/61ad5176fef904dc3f351bc34851e266d7d9a792))\n* **Twitter:** match inline-action renderer semantically, resolve slots dynamically ([b1fe23a](https://github.com/crimera/piko/commit/b1fe23a9aab7393b62225abf08e4e7884c5b5b63))\n* **Twitter:** reserve explicit registers for inline-actions setting read ([7772b6e](https://github.com/crimera/piko/commit/7772b6e0b59343a733e07a81e81222cf9d0da2d5))\n* **Twitter:** add bounded gallery thumbnail cache with developer stats screen ([f7377af](https://github.com/crimera/piko/commit/f7377afe26c7ee605fdb7002f0959357d466919e))\n* **Twitter:** route profile photo pagination to bottom paginator ([a5855d4](https://github.com/crimera/piko/commit/a5855d400454ec9e533ae3eba01afa3ad09cb2ad))\n\n### ✨ New Features\n* **Twitter:** experimental support for 12.28.0-alpha.04 ([8e97eae](https://github.com/crimera/piko/commit/8e97eae57a18d6865d61661fed71c1dd4a07d231))",
           "prerelease": false
         }
       ]
