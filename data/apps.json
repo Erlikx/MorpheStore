@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T23:43:40Z",
+  "generatedAt": "2026-09-23T04:02:45Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.33.0",
-      "latestPublishedAt": "2026-09-22T21:45:18Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.33.0",
-      "changelog": "### ✨ New Features\n* **Twitter:** add support for 12.28.0-prod.01 ([f77d602](https://github.com/crimera/piko/commit/f77d6029120c16c298eb54cc001599de444c216a))",
+      "latestTag": "v3.33.1",
+      "latestPublishedAt": "2026-09-22T23:46:59Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.33.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** rename inline download template token to userName ([c0dd037](https://github.com/crimera/piko/commit/c0dd037aa96ce20b538b523d2af5baae58890e67))",
       "history": [
+        {
+          "tag": "v3.33.0",
+          "publishedAt": "2026-09-22T21:45:18Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.33.0",
+          "changelog": "### ✨ New Features\n* **Twitter:** add support for 12.28.0-prod.01 ([f77d602](https://github.com/crimera/piko/commit/f77d6029120c16c298eb54cc001599de444c216a))",
+          "prerelease": false
+        },
         {
           "tag": "v3.32.0",
           "publishedAt": "2026-09-22T21:08:04Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-21T12:08:02Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.30.4",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter:** paginate Photos gallery when first page underfills viewport ([66e2e1c](https://github.com/crimera/piko/commit/66e2e1c3dac43b52e197ac88c2d7878a7fd215ad))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.30.3",
-          "publishedAt": "2026-09-21T10:46:44Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.30.3",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** share-image field-walk parent resolution for B union ([1512f9f](https://github.com/crimera/piko/commit/1512f9f487ef84a4212bfa4ed524357d86699945))\n* **Twitter - newx:** share-image explicit spatial c() rect + strong bounds map ([e47559f](https://github.com/crimera/piko/commit/e47559ffb72adb1b52a7f064f329807a178deb75))",
           "prerelease": false
         }
       ]
@@ -223,11 +223,18 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.7.0-dev.1",
-      "latestPublishedAt": "2026-09-22T19:16:12Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.1",
-      "changelog": "## [1.7.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.6.0...v1.7.0-dev.1) (2026-09-22)\n\n### ✨ New Features\n\n* **brave:** custom NTP wallpaper patch (alpha, default off) ([387a449](https://github.com/dh6k/morphe-patches/commit/387a44977241523f2b8cab985ac76dd4e2a290a0))\n",
+      "latestTag": "v1.7.0-dev.2",
+      "latestPublishedAt": "2026-09-23T04:00:24Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.2",
+      "changelog": "## [1.7.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.1...v1.7.0-dev.2) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** avoid param-register clobber in NTP wallpaper prologue ([62132b9](https://github.com/dh6k/morphe-patches/commit/62132b919f54d5cd6194cb29de87fce38f12a41c))\n",
       "history": [
+        {
+          "tag": "v1.7.0-dev.1",
+          "publishedAt": "2026-09-22T19:16:12Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.1",
+          "changelog": "## [1.7.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.6.0...v1.7.0-dev.1) (2026-09-22)\n\n### ✨ New Features\n\n* **brave:** custom NTP wallpaper patch (alpha, default off) ([387a449](https://github.com/dh6k/morphe-patches/commit/387a44977241523f2b8cab985ac76dd4e2a290a0))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.6.0",
           "publishedAt": "2026-09-20T14:57:59Z",
@@ -247,13 +254,6 @@
           "publishedAt": "2026-09-20T13:54:49Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.7",
           "changelog": "## [1.6.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.6...v1.6.0-dev.7) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* **brave:** tolerate Origin restart-callback signature drift on 1.98.x ([63d88bc](https://github.com/dh6k/morphe-patches/commit/63d88bce30601c792c701cdc56482305189ac8b7)), closes [#18](https://github.com/dh6k/morphe-patches/issues/18) [#18](https://github.com/dh6k/morphe-patches/issues/18)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.6.0-dev.6",
-          "publishedAt": "2026-09-06T05:21:07Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.6.0-dev.6",
-          "changelog": "## [1.6.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.6.0-dev.5...v1.6.0-dev.6) (2026-09-06)\n\n### 🐛 Bug Fixes\n\n* **titanium:** replace crashing D() tail hook with nearest-mode head const ([1432277](https://github.com/dh6k/morphe-patches/commit/1432277e053edbdddd417e529917153ee4c9ddc6))\n",
           "prerelease": true
         }
       ]
