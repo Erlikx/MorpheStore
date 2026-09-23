@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T14:20:53Z",
+  "generatedAt": "2026-09-23T18:32:06Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.45.0-dev.4",
-      "latestPublishedAt": "2026-09-23T12:20:36Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.4",
-      "changelog": "## [1.45.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.3...v1.45.0-dev.4) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube  - Voice over translation:** Add missing accessibility labels and Voice over translation button state ([#3203](https://github.com/MorpheApp/morphe-patches/issues/3203)) ([d99679b](https://github.com/MorpheApp/morphe-patches/commit/d99679b50dc6f19a2feffaa7f5a8940a9d83da94))\n* **YouTube - Custom branding:** Do not ask which app to use for app shortcut actions ([#3204](https://github.com/MorpheApp/morphe-patches/issues/3204)) ([0a2f0e0](https://github.com/MorpheApp/morphe-patches/commit/0a2f0e0f487512d6fd5f0c97ca83ad061859988c))\n* **YouTube - Return YouTube Dislike:** Do not show dislikes on the share and comment buttons of community posts ([31b657c](https://github.com/MorpheApp/morphe-patches/commit/31b657c5482def040a368b1d4661db704249db50))\n* **YouTube Music - Return YouTube Dislike:** Dislike count is black when the device uses the light theme ([7e7e15d](https://github.com/MorpheApp/morphe-patches/commit/7e7e15d8e0796a96d615e26ea66ac771fa068321))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** Add new provider ([#3174](https://github.com/MorpheApp/morphe-patches/issues/3174)) ([1bc710e](https://github.com/MorpheApp/morphe-patches/commit/1bc710e371eb89e663acaadb415c497b7829fe1e))\n",
+      "latestTag": "v1.45.0-dev.5",
+      "latestPublishedAt": "2026-09-23T15:12:02Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.5",
+      "changelog": "## [1.45.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.4...v1.45.0-dev.5) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Playback speed:** Music videos do not play at 1x speed ([#3210](https://github.com/MorpheApp/morphe-patches/issues/3210)) ([1c7086d](https://github.com/MorpheApp/morphe-patches/commit/1c7086da6270a723da370f89440d70475f96c888))\n",
       "history": [
+        {
+          "tag": "v1.45.0-dev.4",
+          "publishedAt": "2026-09-23T12:20:36Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.4",
+          "changelog": "## [1.45.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.3...v1.45.0-dev.4) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube  - Voice over translation:** Add missing accessibility labels and Voice over translation button state ([#3203](https://github.com/MorpheApp/morphe-patches/issues/3203)) ([d99679b](https://github.com/MorpheApp/morphe-patches/commit/d99679b50dc6f19a2feffaa7f5a8940a9d83da94))\n* **YouTube - Custom branding:** Do not ask which app to use for app shortcut actions ([#3204](https://github.com/MorpheApp/morphe-patches/issues/3204)) ([0a2f0e0](https://github.com/MorpheApp/morphe-patches/commit/0a2f0e0f487512d6fd5f0c97ca83ad061859988c))\n* **YouTube - Return YouTube Dislike:** Do not show dislikes on the share and comment buttons of community posts ([31b657c](https://github.com/MorpheApp/morphe-patches/commit/31b657c5482def040a368b1d4661db704249db50))\n* **YouTube Music - Return YouTube Dislike:** Dislike count is black when the device uses the light theme ([7e7e15d](https://github.com/MorpheApp/morphe-patches/commit/7e7e15d8e0796a96d615e26ea66ac771fa068321))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** Add new provider ([#3174](https://github.com/MorpheApp/morphe-patches/issues/3174)) ([1bc710e](https://github.com/MorpheApp/morphe-patches/commit/1bc710e371eb89e663acaadb415c497b7829fe1e))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.45.0-dev.3",
           "publishedAt": "2026-09-22T20:09:06Z",
@@ -48,13 +55,6 @@
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.1",
           "changelog": "## [1.45.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0...v1.45.0-dev.1) (2026-09-22)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Comments filter:** Restored chat button page indicator ([5644496](https://github.com/MorpheApp/morphe-patches/commit/5644496b457b29cad2799c3c2cbc19cb422f0cab))\n* **YouTube - Legacy player controls:** Preserve end screen on 21.36+ ([#3121](https://github.com/MorpheApp/morphe-patches/issues/3121)) ([b895285](https://github.com/MorpheApp/morphe-patches/commit/b895285b2aa0e4cab6bb23226e129c62d517c670))\n* **YouTube - Return YouTube Dislike:** Show dislikes on tablet layout ([#3153](https://github.com/MorpheApp/morphe-patches/issues/3153)) ([7835519](https://github.com/MorpheApp/morphe-patches/commit/7835519c42a656c2d30122dcd97fb27dd12b0b87))\n* **YouTube - SponsorBlock:** Preserve exact video end for segment markers ([#3157](https://github.com/MorpheApp/morphe-patches/issues/3157)) ([a860f5b](https://github.com/MorpheApp/morphe-patches/commit/a860f5bdbce792254617fb31d424c02521c62c6f))\n* **YouTube Music - Third-party lyrics:** Do not cover comments panel ([#3155](https://github.com/MorpheApp/morphe-patches/issues/3155)) ([50e4e65](https://github.com/MorpheApp/morphe-patches/commit/50e4e65ef15e28586ec55fae51da0bb03ae392d9))\n* **YouTube Music - Third-party lyrics:** Reload lyrics when video changes ([#3148](https://github.com/MorpheApp/morphe-patches/issues/3148)) ([2920175](https://github.com/MorpheApp/morphe-patches/commit/29201754faeec713fa2fc43725527062160f8c0c))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** Add translation language ([#3128](https://github.com/MorpheApp/morphe-patches/issues/3128)) ([7349cb6](https://github.com/MorpheApp/morphe-patches/commit/7349cb691635e2a506163aa9fd5813f0b73c4e3f))\n* **YouTube Music - Third-party lyrics:** Keep screen on while viewing lyrics ([#3127](https://github.com/MorpheApp/morphe-patches/issues/3127)) ([cb4df9a](https://github.com/MorpheApp/morphe-patches/commit/cb4df9acf11249de66477ce9764ff29fbe41f9ca))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.44.0",
-          "publishedAt": "2026-09-21T15:11:56Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0",
-          "changelog": "## [1.44.0](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0...v1.44.0) (2026-09-21)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **Reddit - App icon:** Support changing icon on cloned installs ([22c4443](https://github.com/MorpheApp/morphe-patches/commit/22c4443912d60641e710a7a12c4dfc0c88ab8100))\r\n* **YouTube - Channel search:** Search is scoped to a channel after leaving its page ([#2997](https://github.com/MorpheApp/morphe-patches/issues/2997)) ([3cc051b](https://github.com/MorpheApp/morphe-patches/commit/3cc051bfffaaee21a579a059a9be198b6d887f74))\r\n* **YouTube - Comments:** Hide new comments carousel ([#3110](https://github.com/MorpheApp/morphe-patches/issues/3110)) ([b733f2e](https://github.com/MorpheApp/morphe-patches/commit/b733f2ef05ff798d4b9caba0e6f6c90e67bbc6f3))\r\n* **YouTube - GmsCore support:** \"Play Protect certification\" screen is shown on startup ([#2977](https://github.com/MorpheApp/morphe-patches/issues/2977)) ([e250326](https://github.com/MorpheApp/morphe-patches/commit/e25032649908890ae848ee012befbb266deb08e8))\r\n* **YouTube - Hide ads:** Hide new product cards ([#3103](https://github.com/MorpheApp/morphe-patches/issues/3103)) ([ea4a310](https://github.com/MorpheApp/morphe-patches/commit/ea4a310f1a06bf60804d774fcd40219a2a93aaca))\r\n* **YouTube - Hide layout components:** Hide Auto-dubbed label in feed ([#3101](https://github.com/MorpheApp/morphe-patches/issues/3101)) ([5e2af7f](https://github.com/MorpheApp/morphe-patches/commit/5e2af7fbed2e35123c4a4a82c47b0dbb4bd46bbb))\r\n* **YouTube - Hide layout components:** Hide Community button in search ([#3112](https://github.com/MorpheApp/morphe-patches/issues/3112)) ([9b3d122](https://github.com/MorpheApp/morphe-patches/commit/9b3d1222cd9199532835dfe9224c738a96fd0a84))\r\n* **YouTube - Hide layout components:** Hide movie shelf in search results ([#2933](https://github.com/MorpheApp/morphe-patches/issues/2933)) ([032e0f5](https://github.com/MorpheApp/morphe-patches/commit/032e0f51f6ccf2ebbaff0c4d57f2f12b32bd8be8))\r\n* **YouTube - Hide layout components:** Hide new expandable cards ([#3102](https://github.com/MorpheApp/morphe-patches/issues/3102)) ([1f79c62](https://github.com/MorpheApp/morphe-patches/commit/1f79c62e2dc3f0210cf73f29b65e1c94b3c105ec))\r\n* **YouTube - Hide layout components:** Hide Shorts surveys ([#3113](https://github.com/MorpheApp/morphe-patches/issues/3113)) ([18e54f6](https://github.com/MorpheApp/morphe-patches/commit/18e54f6adafeaaad62b970ef9d02186c52ecec33))\r\n* **YouTube - Hide layout components:** Preserve live chat replay ([#3115](https://github.com/MorpheApp/morphe-patches/issues/3115)) ([dff81a7](https://github.com/MorpheApp/morphe-patches/commit/dff81a79b0fc1a7f193cfb59c2903467dd4ecdc2))\r\n* **YouTube - Navigation bar:** Use black system bars in Shorts ([#3088](https://github.com/MorpheApp/morphe-patches/issues/3088)) ([e88ec7d](https://github.com/MorpheApp/morphe-patches/commit/e88ec7db71993dd412f656a2c5d988edc07e00a1))\r\n* **YouTube - Override YouTube Music buttons:** App can crash on devices with an OEM media route provider ([#3025](https://github.com/MorpheApp/morphe-patches/issues/3025)) ([ef5652d](https://github.com/MorpheApp/morphe-patches/commit/ef5652d610fa4613b2dee327ca562ab89c25d78d))\r\n* **YouTube - Remove background playback restrictions:** Auto pause when video is loading ([#3060](https://github.com/MorpheApp/morphe-patches/issues/3060)) ([cbffcf3](https://github.com/MorpheApp/morphe-patches/commit/cbffcf3c09bde19ac1e16921cd5f359d1b9430be))\r\n* **YouTube - Settings:** Fix crash opening settings after the app process is restarted ([#2958](https://github.com/MorpheApp/morphe-patches/issues/2958)) ([89b7bb0](https://github.com/MorpheApp/morphe-patches/commit/89b7bb0cf8bc0553afa56c982bdf234f8ac68298))\r\n* **YouTube - SponsorBlock:** Auto-hide skip button is sometimes shown when not inside a skippable segment ([2655af1](https://github.com/MorpheApp/morphe-patches/commit/2655af1d4240f5cd35844676fad82b489e7597c5))\r\n* **YouTube - Theme:** Experimental app t\n\n…",
-          "prerelease": false
         }
       ]
     },
@@ -223,11 +223,25 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.7.0-dev.5",
-      "latestPublishedAt": "2026-09-23T07:13:25Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.5",
-      "changelog": "## [1.7.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.4...v1.7.0-dev.5) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve NTP wallpaper via extension helper (2-reg invoke) ([33a3c93](https://github.com/dh6k/morphe-patches/commit/33a3c934f126d76a1bf96dcd6ffb99f331767d62))\n",
+      "latestTag": "v1.7.0-dev.7",
+      "latestPublishedAt": "2026-09-23T17:27:21Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.7",
+      "changelog": "## [1.7.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.6...v1.7.0-dev.7) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** use invoke-interface for Runnable callback drain ([adf562b](https://github.com/dh6k/morphe-patches/commit/adf562b790e0a994a2400ddfb49bfe84e9e7620e))\n",
       "history": [
+        {
+          "tag": "v1.7.0-dev.6",
+          "publishedAt": "2026-09-23T16:15:12Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.6",
+          "changelog": "## [1.7.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.5...v1.7.0-dev.6) (2026-09-23)\n\n### ✨ New Features\n\n* **brave:** add Brave Startup Performance Optimization ([9b9f1ab](https://github.com/dh6k/morphe-patches/commit/9b9f1ab25f7de74231ff78abf2efd7afe072ddf8))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.7.0-dev.5",
+          "publishedAt": "2026-09-23T07:13:25Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.5",
+          "changelog": "## [1.7.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.4...v1.7.0-dev.5) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve NTP wallpaper via extension helper (2-reg invoke) ([33a3c93](https://github.com/dh6k/morphe-patches/commit/33a3c934f126d76a1bf96dcd6ffb99f331767d62))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.7.0-dev.4",
           "publishedAt": "2026-09-23T05:03:11Z",
@@ -240,20 +254,6 @@
           "publishedAt": "2026-09-23T04:36:09Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.3",
           "changelog": "## [1.7.0-dev.3](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.2...v1.7.0-dev.3) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** route NTP wallpaper through Java ambient catalog ([7c78a3c](https://github.com/dh6k/morphe-patches/commit/7c78a3cb11e44c04b1bb4fed833f1b4626c4932d))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.7.0-dev.2",
-          "publishedAt": "2026-09-23T04:00:24Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.2",
-          "changelog": "## [1.7.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.1...v1.7.0-dev.2) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** avoid param-register clobber in NTP wallpaper prologue ([62132b9](https://github.com/dh6k/morphe-patches/commit/62132b919f54d5cd6194cb29de87fce38f12a41c))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.7.0-dev.1",
-          "publishedAt": "2026-09-22T19:16:12Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.1",
-          "changelog": "## [1.7.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.6.0...v1.7.0-dev.1) (2026-09-22)\n\n### ✨ New Features\n\n* **brave:** custom NTP wallpaper patch (alpha, default off) ([387a449](https://github.com/dh6k/morphe-patches/commit/387a44977241523f2b8cab985ac76dd4e2a290a0))\n",
           "prerelease": true
         }
       ]
@@ -423,11 +423,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.28.0",
-      "latestPublishedAt": "2026-09-22T14:40:50Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.28.0",
-      "changelog": "## [1.28.0](https://github.com/hxreborn/morphe-patches/compare/v1.27.1...v1.28.0) (2026-09-22)\n\n### Bug Fixes\n\n* **iJiami:** stop patched MovieBox 4.0.03 dying at launch on the ffdfe477 packer build ([2f5f048](https://github.com/hxreborn/morphe-patches/commit/2f5f048909c3da55ea8ca38bc4c3f39d1e300155))\n* **MovieBox - All-In-One:** keep unlocking premium when the app renames its member methods ([8d5b441](https://github.com/hxreborn/morphe-patches/commit/8d5b4416e5731ad9b180a78977bc36835306e16a))\n\n### New Features\n\n* **AtloMaps - Unlock premium:** unlock custom map sources, navigation settings and backup restore ([65f7f98](https://github.com/hxreborn/morphe-patches/commit/65f7f9812145f2f6f85e50e3e17955872a82013c))\n* **iJiami:** select payload methods by the strings they load and the methods they call ([1330bac](https://github.com/hxreborn/morphe-patches/commit/1330bac70685b3f827caac9e887422f8bb95dd47))\n* **MovieBox:** support 4.0.03.0918.03 ([ed6f660](https://github.com/hxreborn/morphe-patches/commit/ed6f660a9038d5a3336f04ac319797f25227e3ad))\n* **Proton Pass - AMOLED dark theme:** replace dark theme background with pure black ([29d9835](https://github.com/hxreborn/morphe-patches/commit/29d98352c2293fdc9143623f25fa6bee2ff10f06))\n* **Proton Pass - Hide promotional messages:** hide promotional banners, offers and pop-up messages ([7bf244a](https://github.com/hxreborn/morphe-patches/commit/7bf244a44b3c7168ae6421a7c4aec004e44d8eea))\n* **Proton Pass - Hide upgrade promotions:** hide Upgrade buttons and welcome offer after sign-in ([4a98d01](https://github.com/hxreborn/morphe-patches/commit/4a98d0130ffef0f725e67beb895e7f28280f5ca1))\n",
+      "latestTag": "v1.29.0",
+      "latestPublishedAt": "2026-09-23T14:32:11Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.29.0",
+      "changelog": "## [1.29.0](https://github.com/hxreborn/morphe-patches/compare/v1.28.0...v1.29.0) (2026-09-23)\n\n### Bug Fixes\n\n* **Realme Link - AMOLED dark theme:** apply the black theme to the earbuds screens too ([5231e4c](https://github.com/hxreborn/morphe-patches/commit/5231e4c52bd63a5753899a1924b7a15f19f66c7a))\n* **Realme Link - AMOLED dark theme:** cover the earbuds screens the theme missed ([69b11db](https://github.com/hxreborn/morphe-patches/commit/69b11db1bb4f8772a7e626139c0bc1323d9a7260))\n* **Realme Link - AMOLED dark theme:** keep pinned night colours on page backgrounds ([2279e5f](https://github.com/hxreborn/morphe-patches/commit/2279e5fe1c9a2637951c47e2476a738adbdf32b6))\n\n### New Features\n\n* **Override certificate pinning:** allow inspecting app traffic via proxy ([392ff3e](https://github.com/hxreborn/morphe-patches/commit/392ff3e9a122e6e21d5cee5ef4cd19840127fb18))\n* **Photo Editor Pro - Hide share options:** hide share buttons and center saved photo ([2d0b293](https://github.com/hxreborn/morphe-patches/commit/2d0b29323151cc964f72dbc9c79c40c14701860c))\n",
       "history": [
+        {
+          "tag": "v1.28.0",
+          "publishedAt": "2026-09-22T14:40:50Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.28.0",
+          "changelog": "## [1.28.0](https://github.com/hxreborn/morphe-patches/compare/v1.27.1...v1.28.0) (2026-09-22)\n\n### Bug Fixes\n\n* **iJiami:** stop patched MovieBox 4.0.03 dying at launch on the ffdfe477 packer build ([2f5f048](https://github.com/hxreborn/morphe-patches/commit/2f5f048909c3da55ea8ca38bc4c3f39d1e300155))\n* **MovieBox - All-In-One:** keep unlocking premium when the app renames its member methods ([8d5b441](https://github.com/hxreborn/morphe-patches/commit/8d5b4416e5731ad9b180a78977bc36835306e16a))\n\n### New Features\n\n* **AtloMaps - Unlock premium:** unlock custom map sources, navigation settings and backup restore ([65f7f98](https://github.com/hxreborn/morphe-patches/commit/65f7f9812145f2f6f85e50e3e17955872a82013c))\n* **iJiami:** select payload methods by the strings they load and the methods they call ([1330bac](https://github.com/hxreborn/morphe-patches/commit/1330bac70685b3f827caac9e887422f8bb95dd47))\n* **MovieBox:** support 4.0.03.0918.03 ([ed6f660](https://github.com/hxreborn/morphe-patches/commit/ed6f660a9038d5a3336f04ac319797f25227e3ad))\n* **Proton Pass - AMOLED dark theme:** replace dark theme background with pure black ([29d9835](https://github.com/hxreborn/morphe-patches/commit/29d98352c2293fdc9143623f25fa6bee2ff10f06))\n* **Proton Pass - Hide promotional messages:** hide promotional banners, offers and pop-up messages ([7bf244a](https://github.com/hxreborn/morphe-patches/commit/7bf244a44b3c7168ae6421a7c4aec004e44d8eea))\n* **Proton Pass - Hide upgrade promotions:** hide Upgrade buttons and welcome offer after sign-in ([4a98d01](https://github.com/hxreborn/morphe-patches/commit/4a98d0130ffef0f725e67beb895e7f28280f5ca1))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.27.1",
           "publishedAt": "2026-09-21T18:30:18Z",
@@ -447,13 +454,6 @@
           "publishedAt": "2026-09-20T16:48:58Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.26.0",
           "changelog": "## [1.26.0](https://github.com/hxreborn/morphe-patches/compare/v1.25.0...v1.26.0) (2026-09-20)\n\n### Bug Fixes\n\n* **iJiami:** stop patched MovieBox 4.0.03 dying at launch on the ffdfe477 packer build ([a3939ba](https://github.com/hxreborn/morphe-patches/commit/a3939bac8bfa4dd176c81b6e4f17cc19ad2ec18f))\n* **MovieBox - All-In-One:** keep unlocking premium when the app renames its member methods ([4373a64](https://github.com/hxreborn/morphe-patches/commit/4373a645bbdd76ce62802533583071e69b8d89ea))\n\n### New Features\n\n* **atvTools - Unlock premium:** hide the purchase screen ([12e2ac3](https://github.com/hxreborn/morphe-patches/commit/12e2ac33994df91d9f9a922bdf82624e28376968))\n* **atvTools - Unlock premium:** unlock all features and remove ads ([4d9a904](https://github.com/hxreborn/morphe-patches/commit/4d9a90406c0378f8e326d30abdff8be85c8de43d))\n* **iJiami:** select payload methods by the strings they load and the methods they call ([fe02322](https://github.com/hxreborn/morphe-patches/commit/fe02322dd23e08f2db1772dc6c90ad4dbe242aaa))\n* **Klassik Radio+ - Unlock premium:** unlock premium channels, on-demand playback and skipping ([2538a4a](https://github.com/hxreborn/morphe-patches/commit/2538a4a15a004ea959dbabf58b2214df746a2ddf))\n* **MovieBox:** support 4.0.03.0918.03 ([672dcac](https://github.com/hxreborn/morphe-patches/commit/672dcacef48c2c13028c2cb5b208b6b833eda0cd))\n* **Proton Mail - AMOLED dark theme:** add AMOLED to web settings and account security screens ([7d5007a](https://github.com/hxreborn/morphe-patches/commit/7d5007ad329962ae7c0ffc21ae795b2504246df2))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.25.0",
-          "publishedAt": "2026-09-19T11:14:52Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.25.0",
-          "changelog": "## [1.25.0](https://github.com/hxreborn/morphe-patches/compare/v1.24.0...v1.25.0) (2026-09-19)\n\n### New Features\n\n* **vpnify - Disable rating prompt:** stop Google Play rating prompt ([9c0d15f](https://github.com/hxreborn/morphe-patches/commit/9c0d15fce89b1294c6769a06fcb7b94af37d4807))\n* **vpnify - Unlock premium:** unlock premium, remove ads and free session time limit ([f9a67e2](https://github.com/hxreborn/morphe-patches/commit/f9a67e287af249243ab6d4ec7edf43f8bb3cea25))\n",
           "prerelease": false
         }
       ]
