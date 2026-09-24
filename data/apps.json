@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T20:18:08Z",
+  "generatedAt": "2026-09-24T23:19:09Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -36,6 +36,13 @@
           "prerelease": true
         },
         {
+          "tag": "v1.45.0-dev.13",
+          "publishedAt": "2026-09-24T21:53:35Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.13",
+          "changelog": "## [1.45.0-dev.13](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.12...v1.45.0-dev.13) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Channel search:** Show a channel search hint in the search box ([#3262](https://github.com/MorpheApp/morphe-patches/issues/3262)) ([c5cce56](https://github.com/MorpheApp/morphe-patches/commit/c5cce56d16581024c2ee7dafdd4232e8383c922d))\n* **YouTube Music - Custom branding:** Keep the startup animation on screen until it ends ([6043416](https://github.com/MorpheApp/morphe-patches/commit/6043416854f9d0c3dc2201229fae62a4828a52f7))\n* **YouTube Music - Third-party lyrics:** Crash while trimming the lyrics cache ([#3272](https://github.com/MorpheApp/morphe-patches/issues/3272)) ([e450b7a](https://github.com/MorpheApp/morphe-patches/commit/e450b7a073b3d0b2c83d37509a7443f40a7b6369))\n",
+          "prerelease": true
+        },
+        {
           "tag": "v1.45.0-dev.12",
           "publishedAt": "2026-09-24T13:14:01Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.12",
@@ -47,13 +54,6 @@
           "publishedAt": "2026-09-24T11:04:28Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.11",
           "changelog": "## [1.45.0-dev.11](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.10...v1.45.0-dev.11) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Fix patching non-experimental targets ([4625872](https://github.com/MorpheApp/morphe-patches/commit/46258727492fb31cd60db65e9322602408dd32a8))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.45.0-dev.10",
-          "publishedAt": "2026-09-24T09:18:49Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.10",
-          "changelog": "## [1.45.0-dev.10](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.9...v1.45.0-dev.10) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide layout components:** Open the correct channel tab when channel tabs are hidden ([#3200](https://github.com/MorpheApp/morphe-patches/issues/3200)) ([53cc35b](https://github.com/MorpheApp/morphe-patches/commit/53cc35b0552b59d0ff34ed057e4c167cb8881322))\n* **YouTube Music - Third-party lyrics:** Keep the token dialog buttons on screen with long cookies ([#3245](https://github.com/MorpheApp/morphe-patches/issues/3245)) ([1cf6be0](https://github.com/MorpheApp/morphe-patches/commit/1cf6be0051247409030199b54d864540f9e3f55a))\n",
           "prerelease": true
         }
       ]
