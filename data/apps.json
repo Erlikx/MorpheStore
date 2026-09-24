@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T05:56:27Z",
+  "generatedAt": "2026-09-24T11:33:20Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,37 +23,37 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.45.0-dev.8",
-      "latestPublishedAt": "2026-09-24T00:13:41Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.8",
-      "changelog": "## [1.45.0-dev.8](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.7...v1.45.0-dev.8) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube Music - Disable dislike redirection:** Fix patch on 9.35+ ([#3226](https://github.com/MorpheApp/morphe-patches/issues/3226)) ([703ddde](https://github.com/MorpheApp/morphe-patches/commit/703ddde1733d3514993ae689dedd1795bf696d82))\n* **YouTube Music - Downloads:** Fix patching failure \"Could not find conversion context field\" ([#3231](https://github.com/MorpheApp/morphe-patches/issues/3231)) ([b4f2d7d](https://github.com/MorpheApp/morphe-patches/commit/b4f2d7d83c234b1f71ff4a6c8298a59ffe6ad240))\n",
+      "latestTag": "v1.45.0-dev.9",
+      "latestPublishedAt": "2026-09-24T08:47:17Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.9",
+      "changelog": "## [1.45.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.8...v1.45.0-dev.9) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Player overlay buttons:** Fix startup crash with a partial patch selection ([#3228](https://github.com/MorpheApp/morphe-patches/issues/3228)) ([aee4774](https://github.com/MorpheApp/morphe-patches/commit/aee47746643c948191b25435a8f1b4e96ffb6df7))\n* **YouTube Music - Third-party lyrics:** Keep the screen on after the track changes ([#3246](https://github.com/MorpheApp/morphe-patches/issues/3246)) ([e730ebf](https://github.com/MorpheApp/morphe-patches/commit/e730ebfa8be5b689e484eefa33b380554884a862))\n",
       "history": [
+        {
+          "tag": "v1.45.0-dev.8",
+          "publishedAt": "2026-09-24T00:13:41Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.8",
+          "changelog": "## [1.45.0-dev.8](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.7...v1.45.0-dev.8) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube Music - Disable dislike redirection:** Fix patch on 9.35+ ([#3226](https://github.com/MorpheApp/morphe-patches/issues/3226)) ([703ddde](https://github.com/MorpheApp/morphe-patches/commit/703ddde1733d3514993ae689dedd1795bf696d82))\n* **YouTube Music - Downloads:** Fix patching failure \"Could not find conversion context field\" ([#3231](https://github.com/MorpheApp/morphe-patches/issues/3231)) ([b4f2d7d](https://github.com/MorpheApp/morphe-patches/commit/b4f2d7d83c234b1f71ff4a6c8298a59ffe6ad240))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.45.0-dev.11",
+          "publishedAt": "2026-09-24T11:04:28Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.11",
+          "changelog": "## [1.45.0-dev.11](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.10...v1.45.0-dev.11) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Fix patching non-experimental targets ([4625872](https://github.com/MorpheApp/morphe-patches/commit/46258727492fb31cd60db65e9322602408dd32a8))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.45.0-dev.10",
+          "publishedAt": "2026-09-24T09:18:49Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.10",
+          "changelog": "## [1.45.0-dev.10](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.9...v1.45.0-dev.10) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide layout components:** Open the correct channel tab when channel tabs are hidden ([#3200](https://github.com/MorpheApp/morphe-patches/issues/3200)) ([53cc35b](https://github.com/MorpheApp/morphe-patches/commit/53cc35b0552b59d0ff34ed057e4c167cb8881322))\n* **YouTube Music - Third-party lyrics:** Keep the token dialog buttons on screen with long cookies ([#3245](https://github.com/MorpheApp/morphe-patches/issues/3245)) ([1cf6be0](https://github.com/MorpheApp/morphe-patches/commit/1cf6be0051247409030199b54d864540f9e3f55a))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.45.0-dev.7",
           "publishedAt": "2026-09-23T21:14:04Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.7",
           "changelog": "## [1.45.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.6...v1.45.0-dev.7) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* Resolve startup crash for older Android devices ([b3391b4](https://github.com/MorpheApp/morphe-patches/commit/b3391b423dba14ceedccf5b6ae5e1abebcc80c5d))\n* **YouTube:** \"Hide preview comment\" breaks comment section text box ([#3187](https://github.com/MorpheApp/morphe-patches/issues/3187)) ([d592804](https://github.com/MorpheApp/morphe-patches/commit/d5928043b7982326a102aafa2993e3cb8872eaf7))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.45.0-dev.6",
-          "publishedAt": "2026-09-23T18:34:08Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.6",
-          "changelog": "## [1.45.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.5...v1.45.0-dev.6) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** \"Restore old video action bar\" hides newly posted comments ([#3216](https://github.com/MorpheApp/morphe-patches/issues/3216)) ([24d5823](https://github.com/MorpheApp/morphe-patches/commit/24d582398b812f96e23bc374c3c77c4dd5506eb4))\n\n### ✨ New Features\n\n* **Custom branding:** Animate the Morphe logo at startup ([#3178](https://github.com/MorpheApp/morphe-patches/issues/3178)) ([70e8a9d](https://github.com/MorpheApp/morphe-patches/commit/70e8a9de9fc16efb830e2594dc6ba37ef49653c8))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.45.0-dev.5",
-          "publishedAt": "2026-09-23T15:12:02Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.5",
-          "changelog": "## [1.45.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.4...v1.45.0-dev.5) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Playback speed:** Music videos do not play at 1x speed ([#3210](https://github.com/MorpheApp/morphe-patches/issues/3210)) ([1c7086d](https://github.com/MorpheApp/morphe-patches/commit/1c7086da6270a723da370f89440d70475f96c888))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.45.0-dev.4",
-          "publishedAt": "2026-09-23T12:20:36Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.4",
-          "changelog": "## [1.45.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.3...v1.45.0-dev.4) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube  - Voice over translation:** Add missing accessibility labels and Voice over translation button state ([#3203](https://github.com/MorpheApp/morphe-patches/issues/3203)) ([d99679b](https://github.com/MorpheApp/morphe-patches/commit/d99679b50dc6f19a2feffaa7f5a8940a9d83da94))\n* **YouTube - Custom branding:** Do not ask which app to use for app shortcut actions ([#3204](https://github.com/MorpheApp/morphe-patches/issues/3204)) ([0a2f0e0](https://github.com/MorpheApp/morphe-patches/commit/0a2f0e0f487512d6fd5f0c97ca83ad061859988c))\n* **YouTube - Return YouTube Dislike:** Do not show dislikes on the share and comment buttons of community posts ([31b657c](https://github.com/MorpheApp/morphe-patches/commit/31b657c5482def040a368b1d4661db704249db50))\n* **YouTube Music - Return YouTube Dislike:** Dislike count is black when the device uses the light theme ([7e7e15d](https://github.com/MorpheApp/morphe-patches/commit/7e7e15d8e0796a96d615e26ea66ac771fa068321))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** Add new provider ([#3174](https://github.com/MorpheApp/morphe-patches/issues/3174)) ([1bc710e](https://github.com/MorpheApp/morphe-patches/commit/1bc710e371eb89e663acaadb415c497b7829fe1e))\n",
           "prerelease": true
         }
       ]
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.37.0",
-      "latestPublishedAt": "2026-09-24T03:54:45Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.37.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** keep extension surfaces black without the dynamic color patch ([4c7b8ff](https://github.com/crimera/piko/commit/4c7b8ffd2a683fdbdae901d666de254f8687084e))\n\n### ✨ New Features\n* **Twitter:** per-tab navigation bar badge toggles ([0e30ed4](https://github.com/crimera/piko/commit/0e30ed414f459dbbd3fb73227936d5db89662908))",
+      "latestTag": "v3.37.1",
+      "latestPublishedAt": "2026-09-24T07:34:27Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.37.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** add media picker resolution chooser toggle ([40560ca](https://github.com/crimera/piko/commit/40560ca79b091a1c4a23b41c1b61983a26671a90))",
       "history": [
+        {
+          "tag": "v3.37.0",
+          "publishedAt": "2026-09-24T03:54:45Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.37.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** keep extension surfaces black without the dynamic color patch ([4c7b8ff](https://github.com/crimera/piko/commit/4c7b8ffd2a683fdbdae901d666de254f8687084e))\n\n### ✨ New Features\n* **Twitter:** per-tab navigation bar badge toggles ([0e30ed4](https://github.com/crimera/piko/commit/0e30ed414f459dbbd3fb73227936d5db89662908))",
+          "prerelease": false
+        },
         {
           "tag": "v3.36.0",
           "publishedAt": "2026-09-24T03:31:38Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-23T12:43:10Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.34.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter:** newx dim theme chrome backgrounds ([a6af4dc](https://github.com/crimera/piko/commit/a6af4dce4184cea0b5c646eacaa3f2e1f2973667))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.34.0",
-          "publishedAt": "2026-09-23T11:14:19Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.34.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** apply custom sharing domain on share-sheet URL field ([c7230d2](https://github.com/crimera/piko/commit/c7230d2d3c11bcbb2c20137a83bd1d29512bf0bd))\n* **Twitter - newx:** resolve module divider lambda adapter by discriminator ([618c2af](https://github.com/crimera/piko/commit/618c2af3c2c98f036c783c6a591b1700dbd05d8a))\n* **Twitter - newx:** use dim surfaces in extension-owned screens ([5fb32a5](https://github.com/crimera/piko/commit/5fb32a59bfe768cfe74707084f0a8486414ee4e5))\n\n### ✨ New Features\n* **Twitter - newx:** restore classic dim background when dynamic color and AMOLED are off ([097b782](https://github.com/crimera/piko/commit/097b7824c7481901f0bf6c140706d9a525918753))",
           "prerelease": false
         }
       ]
@@ -223,11 +223,18 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.7.0-dev.7",
-      "latestPublishedAt": "2026-09-23T17:27:21Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.7",
-      "changelog": "## [1.7.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.6...v1.7.0-dev.7) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** use invoke-interface for Runnable callback drain ([adf562b](https://github.com/dh6k/morphe-patches/commit/adf562b790e0a994a2400ddfb49bfe84e9e7620e))\n",
+      "latestTag": "v1.7.0",
+      "latestPublishedAt": "2026-09-24T07:45:37Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0",
+      "changelog": "## [1.7.0](https://github.com/dh6k/morphe-patches/compare/v1.6.0...v1.7.0) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **brave:** avoid param-register clobber in NTP wallpaper prologue ([62132b9](https://github.com/dh6k/morphe-patches/commit/62132b919f54d5cd6194cb29de87fce38f12a41c))\n* **brave:** fit NTP catalog factory in 3 registers via R.drawable ([bb3e4df](https://github.com/dh6k/morphe-patches/commit/bb3e4dff5a0983d1e2a4fe2d4286ddcc5d1a7a89))\n* **brave:** resolve NTP wallpaper via extension helper (2-reg invoke) ([33a3c93](https://github.com/dh6k/morphe-patches/commit/33a3c934f126d76a1bf96dcd6ffb99f331767d62))\n* **brave:** route NTP wallpaper through Java ambient catalog ([7c78a3c](https://github.com/dh6k/morphe-patches/commit/7c78a3cb11e44c04b1bb4fed833f1b4626c4932d))\n* **brave:** use invoke-interface for Runnable callback drain ([adf562b](https://github.com/dh6k/morphe-patches/commit/adf562b790e0a994a2400ddfb49bfe84e9e7620e))\n\n### ✨ New Features\n\n* **brave:** add Brave Startup Performance Optimization ([9b9f1ab](https://github.com/dh6k/morphe-patches/commit/9b9f1ab25f7de74231ff78abf2efd7afe072ddf8))\n* **brave:** custom NTP wallpaper patch (alpha, default off) ([387a449](https://github.com/dh6k/morphe-patches/commit/387a44977241523f2b8cab985ac76dd4e2a290a0))\n",
       "history": [
+        {
+          "tag": "v1.7.0-dev.7",
+          "publishedAt": "2026-09-23T17:27:21Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.7",
+          "changelog": "## [1.7.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.6...v1.7.0-dev.7) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** use invoke-interface for Runnable callback drain ([adf562b](https://github.com/dh6k/morphe-patches/commit/adf562b790e0a994a2400ddfb49bfe84e9e7620e))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.7.0-dev.6",
           "publishedAt": "2026-09-23T16:15:12Z",
@@ -247,13 +254,6 @@
           "publishedAt": "2026-09-23T05:03:11Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.4",
           "changelog": "## [1.7.0-dev.4](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.3...v1.7.0-dev.4) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** fit NTP catalog factory in 3 registers via R.drawable ([bb3e4df](https://github.com/dh6k/morphe-patches/commit/bb3e4dff5a0983d1e2a4fe2d4286ddcc5d1a7a89))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.7.0-dev.3",
-          "publishedAt": "2026-09-23T04:36:09Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.7.0-dev.3",
-          "changelog": "## [1.7.0-dev.3](https://github.com/dh6k/morphe-patches/compare/v1.7.0-dev.2...v1.7.0-dev.3) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* **brave:** route NTP wallpaper through Java ambient catalog ([7c78a3c](https://github.com/dh6k/morphe-patches/commit/7c78a3cb11e44c04b1bb4fed833f1b4626c4932d))\n",
           "prerelease": true
         }
       ]
