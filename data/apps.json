@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T21:17:51Z",
+  "generatedAt": "2026-09-26T00:02:16Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -23,11 +23,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.45.0-dev.15",
-      "latestPublishedAt": "2026-09-25T15:57:58Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.15",
-      "changelog": "## [1.45.0-dev.15](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.14...v1.45.0-dev.15) (2026-09-25)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Channel Id Routes:** Straight requests videoDetails field ([60f640e](https://github.com/MorpheApp/morphe-patches/commit/60f640e2a7bd793623ed127b7c3900459ba73bf7))\n\n### ✨ New Features\n\n* **YouTube - Hide video action buttons:** Add \"Hide channel and Subscribe button\" ([#3289](https://github.com/MorpheApp/morphe-patches/issues/3289)) ([0c7cd56](https://github.com/MorpheApp/morphe-patches/commit/0c7cd56bd24c693b59aa3efd472730cee5df72c2))\n* **YouTube - Navigation bar:** Add patch options to hide the Search and Subscriptions app shortcuts ([#3270](https://github.com/MorpheApp/morphe-patches/issues/3270)) ([37585d1](https://github.com/MorpheApp/morphe-patches/commit/37585d17d1afdc9cd6c0d371664e5cf585c88043))\n* **YouTube Music:** Add `Media notification controls` patch ([#3288](https://github.com/MorpheApp/morphe-patches/issues/3288)) ([7c4431b](https://github.com/MorpheApp/morphe-patches/commit/7c4431b3b854cb145c540459fbde314b1a4d035a))\n",
+      "latestTag": "v1.45.0-dev.16",
+      "latestPublishedAt": "2026-09-25T23:32:06Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.16",
+      "changelog": "## [1.45.0-dev.16](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.15...v1.45.0-dev.16) (2026-09-25)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide player flyout menu components:** Hide the Audio Track item in the Shorts flyout menu ([#3297](https://github.com/MorpheApp/morphe-patches/issues/3297)) ([09de4d2](https://github.com/MorpheApp/morphe-patches/commit/09de4d2332b4e499435bf7a3032381faf51893c3))\n* **YouTube - Minimal miniplayer:** Fixed Type 2 aspect ratio by hooking video format size ([551490f](https://github.com/MorpheApp/morphe-patches/commit/551490f50127c8ea02725848eab7a16ffec9d487))\n\n### ✨ New Features\n\n* **YouTube - Channel search:** Add channel search result sorting ([#3298](https://github.com/MorpheApp/morphe-patches/issues/3298)) ([baadcf7](https://github.com/MorpheApp/morphe-patches/commit/baadcf7ef177c8dc07cbc61670d8d475869f934c))\n* **YouTube - Hide layout components:** Add \"Hide Dislike button\" to comments ([#3293](https://github.com/MorpheApp/morphe-patches/issues/3293)) ([bd43ccf](https://github.com/MorpheApp/morphe-patches/commit/bd43ccf58d622b0ed66d3cd739351644de9c8295))\n* **YouTube - Player icons:** Add icon styles for overlay player buttons, swipe controls and Shorts ([#3287](https://github.com/MorpheApp/morphe-patches/issues/3287)) ([cca4ce0](https://github.com/MorpheApp/morphe-patches/commit/cca4ce0d186d415a651a8c1744afb9cb37a6dc3b))\n* **YouTube Music - Third-party lyrics:** Add Translation / Romanization only modes ([#3252](https://github.com/MorpheApp/morphe-patches/issues/3252)) ([1c6e6cd](https://github.com/MorpheApp/morphe-patches/commit/1c6e6cdbdacdd33088293c27e56c4fa6cc4f4049))\n",
       "history": [
+        {
+          "tag": "v1.45.0-dev.15",
+          "publishedAt": "2026-09-25T15:57:58Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.15",
+          "changelog": "## [1.45.0-dev.15](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.14...v1.45.0-dev.15) (2026-09-25)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Channel Id Routes:** Straight requests videoDetails field ([60f640e](https://github.com/MorpheApp/morphe-patches/commit/60f640e2a7bd793623ed127b7c3900459ba73bf7))\n\n### ✨ New Features\n\n* **YouTube - Hide video action buttons:** Add \"Hide channel and Subscribe button\" ([#3289](https://github.com/MorpheApp/morphe-patches/issues/3289)) ([0c7cd56](https://github.com/MorpheApp/morphe-patches/commit/0c7cd56bd24c693b59aa3efd472730cee5df72c2))\n* **YouTube - Navigation bar:** Add patch options to hide the Search and Subscriptions app shortcuts ([#3270](https://github.com/MorpheApp/morphe-patches/issues/3270)) ([37585d1](https://github.com/MorpheApp/morphe-patches/commit/37585d17d1afdc9cd6c0d371664e5cf585c88043))\n* **YouTube Music:** Add `Media notification controls` patch ([#3288](https://github.com/MorpheApp/morphe-patches/issues/3288)) ([7c4431b](https://github.com/MorpheApp/morphe-patches/commit/7c4431b3b854cb145c540459fbde314b1a4d035a))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.45.0-dev.14",
           "publishedAt": "2026-09-25T12:04:29Z",
@@ -47,13 +54,6 @@
           "publishedAt": "2026-09-24T00:13:41Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.8",
           "changelog": "## [1.45.0-dev.8](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.7...v1.45.0-dev.8) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube Music - Disable dislike redirection:** Fix patch on 9.35+ ([#3226](https://github.com/MorpheApp/morphe-patches/issues/3226)) ([703ddde](https://github.com/MorpheApp/morphe-patches/commit/703ddde1733d3514993ae689dedd1795bf696d82))\n* **YouTube Music - Downloads:** Fix patching failure \"Could not find conversion context field\" ([#3231](https://github.com/MorpheApp/morphe-patches/issues/3231)) ([b4f2d7d](https://github.com/MorpheApp/morphe-patches/commit/b4f2d7d83c234b1f71ff4a6c8298a59ffe6ad240))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.45.0-dev.13",
-          "publishedAt": "2026-09-24T21:53:35Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0-dev.13",
-          "changelog": "## [1.45.0-dev.13](https://github.com/MorpheApp/morphe-patches/compare/v1.45.0-dev.12...v1.45.0-dev.13) (2026-09-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Channel search:** Show a channel search hint in the search box ([#3262](https://github.com/MorpheApp/morphe-patches/issues/3262)) ([c5cce56](https://github.com/MorpheApp/morphe-patches/commit/c5cce56d16581024c2ee7dafdd4232e8383c922d))\n* **YouTube Music - Custom branding:** Keep the startup animation on screen until it ends ([6043416](https://github.com/MorpheApp/morphe-patches/commit/6043416854f9d0c3dc2201229fae62a4828a52f7))\n* **YouTube Music - Third-party lyrics:** Crash while trimming the lyrics cache ([#3272](https://github.com/MorpheApp/morphe-patches/issues/3272)) ([e450b7a](https://github.com/MorpheApp/morphe-patches/commit/e450b7a073b3d0b2c83d37509a7443f40a7b6369))\n",
           "prerelease": true
         }
       ]
@@ -303,11 +303,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.8.0-dev.11",
-      "latestPublishedAt": "2026-09-14T21:05:20Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.11",
-      "changelog": "# [0.8.0-dev.11](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.10...v0.8.0-dev.11) (2026-09-14)\n\n\n### Bug Fixes\n\n* **tiktok:** block dedicated profile ad requests ([e82cfcd](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e82cfcd2a9c77a7232b52d4b507ab226caee6741))\n\n\n\n\n\n## 0.8.0-dev.11",
+      "latestTag": "v0.8.0-dev.12",
+      "latestPublishedAt": "2026-09-25T21:33:08Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.12",
+      "changelog": "# [0.8.0-dev.12](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.11...v0.8.0-dev.12) (2026-09-25)\n\n\n### Bug Fixes\n\n* **tiktok:** activate installed features on first use ([4da92b5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/4da92b530a2fe9f9cf571abe1c8253eee46c6e2c))\n* **tiktok:** keep feed debugger observations after filter hooks ([dab81e3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dab81e3820024953ed43b85a9a695ce0828cdc4d))\n* **tiktok:** recheck ads when feed items are read ([0ec3cab](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0ec3cab045fb003d9e9b755217e4f2b81ad58323))\n\n\n### Features\n\n* hide AI-labelled posts across feed delivery paths ([b612614](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/b6126148b8bba777d781f6ff790ddb8638ce50dd))\n* **tiktok:** add themed feed debugger to diagnostic tools ([c16aef7](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c16aef7edcfa5ed148c3b6f7b83c1bfd518a4304))\n* **tiktok:** hide FYP unpersonalized slop videos ([fa71265](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fa712650d411eb830eff5ea0a23526706db457a2))\n\n\n\n\n\n## 0.8.0-dev.12",
       "history": [
+        {
+          "tag": "v0.8.0-dev.11",
+          "publishedAt": "2026-09-14T21:05:20Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.11",
+          "changelog": "# [0.8.0-dev.11](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.10...v0.8.0-dev.11) (2026-09-14)\n\n\n### Bug Fixes\n\n* **tiktok:** block dedicated profile ad requests ([e82cfcd](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e82cfcd2a9c77a7232b52d4b507ab226caee6741))\n\n\n\n\n\n## 0.8.0-dev.11",
+          "prerelease": true
+        },
         {
           "tag": "v0.8.0-dev.10",
           "publishedAt": "2026-09-14T08:54:19Z",
@@ -327,13 +334,6 @@
           "publishedAt": "2026-09-11T09:29:43Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.8",
           "changelog": "# [0.8.0-dev.8](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.7...v0.8.0-dev.8) (2026-09-11)\n\n\n### Bug Fixes\n\n* cover secure window flag writes ([79abbbf](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/79abbbfc23c3ea21cc9350f3d206dfd2af125b88))\n\n\n\n\n\n## 0.8.0-dev.8",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.8.0-dev.7",
-          "publishedAt": "2026-09-07T22:23:44Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.7",
-          "changelog": "# [0.8.0-dev.7](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.6...v0.8.0-dev.7) (2026-09-07)\n\n\n### Bug Fixes\n\n* **tiktok:** split auto scroll into separate patch ([683979b](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/683979b1ff98d5fc707a4ae401a8365306ec47b7))\n\n\n\n\n\n## 0.8.0-dev.7",
           "prerelease": true
         }
       ]
