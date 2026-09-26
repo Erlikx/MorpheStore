@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:39:34Z",
+  "generatedAt": "2026-09-26T18:25:46Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -143,11 +143,25 @@
       "repo": "adobo",
       "label": "🥘 Adobo",
       "repoUrl": "https://github.com/jkennethcarino/adobo",
-      "latestTag": "v1.6.0-dev.1",
-      "latestPublishedAt": "2026-09-20T16:13:26Z",
-      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.1",
-      "changelog": "## [1.6.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.5.0...v1.6.0-dev.1) (2026-09-20)\n\n### Features\n\n* **Reddit:** Add `Hide crosspost` patch ([9932fe9](https://github.com/jkennethcarino/adobo/commit/9932fe9982b8c7b237fd0bd9bb39de6300c34c85))\n",
+      "latestTag": "v1.6.0-dev.3",
+      "latestPublishedAt": "2026-09-26T18:21:28Z",
+      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.3",
+      "changelog": "## [1.6.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.2...v1.6.0-dev.3) (2026-09-26)\n\n### Features\n\n* **9GAG:** Add `Sanitize share links` patch ([ab5d7b3](https://github.com/jkennethcarino/adobo/commit/ab5d7b33aad0f559bc2d7006a09bb8daccfb8bc7))\n",
       "history": [
+        {
+          "tag": "v1.6.0-dev.2",
+          "publishedAt": "2026-09-26T16:22:54Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.2",
+          "changelog": "## [1.6.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.1...v1.6.0-dev.2) (2026-09-26)\n\n### Features\n\n* **9GAG:** Add `Disable forced update dialog` patch ([bc94501](https://github.com/jkennethcarino/adobo/commit/bc94501e4f943e0d96ad14f0304e49361ced88d3))\n\n### Updated App Support\n\n* **9GAG:** Add support for `8.24.5`, `8.23.0`, and `8.22.0` ([795523b](https://github.com/jkennethcarino/adobo/commit/795523b2a3318185152387487be4a3d72bbc797f))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.6.0-dev.1",
+          "publishedAt": "2026-09-20T16:13:26Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.1",
+          "changelog": "## [1.6.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.5.0...v1.6.0-dev.1) (2026-09-20)\n\n### Features\n\n* **Reddit:** Add `Hide crosspost` patch ([9932fe9](https://github.com/jkennethcarino/adobo/commit/9932fe9982b8c7b237fd0bd9bb39de6300c34c85))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.5.0",
           "publishedAt": "2026-09-19T15:26:04Z",
@@ -160,20 +174,6 @@
           "publishedAt": "2026-09-19T15:22:24Z",
           "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.4",
           "changelog": "## [1.5.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.3...v1.5.0-dev.4) (2026-09-19)\n\n### Bug Fixes\n\n* **Gboard - Toggle feature flags:** Allow resetting feature flag's default value ([5b82dc7](https://github.com/jkennethcarino/adobo/commit/5b82dc750a144dfd29a6174d36166d15cad4e1b8))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.5.0-dev.3",
-          "publishedAt": "2026-09-19T14:53:33Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.3",
-          "changelog": "## [1.5.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.2...v1.5.0-dev.3) (2026-09-19)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.36.0` ([8037af0](https://github.com/jkennethcarino/adobo/commit/8037af0ec2f26d0b3cb4a41864e5358155fee005))\n* **Reddit:** Add support for `2026.37.0` ([8c54c39](https://github.com/jkennethcarino/adobo/commit/8c54c39422a209795d972a64ed9a63e82610687a))\n* **Reddit:** Add support for `2026.38.0` ([d326d45](https://github.com/jkennethcarino/adobo/commit/d326d4525898ab9730f7b4fb894f85b924e0f786))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.5.0-dev.2",
-          "publishedAt": "2026-09-06T15:04:24Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0-dev.2",
-          "changelog": "## [1.5.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2026-09-06)\n\n### Features\n\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n",
           "prerelease": true
         }
       ]
@@ -303,11 +303,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.8.0-dev.12",
-      "latestPublishedAt": "2026-09-25T21:33:08Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.12",
-      "changelog": "# [0.8.0-dev.12](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.11...v0.8.0-dev.12) (2026-09-25)\n\n\n### Bug Fixes\n\n* **tiktok:** activate installed features on first use ([4da92b5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/4da92b530a2fe9f9cf571abe1c8253eee46c6e2c))\n* **tiktok:** keep feed debugger observations after filter hooks ([dab81e3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dab81e3820024953ed43b85a9a695ce0828cdc4d))\n* **tiktok:** recheck ads when feed items are read ([0ec3cab](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0ec3cab045fb003d9e9b755217e4f2b81ad58323))\n\n\n### Features\n\n* hide AI-labelled posts across feed delivery paths ([b612614](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/b6126148b8bba777d781f6ff790ddb8638ce50dd))\n* **tiktok:** add themed feed debugger to diagnostic tools ([c16aef7](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c16aef7edcfa5ed148c3b6f7b83c1bfd518a4304))\n* **tiktok:** hide FYP unpersonalized slop videos ([fa71265](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fa712650d411eb830eff5ea0a23526706db457a2))\n\n\n\n\n\n## 0.8.0-dev.12",
+      "latestTag": "v0.8.0",
+      "latestPublishedAt": "2026-09-26T15:27:09Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0",
+      "changelog": "# [0.8.0](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.7.0...v0.8.0) (2026-09-26)\n\n\n### Bug Fixes\n\n* cover secure window flag writes ([79abbbf](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/79abbbfc23c3ea21cc9350f3d206dfd2af125b88))\n* remove ineffective regional fallback ([714830c](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/714830caeeaa5be1691609efefdae4d50ff179c6))\n* **tiktok:** activate installed features on first use ([4da92b5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/4da92b530a2fe9f9cf571abe1c8253eee46c6e2c))\n* **tiktok:** block dedicated profile ad requests ([e82cfcd](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e82cfcd2a9c77a7232b52d4b507ab226caee6741))\n* **tiktok:** close feed filter delivery gaps ([e58fb96](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e58fb96a1724df3c2e81693b5fab87676453f314))\n* **tiktok:** extend ad filtering coverage ([154e0be](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/154e0be78aee40da6d2987e78760ac96c8820d01))\n* **tiktok:** harden reviewed foldable integration ([55f5776](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/55f57763da90cee3727e36888e63a41b061da6c6))\n* **tiktok:** keep feed debugger observations after filter hooks ([dab81e3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dab81e3820024953ed43b85a9a695ce0828cdc4d))\n* **tiktok:** recheck ads when feed items are read ([0ec3cab](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0ec3cab045fb003d9e9b755217e4f2b81ad58323))\n* **tiktok:** refresh discovered share items in settings ([656d791](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/656d791dfcfaabb327377fa62fc5a897969c6f26))\n* **tiktok:** split auto scroll into separate patch ([683979b](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/683979b1ff98d5fc707a4ae401a8365306ec47b7))\n\n\n### Features\n\n* add configurable regional restriction fallback ([9781ef2](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/9781ef2c18b1372764f590260e37d3df54fd6794))\n* add share sheet modifications ([cf3ede5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/cf3ede56a5eb49fe1a5c17594c54425a5ee1cf6c))\n* add share sheet modifications ([3e92957](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/3e92957509558f5b3c89817c6cb1e69fd27a2980))\n* Add Split-View Comment Section for Foldable/Wide Devices ([c0571bc](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c0571bcc1df32b4db108b1de68adaa387125b5fb))\n* Add Split-View Comment Section for Foldable/Wide Devices ([2fc6eb1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/2fc6eb148d5b8cb717192643c505ca30cad02d33))\n* hide AI-labelled posts across feed delivery paths ([b612614](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/b6126148b8bba777d781f6ff790ddb8638ce50dd))\n* **tiktok:** add feed interface controls ([0c79175](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0c79175312c45e74af99d6d986564a79742affbe))\n* **tiktok:** add native comment sort controls ([e1fb74c](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e1fb74c740f862d702b2d03a2968960ca5d9d954))\n* **tiktok:** add reviewed local feature patches ([0e4a6e1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0e4a6e1d9b4687f41328d3112ef8c341de4a081a))\n* **tiktok:** add themed feed debugger to diagnostic tools ([c16aef7](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c16aef7edcfa5ed148c3b6f7b83c1bfd518a4304))\n* **tiktok:** hide FYP unpersonalized slop videos ([fa71265](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fa712650d411eb830eff5ea0a23526706db457a2))\n\n\n\n\n\n## 0.8.0",
       "history": [
+        {
+          "tag": "v0.8.0-dev.12",
+          "publishedAt": "2026-09-25T21:33:08Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.12",
+          "changelog": "# [0.8.0-dev.12](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.11...v0.8.0-dev.12) (2026-09-25)\n\n\n### Bug Fixes\n\n* **tiktok:** activate installed features on first use ([4da92b5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/4da92b530a2fe9f9cf571abe1c8253eee46c6e2c))\n* **tiktok:** keep feed debugger observations after filter hooks ([dab81e3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dab81e3820024953ed43b85a9a695ce0828cdc4d))\n* **tiktok:** recheck ads when feed items are read ([0ec3cab](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0ec3cab045fb003d9e9b755217e4f2b81ad58323))\n\n\n### Features\n\n* hide AI-labelled posts across feed delivery paths ([b612614](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/b6126148b8bba777d781f6ff790ddb8638ce50dd))\n* **tiktok:** add themed feed debugger to diagnostic tools ([c16aef7](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c16aef7edcfa5ed148c3b6f7b83c1bfd518a4304))\n* **tiktok:** hide FYP unpersonalized slop videos ([fa71265](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fa712650d411eb830eff5ea0a23526706db457a2))\n\n\n\n\n\n## 0.8.0-dev.12",
+          "prerelease": true
+        },
         {
           "tag": "v0.8.0-dev.11",
           "publishedAt": "2026-09-14T21:05:20Z",
@@ -327,13 +334,6 @@
           "publishedAt": "2026-09-11T18:21:08Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.9",
           "changelog": "# [0.8.0-dev.9](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.8...v0.8.0-dev.9) (2026-09-11)\n\n\n### Features\n\n* add share sheet modifications ([3e92957](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/3e92957509558f5b3c89817c6cb1e69fd27a2980))\n* Add Split-View Comment Section for Foldable/Wide Devices ([2fc6eb1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/2fc6eb148d5b8cb717192643c505ca30cad02d33))\n\n\n\n\n\n## 0.8.0-dev.9",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.8.0-dev.8",
-          "publishedAt": "2026-09-11T09:29:43Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.8",
-          "changelog": "# [0.8.0-dev.8](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.7...v0.8.0-dev.8) (2026-09-11)\n\n\n### Bug Fixes\n\n* cover secure window flag writes ([79abbbf](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/79abbbfc23c3ea21cc9350f3d206dfd2af125b88))\n\n\n\n\n\n## 0.8.0-dev.8",
           "prerelease": true
         }
       ]
@@ -383,11 +383,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v3.11.0",
-      "latestPublishedAt": "2026-09-22T06:59:02Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n* **Gboard:** add the `Custom Theme` patch, supporting custom ZIP theme imports and a selection of beautiful themes from Rboard's official repository.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where `Custom Symbols` history entries were incorrectly saved to `Emoticon` history.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n* **Gboard:** 新增 `Custom Theme` Patch，支援匯入自訂 ZIP 主題，也能從 Rboard 官方儲存庫匯入精美主題。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Custom Symbols` 歷史記錄誤寫入 `Emoticon` 歷史記錄的問題。\n",
+      "latestTag": "v3.12.0-dev.5",
+      "latestPublishedAt": "2026-09-26T17:41:56Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.0-dev.5",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Frosted Glass` patch, bringing real-time background blur and customizable theme transparency to the keyboard. 👀\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Frosted Glass` Patch，為鍵盤加入即時背景模糊效果，並支援自訂主題透明度。👀\n",
       "history": [
+        {
+          "tag": "v3.11.0",
+          "publishedAt": "2026-09-22T06:59:02Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n* **Gboard:** add the `Custom Theme` patch, supporting custom ZIP theme imports and a selection of beautiful themes from Rboard's official repository.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where `Custom Symbols` history entries were incorrectly saved to `Emoticon` history.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n* **Gboard:** 新增 `Custom Theme` Patch，支援匯入自訂 ZIP 主題，也能從 Rboard 官方儲存庫匯入精美主題。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Custom Symbols` 歷史記錄誤寫入 `Emoticon` 歷史記錄的問題。\n",
+          "prerelease": false
+        },
         {
           "tag": "v3.11.0-dev.3",
           "publishedAt": "2026-09-21T03:17:20Z",
@@ -407,13 +414,6 @@
           "publishedAt": "2026-09-17T16:50:03Z",
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/custom-theme-previews-v1",
           "changelog": "👀",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.10.0",
-          "publishedAt": "2026-09-02T10:45:23Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.10.0",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Backup & Restore` patch for exporting and restoring all patch settings, and for backing up, comparing, and restoring Gboard's PB/XML flag stores.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Backup & Restore` Patch，可匯出與還原所有 Patch 設定，並支援備份、比較及還原 Gboard 的 PB/XML flag store。\n",
           "prerelease": false
         }
       ]
