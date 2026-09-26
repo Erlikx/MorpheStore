@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T10:06:30Z",
+  "generatedAt": "2026-09-26T14:39:34Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
     "repoUrl": "https://github.com/Erlikx/Builder-Morphe",
     "hasRelease": true,
-    "releaseTag": "build-2026-09-26T00-57-25",
+    "releaseTag": "build-2026-09-26T12-54-29",
     "releaseName": "Patched APKs - 26 September 2026",
-    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-26T00-57-25",
-    "publishedAt": "2026-09-26T01:02:44Z"
+    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-26T12-54-29",
+    "publishedAt": "2026-09-26T13:00:01Z"
   },
   "stats": {
     "totalApps": 21,
-    "publishedApps": 17,
-    "totalDownloads": 109
+    "publishedApps": 15,
+    "totalDownloads": 114
   },
   "microg": null,
   "patchSources": {
@@ -508,16 +508,16 @@
       "arch": "arm64-v8a",
       "status": "published",
       "stale": false,
-      "version": "21.38.123",
-      "assetName": "YouTube-21.38.123.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/YouTube-21.38.123.apk",
-      "size": 111560549,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "version": "21.39.522",
+      "assetName": "YouTube-21.39.522.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/YouTube-21.39.522.apk",
+      "size": 111985420,
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
-        "cumulativeBaseline": 16,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "cumulativeBaseline": 17,
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 1,
-        "total": 17
+        "total": 18
       },
       "patchSources": [
         "morphe"
@@ -545,14 +545,14 @@
       "stale": false,
       "version": "9.38.51",
       "assetName": "YT.Music-9.38.51.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/YT.Music-9.38.51.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/YT.Music-9.38.51.apk",
       "size": 79649156,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
-        "cumulativeBaseline": 15,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "cumulativeBaseline": 16,
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 1,
-        "total": 16
+        "total": 17
       },
       "patchSources": [
         "morphe"
@@ -580,14 +580,14 @@
       "stale": false,
       "version": "2026.39.0",
       "assetName": "Reddit-2026.39.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Reddit-2026.39.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Reddit-2026.39.0.apk",
       "size": 90519988,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
-        "cumulativeBaseline": 9,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "cumulativeBaseline": 10,
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 1,
-        "total": 10
+        "total": 11
       },
       "patchSources": [
         "morphe"
@@ -615,12 +615,12 @@
       "stale": false,
       "version": "2026.38.0",
       "assetName": "Reddit-Adobo-2026.38.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Reddit-Adobo-2026.38.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Reddit-Adobo-2026.38.0.apk",
       "size": 87303439,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 3,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 3
       },
@@ -650,12 +650,12 @@
       "stale": false,
       "version": "12.19.1-release.0",
       "assetName": "Twitter-12.19.1-release.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Twitter-12.19.1-release.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Twitter-12.19.1-release.0.apk",
       "size": 206072221,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 2
       },
@@ -685,14 +685,14 @@
       "stale": false,
       "version": "12.28.0-prod.01",
       "assetName": "Twitter-X-12.28.0-prod.01.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Twitter-X-12.28.0-prod.01.apk",
-      "size": 131302845,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Twitter-X-12.28.0-prod.01.apk",
+      "size": 131225021,
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
-        "cumulativeBaseline": 11,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "cumulativeBaseline": 12,
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 1,
-        "total": 12
+        "total": 13
       },
       "patchSources": [
         "piko-newx",
@@ -721,14 +721,14 @@
       "stale": false,
       "version": "439.0.0.37.89",
       "assetName": "Instagram-439.0.0.37.89.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Instagram-439.0.0.37.89.apk",
-      "size": 146347383,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Instagram-439.0.0.37.89.apk",
+      "size": 146347401,
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
-        "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "cumulativeBaseline": 5,
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 1,
-        "total": 5
+        "total": 6
       },
       "patchSources": [
         "piko"
@@ -756,12 +756,12 @@
       "stale": false,
       "version": "18.0.3.954559732",
       "assetName": "Gboard-18.0.3.954559732.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Gboard-18.0.3.954559732.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Gboard-18.0.3.954559732.apk",
       "size": 89766102,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -791,12 +791,12 @@
       "stale": false,
       "version": "7.0.7",
       "assetName": "Speedtest-7.0.7.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Speedtest-7.0.7.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Speedtest-7.0.7.apk",
       "size": 28663991,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 6
       },
@@ -827,12 +827,12 @@
       "stale": false,
       "version": "1.92.140",
       "assetName": "Brave-1.92.140.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Brave-1.92.140.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Brave-1.92.140.apk",
       "size": 277661107,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 2
       },
@@ -894,7 +894,7 @@
       "icon": "https://cdn.simpleicons.org/tiktok",
       "arch": "arm64-v8a",
       "status": "published",
-      "stale": false,
+      "stale": true,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-icysymmetra.apk",
       "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/TikTok-46.2.3-icysymmetra.apk",
@@ -930,7 +930,7 @@
       "icon": "https://cdn.simpleicons.org/tiktok",
       "arch": "arm64-v8a",
       "status": "published",
-      "stale": false,
+      "stale": true,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-hxreborn.apk",
       "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/TikTok-46.2.3-hxreborn.apk",
@@ -969,12 +969,12 @@
       "stale": false,
       "version": "6.38.9",
       "assetName": "1.1.1.1-6.38.9.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/1.1.1.1-6.38.9.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/1.1.1.1-6.38.9.apk",
       "size": 48276245,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1004,12 +1004,12 @@
       "stale": false,
       "version": "2.214.1539",
       "assetName": "InShot-2.214.1539.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/InShot-2.214.1539.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/InShot-2.214.1539.apk",
       "size": 90140962,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -1074,12 +1074,12 @@
       "stale": false,
       "version": "107.2.2",
       "assetName": "inure-Github-107.2.2.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/inure-Github-107.2.2.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/inure-Github-107.2.2.apk",
       "size": 25992107,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1109,12 +1109,12 @@
       "stale": false,
       "version": "107.2.1",
       "assetName": "inure-PlayStore-107.2.1.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/inure-PlayStore-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/inure-PlayStore-107.2.1.apk",
       "size": 25388793,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1179,12 +1179,12 @@
       "stale": false,
       "version": "3.4.12",
       "assetName": "Notesnook-3.4.12.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T00-57-25/Notesnook-3.4.12.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-26T12-54-29/Notesnook-3.4.12.apk",
       "size": 68425143,
-      "publishedAt": "2026-09-26T01:02:44Z",
+      "publishedAt": "2026-09-26T13:00:01Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-26T00-57-25",
+        "lastReleaseTag": "build-2026-09-26T12-54-29",
         "downloadsThisRelease": 0,
         "total": 5
       },
