@@ -1,7 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T00:02:16Z",
+  "generatedAt": "2026-09-26T05:19:13Z",
   "entries": [
+    {
+      "appKey": "youtube-music",
+      "displayName": "YT.Music",
+      "fromVersion": "9.37.54",
+      "toVersion": "9.38.51",
+      "at": "2026-09-26T05:19:13Z",
+      "releaseTag": "build-2026-09-26T00-57-25"
+    },
+    {
+      "appKey": "reddit",
+      "displayName": "Reddit",
+      "fromVersion": "2026.38.0",
+      "toVersion": "2026.39.0",
+      "at": "2026-09-26T05:19:13Z",
+      "releaseTag": "build-2026-09-26T00-57-25"
+    },
     {
       "appKey": "twitter-x",
       "displayName": "Twitter-X",
