@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:06:26Z",
+  "generatedAt": "2026-09-28T07:25:40Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.42.0",
-      "latestPublishedAt": "2026-09-27T13:54:38Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.42.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** flap-riding retries, cancel/share actions, no-connection state ([5cca3fe](https://github.com/crimera/piko/commit/5cca3fef3040e82850805d6343e7f52216279b5f))\n* **Twitter:** retry button on failure, stall-tolerant large transfers ([4eeb18b](https://github.com/crimera/piko/commit/4eeb18b6f0311f77533a0d2e8da7fe65bce2a03f))\n\n### ✨ New Features\n* **Twitter - newx:** disable themed like button by default ([7750b85](https://github.com/crimera/piko/commit/7750b85af26e530890a7f8af5fbc097e464e7573))\n* **Twitter - newx:** add Default theme option with original NewX colors ([0d56c65](https://github.com/crimera/piko/commit/0d56c65a87330e3246c2def3edfd972ec3485349))\n* **Twitter - newx:** replace dynamic toggle with Material You/high-contrast/Dim theme chooser ([3967dc1](https://github.com/crimera/piko/commit/3967dc14396943324a4757b96940f3793e557bc5))",
+      "latestTag": "v3.42.1",
+      "latestPublishedAt": "2026-09-28T06:21:38Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.42.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** cancel the progress notice when download failures can't notify ([5ea8704](https://github.com/crimera/piko/commit/5ea8704c69614c81a03a8bff68723fba4663bcde))\n* **Twitter - newx:** post terminal download notices on a fresh notification id ([64782ba](https://github.com/crimera/piko/commit/64782bae74b34d54ecf24017abf75b566d4a75c3))",
       "history": [
+        {
+          "tag": "v3.42.0",
+          "publishedAt": "2026-09-27T13:54:38Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.42.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** flap-riding retries, cancel/share actions, no-connection state ([5cca3fe](https://github.com/crimera/piko/commit/5cca3fef3040e82850805d6343e7f52216279b5f))\n* **Twitter:** retry button on failure, stall-tolerant large transfers ([4eeb18b](https://github.com/crimera/piko/commit/4eeb18b6f0311f77533a0d2e8da7fe65bce2a03f))\n\n### ✨ New Features\n* **Twitter - newx:** disable themed like button by default ([7750b85](https://github.com/crimera/piko/commit/7750b85af26e530890a7f8af5fbc097e464e7573))\n* **Twitter - newx:** add Default theme option with original NewX colors ([0d56c65](https://github.com/crimera/piko/commit/0d56c65a87330e3246c2def3edfd972ec3485349))\n* **Twitter - newx:** replace dynamic toggle with Material You/high-contrast/Dim theme chooser ([3967dc1](https://github.com/crimera/piko/commit/3967dc14396943324a4757b96940f3793e557bc5))",
+          "prerelease": false
+        },
         {
           "tag": "v3.41.0",
           "publishedAt": "2026-09-26T08:11:35Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-26T02:53:55Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.40.0",
           "changelog": "### ✨ New Features\n* **Twitter:** add experimental support for 12.29.1-prod.01 ([117b25f](https://github.com/crimera/piko/commit/117b25f803045ecbc100e010e9846979024b8fcf))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.39.0",
-          "publishedAt": "2026-09-26T01:57:01Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.39.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** enable old inline actions spacing patch by default ([433b259](https://github.com/crimera/piko/commit/433b259e8dcb4542c5c1c7f2b176eea52c718d79))\n* **Twitter:** narrow destination-loss detection, fix status toast and merge loss (#38) ([980fc80](https://github.com/crimera/piko/commit/980fc806b3424158471e4be2f5a6052b2df39ac1))\n* **Twitter:** fix silent NewX download failures (#38) ([a1ad351](https://github.com/crimera/piko/commit/a1ad3511f90374b92b5afe3020c38bfd507d907b))\n\n### ✨ New Features\n* **Twitter - newx:** replace the AMOLED toggle with an amoled/dim dark style chooser ([36e227f](https://github.com/crimera/piko/commit/36e227f71ff11605586f32ca4f36278a3e193e30))\n\n### 🔧 Improvements\n* **Twitter - newx:** dedupe repeated dex traversals in slow patches ([4b6bbaa](https://github.com/crimera/piko/commit/4b6bbaa350188a95c7b1736513aba066c911b136))\n* **Twitter - newx:** rename the Dynamic color patch to Theme ([e6121e9](https://github.com/crimera/piko/commit/e6121e9c19da2e713eb85097a71bbcc2e49ba58a))\n* **Twitter - newx:** port the patch suite to the typed bytecode API ([1505dc6](https://github.com/crimera/piko/commit/1505dc67e32c23b4a3e7b2fd984eb1f5f6853125))\n\nNew patches:\n- NewX: Theme",
           "prerelease": false
         }
       ]
@@ -263,37 +263,37 @@
       "repo": "morphe-patches",
       "label": "🍃 hoo-dles",
       "repoUrl": "https://github.com/hoo-dles/morphe-patches",
-      "latestTag": "v1.45.0-dev.2",
-      "latestPublishedAt": "2026-09-21T21:39:38Z",
-      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.45.0-dev.2",
-      "changelog": "# [1.45.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.1...v1.45.0-dev.2) (2026-09-21)\n\n\n### Bug Fixes\n\n* **MicroG:** Fix support for Busuu ([39796a6](https://github.com/hoo-dles/morphe-patches/commit/39796a698897f764279d7439c1f01fe5395bae1a))\n\n\n\n",
+      "latestTag": "v1.45.0-dev.5",
+      "latestPublishedAt": "2026-09-28T06:56:09Z",
+      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.45.0-dev.5",
+      "changelog": "# [1.45.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.4...v1.45.0-dev.5) (2026-09-28)\n\n\n### Features\n\n* **Duolingo:** Add `Unlimited RampUp time` patch ([7af89fd](https://github.com/hoo-dles/morphe-patches/commit/7af89fd4bdf3502951ce771fdb411310851ecea8))\n\n\n\n",
       "history": [
+        {
+          "tag": "v1.45.0-dev.4",
+          "publishedAt": "2026-09-28T05:27:55Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.45.0-dev.4",
+          "changelog": "# [1.45.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.3...v1.45.0-dev.4) (2026-09-28)\n\n\n### Bug Fixes\n\n* **Prime Video:** Fix `Rename shared permissions` patch for latest ([906e0a7](https://github.com/hoo-dles/morphe-patches/commit/906e0a7e137e989b009418a6456356b61fc6a3e7))\n\n\n\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.45.0-dev.3",
+          "publishedAt": "2026-09-28T05:16:53Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.45.0-dev.3",
+          "changelog": "# [1.45.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.2...v1.45.0-dev.3) (2026-09-28)\n\n\n### Features\n\n* **Mimo:** Update support for `9.30` ([306bf98](https://github.com/hoo-dles/morphe-patches/commit/306bf9803e24e3c98ac560eb9e79f3dd7e09923e))\n\n\n\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.45.0-dev.2",
+          "publishedAt": "2026-09-21T21:39:38Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.45.0-dev.2",
+          "changelog": "# [1.45.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.1...v1.45.0-dev.2) (2026-09-21)\n\n\n### Bug Fixes\n\n* **MicroG:** Fix support for Busuu ([39796a6](https://github.com/hoo-dles/morphe-patches/commit/39796a698897f764279d7439c1f01fe5395bae1a))\n\n\n\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.45.0-dev.1",
           "publishedAt": "2026-09-21T06:08:39Z",
           "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.45.0-dev.1",
           "changelog": "# [1.45.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.44.2-dev.1...v1.45.0-dev.1) (2026-09-21)\n\n\n### Bug Fixes\n\n* **Lightroom:** Remove `Bypass login` patch ([618c18c](https://github.com/hoo-dles/morphe-patches/commit/618c18c2f69957d854a5ea1e47c950b970a73285))\n\n\n### Features\n\n* **Bend:** Update support for `7.8.0` ([61bd8dc](https://github.com/hoo-dles/morphe-patches/commit/61bd8dc371ae1c802b4e2a115e1b66abed5823ea))\n* **Bunpo:** Update support for `3.23.1` ([cfb2ff7](https://github.com/hoo-dles/morphe-patches/commit/cfb2ff7e23bf260fc41128e7b41303df3d0dd9da))\n* **Lightroom:** Update support for `11.5.31` ([10bc5a4](https://github.com/hoo-dles/morphe-patches/commit/10bc5a44175791c1526127722cff6a1475ec46bc))\n* **Lingodeer:** Update support for `2.99.413` ([4a474f8](https://github.com/hoo-dles/morphe-patches/commit/4a474f8467cd276920cbcd9e49e003376476cab2))\n\n\n\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.44.2-dev.1",
-          "publishedAt": "2026-09-17T22:21:40Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.2-dev.1",
-          "changelog": "## [1.44.2-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.44.1...v1.44.2-dev.1) (2026-09-17)\n\n\n### Bug Fixes\n\n* Change `Signature spoof` to patch call sites instead of modifying PackageManager directly (support SDK 37+) ([8d8299d](https://github.com/hoo-dles/morphe-patches/commit/8d8299d64173f5bf694152d96fdbb53aa0fc184b))\n\n\n\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.44.1",
-          "publishedAt": "2026-09-17T16:37:30Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.1",
-          "changelog": "## [1.44.1](https://github.com/hoo-dles/morphe-patches/compare/v1.44.0...v1.44.1) (2026-09-17)\n\n\n### Bug Fixes\n\n* **Lightroom:** Fix pairip stripping and update patches to `11.5.22` ([2c1b213](https://github.com/hoo-dles/morphe-patches/commit/2c1b213cbfe3665b3d1330065c31d7f807fe7919))\n\n\n\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.44.1-dev.1",
-          "publishedAt": "2026-09-16T22:13:20Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.44.1-dev.1",
-          "changelog": "## [1.44.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.44.0...v1.44.1-dev.1) (2026-09-16)\n\n\n### Bug Fixes\n\n* **Lightroom:** Fix pairip stripping and update patches to `11.5.22` ([2c1b213](https://github.com/hoo-dles/morphe-patches/commit/2c1b213cbfe3665b3d1330065c31d7f807fe7919))\n\n\n\n",
           "prerelease": true
         }
       ]
