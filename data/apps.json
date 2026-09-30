@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T16:55:57Z",
+  "generatedAt": "2026-09-30T21:20:52Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -223,11 +223,18 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.8.0-dev.5",
-      "latestPublishedAt": "2026-09-30T16:37:33Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.5",
-      "changelog": "## [1.8.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.4...v1.8.0-dev.5) (2026-09-30)\n\n### 🐛 Bug Fixes\n\n* **brave:** rewrite AMOLED dark surfaces in values/ not just values-night ([b76ab33](https://github.com/dh6k/morphe-patches/commit/b76ab33ded56a444df0fa901d2c1b92d9ee81c87)), closes [#121212](https://github.com/dh6k/morphe-patches/issues/121212) [#ff303030](https://github.com/dh6k/morphe-patches/issues/ff303030)\n",
+      "latestTag": "v1.8.0-dev.6",
+      "latestPublishedAt": "2026-09-30T17:48:07Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.6",
+      "changelog": "## [1.8.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.5...v1.8.0-dev.6) (2026-09-30)\n\n### ✨ New Features\n\n* **brave:** add AMOLED text and accent color options ([e0484bb](https://github.com/dh6k/morphe-patches/commit/e0484bbec22ffb990d510ca2b9ecaa3499545f81))\n",
       "history": [
+        {
+          "tag": "v1.8.0-dev.5",
+          "publishedAt": "2026-09-30T16:37:33Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.5",
+          "changelog": "## [1.8.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.4...v1.8.0-dev.5) (2026-09-30)\n\n### 🐛 Bug Fixes\n\n* **brave:** rewrite AMOLED dark surfaces in values/ not just values-night ([b76ab33](https://github.com/dh6k/morphe-patches/commit/b76ab33ded56a444df0fa901d2c1b92d9ee81c87)), closes [#121212](https://github.com/dh6k/morphe-patches/issues/121212) [#ff303030](https://github.com/dh6k/morphe-patches/issues/ff303030)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.8.0-dev.4",
           "publishedAt": "2026-09-30T15:28:42Z",
@@ -248,13 +255,6 @@
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.2",
           "changelog": "## [1.8.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.1...v1.8.0-dev.2) (2026-09-30)\n\n### ✨ New Features\n\n* **brave:** add patch-time AMOLED theme (issue [#21](https://github.com/dh6k/morphe-patches/issues/21)) ([863a558](https://github.com/dh6k/morphe-patches/commit/863a558a8549b0dec16a8109c6c4c78e7a7330a9))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.8.0-dev.1",
-          "publishedAt": "2026-09-30T10:36:09Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.1",
-          "changelog": "## [1.8.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.7.0...v1.8.0-dev.1) (2026-09-30)\n\n### ✨ New Features\n\n* **titanium:** scope keep-alive boosts to extension processes ([a461882](https://github.com/dh6k/morphe-patches/commit/a461882a418570b36eb0531176065dc1f8006a8f))\n",
-          "prerelease": true
         }
       ]
     },
@@ -263,11 +263,18 @@
       "repo": "morphe-patches",
       "label": "🍃 hoo-dles",
       "repoUrl": "https://github.com/hoo-dles/morphe-patches",
-      "latestTag": "v1.46.0-dev.7",
-      "latestPublishedAt": "2026-09-30T09:31:05Z",
-      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0-dev.7",
-      "changelog": "# [1.46.0-dev.7](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.6...v1.46.0-dev.7) (2026-09-30)\n\n\n### Bug Fixes\n\n* **FotMob:** Force FotMob+ toolbar logo ([77c4570](https://github.com/hoo-dles/morphe-patches/commit/77c45701d1836adbb145a73cc631d29b20b822fc))\n\n\n\n",
+      "latestTag": "v1.46.0",
+      "latestPublishedAt": "2026-09-30T18:19:04Z",
+      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0",
+      "changelog": "# [1.46.0](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0...v1.46.0) (2026-09-30)\n\n\n### Bug Fixes\n\n* **`Hide app icon`:** Allow app to be launched from app info settings ([d71cda1](https://github.com/hoo-dles/morphe-patches/commit/d71cda147681ce35526f3b2f7eb3c9c21323c8f9))\n* **Duolingo:** Update support for `Enable debug mode` patch ([ee7381b](https://github.com/hoo-dles/morphe-patches/commit/ee7381bebcff21e9d24c484f8104c544ed97296e))\n* **FotMob:** Force FotMob+ toolbar logo ([77c4570](https://github.com/hoo-dles/morphe-patches/commit/77c45701d1836adbb145a73cc631d29b20b822fc))\n* **Lyfta:** Display premium UI elements as well as unlock features ([6020f74](https://github.com/hoo-dles/morphe-patches/commit/6020f74fff49aebeba8bfd0c8111afa797ba10bc))\n* **SuperChinese:** Fix signature spoofing for native binary ([a6dfeec](https://github.com/hoo-dles/morphe-patches/commit/a6dfeec6d62d6429b0182469c01cbac5ac05b8c1))\n\n\n### Features\n\n* **FotMob:** Update support for `237.17536.20260911` ([3ec4b73](https://github.com/hoo-dles/morphe-patches/commit/3ec4b73753a248bed80a8e5a467fdd6bba390e96))\n* **Lyfta:** Update support for `1.599` ([26bfde8](https://github.com/hoo-dles/morphe-patches/commit/26bfde8d231e91c74925355d280393c35b8cc4e8))\n* **Superchinese:** Add `Block launch upsell` patch ([7968b81](https://github.com/hoo-dles/morphe-patches/commit/7968b8193f38faaf442bcb69b33d9ea6e1f442ac))\n\n\n\n",
       "history": [
+        {
+          "tag": "v1.46.0-dev.7",
+          "publishedAt": "2026-09-30T09:31:05Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0-dev.7",
+          "changelog": "# [1.46.0-dev.7](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.6...v1.46.0-dev.7) (2026-09-30)\n\n\n### Bug Fixes\n\n* **FotMob:** Force FotMob+ toolbar logo ([77c4570](https://github.com/hoo-dles/morphe-patches/commit/77c45701d1836adbb145a73cc631d29b20b822fc))\n\n\n\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.46.0-dev.6",
           "publishedAt": "2026-09-30T01:10:16Z",
@@ -287,13 +294,6 @@
           "publishedAt": "2026-09-29T07:50:54Z",
           "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0-dev.4",
           "changelog": "# [1.46.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.3...v1.46.0-dev.4) (2026-09-29)\n\n\n### Features\n\n* **FotMob:** Update support for `237.17536.20260911` ([3ec4b73](https://github.com/hoo-dles/morphe-patches/commit/3ec4b73753a248bed80a8e5a467fdd6bba390e96))\n\n\n\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.46.0-dev.3",
-          "publishedAt": "2026-09-29T05:43:10Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0-dev.3",
-          "changelog": "# [1.46.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.2...v1.46.0-dev.3) (2026-09-29)\n\n\n### Features\n\n* **Superchinese:** Add `Block launch upsell` patch ([7968b81](https://github.com/hoo-dles/morphe-patches/commit/7968b8193f38faaf442bcb69b33d9ea6e1f442ac))\n\n\n\n",
           "prerelease": true
         }
       ]
@@ -424,9 +424,9 @@
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
       "latestTag": "v1.37.0",
-      "latestPublishedAt": "2026-09-30T16:55:35Z",
+      "latestPublishedAt": "2026-09-30T17:08:50Z",
       "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.37.0",
-      "changelog": "## [1.37.0](https://github.com/hxreborn/morphe-patches/compare/v1.36.0...v1.37.0) (2026-09-30)\n\n### New Features\n\n* **Pocket Whip:** unlock premium and hide ads ([59fe38b](https://github.com/hxreborn/morphe-patches/commit/59fe38b9f89ff8d0d67bc54cc3b15cba2c71498c))\n",
+      "changelog": "## [1.37.0](https://github.com/hxreborn/morphe-patches/compare/v1.36.0...v1.37.0) (2026-09-30)\n\n### New Features\n\n* **One4Home Launcher - Unlock premium:** unlock collector Pals ([e1baee3](https://github.com/hxreborn/morphe-patches/commit/e1baee36d792688a32dd0d9bc19978641b0e32b7))\n* **One4Home Launcher - Unlock premium:** unlock Pro themes, special Pals and Pro tools ([45480be](https://github.com/hxreborn/morphe-patches/commit/45480be62540ac3cc7b7559885707a161bbc2c6c))\n* **Pocket Whip:** unlock premium and hide ads ([59fe38b](https://github.com/hxreborn/morphe-patches/commit/59fe38b9f89ff8d0d67bc54cc3b15cba2c71498c))\n* **Proton - Patches menu:** draw toggles as Material 3 switches ([26b28db](https://github.com/hxreborn/morphe-patches/commit/26b28db0fa2fc77aaef3b31b43210aab906df083))\n* **Proton Mail:** remove tap highlight from web settings screens ([6421674](https://github.com/hxreborn/morphe-patches/commit/6421674c3c89a591ce3d27c37071714ebb6228c6))\n\n### Improvements\n\n* **MovieBox - All-In-One:** resume playback after seeking in downloaded videos ([5294c81](https://github.com/hxreborn/morphe-patches/commit/5294c81d6df958200009c114b5e6c0f4c8236462))\n",
       "history": [
         {
           "tag": "v1.36.0",
