@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T00:44:19Z",
+  "generatedAt": "2026-10-01T07:00:16Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
     "repoUrl": "https://github.com/Erlikx/Builder-Morphe",
     "hasRelease": true,
-    "releaseTag": "build-2026-09-30T13-25-33",
-    "releaseName": "Patched APKs - 30 September 2026",
-    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-09-30T13-25-33",
-    "publishedAt": "2026-09-30T13:32:24Z"
+    "releaseTag": "build-2026-10-01T05-08-16",
+    "releaseName": "Patched APKs - 1 October 2026",
+    "releaseUrl": "https://github.com/Erlikx/Builder-Morphe/releases/tag/build-2026-10-01T05-08-16",
+    "publishedAt": "2026-10-01T05:14:05Z"
   },
   "stats": {
     "totalApps": 21,
-    "publishedApps": 17,
-    "totalDownloads": 123
+    "publishedApps": 16,
+    "totalDownloads": 126
   },
   "microg": null,
   "patchSources": {
@@ -223,37 +223,37 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.8.0-dev.6",
-      "latestPublishedAt": "2026-09-30T17:48:07Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.6",
-      "changelog": "## [1.8.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.5...v1.8.0-dev.6) (2026-09-30)\n\n### ✨ New Features\n\n* **brave:** add AMOLED text and accent color options ([e0484bb](https://github.com/dh6k/morphe-patches/commit/e0484bbec22ffb990d510ca2b9ecaa3499545f81))\n",
+      "latestTag": "v1.8.0",
+      "latestPublishedAt": "2026-10-01T06:24:48Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0",
+      "changelog": "## [1.8.0](https://github.com/dh6k/morphe-patches/compare/v1.7.0...v1.8.0) (2026-10-01)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **brave:** actually kill Material You in AMOLED and stop greying the switch ([41fb1b4](https://github.com/dh6k/morphe-patches/commit/41fb1b4d376f5e4bb8f577f5a4392c7b9e82f1d7))\r\n* **brave:** keep accent-coloured text when declaring night ink ([5b6f269](https://github.com/dh6k/morphe-patches/commit/5b6f2690031607d733cfb049ad428462099e0364)), closes [#cd4400](https://github.com/dh6k/morphe-patches/issues/cd4400) [#545ff8](https://github.com/dh6k/morphe-patches/issues/545ff8) [#687485](https://github.com/dh6k/morphe-patches/issues/687485)\r\n* **brave:** keep colors the app renders text with out of the surface sweep ([0703501](https://github.com/dh6k/morphe-patches/commit/0703501ec7aecf9b1488e1185fd76afa568fe812)), closes [#1c1c1d](https://github.com/dh6k/morphe-patches/issues/1c1c1d) [#0d0f14](https://github.com/dh6k/morphe-patches/issues/0d0f14) [#202124](https://github.com/dh6k/morphe-patches/issues/202124) [#484b4e](https://github.com/dh6k/morphe-patches/issues/484b4e) [#25272b](https://github.com/dh6k/morphe-patches/issues/25272b)\r\n* **brave:** only force the dedicated AMOLED dynamic-colors getter ([84ed3a4](https://github.com/dh6k/morphe-patches/commit/84ed3a445584981592038e82f5b29a1c0cba6365))\r\n* **brave:** rewrite AMOLED dark surfaces in values/ not just values-night ([238a4f2](https://github.com/dh6k/morphe-patches/commit/238a4f27d78eafd4f8eab5cb5c31a33144f0af00)), closes [#121212](https://github.com/dh6k/morphe-patches/issues/121212) [#ff303030](https://github.com/dh6k/morphe-patches/issues/ff303030)\r\n* **brave:** stop declaring text colors that already have selectors ([4974aea](https://github.com/dh6k/morphe-patches/commit/4974aea31deb3b317bb6e9b557510cda4478d578))\r\n* **brave:** stop night-v31 overrides from re-asserting text as background ([6832558](https://github.com/dh6k/morphe-patches/commit/6832558e54e676c890e4b81820b1aff14474e3b2)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\r\n\r\n### ✨ New Features\r\n\r\n* **brave:** add AMOLED text and accent color options ([9254614](https://github.com/dh6k/morphe-patches/commit/925461415ceb6b86bd3438aa0e9ba35b1984aef2))\r\n* **brave:** add patch-time AMOLED theme (issue [#21](https://github.com/dh6k/morphe-patches/issues/21)) ([7d0c8ad](https://github.com/dh6k/morphe-patches/commit/7d0c8ad3665a686c6f05e94b2464052934c92526))\r\n* **titanium:** scope keep-alive boosts to extension processes ([a461882](https://github.com/dh6k/morphe-patches/commit/a461882a418570b36eb0531176065dc1f8006a8f))\r\n",
       "history": [
         {
-          "tag": "v1.8.0-dev.5",
-          "publishedAt": "2026-09-30T16:37:33Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.5",
-          "changelog": "## [1.8.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.4...v1.8.0-dev.5) (2026-09-30)\n\n### 🐛 Bug Fixes\n\n* **brave:** rewrite AMOLED dark surfaces in values/ not just values-night ([b76ab33](https://github.com/dh6k/morphe-patches/commit/b76ab33ded56a444df0fa901d2c1b92d9ee81c87)), closes [#121212](https://github.com/dh6k/morphe-patches/issues/121212) [#ff303030](https://github.com/dh6k/morphe-patches/issues/ff303030)\n",
+          "tag": "v1.8.0-dev.9",
+          "publishedAt": "2026-10-01T05:32:10Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.9",
+          "changelog": "## [1.8.0-dev.9](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.8...v1.8.0-dev.9) (2026-10-01)\n\n### 🐛 Bug Fixes\n\n* **brave:** stop night-v31 overrides from re-asserting text as background ([d17495b](https://github.com/dh6k/morphe-patches/commit/d17495bb353edeef95c552f0cbff181ac98c3405)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\n",
           "prerelease": true
         },
         {
-          "tag": "v1.8.0-dev.4",
-          "publishedAt": "2026-09-30T15:28:42Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.4",
-          "changelog": "## [1.8.0-dev.4](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.3...v1.8.0-dev.4) (2026-09-30)\n\n### 🐛 Bug Fixes\n\n* **brave:** only force the dedicated AMOLED dynamic-colors getter ([535f6f2](https://github.com/dh6k/morphe-patches/commit/535f6f281c1de3464d1971f437c4abc2af1150a4))\n",
+          "tag": "v1.8.0-dev.8",
+          "publishedAt": "2026-10-01T05:21:35Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.8",
+          "changelog": "## [1.8.0-dev.8](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.7...v1.8.0-dev.8) (2026-10-01)\n\n### 🐛 Bug Fixes\n\n* **brave:** keep colors the app renders text with out of the surface sweep ([fcf7630](https://github.com/dh6k/morphe-patches/commit/fcf7630819301cb0aa41f4e7912176b2793ce31e)), closes [#1c1c1d](https://github.com/dh6k/morphe-patches/issues/1c1c1d) [#0d0f14](https://github.com/dh6k/morphe-patches/issues/0d0f14) [#202124](https://github.com/dh6k/morphe-patches/issues/202124) [#484b4e](https://github.com/dh6k/morphe-patches/issues/484b4e) [#25272b](https://github.com/dh6k/morphe-patches/issues/25272b)\n",
           "prerelease": true
         },
         {
-          "tag": "v1.8.0-dev.3",
-          "publishedAt": "2026-09-30T14:49:11Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.3",
-          "changelog": "## [1.8.0-dev.3](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.2...v1.8.0-dev.3) (2026-09-30)\n\n### 🐛 Bug Fixes\n\n* **brave:** actually kill Material You in AMOLED and stop greying the switch ([2e38c35](https://github.com/dh6k/morphe-patches/commit/2e38c35636e31867c33211fdc103c076f885dec7))\n",
+          "tag": "v1.8.0-dev.7",
+          "publishedAt": "2026-10-01T04:30:49Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.7",
+          "changelog": "## [1.8.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.6...v1.8.0-dev.7) (2026-10-01)\n\n### 🐛 Bug Fixes\n\n* **brave:** stop declaring text colors that already have selectors ([cda4691](https://github.com/dh6k/morphe-patches/commit/cda4691484a808a2ad476ac1e24f49d5845af04c))\n",
           "prerelease": true
         },
         {
-          "tag": "v1.8.0-dev.2",
-          "publishedAt": "2026-09-30T11:24:23Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.2",
-          "changelog": "## [1.8.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.1...v1.8.0-dev.2) (2026-09-30)\n\n### ✨ New Features\n\n* **brave:** add patch-time AMOLED theme (issue [#21](https://github.com/dh6k/morphe-patches/issues/21)) ([863a558](https://github.com/dh6k/morphe-patches/commit/863a558a8549b0dec16a8109c6c4c78e7a7330a9))\n",
+          "tag": "v1.8.0-dev.10",
+          "publishedAt": "2026-10-01T05:46:20Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.10",
+          "changelog": "## [1.8.0-dev.10](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.9...v1.8.0-dev.10) (2026-10-01)\n\n### 🐛 Bug Fixes\n\n* **brave:** keep accent-coloured text when declaring night ink ([11d8e1f](https://github.com/dh6k/morphe-patches/commit/11d8e1fa0a6d398682e19d33d81cf22d535ad635)), closes [#cd4400](https://github.com/dh6k/morphe-patches/issues/cd4400) [#545ff8](https://github.com/dh6k/morphe-patches/issues/545ff8) [#687485](https://github.com/dh6k/morphe-patches/issues/687485)\n",
           "prerelease": true
         }
       ]
@@ -510,14 +510,14 @@
       "stale": false,
       "version": "21.39.522",
       "assetName": "YouTube-21.39.522.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/YouTube-21.39.522.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/YouTube-21.39.522.apk",
       "size": 112063244,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
-        "cumulativeBaseline": 18,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "cumulativeBaseline": 19,
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 1,
-        "total": 19
+        "total": 20
       },
       "patchSources": [
         "morphe"
@@ -545,14 +545,14 @@
       "stale": false,
       "version": "9.38.51",
       "assetName": "YT.Music-9.38.51.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/YT.Music-9.38.51.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/YT.Music-9.38.51.apk",
       "size": 79714692,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
-        "cumulativeBaseline": 17,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "cumulativeBaseline": 18,
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 1,
-        "total": 18
+        "total": 19
       },
       "patchSources": [
         "morphe"
@@ -577,7 +577,7 @@
       "icon": "https://cdn.simpleicons.org/reddit/FF4500",
       "arch": "arm64-v8a",
       "status": "published",
-      "stale": false,
+      "stale": true,
       "version": "2026.39.0",
       "assetName": "Reddit-2026.39.0.apk",
       "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Reddit-2026.39.0.apk",
@@ -615,12 +615,12 @@
       "stale": false,
       "version": "2026.38.0",
       "assetName": "Reddit-Adobo-2026.38.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Reddit-Adobo-2026.38.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Reddit-Adobo-2026.38.0.apk",
       "size": 87319823,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 3,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 3
       },
@@ -650,13 +650,13 @@
       "stale": false,
       "version": "12.19.1-release.0",
       "assetName": "Twitter-12.19.1-release.0.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Twitter-12.19.1-release.0.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Twitter-12.19.1-release.0.apk",
       "size": 205863325,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
-        "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
-        "downloadsThisRelease": 1,
+        "cumulativeBaseline": 3,
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
+        "downloadsThisRelease": 0,
         "total": 3
       },
       "patchSources": [
@@ -683,16 +683,16 @@
       "arch": "arm64-v8a",
       "status": "published",
       "stale": false,
-      "version": "12.29.1-prod.01",
-      "assetName": "Twitter-X-12.29.1-prod.01.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Twitter-X-12.29.1-prod.01.apk",
-      "size": 133170374,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "version": "12.30.0-prod.01",
+      "assetName": "Twitter-X-12.30.0-prod.01.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Twitter-X-12.30.0-prod.01.apk",
+      "size": 115365695,
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
-        "cumulativeBaseline": 14,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "cumulativeBaseline": 15,
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 1,
-        "total": 15
+        "total": 16
       },
       "patchSources": [
         "piko-newx",
@@ -721,13 +721,13 @@
       "stale": false,
       "version": "439.0.0.37.89",
       "assetName": "Instagram-439.0.0.37.89.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Instagram-439.0.0.37.89.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Instagram-439.0.0.37.89.apk",
       "size": 147019130,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
-        "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
-        "downloadsThisRelease": 1,
+        "cumulativeBaseline": 7,
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
+        "downloadsThisRelease": 0,
         "total": 7
       },
       "patchSources": [
@@ -756,12 +756,12 @@
       "stale": false,
       "version": "18.0.3.954559732",
       "assetName": "Gboard-18.0.3.954559732.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Gboard-18.0.3.954559732.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Gboard-18.0.3.954559732.apk",
       "size": 89778390,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -791,12 +791,12 @@
       "stale": false,
       "version": "7.0.7",
       "assetName": "Speedtest-7.0.7.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Speedtest-7.0.7.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Speedtest-7.0.7.apk",
       "size": 28663991,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 6,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 6
       },
@@ -827,12 +827,12 @@
       "stale": false,
       "version": "1.92.140",
       "assetName": "Brave-1.92.140.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Brave-1.92.140.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Brave-1.92.140.apk",
       "size": 277665203,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 2
       },
@@ -897,13 +897,13 @@
       "stale": false,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-icysymmetra.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/TikTok-46.2.3-icysymmetra.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/TikTok-46.2.3-icysymmetra.apk",
       "size": 413970455,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
-        "cumulativeBaseline": 1,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
-        "downloadsThisRelease": 1,
+        "cumulativeBaseline": 2,
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
+        "downloadsThisRelease": 0,
         "total": 2
       },
       "patchSources": [
@@ -933,13 +933,13 @@
       "stale": false,
       "version": "46.2.3",
       "assetName": "TikTok-46.2.3-hxreborn.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/TikTok-46.2.3-hxreborn.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/TikTok-46.2.3-hxreborn.apk",
       "size": 413966359,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
-        "cumulativeBaseline": 2,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
-        "downloadsThisRelease": 1,
+        "cumulativeBaseline": 3,
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
+        "downloadsThisRelease": 0,
         "total": 3
       },
       "patchSources": [
@@ -969,12 +969,12 @@
       "stale": false,
       "version": "6.38.9",
       "assetName": "1.1.1.1-6.38.9.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/1.1.1.1-6.38.9.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/1.1.1.1-6.38.9.apk",
       "size": 48272149,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1004,12 +1004,12 @@
       "stale": false,
       "version": "2.214.1539",
       "assetName": "InShot-2.214.1539.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/InShot-2.214.1539.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/InShot-2.214.1539.apk",
       "size": 90140962,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 4,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 4
       },
@@ -1074,12 +1074,12 @@
       "stale": false,
       "version": "107.2.2",
       "assetName": "inure-Github-107.2.2.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/inure-Github-107.2.2.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/inure-Github-107.2.2.apk",
       "size": 25992107,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1109,12 +1109,12 @@
       "stale": false,
       "version": "107.2.1",
       "assetName": "inure-PlayStore-107.2.1.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/inure-PlayStore-107.2.1.apk",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/inure-PlayStore-107.2.1.apk",
       "size": 25388793,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 5
       },
@@ -1179,12 +1179,12 @@
       "stale": false,
       "version": "3.4.12",
       "assetName": "Notesnook-3.4.12.apk",
-      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-09-30T13-25-33/Notesnook-3.4.12.apk",
-      "size": 68425143,
-      "publishedAt": "2026-09-30T13:32:24Z",
+      "downloadUrl": "https://github.com/Erlikx/Builder-Morphe/releases/download/build-2026-10-01T05-08-16/Notesnook-3.4.12.apk",
+      "size": 68441527,
+      "publishedAt": "2026-10-01T05:14:05Z",
       "downloads": {
         "cumulativeBaseline": 5,
-        "lastReleaseTag": "build-2026-09-30T13-25-33",
+        "lastReleaseTag": "build-2026-10-01T05-08-16",
         "downloadsThisRelease": 0,
         "total": 5
       },
