@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T00:03:19Z",
+  "generatedAt": "2026-10-02T06:01:49Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.47.0",
-      "latestPublishedAt": "2026-10-01T10:27:29Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.47.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** resolve immersive reply bar renderer on 12.31.0-alpha.04 ([af06413](https://github.com/crimera/piko/commit/af064137c93ce4655e77da436c8f107cc1e3d903))\n\n### ✨ New Features\n* **Twitter - newx:** declare 12.31.0-alpha.04 as an experimental target ([9eed2e7](https://github.com/crimera/piko/commit/9eed2e7b5c1f6a5cd8aa39117bd9cf6d76a26f6c))",
+      "latestTag": "v3.48.0",
+      "latestPublishedAt": "2026-10-02T03:34:45Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.48.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme inline action counts that the host overrides with white ([dfb54a2](https://github.com/crimera/piko/commit/dfb54a2ca9b8b8fb40cc63def93a180ccb3cb771))\n\n### ✨ New Features\n* **Twitter - newx:** give Piko settings rows their own icon ([5ef312b](https://github.com/crimera/piko/commit/5ef312b108e1bd4e0c7ef1090cd49fcdc542a555))\n\n### 🔧 Improvements\n* **Twitter - newx:** Scan classes in parallel for whole-APK discovery ([dd61dbd](https://github.com/crimera/piko/commit/dd61dbdc5ed41284a708da8799af9ed88a47e92e))",
       "history": [
+        {
+          "tag": "v3.47.0",
+          "publishedAt": "2026-10-01T10:27:29Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.47.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** resolve immersive reply bar renderer on 12.31.0-alpha.04 ([af06413](https://github.com/crimera/piko/commit/af064137c93ce4655e77da436c8f107cc1e3d903))\n\n### ✨ New Features\n* **Twitter - newx:** declare 12.31.0-alpha.04 as an experimental target ([9eed2e7](https://github.com/crimera/piko/commit/9eed2e7b5c1f6a5cd8aa39117bd9cf6d76a26f6c))",
+          "prerelease": false
+        },
         {
           "tag": "v3.46.0",
           "publishedAt": "2026-10-01T09:07:10Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-29T22:33:01Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.44.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** hook the home-nav header state for hide premium upsell ([5505646](https://github.com/crimera/piko/commit/55056469426971b9d8307393733c93bdb680c664))\n* **Twitter - newx:** cast the Coil strong-cache wrapper before its map read ([a6159e3](https://github.com/crimera/piko/commit/a6159e30d1ea9768da35d4b2174832094d85b266))\n* **Twitter - newx:** read Coil's strong-cache map on the 12.30 merge ([9a9f8c0](https://github.com/crimera/piko/commit/9a9f8c0930b65a2486b27497c6cf9e7bef7fa37a))\n\n### ✨ New Features\n* **Twitter - newx:** report thumbnail cache lookup stage and sample keys ([b081e5b](https://github.com/crimera/piko/commit/b081e5b7d27aa1a88a4e2833821be25be208b043))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.43.0",
-          "publishedAt": "2026-09-29T12:09:31Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.43.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** fingerprint reply facepile lists by parameter provenance ([d3eef3e](https://github.com/crimera/piko/commit/d3eef3edfd9df557b208dbe664fc80b952ca72ce))\n* **Twitter - newx:** resolve the widened Glide LRU map field on 12.30 ([03fec1f](https://github.com/crimera/piko/commit/03fec1fc3fc5cdc47315ee9fef7e41a4683531ad))\n\n### ✨ New Features\n* **Twitter - newx:** redirect native download buttons to the chosen folder ([d4f1cc7](https://github.com/crimera/piko/commit/d4f1cc75301e531412e5a8789cc13cb516ffd0a1))\n\n### 🔧 Improvements\n* **Twitter - newx:** clear resolver anchor backlog and gate the drift rules ([b30b72c](https://github.com/crimera/piko/commit/b30b72cce71ba8f502a9369a01cf2010e2e5cf8b))\n\nNew patches:\n- NewX: Redirect downloads to chosen folder",
           "prerelease": false
         }
       ]
@@ -223,11 +223,18 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.9.0-dev.1",
-      "latestPublishedAt": "2026-10-01T15:41:52Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.1",
-      "changelog": "## [1.9.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.8.1-dev.1...v1.9.0-dev.1) (2026-10-01)\n\n### ✨ New Features\n\n* **brave:** keep NTP tiles in four columns with a background image ([632015d](https://github.com/dh6k/morphe-patches/commit/632015dc64144fccedeaa5db29a28dc9e89a0a8e))\n",
+      "latestTag": "v1.9.0-dev.2",
+      "latestPublishedAt": "2026-10-02T04:46:42Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.2",
+      "changelog": "## [1.9.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.1...v1.9.0-dev.2) (2026-10-02)\n\n### 🐛 Bug Fixes\n\n* **brave:** match the NTP grid gate across Brave channels ([cb9d123](https://github.com/dh6k/morphe-patches/commit/cb9d123f4cfff533e653fb42b64379b3f7a9e02b)), closes [#1738](https://github.com/dh6k/morphe-patches/issues/1738) [#1747](https://github.com/dh6k/morphe-patches/issues/1747)\n",
       "history": [
+        {
+          "tag": "v1.9.0-dev.1",
+          "publishedAt": "2026-10-01T15:41:52Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.1",
+          "changelog": "## [1.9.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.8.1-dev.1...v1.9.0-dev.1) (2026-10-01)\n\n### ✨ New Features\n\n* **brave:** keep NTP tiles in four columns with a background image ([632015d](https://github.com/dh6k/morphe-patches/commit/632015dc64144fccedeaa5db29a28dc9e89a0a8e))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.8.1-dev.1",
           "publishedAt": "2026-10-01T09:41:07Z",
@@ -247,13 +254,6 @@
           "publishedAt": "2026-10-01T05:32:10Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.9",
           "changelog": "## [1.8.0-dev.9](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.8...v1.8.0-dev.9) (2026-10-01)\n\n### 🐛 Bug Fixes\n\n* **brave:** stop night-v31 overrides from re-asserting text as background ([d17495b](https://github.com/dh6k/morphe-patches/commit/d17495bb353edeef95c552f0cbff181ac98c3405)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.8.0-dev.8",
-          "publishedAt": "2026-10-01T05:21:35Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.0-dev.8",
-          "changelog": "## [1.8.0-dev.8](https://github.com/dh6k/morphe-patches/compare/v1.8.0-dev.7...v1.8.0-dev.8) (2026-10-01)\n\n### 🐛 Bug Fixes\n\n* **brave:** keep colors the app renders text with out of the surface sweep ([fcf7630](https://github.com/dh6k/morphe-patches/commit/fcf7630819301cb0aa41f4e7912176b2793ce31e)), closes [#1c1c1d](https://github.com/dh6k/morphe-patches/issues/1c1c1d) [#0d0f14](https://github.com/dh6k/morphe-patches/issues/0d0f14) [#202124](https://github.com/dh6k/morphe-patches/issues/202124) [#484b4e](https://github.com/dh6k/morphe-patches/issues/484b4e) [#25272b](https://github.com/dh6k/morphe-patches/issues/25272b)\n",
           "prerelease": true
         }
       ]
