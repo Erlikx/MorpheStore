@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T01:47:49Z",
+  "generatedAt": "2026-10-03T07:48:27Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -103,11 +103,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.48.0",
-      "latestPublishedAt": "2026-10-02T03:34:45Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.48.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme inline action counts that the host overrides with white ([dfb54a2](https://github.com/crimera/piko/commit/dfb54a2ca9b8b8fb40cc63def93a180ccb3cb771))\n\n### ✨ New Features\n* **Twitter - newx:** give Piko settings rows their own icon ([5ef312b](https://github.com/crimera/piko/commit/5ef312b108e1bd4e0c7ef1090cd49fcdc542a555))\n\n### 🔧 Improvements\n* **Twitter - newx:** Scan classes in parallel for whole-APK discovery ([dd61dbd](https://github.com/crimera/piko/commit/dd61dbdc5ed41284a708da8799af9ed88a47e92e))",
+      "latestTag": "v3.49.0",
+      "latestPublishedAt": "2026-10-03T05:19:49Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.49.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** label the For You topic button for what it keeps, not snoozes ([34e7f19](https://github.com/crimera/piko/commit/34e7f198320b500b1a3f8a053cc9a3b79e267c63))\n* **Twitter - newx:** don't save timeline positions before the timeline loads ([39fb543](https://github.com/crimera/piko/commit/39fb543865e8f5f12ec22ce434474ce0bdef3762))\n\n### ✨ New Features\n* **Twitter - newx:** reopen the last pinned home tab on startup ([0503633](https://github.com/crimera/piko/commit/050363383ff2a4698cc535b2106f3af60870e9f9))\n* **Twitter - newx:** restore list, topic and community timeline positions ([834e0d5](https://github.com/crimera/piko/commit/834e0d592175f3202429b0091f04559c9a536503))\n\n### 🔧 Improvements\n* **Twitter:** use the shared Utils and AddResourcesPatch from piko-patches-library ([3c8f15a](https://github.com/crimera/piko/commit/3c8f15ae4a9df800628afacd500f9358a098c27d))\n* **Twitter - newx:** move the settings registry, screens and widgets into the shared libraries ([025ded0](https://github.com/crimera/piko/commit/025ded0013a4aa625241e6305664a31e30867eda))\n* **Twitter - newx:** move server error logging into the shared extension library ([cfe591d](https://github.com/crimera/piko/commit/cfe591d28b2c7cc65ac6f38ccdae826b75497ee3))\n\nNew patches:\n- NewX: Restore pinned home tab",
       "history": [
+        {
+          "tag": "v3.48.0",
+          "publishedAt": "2026-10-02T03:34:45Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.48.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme inline action counts that the host overrides with white ([dfb54a2](https://github.com/crimera/piko/commit/dfb54a2ca9b8b8fb40cc63def93a180ccb3cb771))\n\n### ✨ New Features\n* **Twitter - newx:** give Piko settings rows their own icon ([5ef312b](https://github.com/crimera/piko/commit/5ef312b108e1bd4e0c7ef1090cd49fcdc542a555))\n\n### 🔧 Improvements\n* **Twitter - newx:** Scan classes in parallel for whole-APK discovery ([dd61dbd](https://github.com/crimera/piko/commit/dd61dbdc5ed41284a708da8799af9ed88a47e92e))",
+          "prerelease": false
+        },
         {
           "tag": "v3.47.0",
           "publishedAt": "2026-10-01T10:27:29Z",
@@ -127,13 +134,6 @@
           "publishedAt": "2026-09-30T02:43:18Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.45.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** accept one or two video-tab download handlers ([b827ff3](https://github.com/crimera/piko/commit/b827ff3edc9f4b7b665106d0be6eac6c59f8bacc))\n* **Twitter - newx:** capture fingerprint shapes instead of hidden patcher fields ([95a259e](https://github.com/crimera/piko/commit/95a259e85ad920771de389979bb97623f4171300))\n\n### ✨ New Features\n* **Twitter:** add experimental support for 12.31.0-alpha.02 ([ef85b31](https://github.com/crimera/piko/commit/ef85b31db37bee06e8b912a9a5429111208a4691))\n* **Twitter - newx:** customize media long-press menu items ([5e32171](https://github.com/crimera/piko/commit/5e3217147c7ed96bdbaa0ca62dcd46d8fc81b56a))\n\nNew patches:\n- NewX: Customize media menu items",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.44.0",
-          "publishedAt": "2026-09-29T22:33:01Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.44.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** hook the home-nav header state for hide premium upsell ([5505646](https://github.com/crimera/piko/commit/55056469426971b9d8307393733c93bdb680c664))\n* **Twitter - newx:** cast the Coil strong-cache wrapper before its map read ([a6159e3](https://github.com/crimera/piko/commit/a6159e30d1ea9768da35d4b2174832094d85b266))\n* **Twitter - newx:** read Coil's strong-cache map on the 12.30 merge ([9a9f8c0](https://github.com/crimera/piko/commit/9a9f8c0930b65a2486b27497c6cf9e7bef7fa37a))\n\n### ✨ New Features\n* **Twitter - newx:** report thumbnail cache lookup stage and sample keys ([b081e5b](https://github.com/crimera/piko/commit/b081e5b7d27aa1a88a4e2833821be25be208b043))",
           "prerelease": false
         }
       ]
