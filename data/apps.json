@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T23:37:03Z",
+  "generatedAt": "2026-10-04T05:05:32Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -263,11 +263,25 @@
       "repo": "morphe-patches",
       "label": "🍃 hoo-dles",
       "repoUrl": "https://github.com/hoo-dles/morphe-patches",
-      "latestTag": "v1.47.0-dev.1",
-      "latestPublishedAt": "2026-10-03T20:58:29Z",
-      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0-dev.1",
-      "changelog": "# [1.47.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0...v1.47.0-dev.1) (2026-10-03)\n\n\n### Features\n\n* **Ling:** Update to `8.9.0` ([d5013e8](https://github.com/hoo-dles/morphe-patches/commit/d5013e892033f24d943ef8d4aabab3c1cb011d97))\n\n\n\n",
+      "latestTag": "v1.47.0-dev.3",
+      "latestPublishedAt": "2026-10-04T02:11:21Z",
+      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0-dev.3",
+      "changelog": "# [1.47.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0-dev.2...v1.47.0-dev.3) (2026-10-04)\n\n\n### Features\n\n* Update `Universal MicroG` support for FotMob ([8c5f249](https://github.com/hoo-dles/morphe-patches/commit/8c5f2498c5a611b677b340bfcd49a9d60d53e98b))\n\n\n\n",
       "history": [
+        {
+          "tag": "v1.47.0-dev.2",
+          "publishedAt": "2026-10-04T01:02:53Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0-dev.2",
+          "changelog": "# [1.47.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0-dev.1...v1.47.0-dev.2) (2026-10-04)\n\n\n### Features\n\n* **ProtonVPN:** Update patches to support `5.20.57.0` ([8f6d304](https://github.com/hoo-dles/morphe-patches/commit/8f6d3047017fdc088890d674aa287689c6690117))\n\n\n\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.47.0-dev.1",
+          "publishedAt": "2026-10-03T20:58:29Z",
+          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0-dev.1",
+          "changelog": "# [1.47.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0...v1.47.0-dev.1) (2026-10-03)\n\n\n### Features\n\n* **Ling:** Update to `8.9.0` ([d5013e8](https://github.com/hoo-dles/morphe-patches/commit/d5013e892033f24d943ef8d4aabab3c1cb011d97))\n\n\n\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.46.0",
           "publishedAt": "2026-09-30T18:19:04Z",
@@ -280,20 +294,6 @@
           "publishedAt": "2026-09-30T09:31:05Z",
           "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0-dev.7",
           "changelog": "# [1.46.0-dev.7](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.6...v1.46.0-dev.7) (2026-09-30)\n\n\n### Bug Fixes\n\n* **FotMob:** Force FotMob+ toolbar logo ([77c4570](https://github.com/hoo-dles/morphe-patches/commit/77c45701d1836adbb145a73cc631d29b20b822fc))\n\n\n\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.46.0-dev.6",
-          "publishedAt": "2026-09-30T01:10:16Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0-dev.6",
-          "changelog": "# [1.46.0-dev.6](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.5...v1.46.0-dev.6) (2026-09-30)\n\n\n### Bug Fixes\n\n* **SuperChinese:** Fix signature spoofing for native binary ([a6dfeec](https://github.com/hoo-dles/morphe-patches/commit/a6dfeec6d62d6429b0182469c01cbac5ac05b8c1))\n\n\n\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.46.0-dev.5",
-          "publishedAt": "2026-09-29T19:34:43Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.46.0-dev.5",
-          "changelog": "# [1.46.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.4...v1.46.0-dev.5) (2026-09-29)\n\n\n### Bug Fixes\n\n* **`Hide app icon`:** Allow app to be launched from app info settings ([d71cda1](https://github.com/hoo-dles/morphe-patches/commit/d71cda147681ce35526f3b2f7eb3c9c21323c8f9))\n\n\n\n",
           "prerelease": true
         }
       ]
