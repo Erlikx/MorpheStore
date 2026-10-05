@@ -1,7 +1,55 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T22:27:06Z",
+  "generatedAt": "2026-10-05T01:10:15Z",
   "entries": [
+    {
+      "appKey": "twitter-x",
+      "displayName": "Twitter-X",
+      "fromVersion": "12.30.0-prod.01",
+      "toVersion": "12.31.0-prod.01",
+      "at": "2026-10-05T01:10:15Z",
+      "releaseTag": "build-2026-10-04T23-10-49"
+    },
+    {
+      "appKey": "youtube",
+      "displayName": "YouTube",
+      "fromVersion": "21.39.522",
+      "toVersion": "21.40.161",
+      "at": "2026-10-05T01:10:15Z",
+      "releaseTag": "build-2026-10-04T23-10-49"
+    },
+    {
+      "appKey": "youtube-music",
+      "displayName": "YT.Music",
+      "fromVersion": "9.38.51",
+      "toVersion": "9.39.52",
+      "at": "2026-10-05T01:10:15Z",
+      "releaseTag": "build-2026-10-04T23-10-49"
+    },
+    {
+      "appKey": "reddit",
+      "displayName": "Reddit",
+      "fromVersion": "2026.39.0",
+      "toVersion": "2026.40.0",
+      "at": "2026-10-05T01:10:15Z",
+      "releaseTag": "build-2026-10-04T23-10-49"
+    },
+    {
+      "appKey": "reddit-adobo",
+      "displayName": "Reddit-Adobo",
+      "fromVersion": "2026.38.0",
+      "toVersion": "2026.40.0",
+      "at": "2026-10-05T01:10:15Z",
+      "releaseTag": "build-2026-10-04T23-10-49"
+    },
+    {
+      "appKey": "notesnook",
+      "displayName": "Notesnook",
+      "fromVersion": "3.4.12",
+      "toVersion": "3.4.13",
+      "at": "2026-10-05T01:10:15Z",
+      "releaseTag": "build-2026-10-04T23-10-49"
+    },
     {
       "appKey": "twitter-x",
       "displayName": "Twitter-X",
