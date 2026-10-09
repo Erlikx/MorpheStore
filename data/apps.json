@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T01:03:23Z",
+  "generatedAt": "2026-10-09T07:51:21Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.53.3",
-      "latestPublishedAt": "2026-10-08T21:48:10Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.53.3",
-      "changelog": "",
+      "latestTag": "v3.54.0",
+      "latestPublishedAt": "2026-10-09T06:44:01Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.54.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme the light chrome under Material You and add 12.33.0-prod.01 ([515ebcb](https://github.com/crimera/piko/commit/515ebcba390ae2765f0127e3c7661e6f6167c0d6))\n* **Twitter - newx:** accept the 12.33 prod tab-map wrapper with an extra int ([f614802](https://github.com/crimera/piko/commit/f614802fb079ebebe291d1542de17e984da5a677))\n\n### ✨ New Features\n* **Twitter - newx:** restore the Twitter bird in the top bar ([f116ed9](https://github.com/crimera/piko/commit/f116ed9349db4f486bfb216071d18207901d5107))",
       "history": [
+        {
+          "tag": "v3.53.3",
+          "publishedAt": "2026-10-08T21:48:10Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.3",
+          "changelog": "",
+          "prerelease": false
+        },
         {
           "tag": "v3.53.2",
           "publishedAt": "2026-10-08T21:41:20Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-06T11:42:38Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** use ic_vector_wrench for Advanced category icon ([e72168e](https://github.com/crimera/piko/commit/e72168e7156c28407791e2fe210b76f8de621619))\n\n### ✨ New Features\n* **Twitter - newx:** add 12.33.0-alpha.01 as an experimental target ([8e08616](https://github.com/crimera/piko/commit/8e08616d35aae5307ac44ea2de2d456c7e09cfb8))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.52.0",
-          "publishedAt": "2026-10-06T04:34:20Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.52.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** resolve 12.32 alpha.04 drift and add it as an experimental target ([63dbf61](https://github.com/crimera/piko/commit/63dbf6144bc00caac1637a422035d64602a39c4b))\n\n### ✨ New Features\n* **Twitter - newx:** extend disable-refresh guard to pinned lists and restore their saved position ([b46c260](https://github.com/crimera/piko/commit/b46c260d76d911397be8a11c59a5f0eae5b71090))",
           "prerelease": false
         }
       ]
