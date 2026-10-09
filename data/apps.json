@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T20:34:25Z",
+  "generatedAt": "2026-10-09T01:03:23Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,25 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.53.1",
-      "latestPublishedAt": "2026-10-06T22:37:18Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.53.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** inject Piko settings row into the 12.33 alpha.02 redesigned settings list ([f834ae9](https://github.com/crimera/piko/commit/f834ae94175102ef0cb2c0d61cfe7e49769db303))\n* **Twitter - newx:** resolve 12.33.0-alpha.02 drift and add it as an experimental target ([a5b44d7](https://github.com/crimera/piko/commit/a5b44d77ea15dfd9f8e9ab578e1656195244e8de))",
+      "latestTag": "v3.53.3",
+      "latestPublishedAt": "2026-10-08T21:48:10Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.53.3",
+      "changelog": "",
       "history": [
+        {
+          "tag": "v3.53.2",
+          "publishedAt": "2026-10-08T21:41:20Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.2",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep the filename template buttons visible ([c8e6c99](https://github.com/crimera/piko/commit/c8e6c99ad90b61ea202436da215b099165ddfece))\n* **Twitter - newx:** theme the media viewer overlay text, icons, and follow pill ([3c658e8](https://github.com/crimera/piko/commit/3c658e81c603c589d7abdaa13a069b2db896b6c8))\n* **Twitter - newx:** resolve download display name from the source account for quoted media ([275e93d](https://github.com/crimera/piko/commit/275e93d3756c81567d8ebdcd5d0ffe69341b9621))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.53.1",
+          "publishedAt": "2026-10-06T22:37:18Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** inject Piko settings row into the 12.33 alpha.02 redesigned settings list ([f834ae9](https://github.com/crimera/piko/commit/f834ae94175102ef0cb2c0d61cfe7e49769db303))\n* **Twitter - newx:** resolve 12.33.0-alpha.02 drift and add it as an experimental target ([a5b44d7](https://github.com/crimera/piko/commit/a5b44d77ea15dfd9f8e9ab578e1656195244e8de))",
+          "prerelease": false
+        },
         {
           "tag": "v3.53.0",
           "publishedAt": "2026-10-06T11:42:38Z",
@@ -123,20 +137,6 @@
           "publishedAt": "2026-10-06T04:34:20Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.52.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** resolve 12.32 alpha.04 drift and add it as an experimental target ([63dbf61](https://github.com/crimera/piko/commit/63dbf6144bc00caac1637a422035d64602a39c4b))\n\n### ✨ New Features\n* **Twitter - newx:** extend disable-refresh guard to pinned lists and restore their saved position ([b46c260](https://github.com/crimera/piko/commit/b46c260d76d911397be8a11c59a5f0eae5b71090))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.51.0",
-          "publishedAt": "2026-10-04T05:40:25Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.51.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** Add `Clone` patch ([a3ab936](https://github.com/crimera/piko/commit/a3ab936ab72d5d9170d00d06ecdc8a47c0c867c0))\n\nNew patches:\n- NewX: Clone",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.50.0",
-          "publishedAt": "2026-10-04T05:24:01Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.50.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** customize which profile tabs show and their order ([06253d4](https://github.com/crimera/piko/commit/06253d4e9d566b70a294278a0aafdb8fa2c5e4f0))\n\n### 🔧 Improvements\n* **Twitter - newx:** keep the batch toast rule, drop scope creep from the migration ([74279e5](https://github.com/crimera/piko/commit/74279e58c4039f67992b2762ece2eaa407085b8a))\n* **Twitter - newx:** remove legacy download engine and receivers ([e7cc9c3](https://github.com/crimera/piko/commit/e7cc9c3ff049ec31a3ef30fb3c829efc69edb9c8))\n* **Twitter - newx:** adopt shared folder picker and destination writer in media merger ([90ccc24](https://github.com/crimera/piko/commit/90ccc2414eef3057cd22619c4a36d983ba51b206))\n* **Twitter - newx:** route downloads through shared engine ([fd7b603](https://github.com/crimera/piko/commit/fd7b603039a5130f39983233ad6f0784bdbde225))\n* **Twitter - newx:** install shared downloader engine at startup ([faafbec](https://github.com/crimera/piko/commit/faafbec3da6c5d3339bb0f7ac16b89a3851f08e2))\n* **Twitter:** move the legacy shared downloader to its own package ([34a5f74](https://github.com/crimera/piko/commit/34a5f74515a00f5ab4c5fd66b69d935a3b879c08))\n* **Twitter - newx:** pass the destination tree to reserve ([3992775](https://github.com/crimera/piko/commit/3992775faac7395bdc50f7230e5708d36c98d448))\n* **Twitter - newx:** move download folder management out of DownloadDestination ([bdf3f24](https://github.com/crimera/piko/commit/bdf3f245842bb4d7de9b220ae694bf16cec62ec7))\n* **Twitter:** use the shared resolver helpers and linters from piko-patches-library ([d4aba56](https://github.com/crimera/piko/commit/d4aba563143c7559469314a899b47ec357665f86))\n\nNew patches:\n- NewX: Customize profile tabs",
           "prerelease": false
         }
       ]
