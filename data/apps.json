@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T12:55:16Z",
+  "generatedAt": "2026-10-10T17:42:37Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,11 +26,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.47.0-dev.18",
-      "latestPublishedAt": "2026-10-10T10:29:12Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.18",
-      "changelog": "## [1.47.0-dev.18](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.17...v1.47.0-dev.18) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **Spoof video streams:** Widgets may not play correctly ([#3656](https://github.com/MorpheApp/morphe-patches/issues/3656)) ([a60a3b6](https://github.com/MorpheApp/morphe-patches/commit/a60a3b6725ac8c984e2aa68bd50b3c9358df299f))\n\n### ✨ New Features\n\n* **Spoof video streams:** Add Wii U TV client as a fallback for TV ([#3655](https://github.com/MorpheApp/morphe-patches/issues/3655)) ([28ea7f9](https://github.com/MorpheApp/morphe-patches/commit/28ea7f9fe44d45a1869603086ce6e6adb89e4f48))\n",
+      "latestTag": "v1.47.0-dev.19",
+      "latestPublishedAt": "2026-10-10T14:55:13Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.19",
+      "changelog": "## [1.47.0-dev.19](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.18...v1.47.0-dev.19) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Live chat input field is obscured by Android navigation bar on live streams ([f9f5d58](https://github.com/MorpheApp/morphe-patches/commit/f9f5d587eb796f3abc0686c753f8f0ef605633ba))\n",
       "history": [
+        {
+          "tag": "v1.47.0-dev.18",
+          "publishedAt": "2026-10-10T10:29:12Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.18",
+          "changelog": "## [1.47.0-dev.18](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.17...v1.47.0-dev.18) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **Spoof video streams:** Widgets may not play correctly ([#3656](https://github.com/MorpheApp/morphe-patches/issues/3656)) ([a60a3b6](https://github.com/MorpheApp/morphe-patches/commit/a60a3b6725ac8c984e2aa68bd50b3c9358df299f))\n\n### ✨ New Features\n\n* **Spoof video streams:** Add Wii U TV client as a fallback for TV ([#3655](https://github.com/MorpheApp/morphe-patches/issues/3655)) ([28ea7f9](https://github.com/MorpheApp/morphe-patches/commit/28ea7f9fe44d45a1869603086ce6e6adb89e4f48))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.47.0-dev.17",
           "publishedAt": "2026-10-10T09:04:24Z",
@@ -51,13 +58,6 @@
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.15",
           "changelog": "## [1.47.0-dev.15](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.14...v1.47.0-dev.15) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Restore original titles:** Replace the title in the fullscreen swipe-up panel ([9a966a9](https://github.com/MorpheApp/morphe-patches/commit/9a966a9d2c2f5fb0519218fd408d74653f2e89c7))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.47.0-dev.9",
-          "publishedAt": "2026-10-09T12:16:16Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.9",
-          "changelog": "## [1.47.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.8...v1.47.0-dev.9) (2026-10-09)\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add support for `21.20.405` ([4cb3bd8](https://github.com/MorpheApp/morphe-patches/commit/4cb3bd872d57f036dce22692dcfb76f80df5ec20))\n",
-          "prerelease": true
         }
       ]
     },
@@ -66,11 +66,18 @@
       "repo": "piko",
       "label": "✖️ Piko",
       "repoUrl": "https://github.com/crimera/piko",
-      "latestTag": "v3.10.0-dev.14",
-      "latestPublishedAt": "2026-10-10T07:16:09Z",
-      "latestUrl": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.14",
-      "changelog": "## [3.10.0-dev.14](https://github.com/crimera/piko/compare/v3.10.0-dev.13...v3.10.0-dev.14) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Skip the remind me notification action when the link has no x ([#2101](https://github.com/crimera/piko/issues/2101)) ([c4a6479](https://github.com/crimera/piko/commit/c4a64794d5d0f8a30327a38986ff84f5b8b4cdf4))\n\n### 🔧 Improvements\n\n* **Instagram:** Always apply link and build expiration fixes ([476cf62](https://github.com/crimera/piko/commit/476cf6220c4b59b85b812829e77f9135f3c73cdb))\n",
+      "latestTag": "v3.10.0",
+      "latestPublishedAt": "2026-10-10T14:58:13Z",
+      "latestUrl": "https://github.com/crimera/piko/releases/tag/v3.10.0",
+      "changelog": "## [3.10.0](https://github.com/crimera/piko/compare/v3.9.0...v3.10.0) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **ci:** Import Crowdin translations onto the latest dev ([#1890](https://github.com/crimera/piko/issues/1890)) ([385a8d1](https://github.com/crimera/piko/commit/385a8d1852434f0529d4a017f723ccc5cae4e0b8))\n* **github:** use existing enhancement label and add missing twitter label ([6337845](https://github.com/crimera/piko/commit/63378453c020ce89f490e802356418816be6820a))\n* **Instagram:** add auto-scroll persistence flag to recommended flags ([#1957](https://github.com/crimera/piko/issues/1957)) ([096ea87](https://github.com/crimera/piko/commit/096ea8738d2edae3bf1d47aa8404822e6d4ccc5d)), closes [#1746](https://github.com/crimera/piko/issues/1746)\n* **Instagram:** Add missing entity dependencies ([#1833](https://github.com/crimera/piko/issues/1833)) ([a19b255](https://github.com/crimera/piko/commit/a19b255eccd3b2fed5474bc481ab7f3ae6640be9))\n* **Instagram:** Align Instants settings and saved viewer styling ([#2017](https://github.com/crimera/piko/issues/2017)) ([a0a3360](https://github.com/crimera/piko/commit/a0a33601aa0c6cc99e990ea0f7f8dfd31c43640d))\n* **Instagram:** Allow screenshots in protected DM windows ([45fee55](https://github.com/crimera/piko/commit/45fee5532102b27aa8a4e95ff5c00ac3cb75fd75))\n* **Instagram:** Correct patch status mappings ([bf4a28c](https://github.com/crimera/piko/commit/bf4a28ca5387efd2c51453ef368d686cbf643f8b))\n* **Instagram:** Correct the names of the HDR and auto-scroll recommended flags ([#2078](https://github.com/crimera/piko/issues/2078)) ([8917d71](https://github.com/crimera/piko/commit/8917d71e36356ed56e68154b7cf272cfa4dcf0c5))\n* **Instagram:** Fill menu highlights above dialog buttons ([#2016](https://github.com/crimera/piko/issues/2016)) ([a326e42](https://github.com/crimera/piko/commit/a326e42fd87be1540aad23f7c8aab0e96dbb263d))\n* **Instagram:** Find the expire field of ephemeral media by its own key ([#2046](https://github.com/crimera/piko/issues/2046)) ([ff2c809](https://github.com/crimera/piko/commit/ff2c809f1a89a5b9be8713a6fd987299d9397c63))\n* **Instagram:** Fix deleted message handling ([4254162](https://github.com/crimera/piko/commit/425416276c0ae2df7a6cf53fab9b37708735f8be))\n* **Instagram:** Hide ads in the Following feed ([7914a26](https://github.com/crimera/piko/commit/7914a2634e39738dd11318ea71491a5bf11493f4))\n* **Instagram:** Hide non-follower badges for unknown friendship status ([f385660](https://github.com/crimera/piko/commit/f3856607144c2b2b825aec46f7cd3a5ee0490a8f))\n* **Instagram:** Hide the reshare button in the home feed ([ae38467](https://github.com/crimera/piko/commit/ae38467035fbbeeba8e03824535f927cc635adea))\n* **Instagram:** invoke reflected methods on the correct receiver ([#1960](https://github.com/crimera/piko/issues/1960)) ([e4a9464](https://github.com/crimera/piko/commit/e4a9464792f8990a003a9289fe75243f6a54fa48))\n* **Instagram:** Isolate story filters and refresh highlight visibility ([2946e7e](https://github.com/crimera/piko/commit/2946e7ecabedd5da21075e56e9f10824cd1c94d3))\n* **Instagram:** Keep settings switch animations consistent after shortcut launch ([#1883](https://github.com/crimera/piko/issues/1883)) ([6ffb046](https://github.com/crimera/piko/commit/6ffb046f68cf0d82c36d9c9837d695d259838331))\n* **Instagram:** Move the story seen button to the bottom action row ([0d7fba0](https://github.com/crimera/piko/commit/0d7fba0feeb17c430af4292176be47036593bda3))\n* **Instagram:** Preserve ephemeral media after refreshing chats ([d9ab7c7](https://github.com/crimera/piko/commit/d9ab7c7d3327481ea07e8a63f302590158c9fae5))\n* **Instagram:** Preserve friendship status when metadata is missing ([6eeb0f0](https://github.com/crimera/piko/commit/6eeb0f08db63e99cfb102e1ddb653945a10e1780))\n* **Instagram:** Preserve the startup tab while editing navigation ([#1880](https://github.com/crimera/piko/issues/1880)) ([cb1241f](https://github.com/crimera/piko/commit/cb1241f236801e8b5d58722e7db\n\n…",
       "history": [
+        {
+          "tag": "v3.10.0-dev.14",
+          "publishedAt": "2026-10-10T07:16:09Z",
+          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.14",
+          "changelog": "## [3.10.0-dev.14](https://github.com/crimera/piko/compare/v3.10.0-dev.13...v3.10.0-dev.14) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Skip the remind me notification action when the link has no x ([#2101](https://github.com/crimera/piko/issues/2101)) ([c4a6479](https://github.com/crimera/piko/commit/c4a64794d5d0f8a30327a38986ff84f5b8b4cdf4))\n\n### 🔧 Improvements\n\n* **Instagram:** Always apply link and build expiration fixes ([476cf62](https://github.com/crimera/piko/commit/476cf6220c4b59b85b812829e77f9135f3c73cdb))\n",
+          "prerelease": true
+        },
         {
           "tag": "v3.10.0-dev.13",
           "publishedAt": "2026-10-09T08:28:33Z",
@@ -90,13 +97,6 @@
           "publishedAt": "2026-10-05T01:59:24Z",
           "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.11",
           "changelog": "## [3.10.0-dev.11](https://github.com/crimera/piko/compare/v3.10.0-dev.10...v3.10.0-dev.11) (2026-10-05)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Find the expire field of ephemeral media by its own key ([#2046](https://github.com/crimera/piko/issues/2046)) ([ff2c809](https://github.com/crimera/piko/commit/ff2c809f1a89a5b9be8713a6fd987299d9397c63))\n* **Instagram:** Stop Open links externally from crashing on 447 ([#2047](https://github.com/crimera/piko/issues/2047)) ([4c15083](https://github.com/crimera/piko/commit/4c15083cf3a1b65f874c0bc59f68b51055bdaff2))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v3.10.0-dev.10",
-          "publishedAt": "2026-10-04T17:29:18Z",
-          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.10",
-          "changelog": "## [3.10.0-dev.10](https://github.com/crimera/piko/compare/v3.10.0-dev.9...v3.10.0-dev.10) (2026-10-04)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Align Instants settings and saved viewer styling ([#2017](https://github.com/crimera/piko/issues/2017)) ([a0a3360](https://github.com/crimera/piko/commit/a0a33601aa0c6cc99e990ea0f7f8dfd31c43640d))\n* **Instagram:** Fill menu highlights above dialog buttons ([#2016](https://github.com/crimera/piko/issues/2016)) ([a326e42](https://github.com/crimera/piko/commit/a326e42fd87be1540aad23f7c8aab0e96dbb263d))\n* **Instagram:** Hide non-follower badges for unknown friendship status ([f385660](https://github.com/crimera/piko/commit/f3856607144c2b2b825aec46f7cd3a5ee0490a8f))\n* **Instagram:** Restore the activity context for like animation previews ([#2014](https://github.com/crimera/piko/issues/2014)) ([1f08d91](https://github.com/crimera/piko/commit/1f08d91edf63d2a31ce49d52a5af3acf6ed04c98))\n* **Instagram:** Validate the picked file before restoring settings ([#1985](https://github.com/crimera/piko/issues/1985)) ([1f1f3f7](https://github.com/crimera/piko/commit/1f1f3f7d25ca1159823c55580194c62b1af882ea))\n* **Twitter:** Apply dynamic color to Dim and Lights out themes ([#2027](https://github.com/crimera/piko/issues/2027)) ([5842cb7](https://github.com/crimera/piko/commit/5842cb7b3589bba0669cc78a34cb3c27f1749a2d)), closes [#15202](https://github.com/crimera/piko/issues/15202) [#bf15202](https://github.com/crimera/piko/issues/bf15202)\n\n### ✨ New Features\n\n* **Instagram:** Add an option to enable inline download button on feed and profile posts ([#1997](https://github.com/crimera/piko/issues/1997)) ([a074bb9](https://github.com/crimera/piko/commit/a074bb97485f79dcd239675be44403e8b3dbbf80))\n* **Instagram:** Add Inbox lock to ask for your biometrics before messages ([#2020](https://github.com/crimera/piko/issues/2020)) ([d2c5f0a](https://github.com/crimera/piko/commit/d2c5f0a6b843a4aabf08bf7aeb2c25b51e62e9e7)), closes [#2018](https://github.com/crimera/piko/issues/2018)\n* **Instagram:** Save and view received Instants ([#1538](https://github.com/crimera/piko/issues/1538)) ([40e1327](https://github.com/crimera/piko/commit/40e1327b265565e19074bf699091dcde77f581dc))\n\n### 🚀 Updated App Support\n\n* **Instagram:** Add support for 447.0.0.55.81 ([3e15b92](https://github.com/crimera/piko/commit/3e15b928c85449e21b3e6a34a2ac419d272885bb))\n\n### 🔧 Improvements\n\n* **Instagram:** Add a close button to resolution dialogs ([9383ab3](https://github.com/crimera/piko/commit/9383ab3ce00462d3f3ce174ef51bba6699fee137))\n* **Instagram:** Add feedback to the unlock button ([44fcefb](https://github.com/crimera/piko/commit/44fcefb539dce3640fc2e88eb20c72ef9ccec101))\n* **Instagram:** Match Inbox lock styling and reorder DM settings ([8dbcb52](https://github.com/crimera/piko/commit/8dbcb52bdb0bf34a74d3c6bf1be578fab27e517e))\n* **Instagram:** Reorder DM settings ([40f8c14](https://github.com/crimera/piko/commit/40f8c148a21f4963800c281c961e668e3fbcb6d2))\n* **Instagram:** Use the native story mentions dialog ([#2030](https://github.com/crimera/piko/issues/2030)) ([14faf0a](https://github.com/crimera/piko/commit/14faf0a00a46bd46361f0d6153375f2451bf20f7))\n",
           "prerelease": true
         }
       ]
