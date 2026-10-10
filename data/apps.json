@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T06:15:21Z",
+  "generatedAt": "2026-10-10T12:55:16Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,37 +26,37 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.47.0-dev.9",
-      "latestPublishedAt": "2026-10-09T12:16:16Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.9",
-      "changelog": "## [1.47.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.8...v1.47.0-dev.9) (2026-10-09)\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add support for `21.20.405` ([4cb3bd8](https://github.com/MorpheApp/morphe-patches/commit/4cb3bd872d57f036dce22692dcfb76f80df5ec20))\n",
+      "latestTag": "v1.47.0-dev.18",
+      "latestPublishedAt": "2026-10-10T10:29:12Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.18",
+      "changelog": "## [1.47.0-dev.18](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.17...v1.47.0-dev.18) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **Spoof video streams:** Widgets may not play correctly ([#3656](https://github.com/MorpheApp/morphe-patches/issues/3656)) ([a60a3b6](https://github.com/MorpheApp/morphe-patches/commit/a60a3b6725ac8c984e2aa68bd50b3c9358df299f))\n\n### ✨ New Features\n\n* **Spoof video streams:** Add Wii U TV client as a fallback for TV ([#3655](https://github.com/MorpheApp/morphe-patches/issues/3655)) ([28ea7f9](https://github.com/MorpheApp/morphe-patches/commit/28ea7f9fe44d45a1869603086ce6e6adb89e4f48))\n",
       "history": [
         {
-          "tag": "v1.47.0-dev.8",
-          "publishedAt": "2026-10-09T11:52:39Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.8",
-          "changelog": "## [1.47.0-dev.8](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.7...v1.47.0-dev.8) (2026-10-09)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Playback speed:** Fix patching old experimental targets ([99a9851](https://github.com/MorpheApp/morphe-patches/commit/99a9851bf853f4d350e5411381c49a7340b42022))\n",
+          "tag": "v1.47.0-dev.17",
+          "publishedAt": "2026-10-10T09:04:24Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.17",
+          "changelog": "## [1.47.0-dev.17](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.16...v1.47.0-dev.17) (2026-10-10)\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.41.0` ([4e56069](https://github.com/MorpheApp/morphe-patches/commit/4e56069f64125347959f7a8b1efeffa3e8fac1d6))\n",
           "prerelease": true
         },
         {
-          "tag": "v1.47.0-dev.7",
-          "publishedAt": "2026-10-09T10:55:06Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.7",
-          "changelog": "## [1.47.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.6...v1.47.0-dev.7) (2026-10-09)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Fix crash when exiting fullscreen with the new player UI ([5651020](https://github.com/MorpheApp/morphe-patches/commit/56510203e25b8dc4619670a756e65c9439fdf66b))\n",
+          "tag": "v1.47.0-dev.16",
+          "publishedAt": "2026-10-10T07:51:54Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.16",
+          "changelog": "## [1.47.0-dev.16](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.15...v1.47.0-dev.16) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Legacy player controls:** Autoplay end screen is broken in the miniplayer on 21.36+ ([#3649](https://github.com/MorpheApp/morphe-patches/issues/3649)) ([c3431a3](https://github.com/MorpheApp/morphe-patches/commit/c3431a3476c7d2508308c18d4f7ee8cfdde687ca))\n",
           "prerelease": true
         },
         {
-          "tag": "v1.47.0-dev.6",
-          "publishedAt": "2026-10-09T08:15:22Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.6",
-          "changelog": "## [1.47.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.5...v1.47.0-dev.6) (2026-10-09)\n\n### 🐛 Bug Fixes\n\n* **Custom branding:** Use the branded notification icon for playback notifications of mounted installs ([90210ad](https://github.com/MorpheApp/morphe-patches/commit/90210ade0028c1c410c021ba350911cbc212efc4))\n* **YouTube - Minimal miniplayer:** Collapse straight into the bar after the keyboard closed under the expanded player ([3e62423](https://github.com/MorpheApp/morphe-patches/commit/3e62423d0c889714cae97da64270b8d7d04586ee))\n* **YouTube - Miniplayer:** Improved check to prevent title/channel name overwriting ([ce2e1c5](https://github.com/MorpheApp/morphe-patches/commit/ce2e1c5484d96a769684cb6062364619b542ef2a))\n* **YouTube - Restore original titles:** Find the description by its body instead of the longest text ([3f72696](https://github.com/MorpheApp/morphe-patches/commit/3f726964b9896c12711f578469bc6e522d84474e))\n\n### ✨ New Features\n\n* **YouTube - Hide layout components:** Add \"Hide tap and hold gradient\" setting ([#3586](https://github.com/MorpheApp/morphe-patches/issues/3586)) ([bf43c38](https://github.com/MorpheApp/morphe-patches/commit/bf43c38ab1bcc2c0966f3cbd12411313ce2f2323))\n* **YouTube - Restore original titles:** Added original titles fetching retries ([c1543f0](https://github.com/MorpheApp/morphe-patches/commit/c1543f0b9d3b9982d2c132afbf5609ba34699ff2))\n",
+          "tag": "v1.47.0-dev.15",
+          "publishedAt": "2026-10-10T06:35:31Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.15",
+          "changelog": "## [1.47.0-dev.15](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.14...v1.47.0-dev.15) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Restore original titles:** Replace the title in the fullscreen swipe-up panel ([9a966a9](https://github.com/MorpheApp/morphe-patches/commit/9a966a9d2c2f5fb0519218fd408d74653f2e89c7))\n",
           "prerelease": true
         },
         {
-          "tag": "v1.47.0-dev.14",
-          "publishedAt": "2026-10-09T23:23:55Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.14",
-          "changelog": "## [1.47.0-dev.14](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.13...v1.47.0-dev.14) (2026-10-09)\n\n### 🐛 Bug Fixes\n\n* **Settings:** Search hint and tips ignore the Morphe language override ([a532649](https://github.com/MorpheApp/morphe-patches/commit/a5326492f7bd7ae8b1228a1f6603716c002b2433))\n* **YouTube - Force AVC:** Removed VP9 formats with enabled setting ([bb3e3ff](https://github.com/MorpheApp/morphe-patches/commit/bb3e3ff01dc2fcdf7debc4969fb6037b18eefc94))\n\n### ✨ New Features\n\n* **YouTube - Restore original titles:** Added support for media notification ([#3640](https://github.com/MorpheApp/morphe-patches/issues/3640)) ([a9ebf92](https://github.com/MorpheApp/morphe-patches/commit/a9ebf92c985e09fb551f9921c403478fd712ddf0))\n* **YouTube Music - Settings:** Add a shortcut to change the app language on Android 13+ ([b3b5c11](https://github.com/MorpheApp/morphe-patches/commit/b3b5c11b85e2ddc15e18da2b3e27f1e35b70dfd5))\n",
+          "tag": "v1.47.0-dev.9",
+          "publishedAt": "2026-10-09T12:16:16Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.9",
+          "changelog": "## [1.47.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.8...v1.47.0-dev.9) (2026-10-09)\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add support for `21.20.405` ([4cb3bd8](https://github.com/MorpheApp/morphe-patches/commit/4cb3bd872d57f036dce22692dcfb76f80df5ec20))\n",
           "prerelease": true
         }
       ]
@@ -66,11 +66,18 @@
       "repo": "piko",
       "label": "✖️ Piko",
       "repoUrl": "https://github.com/crimera/piko",
-      "latestTag": "v3.10.0-dev.13",
-      "latestPublishedAt": "2026-10-09T08:28:33Z",
-      "latestUrl": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.13",
-      "changelog": "## [3.10.0-dev.13](https://github.com/crimera/piko/compare/v3.10.0-dev.12...v3.10.0-dev.13) (2026-10-09)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Fix deleted message handling ([4254162](https://github.com/crimera/piko/commit/425416276c0ae2df7a6cf53fab9b37708735f8be))\n* **Instagram:** Preserve friendship status when metadata is missing ([6eeb0f0](https://github.com/crimera/piko/commit/6eeb0f08db63e99cfb102e1ddb653945a10e1780))\n* **Instagram:** Sanitize shared links before changing domains ([b1d0eb4](https://github.com/crimera/piko/commit/b1d0eb481e748a33110a5f5fd51ade221fe1ecef))\n* **Instagram:** Use an adaptive settings shortcut icon ([454f283](https://github.com/crimera/piko/commit/454f283baf3f7d444cb7d8b13eb3728e6a081a36))\n\n### 🔧 Improvements\n\n* **Instagram:** Add flags to Suggested users in search ([4dbc376](https://github.com/crimera/piko/commit/4dbc3764bf9bda3c10546d8e112328a4310cf48a))\n",
+      "latestTag": "v3.10.0-dev.14",
+      "latestPublishedAt": "2026-10-10T07:16:09Z",
+      "latestUrl": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.14",
+      "changelog": "## [3.10.0-dev.14](https://github.com/crimera/piko/compare/v3.10.0-dev.13...v3.10.0-dev.14) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Skip the remind me notification action when the link has no x ([#2101](https://github.com/crimera/piko/issues/2101)) ([c4a6479](https://github.com/crimera/piko/commit/c4a64794d5d0f8a30327a38986ff84f5b8b4cdf4))\n\n### 🔧 Improvements\n\n* **Instagram:** Always apply link and build expiration fixes ([476cf62](https://github.com/crimera/piko/commit/476cf6220c4b59b85b812829e77f9135f3c73cdb))\n",
       "history": [
+        {
+          "tag": "v3.10.0-dev.13",
+          "publishedAt": "2026-10-09T08:28:33Z",
+          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.13",
+          "changelog": "## [3.10.0-dev.13](https://github.com/crimera/piko/compare/v3.10.0-dev.12...v3.10.0-dev.13) (2026-10-09)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Fix deleted message handling ([4254162](https://github.com/crimera/piko/commit/425416276c0ae2df7a6cf53fab9b37708735f8be))\n* **Instagram:** Preserve friendship status when metadata is missing ([6eeb0f0](https://github.com/crimera/piko/commit/6eeb0f08db63e99cfb102e1ddb653945a10e1780))\n* **Instagram:** Sanitize shared links before changing domains ([b1d0eb4](https://github.com/crimera/piko/commit/b1d0eb481e748a33110a5f5fd51ade221fe1ecef))\n* **Instagram:** Use an adaptive settings shortcut icon ([454f283](https://github.com/crimera/piko/commit/454f283baf3f7d444cb7d8b13eb3728e6a081a36))\n\n### 🔧 Improvements\n\n* **Instagram:** Add flags to Suggested users in search ([4dbc376](https://github.com/crimera/piko/commit/4dbc3764bf9bda3c10546d8e112328a4310cf48a))\n",
+          "prerelease": true
+        },
         {
           "tag": "v3.10.0-dev.12",
           "publishedAt": "2026-10-07T11:04:16Z",
@@ -91,13 +98,6 @@
           "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.10",
           "changelog": "## [3.10.0-dev.10](https://github.com/crimera/piko/compare/v3.10.0-dev.9...v3.10.0-dev.10) (2026-10-04)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** Align Instants settings and saved viewer styling ([#2017](https://github.com/crimera/piko/issues/2017)) ([a0a3360](https://github.com/crimera/piko/commit/a0a33601aa0c6cc99e990ea0f7f8dfd31c43640d))\n* **Instagram:** Fill menu highlights above dialog buttons ([#2016](https://github.com/crimera/piko/issues/2016)) ([a326e42](https://github.com/crimera/piko/commit/a326e42fd87be1540aad23f7c8aab0e96dbb263d))\n* **Instagram:** Hide non-follower badges for unknown friendship status ([f385660](https://github.com/crimera/piko/commit/f3856607144c2b2b825aec46f7cd3a5ee0490a8f))\n* **Instagram:** Restore the activity context for like animation previews ([#2014](https://github.com/crimera/piko/issues/2014)) ([1f08d91](https://github.com/crimera/piko/commit/1f08d91edf63d2a31ce49d52a5af3acf6ed04c98))\n* **Instagram:** Validate the picked file before restoring settings ([#1985](https://github.com/crimera/piko/issues/1985)) ([1f1f3f7](https://github.com/crimera/piko/commit/1f1f3f7d25ca1159823c55580194c62b1af882ea))\n* **Twitter:** Apply dynamic color to Dim and Lights out themes ([#2027](https://github.com/crimera/piko/issues/2027)) ([5842cb7](https://github.com/crimera/piko/commit/5842cb7b3589bba0669cc78a34cb3c27f1749a2d)), closes [#15202](https://github.com/crimera/piko/issues/15202) [#bf15202](https://github.com/crimera/piko/issues/bf15202)\n\n### ✨ New Features\n\n* **Instagram:** Add an option to enable inline download button on feed and profile posts ([#1997](https://github.com/crimera/piko/issues/1997)) ([a074bb9](https://github.com/crimera/piko/commit/a074bb97485f79dcd239675be44403e8b3dbbf80))\n* **Instagram:** Add Inbox lock to ask for your biometrics before messages ([#2020](https://github.com/crimera/piko/issues/2020)) ([d2c5f0a](https://github.com/crimera/piko/commit/d2c5f0a6b843a4aabf08bf7aeb2c25b51e62e9e7)), closes [#2018](https://github.com/crimera/piko/issues/2018)\n* **Instagram:** Save and view received Instants ([#1538](https://github.com/crimera/piko/issues/1538)) ([40e1327](https://github.com/crimera/piko/commit/40e1327b265565e19074bf699091dcde77f581dc))\n\n### 🚀 Updated App Support\n\n* **Instagram:** Add support for 447.0.0.55.81 ([3e15b92](https://github.com/crimera/piko/commit/3e15b928c85449e21b3e6a34a2ac419d272885bb))\n\n### 🔧 Improvements\n\n* **Instagram:** Add a close button to resolution dialogs ([9383ab3](https://github.com/crimera/piko/commit/9383ab3ce00462d3f3ce174ef51bba6699fee137))\n* **Instagram:** Add feedback to the unlock button ([44fcefb](https://github.com/crimera/piko/commit/44fcefb539dce3640fc2e88eb20c72ef9ccec101))\n* **Instagram:** Match Inbox lock styling and reorder DM settings ([8dbcb52](https://github.com/crimera/piko/commit/8dbcb52bdb0bf34a74d3c6bf1be578fab27e517e))\n* **Instagram:** Reorder DM settings ([40f8c14](https://github.com/crimera/piko/commit/40f8c148a21f4963800c281c961e668e3fbcb6d2))\n* **Instagram:** Use the native story mentions dialog ([#2030](https://github.com/crimera/piko/issues/2030)) ([14faf0a](https://github.com/crimera/piko/commit/14faf0a00a46bd46361f0d6153375f2451bf20f7))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v3.10.0-dev.9",
-          "publishedAt": "2026-09-29T16:18:53Z",
-          "url": "https://github.com/crimera/piko/releases/tag/v3.10.0-dev.9",
-          "changelog": "## [3.10.0-dev.9](https://github.com/crimera/piko/compare/v3.10.0-dev.8...v3.10.0-dev.9) (2026-09-29)\n\n### 🐛 Bug Fixes\n\n* **Instagram:** add auto-scroll persistence flag to recommended flags ([#1957](https://github.com/crimera/piko/issues/1957)) ([096ea87](https://github.com/crimera/piko/commit/096ea8738d2edae3bf1d47aa8404822e6d4ccc5d)), closes [#1746](https://github.com/crimera/piko/issues/1746)\n* **Instagram:** invoke reflected methods on the correct receiver ([#1960](https://github.com/crimera/piko/issues/1960)) ([e4a9464](https://github.com/crimera/piko/commit/e4a9464792f8990a003a9289fe75243f6a54fa48))\n* **Instagram:** Refine Focus Lock highlight and slider spacing ([#1982](https://github.com/crimera/piko/issues/1982)) ([c5b8ca5](https://github.com/crimera/piko/commit/c5b8ca5855b04706d86b20de89752780c36a7aa6))\n* **Instagram:** remove forced HDR brightness on photos and Reels ([#1955](https://github.com/crimera/piko/issues/1955)) ([0084136](https://github.com/crimera/piko/commit/0084136b5ded2210e03d14dceabb09013be1cb3a)), closes [#1817](https://github.com/crimera/piko/issues/1817)\n\n### ✨ New Features\n\n* **Instagram:** Add `Focus Lock` patch ([#1928](https://github.com/crimera/piko/issues/1928)) ([2b6b5ac](https://github.com/crimera/piko/commit/2b6b5ac21cb199f40a4e6dfc0dc76c36992fe31f))\n* **Instagram:** add custom font support ([#1920](https://github.com/crimera/piko/issues/1920)) ([065bb95](https://github.com/crimera/piko/commit/065bb95ad626b05c1d11e7ba64698e4e313ce81b))\n* **Instagram:** Customize download filenames ([#1923](https://github.com/crimera/piko/issues/1923)) ([8507022](https://github.com/crimera/piko/commit/850702242069fab700d6382ec4287d95f4e1f722))\n* **Instagram:** Hide Reels follow button ([#1911](https://github.com/crimera/piko/issues/1911)) ([f180a7b](https://github.com/crimera/piko/commit/f180a7b4c628f1f23d9e78fc8ed3715e652b0a03))\n* **Instagram:** Lock any distraction free setting with Focus Lock ([#1953](https://github.com/crimera/piko/issues/1953)) ([97ea429](https://github.com/crimera/piko/commit/97ea42941f25a68e8fd1080852a576b0b80cd134))\n* **Instagram:** Restore classic search recents (up to 25) ([#1741](https://github.com/crimera/piko/issues/1741)) ([bb98bcb](https://github.com/crimera/piko/commit/bb98bcb219ca0a30ee672db4361dc70abbfe06df))\n* **Instagram:** Show non-followers in the Following list ([#1978](https://github.com/crimera/piko/issues/1978)) ([f2395c9](https://github.com/crimera/piko/commit/f2395c9c84ccc989771701d6b27bd556c949274c)), closes [#1899](https://github.com/crimera/piko/issues/1899)\n\n### 🔧 Improvements\n\n* **Instagram:** Cache extended media data lookups per MediaData instance ([#1967](https://github.com/crimera/piko/issues/1967)) ([b2800b7](https://github.com/crimera/piko/commit/b2800b7adb96b93bada54e745342d9a4add27c17))\n* **Instagram:** Cache reflective Field/Method lookups in Entity ([#1966](https://github.com/crimera/piko/issues/1966)) ([5fdc28f](https://github.com/crimera/piko/commit/5fdc28fbaa731f66bc5aaa93133c27a1b1b16796))\n* **Instagram:** Cache resolved classes in DirectItem instead of calling Class.forName repeatedly ([#1969](https://github.com/crimera/piko/issues/1969)) ([e91f754](https://github.com/crimera/piko/commit/e91f7540724d8c9f9d5bef50cff9ede582c7fb85))\n* **Instagram:** Cache the resolved helper class in DeveloperOptionsItem ([#1973](https://github.com/crimera/piko/issues/1973)) ([e252d0b](https://github.com/crimera/piko/commit/e252d0b3e24f5a75edd21d7d242f13422cfde01a))\n* **Instagram:** Cache track data mappings per TrackDataIntf instance ([#1970](https://github.com/crimera/piko/issues/1970)) ([0cc09e0](https://github.com/crimera/piko/commit/0cc09e09799b506375f04aee66b0c53112f518a0))\n* **Instagram:** Skip redundant fill-in updates for freshly inserted messages ([#1971](https://github.com/crimera/piko/issues/1971)) ([1bcc99d](https://github.com/crimera/piko/commit/1bcc99d57f7bccd61187666a745bfd4804ef7a09))\n* **Instagram:** Use a HashSet instead of a List for the feed\n\n…",
-          "prerelease": true
         }
       ]
     },
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.54.1",
-      "latestPublishedAt": "2026-10-10T06:01:30Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.54.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** match the share-image window rect by shape, not class name ([f96307a](https://github.com/crimera/piko/commit/f96307a4c30ef5e2125b3b5364ec02c8f933a92f))",
+      "latestTag": "v3.54.2",
+      "latestPublishedAt": "2026-10-10T09:08:13Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.54.2",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stop the profile Photos grid oscillating during drags ([9abde97](https://github.com/crimera/piko/commit/9abde9777d92af50fe1a53634262498fb630d7d3))",
       "history": [
+        {
+          "tag": "v3.54.1",
+          "publishedAt": "2026-10-10T06:01:30Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** match the share-image window rect by shape, not class name ([f96307a](https://github.com/crimera/piko/commit/f96307a4c30ef5e2125b3b5364ec02c8f933a92f))",
+          "prerelease": false
+        },
         {
           "tag": "v3.54.0",
           "publishedAt": "2026-10-09T06:44:01Z",
@@ -131,13 +138,6 @@
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.2",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep the filename template buttons visible ([c8e6c99](https://github.com/crimera/piko/commit/c8e6c99ad90b61ea202436da215b099165ddfece))\n* **Twitter - newx:** theme the media viewer overlay text, icons, and follow pill ([3c658e8](https://github.com/crimera/piko/commit/3c658e81c603c589d7abdaa13a069b2db896b6c8))\n* **Twitter - newx:** resolve download display name from the source account for quoted media ([275e93d](https://github.com/crimera/piko/commit/275e93d3756c81567d8ebdcd5d0ffe69341b9621))",
           "prerelease": false
-        },
-        {
-          "tag": "v3.53.1",
-          "publishedAt": "2026-10-06T22:37:18Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** inject Piko settings row into the 12.33 alpha.02 redesigned settings list ([f834ae9](https://github.com/crimera/piko/commit/f834ae94175102ef0cb2c0d61cfe7e49769db303))\n* **Twitter - newx:** resolve 12.33.0-alpha.02 drift and add it as an experimental target ([a5b44d7](https://github.com/crimera/piko/commit/a5b44d77ea15dfd9f8e9ab578e1656195244e8de))",
-          "prerelease": false
         }
       ]
     },
@@ -146,11 +146,18 @@
       "repo": "adobo",
       "label": "🥘 Adobo",
       "repoUrl": "https://github.com/jkennethcarino/adobo",
-      "latestTag": "v1.6.0-dev.4",
-      "latestPublishedAt": "2026-10-04T11:00:23Z",
-      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.4",
-      "changelog": "## [1.6.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.3...v1.6.0-dev.4) (2026-10-04)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.39.1` ([f2d95ec](https://github.com/jkennethcarino/adobo/commit/f2d95ece77ad68ff473e9ff3c15943964d31c123))\n* **Reddit:** Add support for `2026.40.0` ([ff85972](https://github.com/jkennethcarino/adobo/commit/ff85972f835b52ce19af1dc81355d038a0678197))\n",
+      "latestTag": "v1.6.0-dev.5",
+      "latestPublishedAt": "2026-10-10T08:51:20Z",
+      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.5",
+      "changelog": "## [1.6.0-dev.5](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.4...v1.6.0-dev.5) (2026-10-10)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.41.0` ([dd85b6f](https://github.com/jkennethcarino/adobo/commit/dd85b6f0ffced0fa764496c1ec858c6c1b70c599))\n",
       "history": [
+        {
+          "tag": "v1.6.0-dev.4",
+          "publishedAt": "2026-10-04T11:00:23Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.4",
+          "changelog": "## [1.6.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.3...v1.6.0-dev.4) (2026-10-04)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.39.1` ([f2d95ec](https://github.com/jkennethcarino/adobo/commit/f2d95ece77ad68ff473e9ff3c15943964d31c123))\n* **Reddit:** Add support for `2026.40.0` ([ff85972](https://github.com/jkennethcarino/adobo/commit/ff85972f835b52ce19af1dc81355d038a0678197))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.6.0-dev.3",
           "publishedAt": "2026-09-26T18:21:28Z",
@@ -171,13 +178,6 @@
           "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.1",
           "changelog": "## [1.6.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.5.0...v1.6.0-dev.1) (2026-09-20)\n\n### Features\n\n* **Reddit:** Add `Hide crosspost` patch ([9932fe9](https://github.com/jkennethcarino/adobo/commit/9932fe9982b8c7b237fd0bd9bb39de6300c34c85))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.5.0",
-          "publishedAt": "2026-09-19T15:26:04Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0",
-          "changelog": "## [1.5.0](https://github.com/jkennethcarino/adobo/compare/v1.4.0...v1.5.0) (2026-09-19)\n\n### Bug Fixes\n\n* **Gboard - Toggle feature flags:** Allow resetting feature flag's default value ([5b82dc7](https://github.com/jkennethcarino/adobo/commit/5b82dc750a144dfd29a6174d36166d15cad4e1b8))\n\n### Features\n\n* **Reddit:** Add `Enable guest mode` patch ([a034454](https://github.com/jkennethcarino/adobo/commit/a03445494c27a07cfb80c19c86c6044ff92ec168))\n* **Reddit:** Add `Make system navigation bar transparent` patch ([72cd773](https://github.com/jkennethcarino/adobo/commit/72cd77318c3ac29bbb5b8f38b55b06723960b4f8))\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.36.0` ([8037af0](https://github.com/jkennethcarino/adobo/commit/8037af0ec2f26d0b3cb4a41864e5358155fee005))\n* **Reddit:** Add support for `2026.37.0` ([8c54c39](https://github.com/jkennethcarino/adobo/commit/8c54c39422a209795d972a64ed9a63e82610687a))\n* **Reddit:** Add support for `2026.38.0` ([d326d45](https://github.com/jkennethcarino/adobo/commit/d326d4525898ab9730f7b4fb894f85b924e0f786))\n",
-          "prerelease": false
         }
       ]
     },
