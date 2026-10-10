@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T00:14:24Z",
+  "generatedAt": "2026-10-10T06:15:21Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.54.0",
-      "latestPublishedAt": "2026-10-09T06:44:01Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.54.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme the light chrome under Material You and add 12.33.0-prod.01 ([515ebcb](https://github.com/crimera/piko/commit/515ebcba390ae2765f0127e3c7661e6f6167c0d6))\n* **Twitter - newx:** accept the 12.33 prod tab-map wrapper with an extra int ([f614802](https://github.com/crimera/piko/commit/f614802fb079ebebe291d1542de17e984da5a677))\n\n### ✨ New Features\n* **Twitter - newx:** restore the Twitter bird in the top bar ([f116ed9](https://github.com/crimera/piko/commit/f116ed9349db4f486bfb216071d18207901d5107))",
+      "latestTag": "v3.54.1",
+      "latestPublishedAt": "2026-10-10T06:01:30Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.54.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** match the share-image window rect by shape, not class name ([f96307a](https://github.com/crimera/piko/commit/f96307a4c30ef5e2125b3b5364ec02c8f933a92f))",
       "history": [
+        {
+          "tag": "v3.54.0",
+          "publishedAt": "2026-10-09T06:44:01Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme the light chrome under Material You and add 12.33.0-prod.01 ([515ebcb](https://github.com/crimera/piko/commit/515ebcba390ae2765f0127e3c7661e6f6167c0d6))\n* **Twitter - newx:** accept the 12.33 prod tab-map wrapper with an extra int ([f614802](https://github.com/crimera/piko/commit/f614802fb079ebebe291d1542de17e984da5a677))\n\n### ✨ New Features\n* **Twitter - newx:** restore the Twitter bird in the top bar ([f116ed9](https://github.com/crimera/piko/commit/f116ed9349db4f486bfb216071d18207901d5107))",
+          "prerelease": false
+        },
         {
           "tag": "v3.53.3",
           "publishedAt": "2026-10-08T21:48:10Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-06T22:37:18Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** inject Piko settings row into the 12.33 alpha.02 redesigned settings list ([f834ae9](https://github.com/crimera/piko/commit/f834ae94175102ef0cb2c0d61cfe7e49769db303))\n* **Twitter - newx:** resolve 12.33.0-alpha.02 drift and add it as an experimental target ([a5b44d7](https://github.com/crimera/piko/commit/a5b44d77ea15dfd9f8e9ab578e1656195244e8de))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.53.0",
-          "publishedAt": "2026-10-06T11:42:38Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** use ic_vector_wrench for Advanced category icon ([e72168e](https://github.com/crimera/piko/commit/e72168e7156c28407791e2fe210b76f8de621619))\n\n### ✨ New Features\n* **Twitter - newx:** add 12.33.0-alpha.01 as an experimental target ([8e08616](https://github.com/crimera/piko/commit/8e08616d35aae5307ac44ea2de2d456c7e09cfb8))",
           "prerelease": false
         }
       ]
