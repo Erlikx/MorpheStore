@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T06:14:21Z",
+  "generatedAt": "2026-10-11T13:19:16Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,11 +26,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.47.0-dev.22",
-      "latestPublishedAt": "2026-10-10T23:11:03Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.22",
-      "changelog": "## [1.47.0-dev.22](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.21...v1.47.0-dev.22) (2026-10-10)\n\n### ✨ New Features\n\n* **YouTube:** Add `Force system font` patch ([#3579](https://github.com/MorpheApp/morphe-patches/issues/3579)) ([3968284](https://github.com/MorpheApp/morphe-patches/commit/3968284900ab15a9d04575b359272759891d19c8))\n",
+      "latestTag": "v1.47.0-dev.23",
+      "latestPublishedAt": "2026-10-11T07:39:28Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.23",
+      "changelog": "## [1.47.0-dev.23](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.22...v1.47.0-dev.23) (2026-10-11)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Navigation bar:** Added a setting to disable A/B navigation buttons layout ([2c3f5c8](https://github.com/MorpheApp/morphe-patches/commit/2c3f5c83131eb479c66a28d1a1c0ffbc810f19ac))\n* **YouTube:** Audio pitch resets after playback speed ([696c2e4](https://github.com/MorpheApp/morphe-patches/commit/696c2e40bce52706cb5e99c9caa2a96f67a60c37))\n* **YouTube:** Hide microphone at lower right corner of search not working ([d18708b](https://github.com/MorpheApp/morphe-patches/commit/d18708b39d693abd765e98c735296fe2404308e1))\n",
       "history": [
+        {
+          "tag": "v1.47.0-dev.22",
+          "publishedAt": "2026-10-10T23:11:03Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.22",
+          "changelog": "## [1.47.0-dev.22](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.21...v1.47.0-dev.22) (2026-10-10)\n\n### ✨ New Features\n\n* **YouTube:** Add `Force system font` patch ([#3579](https://github.com/MorpheApp/morphe-patches/issues/3579)) ([3968284](https://github.com/MorpheApp/morphe-patches/commit/3968284900ab15a9d04575b359272759891d19c8))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.47.0-dev.21",
           "publishedAt": "2026-10-10T21:02:44Z",
@@ -50,13 +57,6 @@
           "publishedAt": "2026-10-10T14:55:13Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.19",
           "changelog": "## [1.47.0-dev.19](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.18...v1.47.0-dev.19) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Live chat input field is obscured by Android navigation bar on live streams ([f9f5d58](https://github.com/MorpheApp/morphe-patches/commit/f9f5d587eb796f3abc0686c753f8f0ef605633ba))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.47.0-dev.18",
-          "publishedAt": "2026-10-10T10:29:12Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.18",
-          "changelog": "## [1.47.0-dev.18](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.17...v1.47.0-dev.18) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **Spoof video streams:** Widgets may not play correctly ([#3656](https://github.com/MorpheApp/morphe-patches/issues/3656)) ([a60a3b6](https://github.com/MorpheApp/morphe-patches/commit/a60a3b6725ac8c984e2aa68bd50b3c9358df299f))\n\n### ✨ New Features\n\n* **Spoof video streams:** Add Wii U TV client as a fallback for TV ([#3655](https://github.com/MorpheApp/morphe-patches/issues/3655)) ([28ea7f9](https://github.com/MorpheApp/morphe-patches/commit/28ea7f9fe44d45a1869603086ce6e6adb89e4f48))\n",
           "prerelease": true
         }
       ]
@@ -106,11 +106,25 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.54.2",
-      "latestPublishedAt": "2026-10-10T09:08:13Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.54.2",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stop the profile Photos grid oscillating during drags ([9abde97](https://github.com/crimera/piko/commit/9abde9777d92af50fe1a53634262498fb630d7d3))",
+      "latestTag": "v3.56.0",
+      "latestPublishedAt": "2026-10-11T09:35:04Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.56.0",
+      "changelog": "### ✨ New Features\n* **Twitter:** add thumbnail on download notification ([3bb54b6](https://github.com/crimera/piko/commit/3bb54b6501fe496f9d92e4b04ded0f75c923c57c))",
       "history": [
+        {
+          "tag": "v3.55.0",
+          "publishedAt": "2026-10-11T09:06:29Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.55.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** retry and fall back for blank profile Photos thumbnails ([8a6fa06](https://github.com/crimera/piko/commit/8a6fa0679b0bc637139b43480fafe57ea69e5cb9))\n\n### ✨ New Features\n* **Twitter:** support 12.33.1-prod.01 ([6f55fc0](https://github.com/crimera/piko/commit/6f55fc09d02817c69415111593824f2f5da26cf8))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.54.2",
+          "publishedAt": "2026-10-10T09:08:13Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.2",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stop the profile Photos grid oscillating during drags ([9abde97](https://github.com/crimera/piko/commit/9abde9777d92af50fe1a53634262498fb630d7d3))",
+          "prerelease": false
+        },
         {
           "tag": "v3.54.1",
           "publishedAt": "2026-10-10T06:01:30Z",
@@ -123,20 +137,6 @@
           "publishedAt": "2026-10-09T06:44:01Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme the light chrome under Material You and add 12.33.0-prod.01 ([515ebcb](https://github.com/crimera/piko/commit/515ebcba390ae2765f0127e3c7661e6f6167c0d6))\n* **Twitter - newx:** accept the 12.33 prod tab-map wrapper with an extra int ([f614802](https://github.com/crimera/piko/commit/f614802fb079ebebe291d1542de17e984da5a677))\n\n### ✨ New Features\n* **Twitter - newx:** restore the Twitter bird in the top bar ([f116ed9](https://github.com/crimera/piko/commit/f116ed9349db4f486bfb216071d18207901d5107))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.53.3",
-          "publishedAt": "2026-10-08T21:48:10Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.3",
-          "changelog": "",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.53.2",
-          "publishedAt": "2026-10-08T21:41:20Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.53.2",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep the filename template buttons visible ([c8e6c99](https://github.com/crimera/piko/commit/c8e6c99ad90b61ea202436da215b099165ddfece))\n* **Twitter - newx:** theme the media viewer overlay text, icons, and follow pill ([3c658e8](https://github.com/crimera/piko/commit/3c658e81c603c589d7abdaa13a069b2db896b6c8))\n* **Twitter - newx:** resolve download display name from the source account for quoted media ([275e93d](https://github.com/crimera/piko/commit/275e93d3756c81567d8ebdcd5d0ffe69341b9621))",
           "prerelease": false
         }
       ]
