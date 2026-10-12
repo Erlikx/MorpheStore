@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T22:19:22Z",
+  "generatedAt": "2026-10-12T01:36:15Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.56.0",
-      "latestPublishedAt": "2026-10-11T09:35:04Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.56.0",
-      "changelog": "### ✨ New Features\n* **Twitter:** add thumbnail on download notification ([3bb54b6](https://github.com/crimera/piko/commit/3bb54b6501fe496f9d92e4b04ded0f75c923c57c))",
+      "latestTag": "v3.56.1",
+      "latestPublishedAt": "2026-10-12T01:13:43Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.56.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** show the page background behind the profile Photos grid ([94d42e6](https://github.com/crimera/piko/commit/94d42e6c87ea157f8b41fe7effe3c92c426cd5ad))\n* **Twitter:** remove share as image patch from the default patches ([02c906f](https://github.com/crimera/piko/commit/02c906fa51d75cfb9b41c44a918d5cd400b798d8))",
       "history": [
+        {
+          "tag": "v3.56.0",
+          "publishedAt": "2026-10-11T09:35:04Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.56.0",
+          "changelog": "### ✨ New Features\n* **Twitter:** add thumbnail on download notification ([3bb54b6](https://github.com/crimera/piko/commit/3bb54b6501fe496f9d92e4b04ded0f75c923c57c))",
+          "prerelease": false
+        },
         {
           "tag": "v3.55.0",
           "publishedAt": "2026-10-11T09:06:29Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-10T06:01:30Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** match the share-image window rect by shape, not class name ([f96307a](https://github.com/crimera/piko/commit/f96307a4c30ef5e2125b3b5364ec02c8f933a92f))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.54.0",
-          "publishedAt": "2026-10-09T06:44:01Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** theme the light chrome under Material You and add 12.33.0-prod.01 ([515ebcb](https://github.com/crimera/piko/commit/515ebcba390ae2765f0127e3c7661e6f6167c0d6))\n* **Twitter - newx:** accept the 12.33 prod tab-map wrapper with an extra int ([f614802](https://github.com/crimera/piko/commit/f614802fb079ebebe291d1542de17e984da5a677))\n\n### ✨ New Features\n* **Twitter - newx:** restore the Twitter bird in the top bar ([f116ed9](https://github.com/crimera/piko/commit/f116ed9349db4f486bfb216071d18207901d5107))",
           "prerelease": false
         }
       ]
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.47.0",
-      "latestPublishedAt": "2026-10-10T18:49:33Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.47.0",
-      "changelog": "## [1.47.0](https://github.com/hxreborn/morphe-patches/compare/v1.46.0...v1.47.0) (2026-10-10)\n\n### Bug Fixes\n\n* **Proton Mail - Scheduled Trash and Spam deletion:** select the patch by default ([872a687](https://github.com/hxreborn/morphe-patches/commit/872a687891af25e83269e7b78968d034f31ba086)), closes [#180](https://github.com/hxreborn/morphe-patches/issues/180)\n* **Realme Link - Bypass session expiry:** renew the expired session instead of the timeout toast ([39622db](https://github.com/hxreborn/morphe-patches/commit/39622dbb09144240085b40ce2691a198725fe8ed)), closes [#184](https://github.com/hxreborn/morphe-patches/issues/184)\n\n### New Features\n\n* **Lumo - Material 3 switches:** show Material 3 switches ([f6f6f1d](https://github.com/hxreborn/morphe-patches/commit/f6f6f1d2aca6df354787db8ee0667ce6403df75a))\n* **Lumo - Remove tap highlight:** remove the web touch highlight ([2fccfb3](https://github.com/hxreborn/morphe-patches/commit/2fccfb38cb1282b01fafe450295d821b913b8d1f))\n* **May - Unlock premium:** unlock the lifetime premium plan ([096cf8e](https://github.com/hxreborn/morphe-patches/commit/096cf8eb6ffe818b9a815cee2027f8f4a40685af))\n* **MedicNEET - GmsCore support:** sign in with Google through GmsCore ([0945f40](https://github.com/hxreborn/morphe-patches/commit/0945f406e3011f6acfbffd48154ad12c83c278ba))\n* **MedicNEET - Unlock premium:** unlock tests, lectures and tier 1-2 questions ([d2caf51](https://github.com/hxreborn/morphe-patches/commit/d2caf5144294af1b12fedaaa3c7d73467ebe7f2d))\n* **SQCOM - GmsCore support:** sign in with Google through GmsCore ([a2c22ee](https://github.com/hxreborn/morphe-patches/commit/a2c22ee5e94db27630c06213c9604b6aa8b4e52e))\n* **SQCOM - Hide ads:** remove ads and ad consent prompt ([449a6c9](https://github.com/hxreborn/morphe-patches/commit/449a6c94171487fce1154cd2ba57594c6bc35269)), closes [#181](https://github.com/hxreborn/morphe-patches/issues/181)\n* **STEEZY - Disable tracking:** stop RudderStack, Branch and Firebase telemetry ([f254a2a](https://github.com/hxreborn/morphe-patches/commit/f254a2a5919832d3d86852c7d9f4e4d23e56ca4b))\n* **STEEZY - GmsCore support:** sign in with Google through GmsCore ([bec6615](https://github.com/hxreborn/morphe-patches/commit/bec66159868292c1f7de8c93e70b693addd730e6)), closes [#80](https://github.com/hxreborn/morphe-patches/issues/80)\n* **STEEZY - Hide upgrade promotions:** skip the paywall after sign-up ([aa5e0fb](https://github.com/hxreborn/morphe-patches/commit/aa5e0fbcf42a3ed3b19c5605d11eee7e197ce0cc))\n* **STEEZY - Unlock premium:** unlock all classes and programs ([7657b38](https://github.com/hxreborn/morphe-patches/commit/7657b38cbacbd7a4d3bbb94c4996b5b299446d3b))\n* **WalP - Unlock premium:** unlock pro filters and category wallpaper rotation, remove ads ([796123e](https://github.com/hxreborn/morphe-patches/commit/796123e1f0c0321a4fa57c6a66a36c1092714aa2)), closes [#182](https://github.com/hxreborn/morphe-patches/issues/182)\n",
+      "latestTag": "v1.48.0",
+      "latestPublishedAt": "2026-10-12T00:04:41Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.48.0",
+      "changelog": "## [1.48.0](https://github.com/hxreborn/morphe-patches/compare/v1.47.0...v1.48.0) (2026-10-12)\n\n### New Features\n\n* **All Video Player App - Skip splash delay:** open the app without the 10 second splash wait ([0718402](https://github.com/hxreborn/morphe-patches/commit/07184027d6328e0490167bcc3fe9ffa7cb1bedc5))\n* **DevCheck - Unlock premium:** unlock the Pro tools, tests, themes and colors ([aee3ee7](https://github.com/hxreborn/morphe-patches/commit/aee3ee7dc007ede0a493ab8647f8dec86c9db7be)), closes [#187](https://github.com/hxreborn/morphe-patches/issues/187)\n* **My APK - Unlock premium:** unlock premium and remove ads ([9406552](https://github.com/hxreborn/morphe-patches/commit/9406552ca403f355cce5932d5bc38227b5e3b81a)), closes [#188](https://github.com/hxreborn/morphe-patches/issues/188)\n* **MyMoveset:** add support for `1.4.0` ([96e48d1](https://github.com/hxreborn/morphe-patches/commit/96e48d13fcca77318e4bdec149c2d68d96db2b2e))\n* **Psiphon - Unlock premium:** unlock all regions and remove ads and the upgrade button ([c304e2a](https://github.com/hxreborn/morphe-patches/commit/c304e2affa917ca1a671ad92617930b2550086dd))\n",
       "history": [
+        {
+          "tag": "v1.47.0",
+          "publishedAt": "2026-10-10T18:49:33Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.47.0",
+          "changelog": "## [1.47.0](https://github.com/hxreborn/morphe-patches/compare/v1.46.0...v1.47.0) (2026-10-10)\n\n### Bug Fixes\n\n* **Proton Mail - Scheduled Trash and Spam deletion:** select the patch by default ([872a687](https://github.com/hxreborn/morphe-patches/commit/872a687891af25e83269e7b78968d034f31ba086)), closes [#180](https://github.com/hxreborn/morphe-patches/issues/180)\n* **Realme Link - Bypass session expiry:** renew the expired session instead of the timeout toast ([39622db](https://github.com/hxreborn/morphe-patches/commit/39622dbb09144240085b40ce2691a198725fe8ed)), closes [#184](https://github.com/hxreborn/morphe-patches/issues/184)\n\n### New Features\n\n* **Lumo - Material 3 switches:** show Material 3 switches ([f6f6f1d](https://github.com/hxreborn/morphe-patches/commit/f6f6f1d2aca6df354787db8ee0667ce6403df75a))\n* **Lumo - Remove tap highlight:** remove the web touch highlight ([2fccfb3](https://github.com/hxreborn/morphe-patches/commit/2fccfb38cb1282b01fafe450295d821b913b8d1f))\n* **May - Unlock premium:** unlock the lifetime premium plan ([096cf8e](https://github.com/hxreborn/morphe-patches/commit/096cf8eb6ffe818b9a815cee2027f8f4a40685af))\n* **MedicNEET - GmsCore support:** sign in with Google through GmsCore ([0945f40](https://github.com/hxreborn/morphe-patches/commit/0945f406e3011f6acfbffd48154ad12c83c278ba))\n* **MedicNEET - Unlock premium:** unlock tests, lectures and tier 1-2 questions ([d2caf51](https://github.com/hxreborn/morphe-patches/commit/d2caf5144294af1b12fedaaa3c7d73467ebe7f2d))\n* **SQCOM - GmsCore support:** sign in with Google through GmsCore ([a2c22ee](https://github.com/hxreborn/morphe-patches/commit/a2c22ee5e94db27630c06213c9604b6aa8b4e52e))\n* **SQCOM - Hide ads:** remove ads and ad consent prompt ([449a6c9](https://github.com/hxreborn/morphe-patches/commit/449a6c94171487fce1154cd2ba57594c6bc35269)), closes [#181](https://github.com/hxreborn/morphe-patches/issues/181)\n* **STEEZY - Disable tracking:** stop RudderStack, Branch and Firebase telemetry ([f254a2a](https://github.com/hxreborn/morphe-patches/commit/f254a2a5919832d3d86852c7d9f4e4d23e56ca4b))\n* **STEEZY - GmsCore support:** sign in with Google through GmsCore ([bec6615](https://github.com/hxreborn/morphe-patches/commit/bec66159868292c1f7de8c93e70b693addd730e6)), closes [#80](https://github.com/hxreborn/morphe-patches/issues/80)\n* **STEEZY - Hide upgrade promotions:** skip the paywall after sign-up ([aa5e0fb](https://github.com/hxreborn/morphe-patches/commit/aa5e0fbcf42a3ed3b19c5605d11eee7e197ce0cc))\n* **STEEZY - Unlock premium:** unlock all classes and programs ([7657b38](https://github.com/hxreborn/morphe-patches/commit/7657b38cbacbd7a4d3bbb94c4996b5b299446d3b))\n* **WalP - Unlock premium:** unlock pro filters and category wallpaper rotation, remove ads ([796123e](https://github.com/hxreborn/morphe-patches/commit/796123e1f0c0321a4fa57c6a66a36c1092714aa2)), closes [#182](https://github.com/hxreborn/morphe-patches/issues/182)\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.46.0",
           "publishedAt": "2026-10-09T16:47:49Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-07T08:45:24Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.44.0",
           "changelog": "## [1.44.0](https://github.com/hxreborn/morphe-patches/compare/v1.43.0...v1.44.0) (2026-10-07)\n\n### Bug Fixes\n\n* **All Video Player App - Remove rating prompts:** stop rating prompt on second launch ([010a5ac](https://github.com/hxreborn/morphe-patches/commit/010a5ac8be9b57f2cae38a7ebca6de8138ffb89b)), closes [#104](https://github.com/hxreborn/morphe-patches/issues/104)\n* offer Symfonium TV builds on older Android versions ([998f60f](https://github.com/hxreborn/morphe-patches/commit/998f60fbf8ab3c43d03a47c6e7ee59a9a9b021bc))\n* stop hiding apps from Manager on older Android versions ([c44a8f6](https://github.com/hxreborn/morphe-patches/commit/c44a8f630e3b53ba19b1bee2f3eed1879e5b05df)), closes [#165](https://github.com/hxreborn/morphe-patches/issues/165)\n* **TeraBox:** stop email login failing with the malicious implantation warning ([599ad7a](https://github.com/hxreborn/morphe-patches/commit/599ad7af345db0cc7cac21f4dfe1bd2d6d3e7594)), closes [#147](https://github.com/hxreborn/morphe-patches/issues/147)\n\n### New Features\n\n* **All Video Player App - Allow offline use:** open app without internet connection ([5af51e6](https://github.com/hxreborn/morphe-patches/commit/5af51e63a39367a9d4200e6dcf00580a3282a27c))\n* **AnyTracker - Unlock Platinum:** unlock unlimited items, every-minute updates and widgets ([9538470](https://github.com/hxreborn/morphe-patches/commit/9538470a70c35b3de6092c6744b650fe442518df)), closes [#161](https://github.com/hxreborn/morphe-patches/issues/161)\n* **Musixmatch - Unlock premium:** unlock offline lyrics, animated backgrounds, Android Auto lyrics ([744d41c](https://github.com/hxreborn/morphe-patches/commit/744d41cbe3eb24f04acb9edb49c6ed9ea22b3b11)), closes [#163](https://github.com/hxreborn/morphe-patches/issues/163)\n* **Photone - Unlock premium:** unlock all light sources and Pro settings ([c4a47fb](https://github.com/hxreborn/morphe-patches/commit/c4a47fb7eb3103fe52332ab63f53fb2669af2e64)), closes [#156](https://github.com/hxreborn/morphe-patches/issues/156)\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.43.0",
-          "publishedAt": "2026-10-06T11:53:00Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.43.0",
-          "changelog": "## [1.43.0](https://github.com/hxreborn/morphe-patches/compare/v1.42.0...v1.43.0) (2026-10-06)\n\n### Bug Fixes\n\n* **Proton:** stop patches settings crashing on mount installs ([3cc0dba](https://github.com/hxreborn/morphe-patches/commit/3cc0dba5a27096d9d654f5e9bec4a5ecc7c3d050))\n\n### New Features\n\n* **Fast STL Viewer - Unlock premium:** unlock paid viewing and analysis tools and remove ads ([25426c5](https://github.com/hxreborn/morphe-patches/commit/25426c5fa66ce54fe41bef8b6d8b7ae6d6a3743b)), closes [#159](https://github.com/hxreborn/morphe-patches/issues/159)\n* **Joyn - Hide ads:** remove ads before and during videos ([3063376](https://github.com/hxreborn/morphe-patches/commit/3063376bc82831777d44a8afbe2df57e16785b8b)), closes [#160](https://github.com/hxreborn/morphe-patches/issues/160)\n* **Raindrop.io - GmsCore support:** sign in with Google through GmsCore ([a257400](https://github.com/hxreborn/morphe-patches/commit/a25740011d81cc64c0bf4bd27e291d8c3a33dd82))\n* **Raindrop.io - Hide upgrade promotions:** hide Go Pro entry in Settings ([a41e004](https://github.com/hxreborn/morphe-patches/commit/a41e004791c496beff303516282e9452a157b6cd))\n* **Raindrop.io - Unlock pro:** unlock reminders, highlight notes, duplicate and broken link filters ([444946a](https://github.com/hxreborn/morphe-patches/commit/444946afe7b6b7c93707cf42e8ab2304aced34d5)), closes [#158](https://github.com/hxreborn/morphe-patches/issues/158)\n",
           "prerelease": false
         }
       ]
