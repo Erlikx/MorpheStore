@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T08:14:46Z",
+  "generatedAt": "2026-10-13T16:17:59Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,11 +26,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.48.0-dev.5",
-      "latestPublishedAt": "2026-10-13T07:23:49Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.5",
-      "changelog": "## [1.48.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.4...v1.48.0-dev.5) (2026-10-13)\n\n### ✨ New Features\n\n* **Reddit - Full width feed media:** Make embedded video players full width ([#3696](https://github.com/MorpheApp/morphe-patches/issues/3696)) ([53b6448](https://github.com/MorpheApp/morphe-patches/commit/53b64487109e05f13d8e0bc581f86e581cd4662b))\n* **Reddit:** Add `Copy text` patch ([#3665](https://github.com/MorpheApp/morphe-patches/issues/3665)) ([3068f23](https://github.com/MorpheApp/morphe-patches/commit/3068f23e357825a77f6d67760f427634e3baee0c))\n* **YouTube Music:** Add `Custom font` patch ([#3718](https://github.com/MorpheApp/morphe-patches/issues/3718)) ([30a4b85](https://github.com/MorpheApp/morphe-patches/commit/30a4b85885e96aa8216f2b9fb26ed0ba4951e8fe))\n",
+      "latestTag": "v1.48.0-dev.6",
+      "latestPublishedAt": "2026-10-13T08:57:36Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.6",
+      "changelog": "## [1.48.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.5...v1.48.0-dev.6) (2026-10-13)\n\n### ✨ New Features\n\n* **YouTube - Disable video codecs:** Add \"Force VP9 codec\" setting ([#3578](https://github.com/MorpheApp/morphe-patches/issues/3578)) ([e1398ca](https://github.com/MorpheApp/morphe-patches/commit/e1398ca7da9dc7829aa8e9d2f798206fff26c1f6))\n",
       "history": [
+        {
+          "tag": "v1.48.0-dev.5",
+          "publishedAt": "2026-10-13T07:23:49Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.5",
+          "changelog": "## [1.48.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.4...v1.48.0-dev.5) (2026-10-13)\n\n### ✨ New Features\n\n* **Reddit - Full width feed media:** Make embedded video players full width ([#3696](https://github.com/MorpheApp/morphe-patches/issues/3696)) ([53b6448](https://github.com/MorpheApp/morphe-patches/commit/53b64487109e05f13d8e0bc581f86e581cd4662b))\n* **Reddit:** Add `Copy text` patch ([#3665](https://github.com/MorpheApp/morphe-patches/issues/3665)) ([3068f23](https://github.com/MorpheApp/morphe-patches/commit/3068f23e357825a77f6d67760f427634e3baee0c))\n* **YouTube Music:** Add `Custom font` patch ([#3718](https://github.com/MorpheApp/morphe-patches/issues/3718)) ([30a4b85](https://github.com/MorpheApp/morphe-patches/commit/30a4b85885e96aa8216f2b9fb26ed0ba4951e8fe))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.48.0-dev.4",
           "publishedAt": "2026-10-12T20:03:55Z",
@@ -50,13 +57,6 @@
           "publishedAt": "2026-10-12T08:02:54Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.2",
           "changelog": "## [1.48.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.1...v1.48.0-dev.2) (2026-10-12)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Add missing experimental compatibility declaration ([a81a933](https://github.com/MorpheApp/morphe-patches/commit/a81a933274cde895d3b4e026c2d084f35b9b20c5))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.48.0-dev.1",
-          "publishedAt": "2026-10-12T07:08:11Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.1",
-          "changelog": "## [1.48.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0...v1.48.0-dev.1) (2026-10-12)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Disable translucent bar:** Replace flag override with a proper patch ([88f77a8](https://github.com/MorpheApp/morphe-patches/commit/88f77a86ae737bc5da476011918d480baeff90b3))\n* **YouTube - VideoInformation:** Separated Video and Shorts informations ([e913727](https://github.com/MorpheApp/morphe-patches/commit/e913727f3a115f7be807bc32efbf6c054b8fa35d))\n* **YouTube:** Channel search not working properly ([ab2ecc7](https://github.com/MorpheApp/morphe-patches/commit/ab2ecc7a31f6678a698893663ee707d49fc51648))\n\n### ✨ New Features\n\n* **Reddit:** Add `Customize post layout` patch ([#3541](https://github.com/MorpheApp/morphe-patches/issues/3541)) ([a301bc1](https://github.com/MorpheApp/morphe-patches/commit/a301bc1d07ebd96390566cc2d4503ca48a013775))\n* **Reddit:** Add `Remember collapsed comments` patch ([#3517](https://github.com/MorpheApp/morphe-patches/issues/3517)) ([fbd5a82](https://github.com/MorpheApp/morphe-patches/commit/fbd5a82666abeeabd6c7aeb19b7ca993b1ba85c6))\n* **Reddit:** Add media viewer and feed media patches ([#3516](https://github.com/MorpheApp/morphe-patches/issues/3516)) ([1e905b5](https://github.com/MorpheApp/morphe-patches/commit/1e905b5449e6a5468a02f017ce4afb336e8f668e))\n* **YouTube:** Add `Custom font` patch ([#3673](https://github.com/MorpheApp/morphe-patches/issues/3673)) ([fc8c837](https://github.com/MorpheApp/morphe-patches/commit/fc8c837390b05edbc5262ea786d1308729e80c24))\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add experimental support for `21.41.525` ([#3658](https://github.com/MorpheApp/morphe-patches/issues/3658)) ([95eb1fb](https://github.com/MorpheApp/morphe-patches/commit/95eb1fbabe8bdb6251c20b962142cd4daefc1e47))\n",
           "prerelease": true
         }
       ]
@@ -226,11 +226,18 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.9.0-dev.4",
-      "latestPublishedAt": "2026-10-05T19:15:22Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.4",
-      "changelog": "## [1.9.0-dev.4](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.3...v1.9.0-dev.4) (2026-10-05)\n\n### 🐛 Bug Fixes\n\n* **brave:** give the app menu its surface colour on Android 12-13 ([0d33ca9](https://github.com/dh6k/morphe-patches/commit/0d33ca9d78d6283cdd4efd8201644dd9d2dd09d4)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000) [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029) [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\n",
+      "latestTag": "v1.9.0-dev.5",
+      "latestPublishedAt": "2026-10-13T12:56:20Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.5",
+      "changelog": "## [1.9.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.4...v1.9.0-dev.5) (2026-10-13)\n\n### 🐛 Bug Fixes\n\n* **brave:** match lStar selectors on any apktool namespace prefix ([65817c9](https://github.com/dh6k/morphe-patches/commit/65817c9d1477c9018f4f9b77b5ce17a6ca8bbd18))\n",
       "history": [
+        {
+          "tag": "v1.9.0-dev.4",
+          "publishedAt": "2026-10-05T19:15:22Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.4",
+          "changelog": "## [1.9.0-dev.4](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.3...v1.9.0-dev.4) (2026-10-05)\n\n### 🐛 Bug Fixes\n\n* **brave:** give the app menu its surface colour on Android 12-13 ([0d33ca9](https://github.com/dh6k/morphe-patches/commit/0d33ca9d78d6283cdd4efd8201644dd9d2dd09d4)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000) [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029) [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.9.0-dev.3",
           "publishedAt": "2026-10-05T16:38:23Z",
@@ -250,13 +257,6 @@
           "publishedAt": "2026-10-01T15:41:52Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.1",
           "changelog": "## [1.9.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.8.1-dev.1...v1.9.0-dev.1) (2026-10-01)\n\n### ✨ New Features\n\n* **brave:** keep NTP tiles in four columns with a background image ([632015d](https://github.com/dh6k/morphe-patches/commit/632015dc64144fccedeaa5db29a28dc9e89a0a8e))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.8.1-dev.1",
-          "publishedAt": "2026-10-01T09:41:07Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.8.1-dev.1",
-          "changelog": "## [1.8.1-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.8.0...v1.8.1-dev.1) (2026-10-01)\n\n### 🚀 Updated App Support\n\n* upgrade morphe-patcher to 1.15.0 ([46479c7](https://github.com/dh6k/morphe-patches/commit/46479c7531b87ca7743c8503a901cda8e165a2a9))\n",
           "prerelease": true
         }
       ]
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v3.12.0",
-      "latestPublishedAt": "2026-10-04T16:37:59Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.0",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Frosted Glass` patch, bringing real-time background blur and customizable theme transparency to the keyboard. 👀\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Frosted Glass` Patch，為鍵盤加入即時背景模糊效果，並支援自訂主題透明度。👀\n",
+      "latestTag": "v3.12.1-dev.1",
+      "latestPublishedAt": "2026-10-13T08:36:41Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.1-dev.1",
+      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where the `Frosted Glass` patch could cause the keyboard to crash when entering the password upon device startup (Direct Boot).\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Frosted Glass` Patch 在裝置開機輸入密碼時（Direct Boot）可能導致鍵盤崩潰的問題。\n",
       "history": [
+        {
+          "tag": "v3.12.0",
+          "publishedAt": "2026-10-04T16:37:59Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.0",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Frosted Glass` patch, bringing real-time background blur and customizable theme transparency to the keyboard. 👀\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Frosted Glass` Patch，為鍵盤加入即時背景模糊效果，並支援自訂主題透明度。👀\n",
+          "prerelease": false
+        },
         {
           "tag": "v3.12.0-dev.5",
           "publishedAt": "2026-09-26T17:41:56Z",
@@ -410,13 +417,6 @@
           "publishedAt": "2026-09-21T03:17:20Z",
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0-dev.3",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v3.11.0-dev.2",
-          "publishedAt": "2026-09-18T14:38:25Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0-dev.2",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Custom Theme` patch, supporting custom ZIP theme imports and a selection of beautiful themes from Rboard's official repository.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where `Custom Symbols` history entries were incorrectly saved to `Emoticon` history.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Custom Theme` Patch，支援匯入自訂 ZIP 主題，也能從 Rboard 官方儲存庫匯入精美主題。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Custom Symbols` 歷史記錄誤寫入 `Emoticon` 歷史記錄的問題。\n",
           "prerelease": true
         }
       ]
