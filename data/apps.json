@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T16:51:24Z",
+  "generatedAt": "2026-10-14T20:31:04Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -186,10 +186,10 @@
       "repo": "morphe-patches",
       "label": "⚡ Rushiranpise",
       "repoUrl": "https://github.com/rushiranpise/morphe-patches",
-      "latestTag": "v1.23.0-dev.1",
-      "latestPublishedAt": "2026-09-20T12:55:20Z",
-      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0-dev.1",
-      "changelog": "## [1.23.0-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0-dev.1) (2026-09-20)\n\n### 🐛 Bug Fixes\n\n* remove Relane patches ([6e3fd04](https://github.com/rushiranpise/morphe-patches/commit/6e3fd045b219ac3650cacda5c9ba2a2ef7562ed2)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n\n### ✨ New Features\n\n* **life360:** add themed icon patch with adaptive support ([e7301d3](https://github.com/rushiranpise/morphe-patches/commit/e7301d324e4386f470e4299c44f10f8f959de950))\n",
+      "latestTag": "v1.23.0",
+      "latestPublishedAt": "2026-10-14T17:39:11Z",
+      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0",
+      "changelog": "## [1.23.0](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* remove Relane patches ([29819ed](https://github.com/rushiranpise/morphe-patches/commit/29819edeab47def853a57a52a5b5fd6f5db6dbdc)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n* update verified app versions ([5ca039c](https://github.com/rushiranpise/morphe-patches/commit/5ca039c16f9d766678d5c697d6dee6cd19f67f7a))\n\n### ✨ New Features\n\n* **life360:** add themed icon patch with adaptive support ([83226e3](https://github.com/rushiranpise/morphe-patches/commit/83226e3034b86e8923915cf09831ad394d291d19))\n",
       "history": [
         {
           "tag": "v1.22.0",
@@ -253,10 +253,10 @@
           "prerelease": true
         },
         {
-          "tag": "v1.9.0-dev.5",
-          "publishedAt": "2026-10-13T12:56:20Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.5",
-          "changelog": "## [1.9.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.4...v1.9.0-dev.5) (2026-10-13)\n\n### 🐛 Bug Fixes\n\n* **brave:** match lStar selectors on any apktool namespace prefix ([65817c9](https://github.com/dh6k/morphe-patches/commit/65817c9d1477c9018f4f9b77b5ce17a6ca8bbd18))\n",
+          "tag": "v1.9.0-dev.15",
+          "publishedAt": "2026-10-14T20:02:53Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.15",
+          "changelog": "## [1.9.0-dev.15](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.14...v1.9.0-dev.15) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** use lenient pattern for card backgrounds ([3fb4edd](https://github.com/dh6k/morphe-patches/commit/3fb4edd847074a0d9aaa873b37223bb2c2ef292c)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n",
           "prerelease": true
         }
       ]
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v3.13.0-dev.1",
-      "latestPublishedAt": "2026-10-14T03:29:28Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0-dev.1",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Swipe Down to Dismiss Keyboard` patch, allowing you to dismiss the keyboard by swiping down from the suggestion strip or toolbar.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Swipe Down to Dismiss Keyboard` Patch，支援從建議列或工具列向下滑動以關閉鍵盤。\n",
+      "latestTag": "v3.13.0-dev.2",
+      "latestPublishedAt": "2026-10-14T19:42:12Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0-dev.2",
+      "changelog": "### 🐛 Bug Fixes\r\n\r\n* **Gboard:** fix the `Swipe Down to Dismiss Keyboard` patch to prevent accidental dismissal during toolbar icon sorting and candidate drag-to-delete.\r\n\r\n### 🐛 修復\r\n\r\n* **Gboard:** 修復 `Swipe Down to Dismiss Keyboard` Patch，避免在排序工具列圖示及拖曳候選字刪除時誤觸關閉鍵盤。\r\n\r\n### ❤️ Special Thanks / 特別感謝\r\n* Special thanks to [@3r01](https://github.com/3r01) for proposing this feature, initiating the initial PR (#5) and reporting these edge cases!\r\n* 特別感謝 [@3r01](https://github.com/3r01)  提出此功能構想、發起初步 PR (#5)，並協助指出相關邊界案例！",
       "history": [
+        {
+          "tag": "v3.13.0-dev.1",
+          "publishedAt": "2026-10-14T03:29:28Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0-dev.1",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Swipe Down to Dismiss Keyboard` patch, allowing you to dismiss the keyboard by swiping down from the suggestion strip or toolbar.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Swipe Down to Dismiss Keyboard` Patch，支援從建議列或工具列向下滑動以關閉鍵盤。\n",
+          "prerelease": true
+        },
         {
           "tag": "v3.12.1-dev.1",
           "publishedAt": "2026-10-13T08:36:41Z",
@@ -411,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.0-dev.5",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Frosted Glass` patch, bringing real-time background blur and customizable theme transparency to the keyboard. 👀\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Frosted Glass` Patch，為鍵盤加入即時背景模糊效果，並支援自訂主題透明度。👀\n",
           "prerelease": true
-        },
-        {
-          "tag": "v3.11.0",
-          "publishedAt": "2026-09-22T06:59:02Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n* **Gboard:** add the `Custom Theme` patch, supporting custom ZIP theme imports and a selection of beautiful themes from Rboard's official repository.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where `Custom Symbols` history entries were incorrectly saved to `Emoticon` history.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n* **Gboard:** 新增 `Custom Theme` Patch，支援匯入自訂 ZIP 主題，也能從 Rboard 官方儲存庫匯入精美主題。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Custom Symbols` 歷史記錄誤寫入 `Emoticon` 歷史記錄的問題。\n",
-          "prerelease": false
         }
       ]
     },
