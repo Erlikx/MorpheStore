@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T00:32:22Z",
+  "generatedAt": "2026-10-14T05:55:54Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -226,11 +226,18 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.9.0-dev.5",
-      "latestPublishedAt": "2026-10-13T12:56:20Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.5",
-      "changelog": "## [1.9.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.4...v1.9.0-dev.5) (2026-10-13)\n\n### 🐛 Bug Fixes\n\n* **brave:** match lStar selectors on any apktool namespace prefix ([65817c9](https://github.com/dh6k/morphe-patches/commit/65817c9d1477c9018f4f9b77b5ce17a6ca8bbd18))\n",
+      "latestTag": "v1.9.0-dev.6",
+      "latestPublishedAt": "2026-10-14T05:04:37Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.6",
+      "changelog": "## [1.9.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.5...v1.9.0-dev.6) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve windowBackground through attr references ([6fbe764](https://github.com/dh6k/morphe-patches/commit/6fbe764cc45ee6542d66248d9ef3c62460fd10c8))\n",
       "history": [
+        {
+          "tag": "v1.9.0-dev.5",
+          "publishedAt": "2026-10-13T12:56:20Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.5",
+          "changelog": "## [1.9.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.4...v1.9.0-dev.5) (2026-10-13)\n\n### 🐛 Bug Fixes\n\n* **brave:** match lStar selectors on any apktool namespace prefix ([65817c9](https://github.com/dh6k/morphe-patches/commit/65817c9d1477c9018f4f9b77b5ce17a6ca8bbd18))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.9.0-dev.4",
           "publishedAt": "2026-10-05T19:15:22Z",
@@ -250,13 +257,6 @@
           "publishedAt": "2026-10-02T04:46:42Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.2",
           "changelog": "## [1.9.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.1...v1.9.0-dev.2) (2026-10-02)\n\n### 🐛 Bug Fixes\n\n* **brave:** match the NTP grid gate across Brave channels ([cb9d123](https://github.com/dh6k/morphe-patches/commit/cb9d123f4cfff533e653fb42b64379b3f7a9e02b)), closes [#1738](https://github.com/dh6k/morphe-patches/issues/1738) [#1747](https://github.com/dh6k/morphe-patches/issues/1747)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.9.0-dev.1",
-          "publishedAt": "2026-10-01T15:41:52Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.1",
-          "changelog": "## [1.9.0-dev.1](https://github.com/dh6k/morphe-patches/compare/v1.8.1-dev.1...v1.9.0-dev.1) (2026-10-01)\n\n### ✨ New Features\n\n* **brave:** keep NTP tiles in four columns with a background image ([632015d](https://github.com/dh6k/morphe-patches/commit/632015dc64144fccedeaa5db29a28dc9e89a0a8e))\n",
           "prerelease": true
         }
       ]
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v3.12.1-dev.1",
-      "latestPublishedAt": "2026-10-13T08:36:41Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.1-dev.1",
-      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where the `Frosted Glass` patch could cause the keyboard to crash when entering the password upon device startup (Direct Boot).\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Frosted Glass` Patch 在裝置開機輸入密碼時（Direct Boot）可能導致鍵盤崩潰的問題。\n",
+      "latestTag": "v3.13.0-dev.1",
+      "latestPublishedAt": "2026-10-14T03:29:28Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0-dev.1",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Swipe Down to Dismiss Keyboard` patch, allowing you to dismiss the keyboard by swiping down from the suggestion strip or toolbar.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Swipe Down to Dismiss Keyboard` Patch，支援從建議列或工具列向下滑動以關閉鍵盤。\n",
       "history": [
+        {
+          "tag": "v3.12.1-dev.1",
+          "publishedAt": "2026-10-13T08:36:41Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.1-dev.1",
+          "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where the `Frosted Glass` patch could cause the keyboard to crash when entering the password upon device startup (Direct Boot).\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Frosted Glass` Patch 在裝置開機輸入密碼時（Direct Boot）可能導致鍵盤崩潰的問題。\n",
+          "prerelease": true
+        },
         {
           "tag": "v3.12.0",
           "publishedAt": "2026-10-04T16:37:59Z",
@@ -411,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n* **Gboard:** add the `Custom Theme` patch, supporting custom ZIP theme imports and a selection of beautiful themes from Rboard's official repository.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where `Custom Symbols` history entries were incorrectly saved to `Emoticon` history.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n* **Gboard:** 新增 `Custom Theme` Patch，支援匯入自訂 ZIP 主題，也能從 Rboard 官方儲存庫匯入精美主題。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Custom Symbols` 歷史記錄誤寫入 `Emoticon` 歷史記錄的問題。\n",
           "prerelease": false
-        },
-        {
-          "tag": "v3.11.0-dev.3",
-          "publishedAt": "2026-09-21T03:17:20Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0-dev.3",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Toolbar Editing Buttons` patch, which adds Select all, Copy, Cut, and Paste actions to the toolbar menu.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Toolbar Editing Buttons` Patch，將「全選」、「複製」、「剪下」與「貼上」操作加入工具列選單。\n",
-          "prerelease": true
         }
       ]
     },
