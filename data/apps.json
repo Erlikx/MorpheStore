@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T11:33:54Z",
+  "generatedAt": "2026-10-14T16:51:24Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -226,37 +226,37 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.9.0-dev.6",
-      "latestPublishedAt": "2026-10-14T05:04:37Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.6",
-      "changelog": "## [1.9.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.5...v1.9.0-dev.6) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve windowBackground through attr references ([6fbe764](https://github.com/dh6k/morphe-patches/commit/6fbe764cc45ee6542d66248d9ef3c62460fd10c8))\n",
+      "latestTag": "v1.9.0-dev.9",
+      "latestPublishedAt": "2026-10-14T15:25:36Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.9",
+      "changelog": "## [1.9.0-dev.9](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.8...v1.9.0-dev.9) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** also bypass transparent windowBackground in two-tier mode ([1203885](https://github.com/dh6k/morphe-patches/commit/120388554062cace6542a618f4c832aed826aea4))\n",
       "history": [
+        {
+          "tag": "v1.9.0-dev.8",
+          "publishedAt": "2026-10-14T15:09:42Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.8",
+          "changelog": "## [1.9.0-dev.8](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.7...v1.9.0-dev.8) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** bypass windowBackground attr indirection with a direct color ([73fd63e](https://github.com/dh6k/morphe-patches/commit/73fd63e09cd3e26f6cc88944c1bdc38070a93e00))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.9.0-dev.7",
+          "publishedAt": "2026-10-14T14:13:32Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.7",
+          "changelog": "## [1.9.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.6...v1.9.0-dev.7) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve windowBackground attr through the theme's own parent chain ([f865376](https://github.com/dh6k/morphe-patches/commit/f865376462931ccced9652523825e064a85b38a0))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.9.0-dev.6",
+          "publishedAt": "2026-10-14T05:04:37Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.6",
+          "changelog": "## [1.9.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.5...v1.9.0-dev.6) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve windowBackground through attr references ([6fbe764](https://github.com/dh6k/morphe-patches/commit/6fbe764cc45ee6542d66248d9ef3c62460fd10c8))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.9.0-dev.5",
           "publishedAt": "2026-10-13T12:56:20Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.5",
           "changelog": "## [1.9.0-dev.5](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.4...v1.9.0-dev.5) (2026-10-13)\n\n### 🐛 Bug Fixes\n\n* **brave:** match lStar selectors on any apktool namespace prefix ([65817c9](https://github.com/dh6k/morphe-patches/commit/65817c9d1477c9018f4f9b77b5ce17a6ca8bbd18))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.9.0-dev.4",
-          "publishedAt": "2026-10-05T19:15:22Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.4",
-          "changelog": "## [1.9.0-dev.4](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.3...v1.9.0-dev.4) (2026-10-05)\n\n### 🐛 Bug Fixes\n\n* **brave:** give the app menu its surface colour on Android 12-13 ([0d33ca9](https://github.com/dh6k/morphe-patches/commit/0d33ca9d78d6283cdd4efd8201644dd9d2dd09d4)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000) [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029) [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.9.0-dev.3",
-          "publishedAt": "2026-10-05T16:38:23Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.3",
-          "changelog": "## [1.9.0-dev.3](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.2...v1.9.0-dev.3) (2026-10-05)\n\n### ✨ New Features\n\n* **brave:** keep raised AMOLED surfaces off the flat background ([363eb71](https://github.com/dh6k/morphe-patches/commit/363eb711d1b47da4c628fc1118c7980789bbb5c3)), closes [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.9.0-dev.2",
-          "publishedAt": "2026-10-02T04:46:42Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.2",
-          "changelog": "## [1.9.0-dev.2](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.1...v1.9.0-dev.2) (2026-10-02)\n\n### 🐛 Bug Fixes\n\n* **brave:** match the NTP grid gate across Brave channels ([cb9d123](https://github.com/dh6k/morphe-patches/commit/cb9d123f4cfff533e653fb42b64379b3f7a9e02b)), closes [#1738](https://github.com/dh6k/morphe-patches/issues/1738) [#1747](https://github.com/dh6k/morphe-patches/issues/1747)\n",
           "prerelease": true
         }
       ]
