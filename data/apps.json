@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T03:55:50Z",
+  "generatedAt": "2026-10-15T09:02:44Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -226,11 +226,18 @@
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.9.0-dev.9",
-      "latestPublishedAt": "2026-10-14T15:25:36Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.9",
-      "changelog": "## [1.9.0-dev.9](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.8...v1.9.0-dev.9) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** also bypass transparent windowBackground in two-tier mode ([1203885](https://github.com/dh6k/morphe-patches/commit/120388554062cace6542a618f4c832aed826aea4))\n",
+      "latestTag": "v1.9.0-dev.16",
+      "latestPublishedAt": "2026-10-15T08:54:14Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.16",
+      "changelog": "## [1.9.0-dev.16](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.15...v1.9.0-dev.16) (2026-10-15)\n\n### 🐛 Bug Fixes\n\n* **brave:** log card creation for debugging ([9380900](https://github.com/dh6k/morphe-patches/commit/938090099e8b0afa36fffca7965b5c5a8c4a39fc)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n",
       "history": [
+        {
+          "tag": "v1.9.0-dev.9",
+          "publishedAt": "2026-10-14T15:25:36Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.9",
+          "changelog": "## [1.9.0-dev.9](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.8...v1.9.0-dev.9) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** also bypass transparent windowBackground in two-tier mode ([1203885](https://github.com/dh6k/morphe-patches/commit/120388554062cace6542a618f4c832aed826aea4))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.9.0-dev.8",
           "publishedAt": "2026-10-14T15:09:42Z",
@@ -250,13 +257,6 @@
           "publishedAt": "2026-10-14T05:04:37Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.6",
           "changelog": "## [1.9.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.5...v1.9.0-dev.6) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve windowBackground through attr references ([6fbe764](https://github.com/dh6k/morphe-patches/commit/6fbe764cc45ee6542d66248d9ef3c62460fd10c8))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.9.0-dev.15",
-          "publishedAt": "2026-10-14T20:02:53Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.15",
-          "changelog": "## [1.9.0-dev.15](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.14...v1.9.0-dev.15) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** use lenient pattern for card backgrounds ([3fb4edd](https://github.com/dh6k/morphe-patches/commit/3fb4edd847074a0d9aaa873b37223bb2c2ef292c)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n",
           "prerelease": true
         }
       ]
