@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T18:31:45Z",
+  "generatedAt": "2026-10-15T22:00:40Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.56.1",
-      "latestPublishedAt": "2026-10-12T01:13:43Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.56.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** show the page background behind the profile Photos grid ([94d42e6](https://github.com/crimera/piko/commit/94d42e6c87ea157f8b41fe7effe3c92c426cd5ad))\n* **Twitter:** remove share as image patch from the default patches ([02c906f](https://github.com/crimera/piko/commit/02c906fa51d75cfb9b41c44a918d5cd400b798d8))",
+      "latestTag": "v3.57.0",
+      "latestPublishedAt": "2026-10-15T21:59:25Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.57.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep the static bird when the top-bar xlogo is gone ([bba8888](https://github.com/crimera/piko/commit/bba88886a7a3b1c07520e1a93f97379b1558708e))\n* **Twitter - newx:** skip only the timeline map write when not loaded ([41cb969](https://github.com/crimera/piko/commit/41cb96908aaa7e74df27b690e3aac3aed7513a57))\n* **Twitter - newx:** find the XDS dark scheme through forwarding constructors ([a40bf67](https://github.com/crimera/piko/commit/a40bf67392abea0b3e713856d7159e3172339d59))\n* **Twitter - newx:** place the reply-bar setting read where a four-bit register is free ([1027512](https://github.com/crimera/piko/commit/1027512dc67923f5ddd11f1913390ed0742a5f7d))\n* **Twitter - newx:** match the card navigation helper regardless of arity ([06f6a17](https://github.com/crimera/piko/commit/06f6a17856dbf6a9ff8f5ac5ceba235d27367002))\n* **Twitter - newx:** use dark theme action tints in the light media viewer ([df8a1ec](https://github.com/crimera/piko/commit/df8a1ec73a39f2b316417135694f357cd7155340))\n\n### ✨ New Features\n* **Twitter - newx:** retire force-quality patch and log media stream requests ([1436559](https://github.com/crimera/piko/commit/14365593bf5f7f1b68b0588ba09dc36485e3658f))\n* **Twitter - newx:** add opt-in logging of HLS audio renditions ([20176ed](https://github.com/crimera/piko/commit/20176ede8745f31890ce99ec3baca1c015c344e3))\n* **Twitter:** support 12.34.0-prod.01 ([cb884cf](https://github.com/crimera/piko/commit/cb884cf785fe554eed0b5815bb54bc2a30f9cad1))\n\nNew patches:\n- NewX: Log HLS audio renditions",
       "history": [
+        {
+          "tag": "v3.56.1",
+          "publishedAt": "2026-10-12T01:13:43Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.56.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** show the page background behind the profile Photos grid ([94d42e6](https://github.com/crimera/piko/commit/94d42e6c87ea157f8b41fe7effe3c92c426cd5ad))\n* **Twitter:** remove share as image patch from the default patches ([02c906f](https://github.com/crimera/piko/commit/02c906fa51d75cfb9b41c44a918d5cd400b798d8))",
+          "prerelease": false
+        },
         {
           "tag": "v3.56.0",
           "publishedAt": "2026-10-11T09:35:04Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-10T09:08:13Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.2",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** stop the profile Photos grid oscillating during drags ([9abde97](https://github.com/crimera/piko/commit/9abde9777d92af50fe1a53634262498fb630d7d3))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.54.1",
-          "publishedAt": "2026-10-10T06:01:30Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.54.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** match the share-image window rect by shape, not class name ([f96307a](https://github.com/crimera/piko/commit/f96307a4c30ef5e2125b3b5364ec02c8f933a92f))",
           "prerelease": false
         }
       ]
