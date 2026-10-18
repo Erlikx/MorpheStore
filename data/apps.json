@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T23:52:22Z",
+  "generatedAt": "2026-10-18T03:48:06Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.57.1",
-      "latestPublishedAt": "2026-10-17T00:54:37Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.57.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter:** settings re-design ([8814a72](https://github.com/crimera/piko/commit/8814a7225ce188d92088e3b87aa4a0e24e312510))\n* **Twitter - newx:** support 12.35.0 production resolver drift ([35cf5f7](https://github.com/crimera/piko/commit/35cf5f7df252de3ac691c1db54ffbe7746d7c92e))\n* **Twitter - newx:** restore bird in pull-to-refresh logo ([6fc0967](https://github.com/crimera/piko/commit/6fc09670fd9f0f1cdf5a7d0dc8e83402394862c1))",
+      "latestTag": "v3.58.0",
+      "latestPublishedAt": "2026-10-18T03:42:08Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.58.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** normalize GIF download containers ([f8c68db](https://github.com/crimera/piko/commit/f8c68dbc5f4cbf11777a5a329cfdcc99e120c9a5))\n* **Twitter - newx:** anchor only posts and force the key relocation measure ([ea2ea92](https://github.com/crimera/piko/commit/ea2ea92086c7a66f5d54df29bbcb2dc558f49827))\n* **Twitter - newx:** scope saved timeline positions to the account ([7dbe192](https://github.com/crimera/piko/commit/7dbe1928e6e71bac6a507ea30ec00b1af6bbdb8a))\n\n### ✨ New Features\n* **Twitter - newx:** restore timeline position by post anchor ([90b96cf](https://github.com/crimera/piko/commit/90b96cf93c9250d08f2c88805e32ce9606d345fe))",
       "history": [
+        {
+          "tag": "v3.57.1",
+          "publishedAt": "2026-10-17T00:54:37Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.57.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** settings re-design ([8814a72](https://github.com/crimera/piko/commit/8814a7225ce188d92088e3b87aa4a0e24e312510))\n* **Twitter - newx:** support 12.35.0 production resolver drift ([35cf5f7](https://github.com/crimera/piko/commit/35cf5f7df252de3ac691c1db54ffbe7746d7c92e))\n* **Twitter - newx:** restore bird in pull-to-refresh logo ([6fc0967](https://github.com/crimera/piko/commit/6fc09670fd9f0f1cdf5a7d0dc8e83402394862c1))",
+          "prerelease": false
+        },
         {
           "tag": "v3.57.0",
           "publishedAt": "2026-10-15T21:59:25Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-11T09:35:04Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.56.0",
           "changelog": "### ✨ New Features\n* **Twitter:** add thumbnail on download notification ([3bb54b6](https://github.com/crimera/piko/commit/3bb54b6501fe496f9d92e4b04ded0f75c923c57c))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.55.0",
-          "publishedAt": "2026-10-11T09:06:29Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.55.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** retry and fall back for blank profile Photos thumbnails ([8a6fa06](https://github.com/crimera/piko/commit/8a6fa0679b0bc637139b43480fafe57ea69e5cb9))\n\n### ✨ New Features\n* **Twitter:** support 12.33.1-prod.01 ([6f55fc0](https://github.com/crimera/piko/commit/6f55fc09d02817c69415111593824f2f5da26cf8))",
           "prerelease": false
         }
       ]
