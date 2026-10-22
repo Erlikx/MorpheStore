@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T15:34:23Z",
+  "generatedAt": "2026-10-22T19:50:55Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -181,16 +181,63 @@
         }
       ]
     },
+    "rushi": {
+      "owner": "rushiranpise",
+      "repo": "morphe-patches",
+      "label": "⚡ Rushiranpise",
+      "repoUrl": "https://github.com/rushiranpise/morphe-patches",
+      "latestTag": "v1.23.0",
+      "latestPublishedAt": "2026-10-14T17:39:11Z",
+      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0",
+      "changelog": "## [1.23.0](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* remove Relane patches ([29819ed](https://github.com/rushiranpise/morphe-patches/commit/29819edeab47def853a57a52a5b5fd6f5db6dbdc)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n* update verified app versions ([5ca039c](https://github.com/rushiranpise/morphe-patches/commit/5ca039c16f9d766678d5c697d6dee6cd19f67f7a))\n\n### ✨ New Features\n\n* **life360:** add themed icon patch with adaptive support ([83226e3](https://github.com/rushiranpise/morphe-patches/commit/83226e3034b86e8923915cf09831ad394d291d19))\n",
+      "history": [
+        {
+          "tag": "v1.22.0",
+          "publishedAt": "2026-09-15T20:58:05Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0",
+          "changelog": "## [1.22.0](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### ✨ New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.22.0-dev.1",
+          "publishedAt": "2026-09-15T20:50:28Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0-dev.1",
+          "changelog": "## [1.22.0-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0-dev.1) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### ✨ New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.21.5",
+          "publishedAt": "2026-09-08T05:16:26Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5",
+          "changelog": "## [1.21.5](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5) (2026-09-08)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\r\n* Moviebox latest update has introduced server-side app checks. While it’s still possible to keep using the older version, there’s no guarantee how long it will continue to work. There’s also new APK protection on top of that, so the app has been removed from the patches.\r\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v1.21.5-dev.1",
+          "publishedAt": "2026-09-08T05:10:27Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5-dev.1",
+          "changelog": "## [1.21.5-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5-dev.1) (2026-09-08)\n\n### 🐛 Bug Fixes\n\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\n",
+          "prerelease": true
+        }
+      ]
+    },
     "dh6k": {
       "owner": "dh6k",
       "repo": "morphe-patches",
       "label": "🦁 dh6k",
       "repoUrl": "https://github.com/dh6k/morphe-patches",
-      "latestTag": "v1.9.0-dev.16",
-      "latestPublishedAt": "2026-10-15T08:54:14Z",
-      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.16",
-      "changelog": "## [1.9.0-dev.16](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.15...v1.9.0-dev.16) (2026-10-15)\n\n### 🐛 Bug Fixes\n\n* **brave:** log card creation for debugging ([9380900](https://github.com/dh6k/morphe-patches/commit/938090099e8b0afa36fffca7965b5c5a8c4a39fc)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n",
+      "latestTag": "v1.9.0",
+      "latestPublishedAt": "2026-10-22T16:40:51Z",
+      "latestUrl": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0",
+      "changelog": "## [1.9.0](https://github.com/dh6k/morphe-patches/compare/v1.8.0...v1.9.0) (2026-10-22)\n\n### 🐛 Bug Fixes\n\n* **brave:** add grey rounded cards for preference items in two-tier mode ([989c98c](https://github.com/dh6k/morphe-patches/commit/989c98c238debed3b4e7afd4c3cb7625d30a1b81)), closes [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029) [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** also bypass transparent windowBackground in two-tier mode ([1203885](https://github.com/dh6k/morphe-patches/commit/120388554062cace6542a618f4c832aed826aea4))\n* **brave:** apply cards to all selectableItemBackground layouts ([51b6f32](https://github.com/dh6k/morphe-patches/commit/51b6f3273dd04d3c90f21a9e2e248898ada8db78)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** bypass window attr in layout backgrounds too ([1216b9a](https://github.com/dh6k/morphe-patches/commit/1216b9ad028a2912d262c435064ebb3a1a0de294))\n* **brave:** bypass windowBackground attr indirection with a direct color ([73fd63e](https://github.com/dh6k/morphe-patches/commit/73fd63e09cd3e26f6cc88944c1bdc38070a93e00))\n* **brave:** detect preference items by obfuscated ID too ([0226ad7](https://github.com/dh6k/morphe-patches/commit/0226ad7a8e7fb2ba3a19ea5de53f708e1fb4077f)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** discover windowBackground attr from obfuscated layouts ([b6596de](https://github.com/dh6k/morphe-patches/commit/b6596de6a8432be86b303cf9168dea8bd5eb2cac)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** give the app menu its surface colour on Android 12-13 ([0d33ca9](https://github.com/dh6k/morphe-patches/commit/0d33ca9d78d6283cdd4efd8201644dd9d2dd09d4)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000) [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029) [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\n* **brave:** log card creation for debugging ([9380900](https://github.com/dh6k/morphe-patches/commit/938090099e8b0afa36fffca7965b5c5a8c4a39fc)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** match lStar selectors on any apktool namespace prefix ([65817c9](https://github.com/dh6k/morphe-patches/commit/65817c9d1477c9018f4f9b77b5ce17a6ca8bbd18))\n* **brave:** match the NTP grid gate across Brave channels ([cb9d123](https://github.com/dh6k/morphe-patches/commit/cb9d123f4cfff533e653fb42b64379b3f7a9e02b)), closes [#1738](https://github.com/dh6k/morphe-patches/issues/1738) [#1747](https://github.com/dh6k/morphe-patches/issues/1747)\n* **brave:** resolve windowBackground attr through the theme's own parent chain ([f865376](https://github.com/dh6k/morphe-patches/commit/f865376462931ccced9652523825e064a85b38a0))\n* **brave:** resolve windowBackground through attr references ([6fbe764](https://github.com/dh6k/morphe-patches/commit/6fbe764cc45ee6542d66248d9ef3c62460fd10c8))\n* **brave:** use lenient pattern for card backgrounds ([3fb4edd](https://github.com/dh6k/morphe-patches/commit/3fb4edd847074a0d9aaa873b37223bb2c2ef292c)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n\n### ✨ New Features\n\n* **brave:** keep NTP tiles in four columns with a background image ([632015d](https://github.com/dh6k/morphe-patches/commit/632015dc64144fccedeaa5db29a28dc9e89a0a8e))\n* **brave:** keep raised AMOLED surfaces off the flat background ([363eb71](https://github.com/dh6k/morphe-patches/commit/363eb711d1b47da4c628fc1118c7980789bbb5c3)), closes [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029)\n\n### 🚀 Updated App Support\n\n* upgrade morphe-patcher to 1.15.0 ([46479c7](https://github.com/dh6k/morphe-patches/commit/46479c7531b87ca7743c8503a901cda8e165a2a9))\n",
       "history": [
+        {
+          "tag": "v1.9.0-dev.16",
+          "publishedAt": "2026-10-15T08:54:14Z",
+          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.16",
+          "changelog": "## [1.9.0-dev.16](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.15...v1.9.0-dev.16) (2026-10-15)\n\n### 🐛 Bug Fixes\n\n* **brave:** log card creation for debugging ([9380900](https://github.com/dh6k/morphe-patches/commit/938090099e8b0afa36fffca7965b5c5a8c4a39fc)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.9.0-dev.9",
           "publishedAt": "2026-10-14T15:25:36Z",
@@ -210,13 +257,6 @@
           "publishedAt": "2026-10-14T14:13:32Z",
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.7",
           "changelog": "## [1.9.0-dev.7](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.6...v1.9.0-dev.7) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve windowBackground attr through the theme's own parent chain ([f865376](https://github.com/dh6k/morphe-patches/commit/f865376462931ccced9652523825e064a85b38a0))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.9.0-dev.6",
-          "publishedAt": "2026-10-14T05:04:37Z",
-          "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0-dev.6",
-          "changelog": "## [1.9.0-dev.6](https://github.com/dh6k/morphe-patches/compare/v1.9.0-dev.5...v1.9.0-dev.6) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* **brave:** resolve windowBackground through attr references ([6fbe764](https://github.com/dh6k/morphe-patches/commit/6fbe764cc45ee6542d66248d9ef3c62460fd10c8))\n",
           "prerelease": true
         }
       ]
@@ -257,6 +297,46 @@
           "publishedAt": "2026-10-03T20:58:29Z",
           "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0-dev.1",
           "changelog": "# [1.47.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0...v1.47.0-dev.1) (2026-10-03)\n\n\n### Features\n\n* **Ling:** Update to `8.9.0` ([d5013e8](https://github.com/hoo-dles/morphe-patches/commit/d5013e892033f24d943ef8d4aabab3c1cb011d97))\n\n\n\n",
+          "prerelease": true
+        }
+      ]
+    },
+    "tiktok": {
+      "owner": "icysymmetra",
+      "repo": "tiktok-patches-for-morphe",
+      "label": "🎵 TikTok Patches",
+      "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
+      "latestTag": "v0.8.1",
+      "latestPublishedAt": "2026-10-15T18:23:48Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.1",
+      "changelog": "## [0.8.1](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0...v0.8.1) (2026-10-15)\n\n\n### Bug Fixes\n\n* **tiktok:** avoid final-field writes when rejecting cached posts ([af86357](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/af86357a3655c8048c2508824bc0c7d2f4089f78))\n\n\n\n\n\n## 0.8.1",
+      "history": [
+        {
+          "tag": "v0.8.1-dev.1",
+          "publishedAt": "2026-10-15T18:17:31Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.1-dev.1",
+          "changelog": "## [0.8.1-dev.1](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0...v0.8.1-dev.1) (2026-10-15)\n\n\n### Bug Fixes\n\n* **tiktok:** avoid final-field writes when rejecting cached posts ([af86357](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/af86357a3655c8048c2508824bc0c7d2f4089f78))\n\n\n\n\n\n## 0.8.1-dev.1",
+          "prerelease": true
+        },
+        {
+          "tag": "v0.8.0",
+          "publishedAt": "2026-09-26T15:27:09Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0",
+          "changelog": "# [0.8.0](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.7.0...v0.8.0) (2026-09-26)\n\n\n### Bug Fixes\n\n* cover secure window flag writes ([79abbbf](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/79abbbfc23c3ea21cc9350f3d206dfd2af125b88))\n* remove ineffective regional fallback ([714830c](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/714830caeeaa5be1691609efefdae4d50ff179c6))\n* **tiktok:** activate installed features on first use ([4da92b5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/4da92b530a2fe9f9cf571abe1c8253eee46c6e2c))\n* **tiktok:** block dedicated profile ad requests ([e82cfcd](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e82cfcd2a9c77a7232b52d4b507ab226caee6741))\n* **tiktok:** close feed filter delivery gaps ([e58fb96](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e58fb96a1724df3c2e81693b5fab87676453f314))\n* **tiktok:** extend ad filtering coverage ([154e0be](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/154e0be78aee40da6d2987e78760ac96c8820d01))\n* **tiktok:** harden reviewed foldable integration ([55f5776](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/55f57763da90cee3727e36888e63a41b061da6c6))\n* **tiktok:** keep feed debugger observations after filter hooks ([dab81e3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dab81e3820024953ed43b85a9a695ce0828cdc4d))\n* **tiktok:** recheck ads when feed items are read ([0ec3cab](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0ec3cab045fb003d9e9b755217e4f2b81ad58323))\n* **tiktok:** refresh discovered share items in settings ([656d791](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/656d791dfcfaabb327377fa62fc5a897969c6f26))\n* **tiktok:** split auto scroll into separate patch ([683979b](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/683979b1ff98d5fc707a4ae401a8365306ec47b7))\n\n\n### Features\n\n* add configurable regional restriction fallback ([9781ef2](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/9781ef2c18b1372764f590260e37d3df54fd6794))\n* add share sheet modifications ([cf3ede5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/cf3ede56a5eb49fe1a5c17594c54425a5ee1cf6c))\n* add share sheet modifications ([3e92957](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/3e92957509558f5b3c89817c6cb1e69fd27a2980))\n* Add Split-View Comment Section for Foldable/Wide Devices ([c0571bc](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c0571bcc1df32b4db108b1de68adaa387125b5fb))\n* Add Split-View Comment Section for Foldable/Wide Devices ([2fc6eb1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/2fc6eb148d5b8cb717192643c505ca30cad02d33))\n* hide AI-labelled posts across feed delivery paths ([b612614](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/b6126148b8bba777d781f6ff790ddb8638ce50dd))\n* **tiktok:** add feed interface controls ([0c79175](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0c79175312c45e74af99d6d986564a79742affbe))\n* **tiktok:** add native comment sort controls ([e1fb74c](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e1fb74c740f862d702b2d03a2968960ca5d9d954))\n* **tiktok:** add reviewed local feature patches ([0e4a6e1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0e4a6e1d9b4687f41328d3112ef8c341de4a081a))\n* **tiktok:** add themed feed debugger to diagnostic tools ([c16aef7](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c16aef7edcfa5ed148c3b6f7b83c1bfd518a4304))\n* **tiktok:** hide FYP unpersonalized slop videos ([fa71265](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fa712650d411eb830eff5ea0a23526706db457a2))\n\n\n\n\n\n## 0.8.0",
+          "prerelease": false
+        },
+        {
+          "tag": "v0.8.0-dev.12",
+          "publishedAt": "2026-09-25T21:33:08Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.12",
+          "changelog": "# [0.8.0-dev.12](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.11...v0.8.0-dev.12) (2026-09-25)\n\n\n### Bug Fixes\n\n* **tiktok:** activate installed features on first use ([4da92b5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/4da92b530a2fe9f9cf571abe1c8253eee46c6e2c))\n* **tiktok:** keep feed debugger observations after filter hooks ([dab81e3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dab81e3820024953ed43b85a9a695ce0828cdc4d))\n* **tiktok:** recheck ads when feed items are read ([0ec3cab](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0ec3cab045fb003d9e9b755217e4f2b81ad58323))\n\n\n### Features\n\n* hide AI-labelled posts across feed delivery paths ([b612614](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/b6126148b8bba777d781f6ff790ddb8638ce50dd))\n* **tiktok:** add themed feed debugger to diagnostic tools ([c16aef7](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c16aef7edcfa5ed148c3b6f7b83c1bfd518a4304))\n* **tiktok:** hide FYP unpersonalized slop videos ([fa71265](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fa712650d411eb830eff5ea0a23526706db457a2))\n\n\n\n\n\n## 0.8.0-dev.12",
+          "prerelease": true
+        },
+        {
+          "tag": "v0.8.0-dev.11",
+          "publishedAt": "2026-09-14T21:05:20Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.11",
+          "changelog": "# [0.8.0-dev.11](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.0-dev.10...v0.8.0-dev.11) (2026-09-14)\n\n\n### Bug Fixes\n\n* **tiktok:** block dedicated profile ad requests ([e82cfcd](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/e82cfcd2a9c77a7232b52d4b507ab226caee6741))\n\n\n\n\n\n## 0.8.0-dev.11",
           "prerelease": true
         }
       ]
@@ -306,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v3.13.0",
-      "latestPublishedAt": "2026-10-16T10:05:53Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Swipe Down to Dismiss Keyboard` patch, allowing you to dismiss the keyboard by swiping down from the suggestion strip or toolbar.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where the `Frosted Glass` patch could cause the keyboard to crash when entering the password upon device startup (Direct Boot).\n* **Gboard:** fix the `Swipe Down to Dismiss Keyboard` patch to prevent accidental dismissal during toolbar icon sorting and candidate drag-to-delete.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Swipe Down to Dismiss Keyboard` Patch，支援從建議列或工具列向下滑動以關閉鍵盤。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Frosted Glass` Patch 在裝置開機輸入密碼時（Direct Boot）可能導致鍵盤崩潰的問題。\n* **Gboard:** 修復 `Swipe Down to Dismiss Keyboard` Patch，避免在排序工具列圖示及拖曳候選字刪除時誤觸關閉鍵盤。\n",
+      "latestTag": "v4.0.0-dev.1",
+      "latestPublishedAt": "2026-10-22T19:31:28Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.1",
+      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** eliminate brief white or dark background flashes when opening or switching keyboards with custom opacity enabled.\n* **Gboard:** fix black borders around keyboard corners when adjusting custom opacity.\n\n### 🚀 Updated App Support\n\n* **Gboard:** update the supported Gboard version to `18.5.3.993608717-release-arm64-v8a`.\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用自訂透明度後，開啟或切換鍵盤時背景短暫閃白或閃黑的問題。\n* **Gboard:** 修復調整自訂透明度時，鍵盤邊角出現黑邊的問題。\n\n### 🚀 支援版本更新\n\n* **Gboard:** 更新支援的 Gboard 版本至 `18.5.3.993608717-release-arm64-v8a`。\n",
       "history": [
+        {
+          "tag": "v3.13.0",
+          "publishedAt": "2026-10-16T10:05:53Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Swipe Down to Dismiss Keyboard` patch, allowing you to dismiss the keyboard by swiping down from the suggestion strip or toolbar.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where the `Frosted Glass` patch could cause the keyboard to crash when entering the password upon device startup (Direct Boot).\n* **Gboard:** fix the `Swipe Down to Dismiss Keyboard` patch to prevent accidental dismissal during toolbar icon sorting and candidate drag-to-delete.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Swipe Down to Dismiss Keyboard` Patch，支援從建議列或工具列向下滑動以關閉鍵盤。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Frosted Glass` Patch 在裝置開機輸入密碼時（Direct Boot）可能導致鍵盤崩潰的問題。\n* **Gboard:** 修復 `Swipe Down to Dismiss Keyboard` Patch，避免在排序工具列圖示及拖曳候選字刪除時誤觸關閉鍵盤。\n",
+          "prerelease": false
+        },
         {
           "tag": "v3.13.0-dev.2",
           "publishedAt": "2026-10-14T19:42:12Z",
@@ -331,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.1-dev.1",
           "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where the `Frosted Glass` patch could cause the keyboard to crash when entering the password upon device startup (Direct Boot).\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Frosted Glass` Patch 在裝置開機輸入密碼時（Direct Boot）可能導致鍵盤崩潰的問題。\n",
           "prerelease": true
-        },
-        {
-          "tag": "v3.12.0",
-          "publishedAt": "2026-10-04T16:37:59Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.0",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Frosted Glass` patch, bringing real-time background blur and customizable theme transparency to the keyboard. 👀\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Frosted Glass` Patch，為鍵盤加入即時背景模糊效果，並支援自訂主題透明度。👀\n",
-          "prerelease": false
         }
       ]
     },
@@ -346,38 +426,38 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.58.0",
-      "latestPublishedAt": "2026-10-22T11:47:00Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.58.0",
-      "changelog": "## [1.58.0](https://github.com/hxreborn/morphe-patches/compare/v1.57.0...v1.58.0) (2026-10-22)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** stop crashes at launch on Manager builds ([bdbe165](https://github.com/hxreborn/morphe-patches/commit/bdbe165fd6a8004dbe6e966eac98476e9006455a)), closes [#319](https://github.com/hxreborn/morphe-patches/issues/319)\n\n### New Features\n\n* **Castle - Disable update prompt:** remove the new version dialog ([12607d8](https://github.com/hxreborn/morphe-patches/commit/12607d898034fdac3588acda8f868528dd0929cc))\n* **Castle - Remove ads:** remove ads and run rewarded actions directly ([d2c1506](https://github.com/hxreborn/morphe-patches/commit/d2c150685f7fb4e2ab2918163637ce3e2aaab5f2))\n* **Castle - Spoof signature:** remove the modified app warning ([5d7d9eb](https://github.com/hxreborn/morphe-patches/commit/5d7d9ebb56fe947525c0eac123652f1918e2c74e))\n",
+      "latestTag": "v1.59.0-dev.6",
+      "latestPublishedAt": "2026-10-22T19:43:26Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.59.0-dev.6",
+      "changelog": "## [1.59.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.59.0-dev.5...v1.59.0-dev.6) (2026-10-22)\n\n### Bug Fixes\n\n* **Musicolet - Unlock premium:** restore widget play and pause ([a1cc317](https://github.com/hxreborn/morphe-patches/commit/a1cc317342c79f55688b1308028da3fcf012e206))\n",
       "history": [
         {
-          "tag": "v1.57.0",
-          "publishedAt": "2026-10-22T00:12:45Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.57.0",
-          "changelog": "## [1.57.0](https://github.com/hxreborn/morphe-patches/compare/v1.56.0...v1.57.0) (2026-10-22)\n\n### Bug Fixes\n\n* **Albo - GmsCore support:** restore Google sign-in ([0757949](https://github.com/hxreborn/morphe-patches/commit/0757949fec50715a71a7ad6d915b69c20985e6c9)), closes [#305](https://github.com/hxreborn/morphe-patches/issues/305)\n\n### New Features\n\n* **Castle - Unlock premium:** unlock member-only titles and downloads ([d1a7a8f](https://github.com/hxreborn/morphe-patches/commit/d1a7a8f134b726daf02cd8de02be45adb384dac9))\n* **Glass Widgets - Unlock premium:** unlock premium widgets ([b799e79](https://github.com/hxreborn/morphe-patches/commit/b799e795f67c457b4664c1663cd71f55a895d1da))\n* **Graph Messenger - Disable tracking:** stop Firebase and AppMetrica ([fe4152c](https://github.com/hxreborn/morphe-patches/commit/fe4152c2823d681e7e0b947da4fe24f0f4f44546))\n* **Graph Messenger - Remove ads:** remove ads and sponsored messages ([1913579](https://github.com/hxreborn/morphe-patches/commit/1913579ee6c236fdb06422690de00697a571091b))\n* **Graph Messenger - Remove forced update:** remove update block dialog ([d15a546](https://github.com/hxreborn/morphe-patches/commit/d15a54673612da95bb24781596f94ac6ea213808))\n* **Graph Messenger - Unlock premium:** unlock Graph + Telegram Premium ([9122860](https://github.com/hxreborn/morphe-patches/commit/91228609f80b0a1d9564e5adbd8e298cf59bd75a))\n* **MiniShare - AMOLED dark theme:** replace light theme with pure black ([0b50bd4](https://github.com/hxreborn/morphe-patches/commit/0b50bd45636350da63b8cb15958f3a8ba01196e1))\n* **MyScript Math - Disable tracking:** stop Firebase and Survicate ([411811c](https://github.com/hxreborn/morphe-patches/commit/411811cbc8a147b816c223a6ef4ec71547b4026b))\n* **MyScript Math - Unlock premium:** remove paywall after trial ends ([0a9bffb](https://github.com/hxreborn/morphe-patches/commit/0a9bffb8e0a1430fa800424f775820b0344a3446))\n* **MyScript Notes - Disable tracking:** stop Firebase and Survicate ([7a68e68](https://github.com/hxreborn/morphe-patches/commit/7a68e68a96f767b1b9a4f15c80cf3a15b8a24545))\n* **MyScript Notes - Unlock premium:** unlock conversion, PDFs and AI ([642b561](https://github.com/hxreborn/morphe-patches/commit/642b56144fb7e4613df790e94267b6acf7386c0d))\n* **Nara Baby - Disable tracking:** stop analytics and marketing SDKs ([9c3504f](https://github.com/hxreborn/morphe-patches/commit/9c3504f95e2c28001217c7122af39915780307b8))\n* **Nara Baby - Remove forced update:** skip update-required screen ([dc01350](https://github.com/hxreborn/morphe-patches/commit/dc0135075d1f6f40470fd6ce29495b621fc007ff))\n* **Nara Baby - Unlock premium:** keep tracking open after trial ends ([5a060ad](https://github.com/hxreborn/morphe-patches/commit/5a060ad22f1f7e21170476a55e46cdf4486924a7))\n* **Raindrop.io - Accent color:** use wallpaper or chosen accent color ([728c2d8](https://github.com/hxreborn/morphe-patches/commit/728c2d822c49ef3f394171551ad6c6783f8a4946)), closes [#279](https://github.com/hxreborn/morphe-patches/issues/279)\n* **Raindrop.io - Hide AI assistant:** hide AI buttons ([cb165e7](https://github.com/hxreborn/morphe-patches/commit/cb165e70113d0079945973fd6e8e23c183132d16))\n* **Raindrop.io - Hide Settings links:** hide web app, blog and help ([5556ffe](https://github.com/hxreborn/morphe-patches/commit/5556ffea399d603d08ec002ada955c53ac4bda10))\n* **Wattpad - GmsCore support:** sign in with Google through GmsCore ([32d6cab](https://github.com/hxreborn/morphe-patches/commit/32d6cab7aa1ed67193d7f1b091d47654527d5a97))\n* **Wattpad - Hide ads:** hide story, reader and library ads ([733413a](https://github.com/hxreborn/morphe-patches/commit/733413a8d95454996d5ef4833d3c85ef2ec4c459))\n* **Wattpad - Unlock premium:** unlock Premium+ offline reads and themes ([3448977](https://github.com/hxreborn/morphe-patches/commit/3448977b719386f5053c9682af8a72970eafdfdc))\n\n### Updated App Support\n\n* **aCalendar:** add support for `2.9.6` ([46ed853](https://github.com/hxreborn/morphe-patche\n\n…",
-          "prerelease": false
+          "tag": "v1.59.0-dev.5",
+          "publishedAt": "2026-10-22T18:55:54Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.59.0-dev.5",
+          "changelog": "## [1.59.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.59.0-dev.4...v1.59.0-dev.5) (2026-10-22)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** play 1080p streams ([e6fae82](https://github.com/hxreborn/morphe-patches/commit/e6fae827100e7074c98a35da3608244be0704ce7))\n",
+          "prerelease": true
         },
         {
-          "tag": "v1.56.0",
-          "publishedAt": "2026-10-20T00:13:13Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.56.0",
-          "changelog": "## [1.56.0](https://github.com/hxreborn/morphe-patches/compare/v1.55.0...v1.56.0) (2026-10-20)\n\n### Bug Fixes\n\n* **imo:** require Android 12L for `2026.08.1041` ([4a7fd3f](https://github.com/hxreborn/morphe-patches/commit/4a7fd3fd3b6395e9f358e5c154698de8886f29ae))\n* keep signature-spoofing apps from crashing on Android 17 ([b991745](https://github.com/hxreborn/morphe-patches/commit/b9917454f042870c9020c2031293aa51db6dbb67)), closes [#276](https://github.com/hxreborn/morphe-patches/issues/276)\n* **MovieBox:** require Android 10 for the app targets ([c57ba48](https://github.com/hxreborn/morphe-patches/commit/c57ba482eadf00cfa22f70230907fbd542bc45d7))\n* **Opal - Skip sign-in:** open without the Play Store prompt ([7e7e2c7](https://github.com/hxreborn/morphe-patches/commit/7e7e2c7e3d6b567335d0f36557b1e1f0ab587211))\n* **Proton - Material 3 switches:** follow the in-app theme ([c8b2ab1](https://github.com/hxreborn/morphe-patches/commit/c8b2ab16ccd698d2a4cdf8d330c2d570142d5ab1))\n* **Proton - Material 3 switches:** use the dark thumb in dark theme ([388598d](https://github.com/hxreborn/morphe-patches/commit/388598d23d42046dc77d6fef49d0f7d1960b0203))\n* **Proton - Material 3 switches:** use the dark thumb on web toggles ([af816a8](https://github.com/hxreborn/morphe-patches/commit/af816a83e25ee69d377fb90c18da9715b12ee46d))\n* **Proton Mail - AMOLED dark theme:** keep light web settings light ([25b3a96](https://github.com/hxreborn/morphe-patches/commit/25b3a96b5540c097f44302a969b53d2aaa6381b8))\n* **Proton VPN - Material 3 switches:** use the dark thumb in dark theme ([27cb5f6](https://github.com/hxreborn/morphe-patches/commit/27cb5f6cd846a7db1740154c806e60921b2029d5)), closes [#266](https://github.com/hxreborn/morphe-patches/issues/266)\n\n### New Features\n\n* **Albo - Enable guest sign-in:** sign in without Google ([2d8176a](https://github.com/hxreborn/morphe-patches/commit/2d8176ac2c598b8f0395de3aed14f673d2011526))\n* **Albo - Unlock premium:** unlock Pro and Max features ([144e82b](https://github.com/hxreborn/morphe-patches/commit/144e82bb0021c532b7a0e71ab3846dcd821d334c)), closes [#270](https://github.com/hxreborn/morphe-patches/issues/270)\n* **Joyn - Hide ads:** remove ads in Joyn Austria ([6a91fbc](https://github.com/hxreborn/morphe-patches/commit/6a91fbc368fa60de16050c9511ad62218cbd5d60)), closes [#262](https://github.com/hxreborn/morphe-patches/issues/262)\n* **Notein - Unlock premium:** unlock Pro and remove the notebook limit ([e9d1f15](https://github.com/hxreborn/morphe-patches/commit/e9d1f157f66948ffa0cbb81cddd2da857a672383)), closes [#272](https://github.com/hxreborn/morphe-patches/issues/272)\n* **Opal - Skip sign-in:** run without an account ([4d54bff](https://github.com/hxreborn/morphe-patches/commit/4d54bff9e880e027533e771c9967bc1424933d0f)), closes [#268](https://github.com/hxreborn/morphe-patches/issues/268)\n* **Opal - Unlock premium:** unlock Pro rules, hard mode and history ([d711b4a](https://github.com/hxreborn/morphe-patches/commit/d711b4a0811b0640d79c943dad3ab4e1f606f498))\n* **Proton Authenticator - Hide layout components:** hide promo sections ([a15692e](https://github.com/hxreborn/morphe-patches/commit/a15692ea8699a4e14fe481afe0ba114c969c9157)), closes [#265](https://github.com/hxreborn/morphe-patches/issues/265)\n* **Proton Mail - Hide layout components:** hide sidebar entries ([9b32be7](https://github.com/hxreborn/morphe-patches/commit/9b32be7308ff5a4102a49bcfd405bcbb14372fbc))\n* **Serializd - Disable tracking:** stop Firebase and Playwire analytics ([102ee4e](https://github.com/hxreborn/morphe-patches/commit/102ee4ed384aa3297b49dc56263aac2ad7f3c706))\n* **Serializd - Remove ads:** hide ad slots and the ad consent prompt ([09f3f41](https://github.com/hxreborn/morphe-patches/commit/09f3f4118bcc3ac301fd78e258e740347703f672)), closes [#261](https://github.com/hxreborn/morphe-patches/issues/261)\n* **Serializd - Sharpen launcher icon:** redraw icon at full resolution ([0ab3efa](https://github.com/hxreborn/morphe-patches/comm\n\n…",
-          "prerelease": false
+          "tag": "v1.59.0-dev.4",
+          "publishedAt": "2026-10-22T18:44:57Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.59.0-dev.4",
+          "changelog": "## [1.59.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.59.0-dev.3...v1.59.0-dev.4) (2026-10-22)\n\n### New Features\n\n* **Internet Speed Meter Lite - Disable tracking:** stop Firebase ([9abfa06](https://github.com/hxreborn/morphe-patches/commit/9abfa068dbc4da44d0814163efa067357bc80c9f))\n* **Internet Speed Meter Lite - Remove ads:** remove ads and ad prompts ([f97c9e8](https://github.com/hxreborn/morphe-patches/commit/f97c9e89230dc8fc73d7d5a30f1c3ff82274e6a9))\n* **Internet Speed Meter Lite - Unlock premium:** unlock Pro settings ([b74e75b](https://github.com/hxreborn/morphe-patches/commit/b74e75bc17f38dac99923a004fce25dbf44a5ecd))\n",
+          "prerelease": true
         },
         {
-          "tag": "v1.55.0",
-          "publishedAt": "2026-10-18T08:29:29Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.55.0",
-          "changelog": "## [1.55.0](https://github.com/hxreborn/morphe-patches/compare/v1.54.0...v1.55.0) (2026-10-18)\n\n### Bug Fixes\n\n* **Biobird Flashcards - Unlock premium:** show paid plan on Profile ([0791fac](https://github.com/hxreborn/morphe-patches/commit/0791fac7a72495c2c8111244f2091030e86e44f9)), closes [#258](https://github.com/hxreborn/morphe-patches/issues/258)\n* **DevCheck - Unlock premium:** match one LiveData setValue method ([ccd2c43](https://github.com/hxreborn/morphe-patches/commit/ccd2c430246c99223b018419953c2e8ed7ba98e9))\n* **RevenueCat unlock:** find the builder after R8 merges its class ([1aa00dd](https://github.com/hxreborn/morphe-patches/commit/1aa00dd6ac12fb46a77507ba332c140e8822fca4))\n* stop hiding AudioLab and 14 other apps on older Android versions ([3b9c40e](https://github.com/hxreborn/morphe-patches/commit/3b9c40e583148dfdfa3c32559f49cc08310dbc76)), closes [#236](https://github.com/hxreborn/morphe-patches/issues/236)\n* **VLLO - Unlock premium:** load native editing library ([08fbda5](https://github.com/hxreborn/morphe-patches/commit/08fbda53c0281777b60ce698700df065b1e64b21))\n\n### New Features\n\n* **aCalendar - Unlock aCalendar+:** unlock holidays and tasks ([a1abbac](https://github.com/hxreborn/morphe-patches/commit/a1abbac33b49c8a56aae652ed95e0dfc3c8efb97))\n* **botim - Unlock VIP:** remove ads and upgrade prompts ([9866bf0](https://github.com/hxreborn/morphe-patches/commit/9866bf0150ecbe35c921915e8a959a1af1ea1d38)), closes [#186](https://github.com/hxreborn/morphe-patches/issues/186)\n* **CalcNote - Unlock pro:** unlock pro features and remove ads ([2572894](https://github.com/hxreborn/morphe-patches/commit/25728941c811b91919a147aa2af7e48d0b357011))\n* **Castle for TV - Remove ads:** skip pre-roll and mid-roll ads ([e4b61db](https://github.com/hxreborn/morphe-patches/commit/e4b61dbe39be0a3a3250d61eb0d10e802d59a58e))\n* **Castle for TV - Unlock premium:** unlock member-only titles ([8c6f6b4](https://github.com/hxreborn/morphe-patches/commit/8c6f6b449c58be22b126fd8267b87bccd2391be5)), closes [#230](https://github.com/hxreborn/morphe-patches/issues/230)\n* **Cubasis LE 3 - Disable telemetry:** stop all Bugsnag traffic ([f92acff](https://github.com/hxreborn/morphe-patches/commit/f92acff8a13561b1f860484ccd37b1250abdddc8)), closes [#204](https://github.com/hxreborn/morphe-patches/issues/204)\n* **Cubasis LE 3 - Unlock premium:** unlock the full version and packs ([9962b2e](https://github.com/hxreborn/morphe-patches/commit/9962b2e9cc99b693a76285b4da9bd360f6d14836))\n* **LingoDeer - Skip sign-in prompt:** open later lessons signed out ([d849cf8](https://github.com/hxreborn/morphe-patches/commit/d849cf8c50edfca4d212a5a8f219577ba4cbbc40)), closes [#259](https://github.com/hxreborn/morphe-patches/issues/259)\n* **LingoDeer - Unlock premium:** unlock all courses and lessons ([abfe5b6](https://github.com/hxreborn/morphe-patches/commit/abfe5b61c01045717bbb09d6c8bb40af793a4acd))\n* **Magic Earth - Unlock premium:** unlock offline maps and traffic ([7d13fbb](https://github.com/hxreborn/morphe-patches/commit/7d13fbbdfdede1362a5e6375aeb8a00490e28e9f)), closes [#210](https://github.com/hxreborn/morphe-patches/issues/210)\n* **Moon+ Reader - Disable tracking:** stop usage analytics ([dab2d52](https://github.com/hxreborn/morphe-patches/commit/dab2d52845c3c6a27071c5d7c96f35fc2a3f3e22)), closes [#255](https://github.com/hxreborn/morphe-patches/issues/255)\n* **Moon+ Reader - Hide ads:** hide full-screen ads ([2f18dc5](https://github.com/hxreborn/morphe-patches/commit/2f18dc5e41d883697ec419020278bd837912485c))\n* **Moon+ Reader - Unlock pro:** unlock PDF form filling and WebDAV sync ([42157cd](https://github.com/hxreborn/morphe-patches/commit/42157cd756b73446a302fc722a57fa9b984d8435))\n* **Musicolet - Unlock premium:** unlock Pro features ([747effc](https://github.com/hxreborn/morphe-patches/commit/747effc7808270d6eb250b936d9fe65e5d42b594)), closes [#256](https://github.com/hxreborn/morphe-patches/issues/256)\n* **Period Tracker and Calendar - Unlock prem\n\n…",
-          "prerelease": false
+          "tag": "v1.59.0-dev.3",
+          "publishedAt": "2026-10-22T18:39:17Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.59.0-dev.3",
+          "changelog": "## [1.59.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.59.0-dev.2...v1.59.0-dev.3) (2026-10-22)\n\n### New Features\n\n* **Yuka - Unlock premium:** unlock food preferences and diet alerts ([223b32b](https://github.com/hxreborn/morphe-patches/commit/223b32b0be557b38f285abf4aef7c1e4dd39ba16))\n",
+          "prerelease": true
         },
         {
-          "tag": "v1.54.0",
-          "publishedAt": "2026-10-17T11:18:27Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.54.0",
-          "changelog": "## [1.54.0](https://github.com/hxreborn/morphe-patches/compare/v1.53.0...v1.54.0) (2026-10-17)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** download full episodes after API change ([968d2d9](https://github.com/hxreborn/morphe-patches/commit/968d2d956fa203a703c23aabf6e5f5784ef9fb70))\n* **MovieBox - All-In-One:** hide Premium tab ([814c81c](https://github.com/hxreborn/morphe-patches/commit/814c81ccbca9598f7e5e8637f37399bd630712a3))\n* **MovieBox - All-In-One:** show real file sizes in the download list ([c42f81e](https://github.com/hxreborn/morphe-patches/commit/c42f81e71c88fc6ebe8fa5b568202a0910a25f31)), closes [#253](https://github.com/hxreborn/morphe-patches/issues/253)\n* **MovieBox - All-In-One:** stream series in every available resolution ([bd3b602](https://github.com/hxreborn/morphe-patches/commit/bd3b602a1d27b40c765a1b9d1269c19fd7df1ee0))\n* **Perplexity - Hide upgrade promotions:** hide upgrade cards in answers ([464c693](https://github.com/hxreborn/morphe-patches/commit/464c693493d9aa79ebc5ce5c11c2c2f130014579))\n* **Proton - Material 3 switches:** keep the thumb full size when off ([e811098](https://github.com/hxreborn/morphe-patches/commit/e8110987e8fa89450643b2a22974706d3b21c86e)), closes [#201](https://github.com/hxreborn/morphe-patches/issues/201)\n* **Proton Pass - Material 3 switches:** match each toggle's native color ([573d3c3](https://github.com/hxreborn/morphe-patches/commit/573d3c334d2ee7a4c9e1528fc14c95203963ac3c)), closes [#202](https://github.com/hxreborn/morphe-patches/issues/202)\n\n### New Features\n\n* **Aloa - GmsCore support:** sign in with Google ([4c0d709](https://github.com/hxreborn/morphe-patches/commit/4c0d709dac1d007be5061972e5d812281edaeea9))\n* **Aloa - Unlock premium:** unlock conversations, lessons and roadmaps ([ef92f83](https://github.com/hxreborn/morphe-patches/commit/ef92f833742ba13f9cef6e25011e106bec3c904e)), closes [#249](https://github.com/hxreborn/morphe-patches/issues/249)\n* **Bangla Calendar - Disable tracking:** stop Firebase data collection ([e5dd9bc](https://github.com/hxreborn/morphe-patches/commit/e5dd9bc5538372f623abb0579f4a93dbc3da9fe6))\n* **Bangla Calendar - Unlock premium:** unlock premium and remove ads ([8f130ca](https://github.com/hxreborn/morphe-patches/commit/8f130cab6f99d6d5422b8a83216821e1d7a31941)), closes [#246](https://github.com/hxreborn/morphe-patches/issues/246)\n* **Biobird Flashcards - GmsCore support:** sign in with Google ([376f41f](https://github.com/hxreborn/morphe-patches/commit/376f41fe2003837a60e1819624ab7b1a7ac05e0d))\n* **Biobird Flashcards - Unlock premium:** unlock all chapters and PYQs ([39dc280](https://github.com/hxreborn/morphe-patches/commit/39dc280b16a5e62b7972cafe57fe678d0031796b)), closes [#215](https://github.com/hxreborn/morphe-patches/issues/215)\n* **DepthPix - GmsCore support:** sign in with Google ([0ea3960](https://github.com/hxreborn/morphe-patches/commit/0ea3960cc4ed5cd3195cc1d3dfbf1a8f609a09a0))\n* **DepthPix - Hide ads:** remove ads ([a6fe155](https://github.com/hxreborn/morphe-patches/commit/a6fe155169a1d1fad98e10c2aa03e8177c295ef0)), closes [#240](https://github.com/hxreborn/morphe-patches/issues/240)\n* **DepthPix - Unlock premium:** unlock Pro wallpapers and 3D motion ([b35c3ee](https://github.com/hxreborn/morphe-patches/commit/b35c3ee193b38254e6730d6d972b7cb62c25e2cb))\n* **MovieBox - Hide BuzzBox:** remove community tabs ([96dcd85](https://github.com/hxreborn/morphe-patches/commit/96dcd85b08776efd7325cc1294fac7ee74eef10a)), closes [#86](https://github.com/hxreborn/morphe-patches/issues/86)\n* **MovieBox - Hide Midnight tab:** remove 18+ section from home ([6489e8e](https://github.com/hxreborn/morphe-patches/commit/6489e8e815b192038fd80b4388b8564475759b97))\n* **MovieBox - Hide permanent notification:** stop the sticky push alert ([adf5fed](https://github.com/hxreborn/morphe-patches/commit/adf5fedba164ebcb10ef42a1c531905abc20c4fc))\n* **Notesnook - Material You theme:** apply system accent to themes ([8f059ec](https://github.com/hxreborn/\n\n…",
-          "prerelease": false
+          "tag": "v1.59.0-dev.2",
+          "publishedAt": "2026-10-22T17:48:15Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.59.0-dev.2",
+          "changelog": "## [1.59.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.59.0-dev.1...v1.59.0-dev.2) (2026-10-22)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** remove the premium bundle offer sheet ([b87a23e](https://github.com/hxreborn/morphe-patches/commit/b87a23ee3c41ca8f6d5814a032b4339eff37fd68))\n* **Catzy:** remove `1.62.0` app target ([937c48d](https://github.com/hxreborn/morphe-patches/commit/937c48d3d21bfb3d3c748d78af8b39b6ef63e989))\n",
+          "prerelease": true
         }
       ]
     },
