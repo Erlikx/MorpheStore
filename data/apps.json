@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T04:13:32Z",
+  "generatedAt": "2026-10-24T09:01:52Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,11 +26,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.49.0-dev.1",
-      "latestPublishedAt": "2026-10-23T10:58:30Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.1",
-      "changelog": "## [1.49.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0...v1.49.0-dev.1) (2026-10-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide status bar:** Video player is moved below the display cutout in portrait ([f80398e](https://github.com/MorpheApp/morphe-patches/commit/f80398e107587c7fb9f995f508a65ad1953b2734))\n* **YouTube - Navigation bar:** Translucent navigation bar is not shown without the edge to edge layout ([b8e1fdd](https://github.com/MorpheApp/morphe-patches/commit/b8e1fddd8a9d7146f2ccc4d1522a86b134cfe7a6))\n* **YouTube:** Miniplayer covered by the keyboard and empty band above the navigation bar ([0345136](https://github.com/MorpheApp/morphe-patches/commit/0345136b552c49b70c01fcc19a18762f57d3b7ad))\n* **YouTube:** Morphe flyout menu items are missing on tablets ([7127541](https://github.com/MorpheApp/morphe-patches/commit/71275419c5e6b8bd6a0a108e3d7815c8ef11a88e))\n\n### ✨ New Features\n\n* **YouTube - Navigation bar:** Add \"Disable toolbar navigation tabs\" setting ([01e767c](https://github.com/MorpheApp/morphe-patches/commit/01e767c4c3a386e4b7881ce7fc867a516082db23))\n* **YouTube:** Add `Search comments` patch ([#3942](https://github.com/MorpheApp/morphe-patches/issues/3942)) ([fbb628b](https://github.com/MorpheApp/morphe-patches/commit/fbb628ba23ecdcabd00b3bdfbf94aff60f58ac68))\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add support for `21.23.492` ([4599204](https://github.com/MorpheApp/morphe-patches/commit/45992041db85e4fb51900cc5a773380732dc1fda))\n",
+      "latestTag": "v1.49.0-dev.2",
+      "latestPublishedAt": "2026-10-24T08:47:13Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.2",
+      "changelog": "## [1.49.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.1...v1.49.0-dev.2) (2026-10-24)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Disable continue watching prompt:** Prompt can still appear during playback ([#3996](https://github.com/MorpheApp/morphe-patches/issues/3996)) ([64e3e0e](https://github.com/MorpheApp/morphe-patches/commit/64e3e0ec5eb8f98e8f8f7e11ba754fc52c3af47f))\n* **YouTube - Feed card layout:** Horizontal shelves lose the card background when their header is scrolled out of the list ([60489d8](https://github.com/MorpheApp/morphe-patches/commit/60489d84d49c85c44b8007af2de39ee6b82147cb))\n* **YouTube - Feed card layout:** Videos of the horizontal shelves are cut by the left edge of the card ([c0ec5ae](https://github.com/MorpheApp/morphe-patches/commit/c0ec5ae17781305f490e589d2d53a6bc01cead46))\n* **YouTube - Hide status bar:** Status bar covers the top bar or leaves an empty bar above it ([#3997](https://github.com/MorpheApp/morphe-patches/issues/3997)) ([bf6fbe0](https://github.com/MorpheApp/morphe-patches/commit/bf6fbe0c75728741f7d51a11a20e3bf2312faba9))\n* **YouTube - Navigation bar:** Empty band below the reply bar of the comment replies ([bac5823](https://github.com/MorpheApp/morphe-patches/commit/bac5823bdd42beba2dd79f94010e2001b33017f7))\n* **YouTube - Navigation bar:** No connection and back online bars are covered by the system navigation buttons ([2576962](https://github.com/MorpheApp/morphe-patches/commit/2576962149ab22aadc16a26853c9b7154b0d9322))\n* **YouTube - Navigation bar:** System navigation buttons cannot be seen in the Shorts player with the light theme ([0115896](https://github.com/MorpheApp/morphe-patches/commit/011589657684ba34a7523f3b17af152c5962ae6e))\n* **YouTube - Navigation buttons:** Create button is not hidden with the new navigation bar layout ([47f511c](https://github.com/MorpheApp/morphe-patches/commit/47f511c7ae41de2b2ac83257d5a93c4df1216526))\n* **YouTube - Playback speed:** Channel speed whitelist does not work for Shorts ([be733a6](https://github.com/MorpheApp/morphe-patches/commit/be733a6883cdf4c5fc8176668afb1e7f5c22cb9f))\n* **YouTube - Shorts autoplay:** Overlay is out of place when going back to a Short that advanced with the comments open ([60efeb5](https://github.com/MorpheApp/morphe-patches/commit/60efeb58d08ba0e347928c7f4f903a689b474bfd))\n* **YouTube Music - Downloads:** Fix missing metadata in downloaded songs ([#3984](https://github.com/MorpheApp/morphe-patches/issues/3984)) ([7988621](https://github.com/MorpheApp/morphe-patches/commit/7988621db650eb2c32e7cab53731508ad733d5b9))\n* **YouTube Music - Downloads:** Fix wrong song downloads ([#3978](https://github.com/MorpheApp/morphe-patches/issues/3978)) ([7259e27](https://github.com/MorpheApp/morphe-patches/commit/7259e27ade3bd1f76cd89f2ecad07d86f39d0335))\n* **YouTube:** Morphe flyout menu items are missing in the new popup menu ([d2accff](https://github.com/MorpheApp/morphe-patches/commit/d2accff5135170a4288f326d89b25a81f688f063))\n\n### ✨ New Features\n\n* **YouTube Music - Third-party lyrics:** enhance sync engine, providers, AI translation, and RTL word sync ([#3877](https://github.com/MorpheApp/morphe-patches/issues/3877)) ([e092212](https://github.com/MorpheApp/morphe-patches/commit/e0922124073fe53b6ff335893b8208af512f34e7))\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add experimental support for `21.43.523` ([6c413e5](https://github.com/MorpheApp/morphe-patches/commit/6c413e5b7bab279add97ac084b39b0d44c8ca059))\n",
       "history": [
+        {
+          "tag": "v1.49.0-dev.1",
+          "publishedAt": "2026-10-23T10:58:30Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.1",
+          "changelog": "## [1.49.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0...v1.49.0-dev.1) (2026-10-23)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide status bar:** Video player is moved below the display cutout in portrait ([f80398e](https://github.com/MorpheApp/morphe-patches/commit/f80398e107587c7fb9f995f508a65ad1953b2734))\n* **YouTube - Navigation bar:** Translucent navigation bar is not shown without the edge to edge layout ([b8e1fdd](https://github.com/MorpheApp/morphe-patches/commit/b8e1fddd8a9d7146f2ccc4d1522a86b134cfe7a6))\n* **YouTube:** Miniplayer covered by the keyboard and empty band above the navigation bar ([0345136](https://github.com/MorpheApp/morphe-patches/commit/0345136b552c49b70c01fcc19a18762f57d3b7ad))\n* **YouTube:** Morphe flyout menu items are missing on tablets ([7127541](https://github.com/MorpheApp/morphe-patches/commit/71275419c5e6b8bd6a0a108e3d7815c8ef11a88e))\n\n### ✨ New Features\n\n* **YouTube - Navigation bar:** Add \"Disable toolbar navigation tabs\" setting ([01e767c](https://github.com/MorpheApp/morphe-patches/commit/01e767c4c3a386e4b7881ce7fc867a516082db23))\n* **YouTube:** Add `Search comments` patch ([#3942](https://github.com/MorpheApp/morphe-patches/issues/3942)) ([fbb628b](https://github.com/MorpheApp/morphe-patches/commit/fbb628ba23ecdcabd00b3bdfbf94aff60f58ac68))\n\n### 🚀 Updated App Support\n\n* **YouTube:** Add support for `21.23.492` ([4599204](https://github.com/MorpheApp/morphe-patches/commit/45992041db85e4fb51900cc5a773380732dc1fda))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.48.0",
           "publishedAt": "2026-10-22T13:14:23Z",
@@ -50,13 +57,6 @@
           "publishedAt": "2026-10-22T12:29:26Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.20",
           "changelog": "## [1.48.0-dev.20](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.19...v1.48.0-dev.20) (2026-10-22)\n\n### ✨ New Features\n\n* Update to Patcher 2.0 ([#3945](https://github.com/MorpheApp/morphe-patches/issues/3945)) ([d7c25c2](https://github.com/MorpheApp/morphe-patches/commit/d7c25c26031e77c051973fb71b761fa991ee7ddb))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.48.0-dev.19",
-          "publishedAt": "2026-10-22T07:49:06Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.19",
-          "changelog": "## [1.48.0-dev.19](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.18...v1.48.0-dev.19) (2026-10-22)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Default video quality:** SABR video quality drops while the video plays ([#3853](https://github.com/MorpheApp/morphe-patches/issues/3853)) ([0488bda](https://github.com/MorpheApp/morphe-patches/commit/0488bda28d4d5844a2a739d3eefd00c28afd43fa))\n* **YouTube - Downloads:** Playing video enters picture-in-picture when the external downloader opens ([#3882](https://github.com/MorpheApp/morphe-patches/issues/3882)) ([cf43209](https://github.com/MorpheApp/morphe-patches/commit/cf43209679dbba198e963aa381ce25110a6aa8fb))\n* **YouTube - Feed card layout:** Show missing watch progress on feed cards ([#3926](https://github.com/MorpheApp/morphe-patches/issues/3926)) ([096798f](https://github.com/MorpheApp/morphe-patches/commit/096798f5877ffce88bac17adef5a9477931071b0))\n* **YouTube - Feed video actions:** Show on the grid of landscape ([#3875](https://github.com/MorpheApp/morphe-patches/issues/3875)) ([db5e7d0](https://github.com/MorpheApp/morphe-patches/commit/db5e7d0f97d44032212e7a4451ab38466fd67506))\n* **YouTube - Navigation bar:** App crashes on Android 12-13 when the player is dragged down to the miniplayer ([#3937](https://github.com/MorpheApp/morphe-patches/issues/3937)) ([a6db8d7](https://github.com/MorpheApp/morphe-patches/commit/a6db8d7aba965471d9a51f27ad7324513e2eb40b))\n* **YouTube - Navigation bar:** Increased the spacing between Shorts player and navigation bar when this latter is hidden ([a6fdc2f](https://github.com/MorpheApp/morphe-patches/commit/a6fdc2f1331f5d2fe14da2abb89dfe4b8799ce7f))\n* **YouTube:** History items are hidden when the keyboard is open ([3f38b2d](https://github.com/MorpheApp/morphe-patches/commit/3f38b2ded7f857a0240126388686234d3c786892))\n\n### ✨ New Features\n\n* **Reddit - Redgifs audio:** Download Redgifs videos with audio ([#3869](https://github.com/MorpheApp/morphe-patches/issues/3869)) ([f2ed85e](https://github.com/MorpheApp/morphe-patches/commit/f2ed85e67e518ec9115d51d7d6eb0d208232b646))\n* **YouTube - Captions:** Add \"Show captions in picture-in-picture\" setting ([#3907](https://github.com/MorpheApp/morphe-patches/issues/3907)) ([6c817e7](https://github.com/MorpheApp/morphe-patches/commit/6c817e7daa49a1b0bf007f31fc7eece9ff3af566))\n* **YouTube - Restore original titles:** Restore titles of watch history and fullscreen suggested videos ([f55e541](https://github.com/MorpheApp/morphe-patches/commit/f55e54163bd04b7b6fdd3e015951ad6bf4f8d42f))\n* **YouTube:** Add `Ask flyout menu` patch ([#3897](https://github.com/MorpheApp/morphe-patches/issues/3897)) ([04c76d0](https://github.com/MorpheApp/morphe-patches/commit/04c76d0ace8e3e5c6d4e4d015e7bc231199b9c02))\n* **YouTube:** Add `Video delay` patch ([#3867](https://github.com/MorpheApp/morphe-patches/issues/3867)) ([ec246e2](https://github.com/MorpheApp/morphe-patches/commit/ec246e292e6c7c18373bb486a53c3db205efb83f))\n* **YouTube:** Add playback speed for Shorts and skip live Shorts ([#3847](https://github.com/MorpheApp/morphe-patches/issues/3847)) ([3731d97](https://github.com/MorpheApp/morphe-patches/commit/3731d97f6ec4eaedbccaa7b7e8d4775c8cf9d587))\n",
           "prerelease": true
         }
       ]
@@ -106,37 +106,37 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.61.0",
-      "latestPublishedAt": "2026-10-23T14:35:38Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.61.0",
-      "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.36.1-prod.01 ([370eac8](https://github.com/crimera/piko/commit/370eac89f810e6f0293c08af512591fe08431980))\n\n### 🔧 Improvements\n* **Twitter:** clean up Kotlin warnings and deprecated resource helpers ([c7256d5](https://github.com/crimera/piko/commit/c7256d5d3a34abf3cbd3e4965c9da7e257dfafec))",
+      "latestTag": "v3.64.0",
+      "latestPublishedAt": "2026-10-24T06:18:53Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.64.0",
+      "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.37.2-prod.01 ([284dfde](https://github.com/crimera/piko/commit/284dfde05bb696ba83bf6982a2868e7f99d62a7b))",
       "history": [
+        {
+          "tag": "v3.63.0",
+          "publishedAt": "2026-10-24T06:05:07Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.63.0",
+          "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.37.1-prod.01 ([a11b151](https://github.com/crimera/piko/commit/a11b151bd4e5b91a6cd65aa733185dbd66231dac))\n* **Twitter - newx:** support 12.37.0-prod.01 ([ec30b96](https://github.com/crimera/piko/commit/ec30b9639dd3c95e1e38bb0e81afc49c2a40356b))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.62.0",
+          "publishedAt": "2026-10-24T05:59:53Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.62.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** resolve 12.37.0-prod.01 patch failures ([8f539fa](https://github.com/crimera/piko/commit/8f539faaf7118359a038589858c0a8947515db3d))\n\n### ✨ New Features\n* **Twitter - newx:** list every profile tab in the tab editor ([23e0423](https://github.com/crimera/piko/commit/23e0423ddd6449eeda5289568bfb53906ce88911))\n\n### 🔧 Improvements\n* **Twitter - newx:** remove classic inline action spacing patch ([4caa071](https://github.com/crimera/piko/commit/4caa071b3ad51de500a6732ce3e22c95cad26a6a))\n* **Twitter - newx:** remove share post as image patch ([432a91d](https://github.com/crimera/piko/commit/432a91d4f629befb189766f395c12e0f4f0a0d72))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.61.0",
+          "publishedAt": "2026-10-23T14:35:38Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.61.0",
+          "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.36.1-prod.01 ([370eac8](https://github.com/crimera/piko/commit/370eac89f810e6f0293c08af512591fe08431980))\n\n### 🔧 Improvements\n* **Twitter:** clean up Kotlin warnings and deprecated resource helpers ([c7256d5](https://github.com/crimera/piko/commit/c7256d5d3a34abf3cbd3e4965c9da7e257dfafec))",
+          "prerelease": false
+        },
         {
           "tag": "v3.60.0",
           "publishedAt": "2026-10-23T14:11:02Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.60.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - build:** size Gradle memory for clean Android release builds ([9943d06](https://github.com/crimera/piko/commit/9943d0675e85faeee93a0e73b06ccb6a7f75279e))\n* **Twitter - newx:** restore 12.36 timeline and Compose settings hooks ([cde8a76](https://github.com/crimera/piko/commit/cde8a76d0ffd9ebe9ebef9875516210c151b6535))\n* **Twitter - newx:** declare unsupported mount installation modes ([a7e26fe](https://github.com/crimera/piko/commit/a7e26fed8e7e7b105aab21143bcd0edc69837d63))\n* **Twitter - ci:** Normalize Gradle Windows wrapper line endings ([571b62c](https://github.com/crimera/piko/commit/571b62c209a97d50ca181341e87040b42dffcac7))\n* **Twitter - NewX:** resolve 12.36 divider and reply sorting bytecode drift ([c841d0b](https://github.com/crimera/piko/commit/c841d0b243e78204dded2c0e53eddc2b6b044d36))\n* **Twitter - Instagram:** Add `obrf`, `vrfl`, `rpxt` to link sanitization list (#2118) ([e76e726](https://github.com/crimera/piko/commit/e76e726af81bb8a52172a7b3ac3b0012257cd041))\n* **Twitter - Instagram:** Sanitize `cplk` tracking parameter (#2117) ([404ad37](https://github.com/crimera/piko/commit/404ad3748f5ee899bca89a2eec587fc9e73ca61d))\n* **Twitter - Instagram:** Sanitize `mdxt` tracking parameter (#2113) ([537d5bf](https://github.com/crimera/piko/commit/537d5bf988a6253abe2a735a3f946567ccda04a0))\n* **Twitter - Instagram:** Remove recommended flags unavailable in 447 ([46e9074](https://github.com/crimera/piko/commit/46e90748db5825c916c9ac8cefb8d4ba50936d6c))\n* **Twitter - Instagram:** Skip the remind me notification action when the link has no x (#2101) ([c4a6479](https://github.com/crimera/piko/commit/c4a64794d5d0f8a30327a38986ff84f5b8b4cdf4))\n* **Twitter - Instagram:** Preserve friendship status when metadata is missing ([6eeb0f0](https://github.com/crimera/piko/commit/6eeb0f08db63e99cfb102e1ddb653945a10e1780))\n* **Twitter - Instagram:** Sanitize shared links before changing domains ([b1d0eb4](https://github.com/crimera/piko/commit/b1d0eb481e748a33110a5f5fd51ade221fe1ecef))\n* **Twitter - Instagram:** Use an adaptive settings shortcut icon ([454f283](https://github.com/crimera/piko/commit/454f283baf3f7d444cb7d8b13eb3728e6a081a36))\n* **Twitter - Instagram:** Fix deleted message handling ([4254162](https://github.com/crimera/piko/commit/425416276c0ae2df7a6cf53fab9b37708735f8be))\n* **Twitter - Instagram:** Correct patch status mappings ([bf4a28c](https://github.com/crimera/piko/commit/bf4a28ca5387efd2c51453ef368d686cbf643f8b))\n* **Twitter - Instagram:** Isolate story filters and refresh highlight visibility ([2946e7e](https://github.com/crimera/piko/commit/2946e7ecabedd5da21075e56e9f10824cd1c94d3))\n* **Twitter - Instagram:** Correct the names of the HDR and auto-scroll recommended flags (#2078) ([8917d71](https://github.com/crimera/piko/commit/8917d71e36356ed56e68154b7cf272cfa4dcf0c5))\n* **Twitter - Instagram:** Move the story seen button to the bottom action row ([0d7fba0](https://github.com/crimera/piko/commit/0d7fba0feeb17c430af4292176be47036593bda3))\n* **Twitter - Instagram:** Preserve ephemeral media after refreshing chats ([d9ab7c7](https://github.com/crimera/piko/commit/d9ab7c7d3327481ea07e8a63f302590158c9fae5))\n* **Twitter - Instagram:** Allow screenshots in protected DM windows ([45fee55](https://github.com/crimera/piko/commit/45fee5532102b27aa8a4e95ff5c00ac3cb75fd75))\n* **Twitter - Instagram:** Refresh profile friendship status and hide unknown states ([2418d65](https://github.com/crimera/piko/commit/2418d657c7cfb1db752980c2cc10b74bd3af4641))\n* **Twitter - Instagram:** Hide ads in the Following feed ([7914a26](https://github.com/crimera/piko/commit/7914a2634e39738dd11318ea71491a5bf11493f4))\n* **Twitter - Instagram:** Hide the reshare button in the home feed ([ae38467](https://github.com/crimera/piko/commit/ae38467035fbbeeba8e03824535f927cc635adea))\n* **Twitter - Instagram:** Stop Open links externally from crashing on 447 (#2047) ([4c15083](https://github.com/crimera/piko/commit/4c15083cf3a1b6\n\n…",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.59.0",
-          "publishedAt": "2026-10-18T10:49:53Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.59.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** Remove support for older versions ([8f07e33](https://github.com/crimera/piko/commit/8f07e335113695cc8962825a333e095a54d3285c))\n\n### ✨ New Features\n* **Twitter - newx:** hide post author actions ([11ea728](https://github.com/crimera/piko/commit/11ea728b9e0a907b2162b79445368cbcef21e783))\n\nNew patches:\n- NewX: Hide post author actions",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.58.0",
-          "publishedAt": "2026-10-18T03:42:08Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.58.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** normalize GIF download containers ([f8c68db](https://github.com/crimera/piko/commit/f8c68dbc5f4cbf11777a5a329cfdcc99e120c9a5))\n* **Twitter - newx:** anchor only posts and force the key relocation measure ([ea2ea92](https://github.com/crimera/piko/commit/ea2ea92086c7a66f5d54df29bbcb2dc558f49827))\n* **Twitter - newx:** scope saved timeline positions to the account ([7dbe192](https://github.com/crimera/piko/commit/7dbe1928e6e71bac6a507ea30ec00b1af6bbdb8a))\n\n### ✨ New Features\n* **Twitter - newx:** restore timeline position by post anchor ([90b96cf](https://github.com/crimera/piko/commit/90b96cf93c9250d08f2c88805e32ce9606d345fe))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.57.1",
-          "publishedAt": "2026-10-17T00:54:37Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.57.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter:** settings re-design ([8814a72](https://github.com/crimera/piko/commit/8814a7225ce188d92088e3b87aa4a0e24e312510))\n* **Twitter - newx:** support 12.35.0 production resolver drift ([35cf5f7](https://github.com/crimera/piko/commit/35cf5f7df252de3ac691c1db54ffbe7746d7c92e))\n* **Twitter - newx:** restore bird in pull-to-refresh logo ([6fc0967](https://github.com/crimera/piko/commit/6fc09670fd9f0f1cdf5a7d0dc8e83402394862c1))",
           "prerelease": false
         }
       ]
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.0.0-dev.2",
-      "latestPublishedAt": "2026-10-23T23:20:25Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.2",
-      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix the `Zhuyin Bottom Row Key Sizes` patch so bottom-row keys retain their configured sizes while typing on the Zhuyin keyboard.\n\n### 🐛 修復\n\n* **Gboard:** 修復「注音底排按鍵大小」Patch 在注音輸入時無法維持自訂按鍵大小的問題。\n",
+      "latestTag": "v4.0.0-dev.3",
+      "latestPublishedAt": "2026-10-24T05:39:09Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.3",
+      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix runtime settings access before the first unlock after boot to prevent errors when swiping down to dismiss the keyboard.\n\n### 🐛 修復\n\n* **Gboard:** 修復開機後首次解鎖前，向下滑動關閉鍵盤功能存取設定時可能發生的錯誤。\n",
       "history": [
+        {
+          "tag": "v4.0.0-dev.2",
+          "publishedAt": "2026-10-23T23:20:25Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.2",
+          "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix the `Zhuyin Bottom Row Key Sizes` patch so bottom-row keys retain their configured sizes while typing on the Zhuyin keyboard.\n\n### 🐛 修復\n\n* **Gboard:** 修復「注音底排按鍵大小」Patch 在注音輸入時無法維持自訂按鍵大小的問題。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.0.0-dev.1",
           "publishedAt": "2026-10-22T19:31:28Z",
@@ -411,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0-dev.2",
           "changelog": "### 🐛 Bug Fixes\r\n\r\n* **Gboard:** fix the `Swipe Down to Dismiss Keyboard` patch to prevent accidental dismissal during toolbar icon sorting and candidate drag-to-delete.\r\n\r\n### 🐛 修復\r\n\r\n* **Gboard:** 修復 `Swipe Down to Dismiss Keyboard` Patch，避免在排序工具列圖示及拖曳候選字刪除時誤觸關閉鍵盤。\r\n\r\n### ❤️ Special Thanks / 特別感謝\r\n* Special thanks to [@3r01](https://github.com/3r01) for proposing this feature, initiating the initial PR (#5) and reporting these edge cases!\r\n* 特別感謝 [@3r01](https://github.com/3r01)  提出此功能構想、發起初步 PR (#5)，並協助指出相關邊界案例！",
           "prerelease": true
-        },
-        {
-          "tag": "v3.13.0-dev.1",
-          "publishedAt": "2026-10-14T03:29:28Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0-dev.1",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Swipe Down to Dismiss Keyboard` patch, allowing you to dismiss the keyboard by swiping down from the suggestion strip or toolbar.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Swipe Down to Dismiss Keyboard` Patch，支援從建議列或工具列向下滑動以關閉鍵盤。\n",
-          "prerelease": true
         }
       ]
     },
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.60.0-dev.2",
-      "latestPublishedAt": "2026-10-23T12:23:00Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0-dev.2",
-      "changelog": "## [1.60.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.60.0-dev.1...v1.60.0-dev.2) (2026-10-23)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** stop crashing when playing 1080p stream ([b4a8bd6](https://github.com/hxreborn/morphe-patches/commit/b4a8bd6b89a32e1da6db8865dfdf83eb26d1c62b))\n",
+      "latestTag": "v1.60.0-dev.3",
+      "latestPublishedAt": "2026-10-24T07:44:56Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0-dev.3",
+      "changelog": "## [1.60.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.60.0-dev.2...v1.60.0-dev.3) (2026-10-24)\n\n### Bug Fixes\n\n* **Castle for TV - Unlock premium:** play premium titles in full ([7a89a79](https://github.com/hxreborn/morphe-patches/commit/7a89a79405a7966a67e93259455349d86d88b173)), closes [#358](https://github.com/hxreborn/morphe-patches/issues/358)\n\n### New Features\n\n* **Proton Mail - Material 3 loading indicator:** morph refresh spinner ([1cc54c3](https://github.com/hxreborn/morphe-patches/commit/1cc54c37f6fa78e43e5f85f5511105da45ccd389))\n* **USA VPN - Unlock premium:** unlock pro and remove ads and time limit ([b8d2398](https://github.com/hxreborn/morphe-patches/commit/b8d239865f4ac1ebdffc87925f61438481e67634))\n\n### Updated App Support\n\n* **Etsy:** add support for `7.99.0` ([5a98f44](https://github.com/hxreborn/morphe-patches/commit/5a98f44bb6fec1fe42fe8560aef60adb6da4d607)), closes [#359](https://github.com/hxreborn/morphe-patches/issues/359)\n",
       "history": [
+        {
+          "tag": "v1.60.0-dev.2",
+          "publishedAt": "2026-10-23T12:23:00Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0-dev.2",
+          "changelog": "## [1.60.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.60.0-dev.1...v1.60.0-dev.2) (2026-10-23)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** stop crashing when playing 1080p stream ([b4a8bd6](https://github.com/hxreborn/morphe-patches/commit/b4a8bd6b89a32e1da6db8865dfdf83eb26d1c62b))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.60.0-dev.1",
           "publishedAt": "2026-10-23T10:39:59Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-23T04:30:23Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.59.0-dev.9",
           "changelog": "## [1.59.0-dev.9](https://github.com/hxreborn/morphe-patches/compare/v1.59.0-dev.8...v1.59.0-dev.9) (2026-10-23)\n\n### Bug Fixes\n\n* add version codes to RISE and May app targets ([3c02a10](https://github.com/hxreborn/morphe-patches/commit/3c02a10d6275351a70db73f378c801e8bcd4fb59))\n* **Biobird Flashcards - GmsCore support:** enable by default ([0bbf160](https://github.com/hxreborn/morphe-patches/commit/0bbf160c8ea2b753561ca98ece786be5e5d9ced4))\n* **Lagguy Wallpapers - GmsCore support:** enable by default ([4b4dea1](https://github.com/hxreborn/morphe-patches/commit/4b4dea1e12fcf84a8b5700ca81855a7d2588485d))\n* **Musicolet - Unlock premium:** stop Cast crash with Play Store plug-in ([bf5f98f](https://github.com/hxreborn/morphe-patches/commit/bf5f98f9766eb7254796c5af45582fd8214d5a31))\n* **Network Analyzer:** stop patch screens crashing on Android 10 ([eea4b94](https://github.com/hxreborn/morphe-patches/commit/eea4b949220b09c13ccaa270b65c56b8254ad801))\n* **Proton VPN - Hide upgrade promotions:** apply to GitHub APKs ([48f74ad](https://github.com/hxreborn/morphe-patches/commit/48f74ad23841420d5223930f2b06b6e8861b03f4)), closes [#337](https://github.com/hxreborn/morphe-patches/issues/337)\n* **Proton VPN - Show free server locations:** apply to GitHub APKs ([7c628fe](https://github.com/hxreborn/morphe-patches/commit/7c628fe19ceb9a87c895a5420f4d9ad11b9d3152)), closes [#337](https://github.com/hxreborn/morphe-patches/issues/337)\n* **Raindrop.io - GmsCore support:** enable by default ([04f6141](https://github.com/hxreborn/morphe-patches/commit/04f614109f65585762b6e1bcf12ee2f505a2d523))\n* **Ringtone Maker - Unlock premium:** apply to all supported versions ([cdd2054](https://github.com/hxreborn/morphe-patches/commit/cdd2054a2fda9d51cb9069dde3c1fc1477b7776e))\n* **STEEZY - GmsCore support:** enable by default ([741b3c7](https://github.com/hxreborn/morphe-patches/commit/741b3c722f9e1031f010732d41ab427e73aed788))\n* stop hiding 5 app versions on older Android versions ([1b643f5](https://github.com/hxreborn/morphe-patches/commit/1b643f52ee672f128557dd44c2c94ee7ec13bdf1))\n* **Wattpad - GmsCore support:** enable by default ([6d682df](https://github.com/hxreborn/morphe-patches/commit/6d682df2ef5e77e213fde343013b04ed83bfe328))\n\n### New Features\n\n* **Cast Plug-in for Musicolet - Remove app protection:** enable casting ([d1fb331](https://github.com/hxreborn/morphe-patches/commit/d1fb331170b02ef200601c01df5b5e232e5b8463))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.59.0-dev.10",
-          "publishedAt": "2026-10-23T06:15:24Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.59.0-dev.10",
-          "changelog": "## [1.59.0-dev.10](https://github.com/hxreborn/morphe-patches/compare/v1.59.0-dev.9...v1.59.0-dev.10) (2026-10-23)\n\n### Updated App Support\n\n* **Proton Lumo:** add support for `2.1.5-nogms` ([552c30b](https://github.com/hxreborn/morphe-patches/commit/552c30b680dcb224cd18f51ce4b02fbb695fd652))\n",
           "prerelease": true
         }
       ]
