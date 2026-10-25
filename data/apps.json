@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T00:06:32Z",
+  "generatedAt": "2026-10-25T05:08:08Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.0.0-dev.3",
-      "latestPublishedAt": "2026-10-24T05:39:09Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.3",
-      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix runtime settings access before the first unlock after boot to prevent errors when swiping down to dismiss the keyboard.\n\n### 🐛 修復\n\n* **Gboard:** 修復開機後首次解鎖前，向下滑動關閉鍵盤功能存取設定時可能發生的錯誤。\n",
+      "latestTag": "v4.0.0-dev.4",
+      "latestPublishedAt": "2026-10-25T03:47:02Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.4",
+      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix the occasionally blank shortcut toolbar when opening the keyboard with Rambler enabled.\n* **Gboard:** remove the `Hyperspeed Typing Animation` patch because Gboard 18.5.3 no longer includes its core implementation.\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用 Rambler 時，開啟鍵盤後快捷工具列偶爾空白的問題。\n* **Gboard:** 移除 `Hyperspeed Typing Animation` Patch，因 Gboard 18.5.3 已移除所需的核心實作。\n",
       "history": [
+        {
+          "tag": "v4.0.0-dev.3",
+          "publishedAt": "2026-10-24T05:39:09Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.3",
+          "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix runtime settings access before the first unlock after boot to prevent errors when swiping down to dismiss the keyboard.\n\n### 🐛 修復\n\n* **Gboard:** 修復開機後首次解鎖前，向下滑動關閉鍵盤功能存取設定時可能發生的錯誤。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.0.0-dev.2",
           "publishedAt": "2026-10-23T23:20:25Z",
@@ -411,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the `Swipe Down to Dismiss Keyboard` patch, allowing you to dismiss the keyboard by swiping down from the suggestion strip or toolbar.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue where the `Frosted Glass` patch could cause the keyboard to crash when entering the password upon device startup (Direct Boot).\n* **Gboard:** fix the `Swipe Down to Dismiss Keyboard` patch to prevent accidental dismissal during toolbar icon sorting and candidate drag-to-delete.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Swipe Down to Dismiss Keyboard` Patch，支援從建議列或工具列向下滑動以關閉鍵盤。\n\n### 🐛 修復\n\n* **Gboard:** 修復 `Frosted Glass` Patch 在裝置開機輸入密碼時（Direct Boot）可能導致鍵盤崩潰的問題。\n* **Gboard:** 修復 `Swipe Down to Dismiss Keyboard` Patch，避免在排序工具列圖示及拖曳候選字刪除時誤觸關閉鍵盤。\n",
           "prerelease": false
-        },
-        {
-          "tag": "v3.13.0-dev.2",
-          "publishedAt": "2026-10-14T19:42:12Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0-dev.2",
-          "changelog": "### 🐛 Bug Fixes\r\n\r\n* **Gboard:** fix the `Swipe Down to Dismiss Keyboard` patch to prevent accidental dismissal during toolbar icon sorting and candidate drag-to-delete.\r\n\r\n### 🐛 修復\r\n\r\n* **Gboard:** 修復 `Swipe Down to Dismiss Keyboard` Patch，避免在排序工具列圖示及拖曳候選字刪除時誤觸關閉鍵盤。\r\n\r\n### ❤️ Special Thanks / 特別感謝\r\n* Special thanks to [@3r01](https://github.com/3r01) for proposing this feature, initiating the initial PR (#5) and reporting these edge cases!\r\n* 特別感謝 [@3r01](https://github.com/3r01)  提出此功能構想、發起初步 PR (#5)，並協助指出相關邊界案例！",
-          "prerelease": true
         }
       ]
     },
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.60.0",
-      "latestPublishedAt": "2026-10-24T13:05:04Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0",
-      "changelog": "## [1.60.0](https://github.com/hxreborn/morphe-patches/compare/v1.59.0...v1.60.0) (2026-10-24)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** stop crashing when playing 1080p stream ([b4a8bd6](https://github.com/hxreborn/morphe-patches/commit/b4a8bd6b89a32e1da6db8865dfdf83eb26d1c62b))\n* **Castle for TV - Unlock premium:** play premium titles in full ([7a89a79](https://github.com/hxreborn/morphe-patches/commit/7a89a79405a7966a67e93259455349d86d88b173)), closes [#358](https://github.com/hxreborn/morphe-patches/issues/358)\n* **Raindrop.io - Accent color:** accept a color with surrounding spaces ([22b4f92](https://github.com/hxreborn/morphe-patches/commit/22b4f925d45cdb972710796d34ef9bba679b8778)), closes [#360](https://github.com/hxreborn/morphe-patches/issues/360)\n\n### New Features\n\n* **Proton Mail - Material 3 loading indicator:** morph refresh spinner ([1cc54c3](https://github.com/hxreborn/morphe-patches/commit/1cc54c37f6fa78e43e5f85f5511105da45ccd389))\n* update to Patcher 2.0 ([e749db9](https://github.com/hxreborn/morphe-patches/commit/e749db9d8194a6370507fd8b7191018d2bbe4664))\n* **USA VPN - Unlock premium:** unlock pro and remove ads and time limit ([b8d2398](https://github.com/hxreborn/morphe-patches/commit/b8d239865f4ac1ebdffc87925f61438481e67634))\n* **Yuka - Sign-in token:** sign in on standard installs ([70fa966](https://github.com/hxreborn/morphe-patches/commit/70fa96694588519ccf70325a5655d7c8fe949b10)), closes [#356](https://github.com/hxreborn/morphe-patches/issues/356)\n* **Yuka - Unlock premium:** enable on standard installs ([1d3cc3f](https://github.com/hxreborn/morphe-patches/commit/1d3cc3f42d80d101ab6d2ff9694d47d66cc3b894))\n\n### Updated App Support\n\n* **Etsy:** add support for `7.99.0` ([5a98f44](https://github.com/hxreborn/morphe-patches/commit/5a98f44bb6fec1fe42fe8560aef60adb6da4d607)), closes [#359](https://github.com/hxreborn/morphe-patches/issues/359)\n",
+      "latestTag": "v1.61.0-dev.1",
+      "latestPublishedAt": "2026-10-25T01:17:56Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.61.0-dev.1",
+      "changelog": "## [1.61.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.60.0...v1.61.0-dev.1) (2026-10-25)\n\n### Bug Fixes\n\n* **BetterSleep - Unlock premium:** record screen on and off events ([5a6b4c6](https://github.com/hxreborn/morphe-patches/commit/5a6b4c6d5a57280d3b914438afb888569151dee8))\n* **Hindu Calendar - Hide ads:** post event reminders ([a19c39b](https://github.com/hxreborn/morphe-patches/commit/a19c39b7b7598e2114c2ab90bf4898a4a726ca51))\n* **LingoDeer - Skip sign-in prompt:** allow armeabi-v7a installs ([7fc7d19](https://github.com/hxreborn/morphe-patches/commit/7fc7d19f584c45bf8532bff2fae43bb7487e97a0)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n* **LingoDeer - Unlock premium:** allow armeabi-v7a installs ([b8f44b3](https://github.com/hxreborn/morphe-patches/commit/b8f44b3a38538a94b5a670010e5964b210efd382))\n* **Proton Lumo - Unlock premium:** open Lumo from home screen widgets ([2c0b022](https://github.com/hxreborn/morphe-patches/commit/2c0b0229cb890b23bbb401a93cb11b9a5f323443))\n* **Proton Mail:** remove `7.10.4` to `7.11.10` app targets ([a364d60](https://github.com/hxreborn/morphe-patches/commit/a364d6052de57c3a131dbc10b53aa42fad295366))\n\n### New Features\n\n* **Clip Studio Paint - Unlock premium:** unlock doodle mode saving ([58a44b1](https://github.com/hxreborn/morphe-patches/commit/58a44b19452396b9d160a69e30f86c9cab48b046))\n* **Clip Studio Paint - Unlock premium:** unlock full timelapse export ([475cf0f](https://github.com/hxreborn/morphe-patches/commit/475cf0f3d790d5cd47fe16353493076603d5676d))\n* **NEETprep - GmsCore support:** sign in with Google through GmsCore ([d341d92](https://github.com/hxreborn/morphe-patches/commit/d341d9287629b37f92819caad965ec76dad4a5fd))\n* **NEETprep - Unlock premium:** unlock explanations and Ask AI ([de5b600](https://github.com/hxreborn/morphe-patches/commit/de5b6004542618df4954c5cce57e80efdba61702))\n* **NEETprep Essential - Unlock premium:** unlock all chapters and tests ([3519972](https://github.com/hxreborn/morphe-patches/commit/3519972f51c8813ae3fb6549c30b379f6d892fa6))\n* **Proton Authenticator - Material 3 loading indicator:** morph spinner ([270fde1](https://github.com/hxreborn/morphe-patches/commit/270fde1b1a709d3adbf589dbd4d8e26608c84b91)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Pass - Material 3 loading indicator:** morph refresh spinner ([86f2dd2](https://github.com/hxreborn/morphe-patches/commit/86f2dd2a2b685b51ceb2899cbbd4890b0f7c3817))\n* **UPTCL - Disable tracking:** stop analytics and event reporting ([6b33b62](https://github.com/hxreborn/morphe-patches/commit/6b33b624e9a5f2193988ee27eb87e21761a58e5a))\n* **UPTCL - Hide ads:** hide banner, native and full-screen ads ([26e2e4c](https://github.com/hxreborn/morphe-patches/commit/26e2e4ca7db5735c34f9c0eaa1de59fb9d737a37))\n* **UPTCL - Hide launch promotion:** hide splash promo banner and video ([6c13a73](https://github.com/hxreborn/morphe-patches/commit/6c13a735a956b8e9687cc944614a9816a8a2f1ed))\n* **UPTCL - Remove forced update:** skip update prompts at launch ([3978990](https://github.com/hxreborn/morphe-patches/commit/39789901df1167ece80780f2646bf42f4ff18aed))\n\n### Updated App Support\n\n* **AlpineQuest:** add support for `2.4.1` ([f014714](https://github.com/hxreborn/morphe-patches/commit/f014714665322b285b6c4501c73cad3a31b489aa))\n* **DepthPix:** add support for `1.0.21` ([87d5b04](https://github.com/hxreborn/morphe-patches/commit/87d5b04af6557d6f0fc5839365b9ca4ccbc0b2e8))\n* **Echo Equalizer:** add support for `9.7` ([3ed0ca4](https://github.com/hxreborn/morphe-patches/commit/3ed0ca4a9ff91af59dff8fb9c3dadbfd6eb03100))\n* **Fast STL Viewer:** add support for `2.92` ([8ba98dc](https://github.com/hxreborn/morphe-patches/commit/8ba98dc5ff8adae762dbcc194de92c0b0730914b))\n* **Joyn:** add support for `6.9.2-AOS-609282180` ([0f9e24f](https://github.com/hxreborn/morphe-patches/commit/0f9e24fac6ed1912cbb391abaafe1bf8bc4e4555))\n* **Keepa:** add support for `6.5.1` ([0\n\n…",
       "history": [
+        {
+          "tag": "v1.60.0",
+          "publishedAt": "2026-10-24T13:05:04Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0",
+          "changelog": "## [1.60.0](https://github.com/hxreborn/morphe-patches/compare/v1.59.0...v1.60.0) (2026-10-24)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** stop crashing when playing 1080p stream ([b4a8bd6](https://github.com/hxreborn/morphe-patches/commit/b4a8bd6b89a32e1da6db8865dfdf83eb26d1c62b))\n* **Castle for TV - Unlock premium:** play premium titles in full ([7a89a79](https://github.com/hxreborn/morphe-patches/commit/7a89a79405a7966a67e93259455349d86d88b173)), closes [#358](https://github.com/hxreborn/morphe-patches/issues/358)\n* **Raindrop.io - Accent color:** accept a color with surrounding spaces ([22b4f92](https://github.com/hxreborn/morphe-patches/commit/22b4f925d45cdb972710796d34ef9bba679b8778)), closes [#360](https://github.com/hxreborn/morphe-patches/issues/360)\n\n### New Features\n\n* **Proton Mail - Material 3 loading indicator:** morph refresh spinner ([1cc54c3](https://github.com/hxreborn/morphe-patches/commit/1cc54c37f6fa78e43e5f85f5511105da45ccd389))\n* update to Patcher 2.0 ([e749db9](https://github.com/hxreborn/morphe-patches/commit/e749db9d8194a6370507fd8b7191018d2bbe4664))\n* **USA VPN - Unlock premium:** unlock pro and remove ads and time limit ([b8d2398](https://github.com/hxreborn/morphe-patches/commit/b8d239865f4ac1ebdffc87925f61438481e67634))\n* **Yuka - Sign-in token:** sign in on standard installs ([70fa966](https://github.com/hxreborn/morphe-patches/commit/70fa96694588519ccf70325a5655d7c8fe949b10)), closes [#356](https://github.com/hxreborn/morphe-patches/issues/356)\n* **Yuka - Unlock premium:** enable on standard installs ([1d3cc3f](https://github.com/hxreborn/morphe-patches/commit/1d3cc3f42d80d101ab6d2ff9694d47d66cc3b894))\n\n### Updated App Support\n\n* **Etsy:** add support for `7.99.0` ([5a98f44](https://github.com/hxreborn/morphe-patches/commit/5a98f44bb6fec1fe42fe8560aef60adb6da4d607)), closes [#359](https://github.com/hxreborn/morphe-patches/issues/359)\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.60.0-dev.5",
           "publishedAt": "2026-10-24T13:00:12Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-24T07:44:56Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0-dev.3",
           "changelog": "## [1.60.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.60.0-dev.2...v1.60.0-dev.3) (2026-10-24)\n\n### Bug Fixes\n\n* **Castle for TV - Unlock premium:** play premium titles in full ([7a89a79](https://github.com/hxreborn/morphe-patches/commit/7a89a79405a7966a67e93259455349d86d88b173)), closes [#358](https://github.com/hxreborn/morphe-patches/issues/358)\n\n### New Features\n\n* **Proton Mail - Material 3 loading indicator:** morph refresh spinner ([1cc54c3](https://github.com/hxreborn/morphe-patches/commit/1cc54c37f6fa78e43e5f85f5511105da45ccd389))\n* **USA VPN - Unlock premium:** unlock pro and remove ads and time limit ([b8d2398](https://github.com/hxreborn/morphe-patches/commit/b8d239865f4ac1ebdffc87925f61438481e67634))\n\n### Updated App Support\n\n* **Etsy:** add support for `7.99.0` ([5a98f44](https://github.com/hxreborn/morphe-patches/commit/5a98f44bb6fec1fe42fe8560aef60adb6da4d607)), closes [#359](https://github.com/hxreborn/morphe-patches/issues/359)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.60.0-dev.2",
-          "publishedAt": "2026-10-23T12:23:00Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0-dev.2",
-          "changelog": "## [1.60.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.60.0-dev.1...v1.60.0-dev.2) (2026-10-23)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** stop crashing when playing 1080p stream ([b4a8bd6](https://github.com/hxreborn/morphe-patches/commit/b4a8bd6b89a32e1da6db8865dfdf83eb26d1c62b))\n",
           "prerelease": true
         }
       ]
