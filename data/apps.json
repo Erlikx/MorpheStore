@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T21:07:23Z",
+  "generatedAt": "2026-10-25T23:28:03Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -426,37 +426,37 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.62.0-dev.2",
-      "latestPublishedAt": "2026-10-25T20:54:26Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.62.0-dev.2",
-      "changelog": "## [1.62.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.62.0-dev.1...v1.62.0-dev.2) (2026-10-25)\n\n### Bug Fixes\n\n* **DWG FastView:** restore patching on every supported version ([e5b8024](https://github.com/hxreborn/morphe-patches/commit/e5b8024ea6361703e5ef840fca023b804e97cf3d))\n\n### New Features\n\n* **Albo - Remove bulk import limit:** import without spending credits ([45c8e1c](https://github.com/hxreborn/morphe-patches/commit/45c8e1cdbc90e067b6e312a637a96b6fe5ed53c5)), closes [#375](https://github.com/hxreborn/morphe-patches/issues/375)\n* update to Patcher 2.0.2-dev.1 ([ecc9db1](https://github.com/hxreborn/morphe-patches/commit/ecc9db182485daa6d25ea38f194443e9468e574e))\n",
+      "latestTag": "v1.62.0-dev.8",
+      "latestPublishedAt": "2026-10-25T23:09:13Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.62.0-dev.8",
+      "changelog": "## [1.62.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.62.0-dev.7...v1.62.0-dev.8) (2026-10-25)\n\n### New Features\n\n* **Proton Pass - Hide navigation bar on scroll:** list fills bar space ([39fff13](https://github.com/hxreborn/morphe-patches/commit/39fff1328d5d4016bc95a4314ce2bf8ff5c1f6bc)), closes [#382](https://github.com/hxreborn/morphe-patches/issues/382)\n",
       "history": [
         {
-          "tag": "v1.62.0-dev.1",
-          "publishedAt": "2026-10-25T18:50:58Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.62.0-dev.1",
-          "changelog": "## [1.62.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.61.0...v1.62.0-dev.1) (2026-10-25)\n\n### New Features\n\n* **Castle for TV - Spoof signature:** remove the modified app warning ([7d87a63](https://github.com/hxreborn/morphe-patches/commit/7d87a63236c09ca18b3cbe97fca3d6744e6f03da)), closes [#379](https://github.com/hxreborn/morphe-patches/issues/379)\n",
+          "tag": "v1.62.0-dev.7",
+          "publishedAt": "2026-10-25T23:00:41Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.62.0-dev.7",
+          "changelog": "## [1.62.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.62.0-dev.6...v1.62.0-dev.7) (2026-10-25)\n\n### New Features\n\n* **Coddy - Unlock premium:** unlock Plus and remove the AI tutor limit ([7868681](https://github.com/hxreborn/morphe-patches/commit/7868681e45c6b98ffa11bd4e6ce5abe568f6765a))\n",
           "prerelease": true
         },
         {
-          "tag": "v1.61.0",
-          "publishedAt": "2026-10-25T14:59:16Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.61.0",
-          "changelog": "## [1.61.0](https://github.com/hxreborn/morphe-patches/compare/v1.60.0...v1.61.0) (2026-10-25)\n\n### Bug Fixes\n\n* **BetterSleep - Unlock premium:** record screen on and off events ([5a6b4c6](https://github.com/hxreborn/morphe-patches/commit/5a6b4c6d5a57280d3b914438afb888569151dee8))\n* **Hindu Calendar - Hide ads:** post event reminders ([a19c39b](https://github.com/hxreborn/morphe-patches/commit/a19c39b7b7598e2114c2ab90bf4898a4a726ca51))\n* **LingoDeer - Skip sign-in prompt:** allow armeabi-v7a installs ([7fc7d19](https://github.com/hxreborn/morphe-patches/commit/7fc7d19f584c45bf8532bff2fae43bb7487e97a0)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n* **LingoDeer - Unlock premium:** allow armeabi-v7a installs ([b8f44b3](https://github.com/hxreborn/morphe-patches/commit/b8f44b3a38538a94b5a670010e5964b210efd382))\n* **LingoDeer:** allow signing in to an account ([cbec670](https://github.com/hxreborn/morphe-patches/commit/cbec67075702d2a200a3bb02fe3cd2c61ae6e793)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n* **Proton Authenticator - Material 3 loading indicator:** grow to 48dp ([dda1dbe](https://github.com/hxreborn/morphe-patches/commit/dda1dbe995a22726d4c8433a8e824624e7a06ec0)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Lumo - Unlock premium:** open Lumo from home screen widgets ([2c0b022](https://github.com/hxreborn/morphe-patches/commit/2c0b0229cb890b23bbb401a93cb11b9a5f323443))\n* **Proton Mail - Material 3 loading indicator:** shrink to 48dp ([070ae24](https://github.com/hxreborn/morphe-patches/commit/070ae246084e05f8b5ede6a6c53d3351f23ca5f9)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Mail:** remove `7.10.4` to `7.11.10` app targets ([a364d60](https://github.com/hxreborn/morphe-patches/commit/a364d6052de57c3a131dbc10b53aa42fad295366))\n* **Proton Pass - Material 3 loading indicator:** grow to 48dp ([71236d9](https://github.com/hxreborn/morphe-patches/commit/71236d97bd16d8bc16314f92ab89372f3872f09c)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **UPTCL - Hide launch promotion:** skip full-screen home screen offer ([2440877](https://github.com/hxreborn/morphe-patches/commit/2440877f068705acb6018a3d4fac63bb606772cb))\n\n### New Features\n\n* **Clip Studio Paint - Unlock premium:** unlock doodle mode saving ([58a44b1](https://github.com/hxreborn/morphe-patches/commit/58a44b19452396b9d160a69e30f86c9cab48b046))\n* **Clip Studio Paint - Unlock premium:** unlock full timelapse export ([475cf0f](https://github.com/hxreborn/morphe-patches/commit/475cf0f3d790d5cd47fe16353493076603d5676d))\n* **LingoDeer - GmsCore support:** allow signing in with Google ([94dc9e7](https://github.com/hxreborn/morphe-patches/commit/94dc9e72a769a5ebc6c6135a8205817144005966)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n* **NEETprep - GmsCore support:** sign in with Google through GmsCore ([d341d92](https://github.com/hxreborn/morphe-patches/commit/d341d9287629b37f92819caad965ec76dad4a5fd))\n* **NEETprep - Unlock premium:** unlock explanations and Ask AI ([de5b600](https://github.com/hxreborn/morphe-patches/commit/de5b6004542618df4954c5cce57e80efdba61702))\n* **NEETprep Essential - Unlock premium:** unlock all chapters and tests ([3519972](https://github.com/hxreborn/morphe-patches/commit/3519972f51c8813ae3fb6549c30b379f6d892fa6))\n* **Proton Authenticator - Material 3 loading indicator:** morph spinner ([270fde1](https://github.com/hxreborn/morphe-patches/commit/270fde1b1a709d3adbf589dbd4d8e26608c84b91)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Pass - Material 3 loading indicator:** morph refresh spinner ([86f2dd2](https://github.com/hxreborn/morphe-patches/commit/86f2dd2a2b685b51ceb2899cbbd4890b0f7c3817))\n* **UPTCL - Disable tracking:** stop analytics and event reporting ([6b33b62](https://github.com/hxreborn/morphe-patches/commit/6b33b624e9a5f2193988e\n\n…",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.61.0-dev.3",
-          "publishedAt": "2026-10-25T10:31:52Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.61.0-dev.3",
-          "changelog": "## [1.61.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.61.0-dev.2...v1.61.0-dev.3) (2026-10-25)\n\n### Bug Fixes\n\n* **LingoDeer:** allow signing in to an account ([cbec670](https://github.com/hxreborn/morphe-patches/commit/cbec67075702d2a200a3bb02fe3cd2c61ae6e793)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n\n### New Features\n\n* **LingoDeer - GmsCore support:** allow signing in with Google ([94dc9e7](https://github.com/hxreborn/morphe-patches/commit/94dc9e72a769a5ebc6c6135a8205817144005966)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n",
+          "tag": "v1.62.0-dev.6",
+          "publishedAt": "2026-10-25T22:46:45Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.62.0-dev.6",
+          "changelog": "## [1.62.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.62.0-dev.5...v1.62.0-dev.6) (2026-10-25)\n\n### Bug Fixes\n\n* **botim - Fix sign-in:** send the phone verification code ([b452c0a](https://github.com/hxreborn/morphe-patches/commit/b452c0a94b89b3737802946bdecdafd29813aa11)), closes [#383](https://github.com/hxreborn/morphe-patches/issues/383)\n",
           "prerelease": true
         },
         {
-          "tag": "v1.61.0-dev.2",
-          "publishedAt": "2026-10-25T09:14:16Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.61.0-dev.2",
-          "changelog": "## [1.61.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.61.0-dev.1...v1.61.0-dev.2) (2026-10-25)\n\n### Bug Fixes\n\n* **Proton Authenticator - Material 3 loading indicator:** grow to 48dp ([dda1dbe](https://github.com/hxreborn/morphe-patches/commit/dda1dbe995a22726d4c8433a8e824624e7a06ec0)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Mail - Material 3 loading indicator:** shrink to 48dp ([070ae24](https://github.com/hxreborn/morphe-patches/commit/070ae246084e05f8b5ede6a6c53d3351f23ca5f9)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Pass - Material 3 loading indicator:** grow to 48dp ([71236d9](https://github.com/hxreborn/morphe-patches/commit/71236d97bd16d8bc16314f92ab89372f3872f09c)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **UPTCL - Hide launch promotion:** skip full-screen home screen offer ([2440877](https://github.com/hxreborn/morphe-patches/commit/2440877f068705acb6018a3d4fac63bb606772cb))\n\n### New Features\n\n* **UPTCL - Match system bar color:** make status and nav bars white ([9b876b7](https://github.com/hxreborn/morphe-patches/commit/9b876b7aae4f9741a9ffa3d5562aa0ab1e253b6a))\n",
+          "tag": "v1.62.0-dev.5",
+          "publishedAt": "2026-10-25T22:33:11Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.62.0-dev.5",
+          "changelog": "## [1.62.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.62.0-dev.4...v1.62.0-dev.5) (2026-10-25)\n\n### New Features\n\n* **Clone App - Disable tracking:** stop usage and history uploads ([5e0d0ef](https://github.com/hxreborn/morphe-patches/commit/5e0d0ef44de7490fd1545acbfc6d3094f19a4fae))\n* **Clone App - Fix Manage Google account:** open account settings ([b5cb895](https://github.com/hxreborn/morphe-patches/commit/b5cb8956e1651daf7b30a93db5cbaa99053aa715))\n* **Clone App - Remove ads:** remove splash, interstitial and native ads ([ce6eb2e](https://github.com/hxreborn/morphe-patches/commit/ce6eb2e21ce5ecc926a5330126e77583eede6874))\n* **Clone App - Unlock premium:** unlock multiple copies and bubble mode ([d827c13](https://github.com/hxreborn/morphe-patches/commit/d827c13cba908cf6869ce07aca248d76600632e3))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.62.0-dev.4",
+          "publishedAt": "2026-10-25T22:21:35Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.62.0-dev.4",
+          "changelog": "## [1.62.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.62.0-dev.3...v1.62.0-dev.4) (2026-10-25)\n\n### New Features\n\n* **Pleco - Disable tracking:** stop sending device identifiers ([09d2edb](https://github.com/hxreborn/morphe-patches/commit/09d2edb2471c90c2758324657f769c0cdad14198))\n* **Pleco - Unlock add-ons:** unlock flashcards, document reader and OCR ([1577d90](https://github.com/hxreborn/morphe-patches/commit/1577d9037ebb18c0a5430565f53f789f69572f99))\n",
           "prerelease": true
         }
       ]
