@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T10:02:32Z",
+  "generatedAt": "2026-10-25T14:30:35Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -146,11 +146,18 @@
       "repo": "adobo",
       "label": "🥘 Adobo",
       "repoUrl": "https://github.com/jkennethcarino/adobo",
-      "latestTag": "v1.7.0-dev.3",
-      "latestPublishedAt": "2026-10-24T17:31:18Z",
-      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.7.0-dev.3",
-      "changelog": "## [1.7.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.2...v1.7.0-dev.3) (2026-10-24)\n\n### Features\n\n* **Reddit:** Add `Hide search answers preview` patch ([5a2193a](https://github.com/jkennethcarino/adobo/commit/5a2193a88241db975f4eef7ed75ae8c4344bece3))\n",
+      "latestTag": "v1.7.0-dev.4",
+      "latestPublishedAt": "2026-10-25T14:15:55Z",
+      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v1.7.0-dev.4",
+      "changelog": "## [1.7.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.3...v1.7.0-dev.4) (2026-10-25)\n\n### Updated App Support\n\n* **9GAG:** Add support for `8.24.8`, `8.25.1`, and `8.26.1` ([6e90bfd](https://github.com/jkennethcarino/adobo/commit/6e90bfd5058598a14f36b9d34b5bd19cfe0d7ec1))\n* **Reddit:** Add support for `2026.43.0` ([f828cc8](https://github.com/jkennethcarino/adobo/commit/f828cc8d17efc6d8ae42d50e457e76a1a5c49331))\n",
       "history": [
+        {
+          "tag": "v1.7.0-dev.3",
+          "publishedAt": "2026-10-24T17:31:18Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.7.0-dev.3",
+          "changelog": "## [1.7.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.2...v1.7.0-dev.3) (2026-10-24)\n\n### Features\n\n* **Reddit:** Add `Hide search answers preview` patch ([5a2193a](https://github.com/jkennethcarino/adobo/commit/5a2193a88241db975f4eef7ed75ae8c4344bece3))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.7.0-dev.2",
           "publishedAt": "2026-10-24T16:16:31Z",
@@ -171,13 +178,6 @@
           "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0",
           "changelog": "## [1.6.0](https://github.com/jkennethcarino/adobo/compare/v1.5.0...v1.6.0) (2026-10-18)\n\n### Features\n\n* **9GAG:** Add `Disable forced update dialog` patch ([bc94501](https://github.com/jkennethcarino/adobo/commit/bc94501e4f943e0d96ad14f0304e49361ced88d3))\n* **9GAG:** Add `Sanitize share links` patch ([ab5d7b3](https://github.com/jkennethcarino/adobo/commit/ab5d7b33aad0f559bc2d7006a09bb8daccfb8bc7))\n* **Reddit:** Add `Hide crosspost` patch ([9932fe9](https://github.com/jkennethcarino/adobo/commit/9932fe9982b8c7b237fd0bd9bb39de6300c34c85))\n\n### Updated App Support\n\n* **9GAG:** Add support for `8.24.5`, `8.23.0`, and `8.22.0` ([795523b](https://github.com/jkennethcarino/adobo/commit/795523b2a3318185152387487be4a3d72bbc797f))\n* **Reddit:** Add support for `2026.39.1` ([f2d95ec](https://github.com/jkennethcarino/adobo/commit/f2d95ece77ad68ff473e9ff3c15943964d31c123))\n* **Reddit:** Add support for `2026.40.0` ([ff85972](https://github.com/jkennethcarino/adobo/commit/ff85972f835b52ce19af1dc81355d038a0678197))\n* **Reddit:** Add support for `2026.41.0` ([dd85b6f](https://github.com/jkennethcarino/adobo/commit/dd85b6f0ffced0fa764496c1ec858c6c1b70c599))\n* **Reddit:** Add support for `2026.42.0` ([f2e5ab5](https://github.com/jkennethcarino/adobo/commit/f2e5ab5216d6bc47e0e60d6cb9be3c948effca4b))\n",
           "prerelease": false
-        },
-        {
-          "tag": "v1.6.0-dev.6",
-          "publishedAt": "2026-10-18T13:59:30Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.6",
-          "changelog": "## [1.6.0-dev.6](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.5...v1.6.0-dev.6) (2026-10-18)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.42.0` ([f2e5ab5](https://github.com/jkennethcarino/adobo/commit/f2e5ab5216d6bc47e0e60d6cb9be3c948effca4b))\n",
-          "prerelease": true
         }
       ]
     },
@@ -186,11 +186,18 @@
       "repo": "morphe-patches",
       "label": "⚡ Rushiranpise",
       "repoUrl": "https://github.com/rushiranpise/morphe-patches",
-      "latestTag": "v1.23.0",
-      "latestPublishedAt": "2026-10-14T17:39:11Z",
-      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0",
-      "changelog": "## [1.23.0](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* remove Relane patches ([29819ed](https://github.com/rushiranpise/morphe-patches/commit/29819edeab47def853a57a52a5b5fd6f5db6dbdc)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n* update verified app versions ([5ca039c](https://github.com/rushiranpise/morphe-patches/commit/5ca039c16f9d766678d5c697d6dee6cd19f67f7a))\n\n### ✨ New Features\n\n* **life360:** add themed icon patch with adaptive support ([83226e3](https://github.com/rushiranpise/morphe-patches/commit/83226e3034b86e8923915cf09831ad394d291d19))\n",
+      "latestTag": "v1.23.1-dev.1",
+      "latestPublishedAt": "2026-10-25T13:21:08Z",
+      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.1-dev.1",
+      "changelog": "## [1.23.1-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.23.0...v1.23.1-dev.1) (2026-10-25)\n\n### 🐛 Bug Fixes\n\n* **batteryguru:** support 2.5.0.9 ([3e2f1b7](https://github.com/rushiranpise/morphe-patches/commit/3e2f1b79993124503586ad1b51321b64071863f7))\n* **batterypods:** support 8.32 and suppress ads ([4a10a24](https://github.com/rushiranpise/morphe-patches/commit/4a10a24c39b4088bec36767146841c34eee4d0a9))\n",
       "history": [
+        {
+          "tag": "v1.23.0",
+          "publishedAt": "2026-10-14T17:39:11Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0",
+          "changelog": "## [1.23.0](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* remove Relane patches ([29819ed](https://github.com/rushiranpise/morphe-patches/commit/29819edeab47def853a57a52a5b5fd6f5db6dbdc)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n* update verified app versions ([5ca039c](https://github.com/rushiranpise/morphe-patches/commit/5ca039c16f9d766678d5c697d6dee6cd19f67f7a))\n\n### ✨ New Features\n\n* **life360:** add themed icon patch with adaptive support ([83226e3](https://github.com/rushiranpise/morphe-patches/commit/83226e3034b86e8923915cf09831ad394d291d19))\n",
+          "prerelease": false
+        },
         {
           "tag": "v1.22.0",
           "publishedAt": "2026-09-15T20:58:05Z",
@@ -211,13 +218,6 @@
           "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5",
           "changelog": "## [1.21.5](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5) (2026-09-08)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\r\n* Moviebox latest update has introduced server-side app checks. While it’s still possible to keep using the older version, there’s no guarantee how long it will continue to work. There’s also new APK protection on top of that, so the app has been removed from the patches.\r\n",
           "prerelease": false
-        },
-        {
-          "tag": "v1.21.5-dev.1",
-          "publishedAt": "2026-09-08T05:10:27Z",
-          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5-dev.1",
-          "changelog": "## [1.21.5-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5-dev.1) (2026-09-08)\n\n### 🐛 Bug Fixes\n\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\n",
-          "prerelease": true
         }
       ]
     },
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.61.0-dev.2",
-      "latestPublishedAt": "2026-10-25T09:14:16Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.61.0-dev.2",
-      "changelog": "## [1.61.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.61.0-dev.1...v1.61.0-dev.2) (2026-10-25)\n\n### Bug Fixes\n\n* **Proton Authenticator - Material 3 loading indicator:** grow to 48dp ([dda1dbe](https://github.com/hxreborn/morphe-patches/commit/dda1dbe995a22726d4c8433a8e824624e7a06ec0)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Mail - Material 3 loading indicator:** shrink to 48dp ([070ae24](https://github.com/hxreborn/morphe-patches/commit/070ae246084e05f8b5ede6a6c53d3351f23ca5f9)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Pass - Material 3 loading indicator:** grow to 48dp ([71236d9](https://github.com/hxreborn/morphe-patches/commit/71236d97bd16d8bc16314f92ab89372f3872f09c)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **UPTCL - Hide launch promotion:** skip full-screen home screen offer ([2440877](https://github.com/hxreborn/morphe-patches/commit/2440877f068705acb6018a3d4fac63bb606772cb))\n\n### New Features\n\n* **UPTCL - Match system bar color:** make status and nav bars white ([9b876b7](https://github.com/hxreborn/morphe-patches/commit/9b876b7aae4f9741a9ffa3d5562aa0ab1e253b6a))\n",
+      "latestTag": "v1.61.0-dev.3",
+      "latestPublishedAt": "2026-10-25T10:31:52Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.61.0-dev.3",
+      "changelog": "## [1.61.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.61.0-dev.2...v1.61.0-dev.3) (2026-10-25)\n\n### Bug Fixes\n\n* **LingoDeer:** allow signing in to an account ([cbec670](https://github.com/hxreborn/morphe-patches/commit/cbec67075702d2a200a3bb02fe3cd2c61ae6e793)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n\n### New Features\n\n* **LingoDeer - GmsCore support:** allow signing in with Google ([94dc9e7](https://github.com/hxreborn/morphe-patches/commit/94dc9e72a769a5ebc6c6135a8205817144005966)), closes [#369](https://github.com/hxreborn/morphe-patches/issues/369)\n",
       "history": [
+        {
+          "tag": "v1.61.0-dev.2",
+          "publishedAt": "2026-10-25T09:14:16Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.61.0-dev.2",
+          "changelog": "## [1.61.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.61.0-dev.1...v1.61.0-dev.2) (2026-10-25)\n\n### Bug Fixes\n\n* **Proton Authenticator - Material 3 loading indicator:** grow to 48dp ([dda1dbe](https://github.com/hxreborn/morphe-patches/commit/dda1dbe995a22726d4c8433a8e824624e7a06ec0)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Mail - Material 3 loading indicator:** shrink to 48dp ([070ae24](https://github.com/hxreborn/morphe-patches/commit/070ae246084e05f8b5ede6a6c53d3351f23ca5f9)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **Proton Pass - Material 3 loading indicator:** grow to 48dp ([71236d9](https://github.com/hxreborn/morphe-patches/commit/71236d97bd16d8bc16314f92ab89372f3872f09c)), closes [#368](https://github.com/hxreborn/morphe-patches/issues/368)\n* **UPTCL - Hide launch promotion:** skip full-screen home screen offer ([2440877](https://github.com/hxreborn/morphe-patches/commit/2440877f068705acb6018a3d4fac63bb606772cb))\n\n### New Features\n\n* **UPTCL - Match system bar color:** make status and nav bars white ([9b876b7](https://github.com/hxreborn/morphe-patches/commit/9b876b7aae4f9741a9ffa3d5562aa0ab1e253b6a))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.61.0-dev.1",
           "publishedAt": "2026-10-25T01:17:56Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-24T13:00:12Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0-dev.5",
           "changelog": "## [1.60.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.60.0-dev.4...v1.60.0-dev.5) (2026-10-24)\n\n### New Features\n\n* **Yuka - Sign-in token:** sign in on standard installs ([70fa966](https://github.com/hxreborn/morphe-patches/commit/70fa96694588519ccf70325a5655d7c8fe949b10)), closes [#356](https://github.com/hxreborn/morphe-patches/issues/356)\n* **Yuka - Unlock premium:** enable on standard installs ([1d3cc3f](https://github.com/hxreborn/morphe-patches/commit/1d3cc3f42d80d101ab6d2ff9694d47d66cc3b894))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.60.0-dev.4",
-          "publishedAt": "2026-10-24T12:32:32Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.60.0-dev.4",
-          "changelog": "## [1.60.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.60.0-dev.3...v1.60.0-dev.4) (2026-10-24)\n\n### Bug Fixes\n\n* **Raindrop.io - Accent color:** accept a color with surrounding spaces ([22b4f92](https://github.com/hxreborn/morphe-patches/commit/22b4f925d45cdb972710796d34ef9bba679b8778)), closes [#360](https://github.com/hxreborn/morphe-patches/issues/360)\n",
           "prerelease": true
         }
       ]
