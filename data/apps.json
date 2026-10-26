@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T23:28:03Z",
+  "generatedAt": "2026-10-26T01:34:34Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.64.0",
-      "latestPublishedAt": "2026-10-24T06:18:53Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.64.0",
-      "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.37.2-prod.01 ([284dfde](https://github.com/crimera/piko/commit/284dfde05bb696ba83bf6982a2868e7f99d62a7b))",
+      "latestTag": "v3.64.1",
+      "latestPublishedAt": "2026-10-25T23:38:18Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.64.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** Read typed media fields for inline download eligibility and fast-path timeline restore ([eaa2552](https://github.com/crimera/piko/commit/eaa255276df4e5514cae8fc42eb014fca83ea786))\n* **Twitter:** Optimize repeated NewX runtime work on UI paths ([bda61e6](https://github.com/crimera/piko/commit/bda61e6bfcf67db6ddec8ff8a386828b39cf95ef))\n* **Twitter - newx - Clone:** fix launcher icon shortcuts and bytecode issues ([bbe6c30](https://github.com/crimera/piko/commit/bbe6c309fbfc6d6a552ba1995cb8eedb0c21b3bb))",
       "history": [
+        {
+          "tag": "v3.64.0",
+          "publishedAt": "2026-10-24T06:18:53Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.64.0",
+          "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.37.2-prod.01 ([284dfde](https://github.com/crimera/piko/commit/284dfde05bb696ba83bf6982a2868e7f99d62a7b))",
+          "prerelease": false
+        },
         {
           "tag": "v3.63.0",
           "publishedAt": "2026-10-24T06:05:07Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-23T14:35:38Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.61.0",
           "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.36.1-prod.01 ([370eac8](https://github.com/crimera/piko/commit/370eac89f810e6f0293c08af512591fe08431980))\n\n### 🔧 Improvements\n* **Twitter:** clean up Kotlin warnings and deprecated resource helpers ([c7256d5](https://github.com/crimera/piko/commit/c7256d5d3a34abf3cbd3e4965c9da7e257dfafec))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.60.0",
-          "publishedAt": "2026-10-23T14:11:02Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.60.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - build:** size Gradle memory for clean Android release builds ([9943d06](https://github.com/crimera/piko/commit/9943d0675e85faeee93a0e73b06ccb6a7f75279e))\n* **Twitter - newx:** restore 12.36 timeline and Compose settings hooks ([cde8a76](https://github.com/crimera/piko/commit/cde8a76d0ffd9ebe9ebef9875516210c151b6535))\n* **Twitter - newx:** declare unsupported mount installation modes ([a7e26fe](https://github.com/crimera/piko/commit/a7e26fed8e7e7b105aab21143bcd0edc69837d63))\n* **Twitter - ci:** Normalize Gradle Windows wrapper line endings ([571b62c](https://github.com/crimera/piko/commit/571b62c209a97d50ca181341e87040b42dffcac7))\n* **Twitter - NewX:** resolve 12.36 divider and reply sorting bytecode drift ([c841d0b](https://github.com/crimera/piko/commit/c841d0b243e78204dded2c0e53eddc2b6b044d36))\n* **Twitter - Instagram:** Add `obrf`, `vrfl`, `rpxt` to link sanitization list (#2118) ([e76e726](https://github.com/crimera/piko/commit/e76e726af81bb8a52172a7b3ac3b0012257cd041))\n* **Twitter - Instagram:** Sanitize `cplk` tracking parameter (#2117) ([404ad37](https://github.com/crimera/piko/commit/404ad3748f5ee899bca89a2eec587fc9e73ca61d))\n* **Twitter - Instagram:** Sanitize `mdxt` tracking parameter (#2113) ([537d5bf](https://github.com/crimera/piko/commit/537d5bf988a6253abe2a735a3f946567ccda04a0))\n* **Twitter - Instagram:** Remove recommended flags unavailable in 447 ([46e9074](https://github.com/crimera/piko/commit/46e90748db5825c916c9ac8cefb8d4ba50936d6c))\n* **Twitter - Instagram:** Skip the remind me notification action when the link has no x (#2101) ([c4a6479](https://github.com/crimera/piko/commit/c4a64794d5d0f8a30327a38986ff84f5b8b4cdf4))\n* **Twitter - Instagram:** Preserve friendship status when metadata is missing ([6eeb0f0](https://github.com/crimera/piko/commit/6eeb0f08db63e99cfb102e1ddb653945a10e1780))\n* **Twitter - Instagram:** Sanitize shared links before changing domains ([b1d0eb4](https://github.com/crimera/piko/commit/b1d0eb481e748a33110a5f5fd51ade221fe1ecef))\n* **Twitter - Instagram:** Use an adaptive settings shortcut icon ([454f283](https://github.com/crimera/piko/commit/454f283baf3f7d444cb7d8b13eb3728e6a081a36))\n* **Twitter - Instagram:** Fix deleted message handling ([4254162](https://github.com/crimera/piko/commit/425416276c0ae2df7a6cf53fab9b37708735f8be))\n* **Twitter - Instagram:** Correct patch status mappings ([bf4a28c](https://github.com/crimera/piko/commit/bf4a28ca5387efd2c51453ef368d686cbf643f8b))\n* **Twitter - Instagram:** Isolate story filters and refresh highlight visibility ([2946e7e](https://github.com/crimera/piko/commit/2946e7ecabedd5da21075e56e9f10824cd1c94d3))\n* **Twitter - Instagram:** Correct the names of the HDR and auto-scroll recommended flags (#2078) ([8917d71](https://github.com/crimera/piko/commit/8917d71e36356ed56e68154b7cf272cfa4dcf0c5))\n* **Twitter - Instagram:** Move the story seen button to the bottom action row ([0d7fba0](https://github.com/crimera/piko/commit/0d7fba0feeb17c430af4292176be47036593bda3))\n* **Twitter - Instagram:** Preserve ephemeral media after refreshing chats ([d9ab7c7](https://github.com/crimera/piko/commit/d9ab7c7d3327481ea07e8a63f302590158c9fae5))\n* **Twitter - Instagram:** Allow screenshots in protected DM windows ([45fee55](https://github.com/crimera/piko/commit/45fee5532102b27aa8a4e95ff5c00ac3cb75fd75))\n* **Twitter - Instagram:** Refresh profile friendship status and hide unknown states ([2418d65](https://github.com/crimera/piko/commit/2418d657c7cfb1db752980c2cc10b74bd3af4641))\n* **Twitter - Instagram:** Hide ads in the Following feed ([7914a26](https://github.com/crimera/piko/commit/7914a2634e39738dd11318ea71491a5bf11493f4))\n* **Twitter - Instagram:** Hide the reshare button in the home feed ([ae38467](https://github.com/crimera/piko/commit/ae38467035fbbeeba8e03824535f927cc635adea))\n* **Twitter - Instagram:** Stop Open links externally from crashing on 447 (#2047) ([4c15083](https://github.com/crimera/piko/commit/4c15083cf3a1b6\n\n…",
           "prerelease": false
         }
       ]
