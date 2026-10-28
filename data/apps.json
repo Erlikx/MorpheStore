@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T13:23:41Z",
+  "generatedAt": "2026-10-28T19:00:28Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -186,11 +186,18 @@
       "repo": "morphe-patches",
       "label": "⚡ Rushiranpise",
       "repoUrl": "https://github.com/rushiranpise/morphe-patches",
-      "latestTag": "v1.23.1-dev.1",
-      "latestPublishedAt": "2026-10-25T13:21:08Z",
-      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.1-dev.1",
-      "changelog": "## [1.23.1-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.23.0...v1.23.1-dev.1) (2026-10-25)\n\n### 🐛 Bug Fixes\n\n* **batteryguru:** support 2.5.0.9 ([3e2f1b7](https://github.com/rushiranpise/morphe-patches/commit/3e2f1b79993124503586ad1b51321b64071863f7))\n* **batterypods:** support 8.32 and suppress ads ([4a10a24](https://github.com/rushiranpise/morphe-patches/commit/4a10a24c39b4088bec36767146841c34eee4d0a9))\n",
+      "latestTag": "v1.23.1",
+      "latestPublishedAt": "2026-10-28T18:16:06Z",
+      "latestUrl": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.1",
+      "changelog": "## [1.23.1](https://github.com/rushiranpise/morphe-patches/compare/v1.23.0...v1.23.1) (2026-10-28)\n\n### 🐛 Bug Fixes\n\n* **batteryguru:** support 2.5.0.9 ([3e2f1b7](https://github.com/rushiranpise/morphe-patches/commit/3e2f1b79993124503586ad1b51321b64071863f7))\n* **batterypods:** support 8.32 and suppress ads ([4a10a24](https://github.com/rushiranpise/morphe-patches/commit/4a10a24c39b4088bec36767146841c34eee4d0a9))\n",
       "history": [
+        {
+          "tag": "v1.23.1-dev.1",
+          "publishedAt": "2026-10-25T13:21:08Z",
+          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.1-dev.1",
+          "changelog": "## [1.23.1-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.23.0...v1.23.1-dev.1) (2026-10-25)\n\n### 🐛 Bug Fixes\n\n* **batteryguru:** support 2.5.0.9 ([3e2f1b7](https://github.com/rushiranpise/morphe-patches/commit/3e2f1b79993124503586ad1b51321b64071863f7))\n* **batterypods:** support 8.32 and suppress ads ([4a10a24](https://github.com/rushiranpise/morphe-patches/commit/4a10a24c39b4088bec36767146841c34eee4d0a9))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.23.0",
           "publishedAt": "2026-10-14T17:39:11Z",
@@ -211,13 +218,6 @@
           "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0-dev.1",
           "changelog": "## [1.22.0-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0-dev.1) (2026-09-15)\n\n### 🐛 Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### ✨ New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.21.5",
-          "publishedAt": "2026-09-08T05:16:26Z",
-          "url": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.21.5",
-          "changelog": "## [1.21.5](https://github.com/rushiranpise/morphe-patches/compare/v1.21.4...v1.21.5) (2026-09-08)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* aaad ([620b6dc](https://github.com/rushiranpise/morphe-patches/commit/620b6dce166b4730bffc8e6ae5d8e0e5845ed9f2)), closes [#938](https://github.com/rushiranpise/morphe-patches/issues/938)\r\n* Moviebox latest update has introduced server-side app checks. While it’s still possible to keep using the older version, there’s no guarantee how long it will continue to work. There’s also new APK protection on top of that, so the app has been removed from the patches.\r\n",
-          "prerelease": false
         }
       ]
     },
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.65.0",
-      "latestPublishedAt": "2026-10-28T09:20:17Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0",
-      "changelog": "## [1.65.0](https://github.com/hxreborn/morphe-patches/compare/v1.64.0...v1.65.0) (2026-10-28)\n\n### Bug Fixes\n\n* **Athan - GmsCore support:** connect location through GmsCore ([1164cff](https://github.com/hxreborn/morphe-patches/commit/1164cfffc93cec222eb6fa7678f3a6222f3ff155)), closes [#442](https://github.com/hxreborn/morphe-patches/issues/442)\n* **MovieBox - All-In-One:** keep direct file links as long as sizes ([bfe73a5](https://github.com/hxreborn/morphe-patches/commit/bfe73a5e36b793a0535ee0c338d4f860179f2d1d))\n* **MovieBox - All-In-One:** keep stream links without a loopback ([339f649](https://github.com/hxreborn/morphe-patches/commit/339f6496c9dec6760a6280ed399576d0fc15bb55))\n* **MovieBox - All-In-One:** redirect to the origin without a stream ([6b6b1eb](https://github.com/hxreborn/morphe-patches/commit/6b6b1eb4b9aa875816a978fbb2285ece85a6f82a))\n* **MovieBox - All-In-One:** remove server update notices ([fd4c6e4](https://github.com/hxreborn/morphe-patches/commit/fd4c6e407398a559f45c4d27a994f228c4b2fe7f))\n* **MovieBox - All-In-One:** report a missing hook class on screen ([bc27171](https://github.com/hxreborn/morphe-patches/commit/bc27171b850237966521eaee372d4c3e85bfc557))\n* **MovieBox - All-In-One:** restore video playback and downloads ([920c350](https://github.com/hxreborn/morphe-patches/commit/920c35080f94da37668a1d25a868a41677927fcc)), closes [#456](https://github.com/hxreborn/morphe-patches/issues/456) [#62](https://github.com/hxreborn/morphe-patches/issues/62)\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n* **MovieBox:** remove `4.0.03.0918.03` and `4.0.03.1022.03` app targets ([c24c122](https://github.com/hxreborn/morphe-patches/commit/c24c122294bebedd25b82f40f12423b21dba7c2a))\n* **Proton Mail - AMOLED dark theme:** show a black launch screen ([2c05619](https://github.com/hxreborn/morphe-patches/commit/2c05619f08e6f9babe57b55e79128e22ad8ef925))\n* **Proton VPN - AMOLED dark theme:** keep the scrolled top bar black ([c0dba6c](https://github.com/hxreborn/morphe-patches/commit/c0dba6cee60064241dd6c587cb8eeb642539aef8))\n\n### New Features\n\n* **Athan - Remove promotions:** remove Academy prompts and reader bar ([e067796](https://github.com/hxreborn/morphe-patches/commit/e067796848bcdea9cfdf2034f87994dc862cd0c7)), closes [#443](https://github.com/hxreborn/morphe-patches/issues/443)\n* **Connected2.me - Enable chat in all regions:** chat from any region ([f6b3255](https://github.com/hxreborn/morphe-patches/commit/f6b3255a64380099db37d18b14df506db506a1dc))\n* **Connected2.me - Keep deleted messages:** show deleted texts ([7e8e6d3](https://github.com/hxreborn/morphe-patches/commit/7e8e6d388889dee8c61218152c631da0edf3ea32))\n* **Connected2.me - Remove app protection:** open without crashing ([07515c5](https://github.com/hxreborn/morphe-patches/commit/07515c5daa3c738a72639550ffcda12f7c93c0ce))\n* **Connected2.me - Remove screenshot restriction:** capture view-once ([1bcd0f1](https://github.com/hxreborn/morphe-patches/commit/1bcd0f1c5130b7b09293159aa6dc7cd255316a7f))\n* **Connected2.me - Spoof signature:** enable sign-up and sign-in ([f484e54](https://github.com/hxreborn/morphe-patches/commit/f484e5405fcb816ba180b7445999435c0020aa9d))\n\n### Updated App Support\n\n* **Bangla Calendar:** add support for `3.0.01e` ([19b197b](https://github.com/hxreborn/morphe-patches/commit/19b197b9c72e0c5e6b2ccce63c04a242e198c474)), closes [#408](https://github.com/hxreborn/morphe-patches/issues/408)\n* **BetterSleep:** add support for `26.18` ([34c393d](https://github.com/hxreborn/morphe-patches/commit/34c393d7ce5cb91117770cd87120df0a345c9e45)), closes [#409](https://github.com/hxreborn/morphe-patches/issues/409)\n* **botim:** add support for `4.20.1` ([df2c07b](h\n\n…",
+      "latestTag": "v1.66.0-dev.1",
+      "latestPublishedAt": "2026-10-28T14:34:18Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.1",
+      "changelog": "## [1.66.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.65.0...v1.66.0-dev.1) (2026-10-28)\n\n### Bug Fixes\n\n* **BeReal - Custom location:** show chosen place before posting ([5d0ab4f](https://github.com/hxreborn/morphe-patches/commit/5d0ab4fb3a3d009f874e1cff3f1ee79671cc701d))\n* **MovieBox - All-In-One:** list direct links for HD download rows ([0dd1de6](https://github.com/hxreborn/morphe-patches/commit/0dd1de661fc0fca04f6f2fc0a4255bde1b982bfe))\n* **MovieBox - All-In-One:** play titles whose only file is an HD row ([493104d](https://github.com/hxreborn/morphe-patches/commit/493104d53937974ee8b1460f931da9cba81610bb))\n\n### New Features\n\n* **BeReal - Custom retake count:** type any retake count ([6dde0fa](https://github.com/hxreborn/morphe-patches/commit/6dde0faf9bd1f998f1435060c289a8beca7c677a))\n",
       "history": [
+        {
+          "tag": "v1.65.0",
+          "publishedAt": "2026-10-28T09:20:17Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0",
+          "changelog": "## [1.65.0](https://github.com/hxreborn/morphe-patches/compare/v1.64.0...v1.65.0) (2026-10-28)\n\n### Bug Fixes\n\n* **Athan - GmsCore support:** connect location through GmsCore ([1164cff](https://github.com/hxreborn/morphe-patches/commit/1164cfffc93cec222eb6fa7678f3a6222f3ff155)), closes [#442](https://github.com/hxreborn/morphe-patches/issues/442)\n* **MovieBox - All-In-One:** keep direct file links as long as sizes ([bfe73a5](https://github.com/hxreborn/morphe-patches/commit/bfe73a5e36b793a0535ee0c338d4f860179f2d1d))\n* **MovieBox - All-In-One:** keep stream links without a loopback ([339f649](https://github.com/hxreborn/morphe-patches/commit/339f6496c9dec6760a6280ed399576d0fc15bb55))\n* **MovieBox - All-In-One:** redirect to the origin without a stream ([6b6b1eb](https://github.com/hxreborn/morphe-patches/commit/6b6b1eb4b9aa875816a978fbb2285ece85a6f82a))\n* **MovieBox - All-In-One:** remove server update notices ([fd4c6e4](https://github.com/hxreborn/morphe-patches/commit/fd4c6e407398a559f45c4d27a994f228c4b2fe7f))\n* **MovieBox - All-In-One:** report a missing hook class on screen ([bc27171](https://github.com/hxreborn/morphe-patches/commit/bc27171b850237966521eaee372d4c3e85bfc557))\n* **MovieBox - All-In-One:** restore video playback and downloads ([920c350](https://github.com/hxreborn/morphe-patches/commit/920c35080f94da37668a1d25a868a41677927fcc)), closes [#456](https://github.com/hxreborn/morphe-patches/issues/456) [#62](https://github.com/hxreborn/morphe-patches/issues/62)\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n* **MovieBox:** remove `4.0.03.0918.03` and `4.0.03.1022.03` app targets ([c24c122](https://github.com/hxreborn/morphe-patches/commit/c24c122294bebedd25b82f40f12423b21dba7c2a))\n* **Proton Mail - AMOLED dark theme:** show a black launch screen ([2c05619](https://github.com/hxreborn/morphe-patches/commit/2c05619f08e6f9babe57b55e79128e22ad8ef925))\n* **Proton VPN - AMOLED dark theme:** keep the scrolled top bar black ([c0dba6c](https://github.com/hxreborn/morphe-patches/commit/c0dba6cee60064241dd6c587cb8eeb642539aef8))\n\n### New Features\n\n* **Athan - Remove promotions:** remove Academy prompts and reader bar ([e067796](https://github.com/hxreborn/morphe-patches/commit/e067796848bcdea9cfdf2034f87994dc862cd0c7)), closes [#443](https://github.com/hxreborn/morphe-patches/issues/443)\n* **Connected2.me - Enable chat in all regions:** chat from any region ([f6b3255](https://github.com/hxreborn/morphe-patches/commit/f6b3255a64380099db37d18b14df506db506a1dc))\n* **Connected2.me - Keep deleted messages:** show deleted texts ([7e8e6d3](https://github.com/hxreborn/morphe-patches/commit/7e8e6d388889dee8c61218152c631da0edf3ea32))\n* **Connected2.me - Remove app protection:** open without crashing ([07515c5](https://github.com/hxreborn/morphe-patches/commit/07515c5daa3c738a72639550ffcda12f7c93c0ce))\n* **Connected2.me - Remove screenshot restriction:** capture view-once ([1bcd0f1](https://github.com/hxreborn/morphe-patches/commit/1bcd0f1c5130b7b09293159aa6dc7cd255316a7f))\n* **Connected2.me - Spoof signature:** enable sign-up and sign-in ([f484e54](https://github.com/hxreborn/morphe-patches/commit/f484e5405fcb816ba180b7445999435c0020aa9d))\n\n### Updated App Support\n\n* **Bangla Calendar:** add support for `3.0.01e` ([19b197b](https://github.com/hxreborn/morphe-patches/commit/19b197b9c72e0c5e6b2ccce63c04a242e198c474)), closes [#408](https://github.com/hxreborn/morphe-patches/issues/408)\n* **BetterSleep:** add support for `26.18` ([34c393d](https://github.com/hxreborn/morphe-patches/commit/34c393d7ce5cb91117770cd87120df0a345c9e45)), closes [#409](https://github.com/hxreborn/morphe-patches/issues/409)\n* **botim:** add support for `4.20.1` ([df2c07b](h\n\n…",
+          "prerelease": false
+        },
         {
           "tag": "v1.65.0-dev.9",
           "publishedAt": "2026-10-28T08:54:38Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-27T23:35:32Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.7",
           "changelog": "## [1.65.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.6...v1.65.0-dev.7) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.6",
-          "publishedAt": "2026-10-27T22:43:56Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.6",
-          "changelog": "## [1.65.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.5...v1.65.0-dev.6) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** remove server update notices ([fd4c6e4](https://github.com/hxreborn/morphe-patches/commit/fd4c6e407398a559f45c4d27a994f228c4b2fe7f))\n\n### New Features\n\n* **Connected2.me - Enable chat in all regions:** chat from any region ([f6b3255](https://github.com/hxreborn/morphe-patches/commit/f6b3255a64380099db37d18b14df506db506a1dc))\n* **Connected2.me - Remove app protection:** open without crashing ([07515c5](https://github.com/hxreborn/morphe-patches/commit/07515c5daa3c738a72639550ffcda12f7c93c0ce))\n* **Connected2.me - Spoof signature:** enable sign-up and sign-in ([f484e54](https://github.com/hxreborn/morphe-patches/commit/f484e5405fcb816ba180b7445999435c0020aa9d))\n",
           "prerelease": true
         }
       ]
