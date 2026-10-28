@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T20:51:49Z",
+  "generatedAt": "2026-10-28T00:20:03Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.64.1",
-      "latestPublishedAt": "2026-10-25T23:38:18Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.64.1",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** Read typed media fields for inline download eligibility and fast-path timeline restore ([eaa2552](https://github.com/crimera/piko/commit/eaa255276df4e5514cae8fc42eb014fca83ea786))\n* **Twitter:** Optimize repeated NewX runtime work on UI paths ([bda61e6](https://github.com/crimera/piko/commit/bda61e6bfcf67db6ddec8ff8a386828b39cf95ef))\n* **Twitter - newx - Clone:** fix launcher icon shortcuts and bytecode issues ([bbe6c30](https://github.com/crimera/piko/commit/bbe6c309fbfc6d6a552ba1995cb8eedb0c21b3bb))",
+      "latestTag": "v3.65.0",
+      "latestPublishedAt": "2026-10-27T22:16:19Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.65.0",
+      "changelog": "### ✨ New Features\n* **Twitter - newx:** enable quality-of-life feature flags ([0dd6dce](https://github.com/crimera/piko/commit/0dd6dcea52b0973e630ed568a58d2de047ae3417))\n* **Twitter - newx:** add feature flag override helper ([3e76390](https://github.com/crimera/piko/commit/3e7639030171d39c865e17533132de6bb5b58ef9))\n\nNew patches:\n- NewX: Enable quality-of-life feature flags",
       "history": [
+        {
+          "tag": "v3.64.1",
+          "publishedAt": "2026-10-25T23:38:18Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.64.1",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** Read typed media fields for inline download eligibility and fast-path timeline restore ([eaa2552](https://github.com/crimera/piko/commit/eaa255276df4e5514cae8fc42eb014fca83ea786))\n* **Twitter:** Optimize repeated NewX runtime work on UI paths ([bda61e6](https://github.com/crimera/piko/commit/bda61e6bfcf67db6ddec8ff8a386828b39cf95ef))\n* **Twitter - newx - Clone:** fix launcher icon shortcuts and bytecode issues ([bbe6c30](https://github.com/crimera/piko/commit/bbe6c309fbfc6d6a552ba1995cb8eedb0c21b3bb))",
+          "prerelease": false
+        },
         {
           "tag": "v3.64.0",
           "publishedAt": "2026-10-24T06:18:53Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-24T05:59:53Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.62.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** resolve 12.37.0-prod.01 patch failures ([8f539fa](https://github.com/crimera/piko/commit/8f539faaf7118359a038589858c0a8947515db3d))\n\n### ✨ New Features\n* **Twitter - newx:** list every profile tab in the tab editor ([23e0423](https://github.com/crimera/piko/commit/23e0423ddd6449eeda5289568bfb53906ce88911))\n\n### 🔧 Improvements\n* **Twitter - newx:** remove classic inline action spacing patch ([4caa071](https://github.com/crimera/piko/commit/4caa071b3ad51de500a6732ce3e22c95cad26a6a))\n* **Twitter - newx:** remove share post as image patch ([432a91d](https://github.com/crimera/piko/commit/432a91d4f629befb189766f395c12e0f4f0a0d72))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.61.0",
-          "publishedAt": "2026-10-23T14:35:38Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.61.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.36.1-prod.01 ([370eac8](https://github.com/crimera/piko/commit/370eac89f810e6f0293c08af512591fe08431980))\n\n### 🔧 Improvements\n* **Twitter:** clean up Kotlin warnings and deprecated resource helpers ([c7256d5](https://github.com/crimera/piko/commit/c7256d5d3a34abf3cbd3e4965c9da7e257dfafec))",
           "prerelease": false
         }
       ]
@@ -426,38 +426,38 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.65.0-dev.4",
-      "latestPublishedAt": "2026-10-27T16:48:54Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.4",
-      "changelog": "## [1.65.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.3...v1.65.0-dev.4) (2026-10-27)\n\n### Improvements\n\n* **MovieBox - All-In-One:** pick the unpaced CDN on Edge-Cache hosts ([379be65](https://github.com/hxreborn/morphe-patches/commit/379be65bd6af34bfbb663ba7d792f9f3c701b42a))\n",
+      "latestTag": "v1.65.0-dev.7",
+      "latestPublishedAt": "2026-10-27T23:35:32Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.7",
+      "changelog": "## [1.65.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.6...v1.65.0-dev.7) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n",
       "history": [
+        {
+          "tag": "v1.65.0-dev.6",
+          "publishedAt": "2026-10-27T22:43:56Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.6",
+          "changelog": "## [1.65.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.5...v1.65.0-dev.6) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** remove server update notices ([fd4c6e4](https://github.com/hxreborn/morphe-patches/commit/fd4c6e407398a559f45c4d27a994f228c4b2fe7f))\n\n### New Features\n\n* **Connected2.me - Enable chat in all regions:** chat from any region ([f6b3255](https://github.com/hxreborn/morphe-patches/commit/f6b3255a64380099db37d18b14df506db506a1dc))\n* **Connected2.me - Remove app protection:** open without crashing ([07515c5](https://github.com/hxreborn/morphe-patches/commit/07515c5daa3c738a72639550ffcda12f7c93c0ce))\n* **Connected2.me - Spoof signature:** enable sign-up and sign-in ([f484e54](https://github.com/hxreborn/morphe-patches/commit/f484e5405fcb816ba180b7445999435c0020aa9d))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.65.0-dev.5",
+          "publishedAt": "2026-10-27T21:06:29Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.5",
+          "changelog": "## [1.65.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.4...v1.65.0-dev.5) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** keep direct file links as long as sizes ([bfe73a5](https://github.com/hxreborn/morphe-patches/commit/bfe73a5e36b793a0535ee0c338d4f860179f2d1d))\n* **MovieBox - All-In-One:** keep stream links without a loopback ([339f649](https://github.com/hxreborn/morphe-patches/commit/339f6496c9dec6760a6280ed399576d0fc15bb55))\n* **MovieBox - All-In-One:** redirect to the origin without a stream ([6b6b1eb](https://github.com/hxreborn/morphe-patches/commit/6b6b1eb4b9aa875816a978fbb2285ece85a6f82a))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.65.0-dev.4",
+          "publishedAt": "2026-10-27T16:48:54Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.4",
+          "changelog": "## [1.65.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.3...v1.65.0-dev.4) (2026-10-27)\n\n### Improvements\n\n* **MovieBox - All-In-One:** pick the unpaced CDN on Edge-Cache hosts ([379be65](https://github.com/hxreborn/morphe-patches/commit/379be65bd6af34bfbb663ba7d792f9f3c701b42a))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.65.0-dev.3",
           "publishedAt": "2026-10-27T15:58:55Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.3",
           "changelog": "## [1.65.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.2...v1.65.0-dev.3) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** restore video playback and downloads ([920c350](https://github.com/hxreborn/morphe-patches/commit/920c35080f94da37668a1d25a868a41677927fcc)), closes [#456](https://github.com/hxreborn/morphe-patches/issues/456) [#62](https://github.com/hxreborn/morphe-patches/issues/62)\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.2",
-          "publishedAt": "2026-10-27T09:41:35Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.2",
-          "changelog": "## [1.65.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.1...v1.65.0-dev.2) (2026-10-27)\n\n### Updated App Support\n\n* **Photo Editor Pro:** add support for `1.811.267` ([e6dfb28](https://github.com/hxreborn/morphe-patches/commit/e6dfb28f3dbed4e550d4e80ecd4c4bfae7bb1bb5)), closes [#417](https://github.com/hxreborn/morphe-patches/issues/417)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.1",
-          "publishedAt": "2026-10-27T09:20:36Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.1",
-          "changelog": "## [1.65.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.64.0...v1.65.0-dev.1) (2026-10-27)\n\n### Bug Fixes\n\n* **Athan - GmsCore support:** connect location through GmsCore ([1164cff](https://github.com/hxreborn/morphe-patches/commit/1164cfffc93cec222eb6fa7678f3a6222f3ff155)), closes [#442](https://github.com/hxreborn/morphe-patches/issues/442)\n* **Proton Mail - AMOLED dark theme:** show a black launch screen ([2c05619](https://github.com/hxreborn/morphe-patches/commit/2c05619f08e6f9babe57b55e79128e22ad8ef925))\n* **Proton VPN - AMOLED dark theme:** keep the scrolled top bar black ([c0dba6c](https://github.com/hxreborn/morphe-patches/commit/c0dba6cee60064241dd6c587cb8eeb642539aef8))\n\n### New Features\n\n* **Athan - Remove promotions:** remove Academy prompts and reader bar ([e067796](https://github.com/hxreborn/morphe-patches/commit/e067796848bcdea9cfdf2034f87994dc862cd0c7)), closes [#443](https://github.com/hxreborn/morphe-patches/issues/443)\n\n### Updated App Support\n\n* **Bangla Calendar:** add support for `3.0.01e` ([19b197b](https://github.com/hxreborn/morphe-patches/commit/19b197b9c72e0c5e6b2ccce63c04a242e198c474)), closes [#408](https://github.com/hxreborn/morphe-patches/issues/408)\n* **BetterSleep:** add support for `26.18` ([34c393d](https://github.com/hxreborn/morphe-patches/commit/34c393d7ce5cb91117770cd87120df0a345c9e45)), closes [#409](https://github.com/hxreborn/morphe-patches/issues/409)\n* **botim:** add support for `4.20.1` ([df2c07b](https://github.com/hxreborn/morphe-patches/commit/df2c07b0f2ff8f2ea960a62569cefe97062119d1)), closes [#410](https://github.com/hxreborn/morphe-patches/issues/410)\n* **Perplexity:** add support for `2.102.0` ([94ca3e8](https://github.com/hxreborn/morphe-patches/commit/94ca3e8be8d88ce1ab4017d85492092899993085)), closes [#416](https://github.com/hxreborn/morphe-patches/issues/416)\n* **Raindrop.io:** add support for `4.8.1` ([ed172d3](https://github.com/hxreborn/morphe-patches/commit/ed172d3d7a12fb4a53c166755b37231bb23c94ca)), closes [#419](https://github.com/hxreborn/morphe-patches/issues/419)\n* **WalP:** add support for `10.2.4` ([651da7b](https://github.com/hxreborn/morphe-patches/commit/651da7b796baa71c29d5a83563dfe7054eb79855)), closes [#425](https://github.com/hxreborn/morphe-patches/issues/425)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.64.0",
-          "publishedAt": "2026-10-27T07:23:57Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.64.0",
-          "changelog": "## [1.64.0](https://github.com/hxreborn/morphe-patches/compare/v1.63.0...v1.64.0) (2026-10-27)\n\n### New Features\n\n* **BeReal - Change download location:** save downloads to any folder ([00b4e20](https://github.com/hxreborn/morphe-patches/commit/00b4e204b895ec69f33ecf615a13cca4af71d3e6))\n* **BeReal - Custom location:** set location from map or place name ([c6d1d7d](https://github.com/hxreborn/morphe-patches/commit/c6d1d7d2541980de41a1530966391e8b6cc21c0d))\n* **BeReal - Custom retake count:** choose retake count friends see ([2074fc2](https://github.com/hxreborn/morphe-patches/commit/2074fc219fa795008166f8bac44f02de302453ad))\n* **BeReal - Disable data collection:** stop analytics and crash reports ([e3bae16](https://github.com/hxreborn/morphe-patches/commit/e3bae169605473ff515b13d2e765b475a17c8456))\n* **BeReal - Disable typing indicator:** stop sending typing status ([93c3525](https://github.com/hxreborn/morphe-patches/commit/93c3525737e6f7528fe7f88848d7b94a50ba06f1))\n* **BeReal - Disable view receipts:** stop sending seen status ([7ace96f](https://github.com/hxreborn/morphe-patches/commit/7ace96f9266c0d70064a919a55db7a655d649dfd))\n* **BeReal - Post from gallery:** pick back and front photos ([0bf9217](https://github.com/hxreborn/morphe-patches/commit/0bf92172521a42fbeae61c805590f16cdc2ad58f))\n* **BeReal - Remove ads:** remove sponsored BeReals and launch ad ([0244b67](https://github.com/hxreborn/morphe-patches/commit/0244b67036316f55591549cda43f40fca0731b3f))\n* **BeReal - Remove contacts permission:** remove contacts access ([c0f69bd](https://github.com/hxreborn/morphe-patches/commit/c0f69bd4ec78ea1ae855f8c585d85ccb3497a860))\n* **BeReal - Remove friend suggestions:** remove suggested friends ([3244b13](https://github.com/hxreborn/morphe-patches/commit/3244b13a6bfaf5fd15be7a6e19d63bebff07788a))\n* **BeReal - Remove Friends of Friends prompts:** remove share card ([b09fc71](https://github.com/hxreborn/morphe-patches/commit/b09fc71862d04b0ab159ab1f05cdf8f2c427274b))\n* **BeReal - Remove Friends of Friends tab:** show My Friends only ([00d40b1](https://github.com/hxreborn/morphe-patches/commit/00d40b1f02228db8b6082d30ac90dc6c88c39dab))\n* **BeReal - Remove late flag:** send late BeReals as on time ([a577bce](https://github.com/hxreborn/morphe-patches/commit/a577bce44e6dc1670b9c6a62f6fa2becb5a73137))\n* **BeReal - Remove late label:** show BeReals without late label ([900943a](https://github.com/hxreborn/morphe-patches/commit/900943a630fafcd8e2ac602781d1105b6a98cefd))\n* **BeReal - Remove promotions:** remove Recap cards and review prompt ([41dbd21](https://github.com/hxreborn/morphe-patches/commit/41dbd214eea91715ff7cf95aec2b65cc82c3cbc1))\n* **BeReal - Remove streak prompts:** remove streak recovery offers ([9f54efd](https://github.com/hxreborn/morphe-patches/commit/9f54efdfb12c0495e821a9143f0d6c06af0b07c4))\n* **BeReal - Remove update prompts:** remove forced and suggested popups ([60a001d](https://github.com/hxreborn/morphe-patches/commit/60a001d4d6c372833c47d653f84752fd8dc75dd4))\n* **BeReal - Remove watermark:** save downloads without BeReal logo ([aa9624d](https://github.com/hxreborn/morphe-patches/commit/aa9624dcf1e9e098b47ae886083a23b969e908ae))\n* **BeReal - Save friends' BeReals:** add download to BeReal menu ([8b7348a](https://github.com/hxreborn/morphe-patches/commit/8b7348a730e97dffafc57e6343d8c62d22fa1e71))\n* **BeReal - Show friends' posts before posting:** unblur friends' feed ([f69336f](https://github.com/hxreborn/morphe-patches/commit/f69336f15ca5d4cdcb10e38e277bf83fef1c2e72))\n",
-          "prerelease": false
         }
       ]
     },
