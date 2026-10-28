@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T06:06:30Z",
+  "generatedAt": "2026-10-28T13:23:41Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,11 +26,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.49.0-dev.9",
-      "latestPublishedAt": "2026-10-27T19:52:31Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.9",
-      "changelog": "## [1.49.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.8...v1.49.0-dev.9) (2026-10-27)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Downloads:** Downloaded videos that work at first may not work later ([90d011d](https://github.com/MorpheApp/morphe-patches/commit/90d011dc007cf7e433196fd27f392c87d32363f6))\n* **YouTube - Feed video actions:** Watch later button is missing after scrolling up ([51dfd75](https://github.com/MorpheApp/morphe-patches/commit/51dfd7565426be389f61dc5f34196cc762a103fe))\n* **YouTube - Feed video actions:** Watch later button opens the channel in right to left languages ([0e058e8](https://github.com/MorpheApp/morphe-patches/commit/0e058e8d184650326d81a243d083ae9bd6f3f942))\n* **YouTube - Feed view count:** View count badge covers the duration in right to left languages ([b012535](https://github.com/MorpheApp/morphe-patches/commit/b01253535eb65761f896042d46ba1fed002232c2))\n* **YouTube:** Channel page community posts do not load when feed \"Hide community posts\" is enabled ([#4110](https://github.com/MorpheApp/morphe-patches/issues/4110)) ([b54aaec](https://github.com/MorpheApp/morphe-patches/commit/b54aaecaa26e8e6e4491b0c54193cd2b2b6e0f2c))\n* **YouTube:** Feed thumbnail badges are missing after scrolling up, show a loading spinner until they are loaded ([03ef708](https://github.com/MorpheApp/morphe-patches/commit/03ef708f724c9af7f784b75ead9da58b8cede5f4))\n* **YouTube:** Remove legacy litho buffer filtering code required for app versions less than 20.22, change legacy support to `20.26.46` ([0ce43f7](https://github.com/MorpheApp/morphe-patches/commit/0ce43f7b8bf0119f295f269b939186ff264b5d48))\n* **YouTube:** Watch page feed lags when scrolling ([35e4123](https://github.com/MorpheApp/morphe-patches/commit/35e412375a1de62b500e2c9ca70c0ca5a18fb793))\n\n### ✨ New Features\n\n* Validate custom header and icon folders when the option is set ([fbb095d](https://github.com/MorpheApp/morphe-patches/commit/fbb095dbd6b9bf7410e4cff38b664d2fb3048aeb))\n* **YouTube - Custom branding:** Add experimental YouTube launcher icons ([#4114](https://github.com/MorpheApp/morphe-patches/issues/4114)) ([de9e6e4](https://github.com/MorpheApp/morphe-patches/commit/de9e6e4e7953f6192991e35025ed644806948ecd))\n* **YouTube - Theme:** Add experimental YT splash screen animation ([#4109](https://github.com/MorpheApp/morphe-patches/issues/4109)) ([1f24e84](https://github.com/MorpheApp/morphe-patches/commit/1f24e8433b26aed7a0e8cd21bf6c719526e7ecc4))\n* **YouTube:** Hidden a new type of community post ([fb51b72](https://github.com/MorpheApp/morphe-patches/commit/fb51b722e05df50e98302f87996525b349d0474b))\n* **YouTube:** Redirect Watch later saves to a chosen playlist ([#4016](https://github.com/MorpheApp/morphe-patches/issues/4016)) ([04e791d](https://github.com/MorpheApp/morphe-patches/commit/04e791d3d1c9fa8c8c352c61b18a6348311a8a27))\n\n### 🚀 Updated App Support\n\n* **YouTube Music:** Add experimental support for `9.43.51` ([141aa8f](https://github.com/MorpheApp/morphe-patches/commit/141aa8fedea935664df73154cdc1823e893c5b88))\n",
+      "latestTag": "v1.49.0-dev.10",
+      "latestPublishedAt": "2026-10-28T08:25:09Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.10",
+      "changelog": "## [1.49.0-dev.10](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.9...v1.49.0-dev.10) (2026-10-28)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Ask flyout menu:** Ask chat window can be hidden by onscreen keyboard ([7532430](https://github.com/MorpheApp/morphe-patches/commit/7532430e096f5730ba9321b32d8b4bd2c54c77f6))\n* **YouTube - Hide status bar:** Top bars are covered by a second status bar when the app is kept out of the camera cutout ([#4112](https://github.com/MorpheApp/morphe-patches/issues/4112)) ([9d3b53c](https://github.com/MorpheApp/morphe-patches/commit/9d3b53c92cb877f309b4463b7d5067aaa1a996a3))\n* **YouTube - Spoof video streams:** Patch can be included for root installs ([3edf03b](https://github.com/MorpheApp/morphe-patches/commit/3edf03b8efc2f5ea0458456002938c7dbd4bf8d8))\n* **YouTube - Theme:** Glow startup animation does not extend to fullscreen ([7f1a6b3](https://github.com/MorpheApp/morphe-patches/commit/7f1a6b35c8a3989cd2b06a1e81d817015f2ca433))\n* **YouTube - Video quality:** Selected quality is not applied to the already buffered video ([#4117](https://github.com/MorpheApp/morphe-patches/issues/4117)) ([7faa488](https://github.com/MorpheApp/morphe-patches/commit/7faa48834b1f78f8ca572c773392ed9513de8ea3))\n* **YouTube:** Restore TalkBack access to Shorts comments and descriptions ([#4128](https://github.com/MorpheApp/morphe-patches/issues/4128)) ([9542d24](https://github.com/MorpheApp/morphe-patches/commit/9542d24adf3b5ec2c25fce931418160dadbde93c))\n",
       "history": [
+        {
+          "tag": "v1.49.0-dev.9",
+          "publishedAt": "2026-10-27T19:52:31Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.9",
+          "changelog": "## [1.49.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.8...v1.49.0-dev.9) (2026-10-27)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Downloads:** Downloaded videos that work at first may not work later ([90d011d](https://github.com/MorpheApp/morphe-patches/commit/90d011dc007cf7e433196fd27f392c87d32363f6))\n* **YouTube - Feed video actions:** Watch later button is missing after scrolling up ([51dfd75](https://github.com/MorpheApp/morphe-patches/commit/51dfd7565426be389f61dc5f34196cc762a103fe))\n* **YouTube - Feed video actions:** Watch later button opens the channel in right to left languages ([0e058e8](https://github.com/MorpheApp/morphe-patches/commit/0e058e8d184650326d81a243d083ae9bd6f3f942))\n* **YouTube - Feed view count:** View count badge covers the duration in right to left languages ([b012535](https://github.com/MorpheApp/morphe-patches/commit/b01253535eb65761f896042d46ba1fed002232c2))\n* **YouTube:** Channel page community posts do not load when feed \"Hide community posts\" is enabled ([#4110](https://github.com/MorpheApp/morphe-patches/issues/4110)) ([b54aaec](https://github.com/MorpheApp/morphe-patches/commit/b54aaecaa26e8e6e4491b0c54193cd2b2b6e0f2c))\n* **YouTube:** Feed thumbnail badges are missing after scrolling up, show a loading spinner until they are loaded ([03ef708](https://github.com/MorpheApp/morphe-patches/commit/03ef708f724c9af7f784b75ead9da58b8cede5f4))\n* **YouTube:** Remove legacy litho buffer filtering code required for app versions less than 20.22, change legacy support to `20.26.46` ([0ce43f7](https://github.com/MorpheApp/morphe-patches/commit/0ce43f7b8bf0119f295f269b939186ff264b5d48))\n* **YouTube:** Watch page feed lags when scrolling ([35e4123](https://github.com/MorpheApp/morphe-patches/commit/35e412375a1de62b500e2c9ca70c0ca5a18fb793))\n\n### ✨ New Features\n\n* Validate custom header and icon folders when the option is set ([fbb095d](https://github.com/MorpheApp/morphe-patches/commit/fbb095dbd6b9bf7410e4cff38b664d2fb3048aeb))\n* **YouTube - Custom branding:** Add experimental YouTube launcher icons ([#4114](https://github.com/MorpheApp/morphe-patches/issues/4114)) ([de9e6e4](https://github.com/MorpheApp/morphe-patches/commit/de9e6e4e7953f6192991e35025ed644806948ecd))\n* **YouTube - Theme:** Add experimental YT splash screen animation ([#4109](https://github.com/MorpheApp/morphe-patches/issues/4109)) ([1f24e84](https://github.com/MorpheApp/morphe-patches/commit/1f24e8433b26aed7a0e8cd21bf6c719526e7ecc4))\n* **YouTube:** Hidden a new type of community post ([fb51b72](https://github.com/MorpheApp/morphe-patches/commit/fb51b722e05df50e98302f87996525b349d0474b))\n* **YouTube:** Redirect Watch later saves to a chosen playlist ([#4016](https://github.com/MorpheApp/morphe-patches/issues/4016)) ([04e791d](https://github.com/MorpheApp/morphe-patches/commit/04e791d3d1c9fa8c8c352c61b18a6348311a8a27))\n\n### 🚀 Updated App Support\n\n* **YouTube Music:** Add experimental support for `9.43.51` ([141aa8f](https://github.com/MorpheApp/morphe-patches/commit/141aa8fedea935664df73154cdc1823e893c5b88))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.49.0-dev.8",
           "publishedAt": "2026-10-27T09:09:25Z",
@@ -50,13 +57,6 @@
           "publishedAt": "2026-10-25T15:25:07Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.6",
           "changelog": "## [1.49.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.5...v1.49.0-dev.6) (2026-10-25)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Captions:** Captions not shown in picture-in-picture on 21.16 - 21.28 ([#4024](https://github.com/MorpheApp/morphe-patches/issues/4024)) ([b2688c5](https://github.com/MorpheApp/morphe-patches/commit/b2688c5eb957f3ffd142595ff4ee7b491e3b86ae))\n* **YouTube - Hide layout components:** Fix actions blocked by Hide Snackbar ([#4038](https://github.com/MorpheApp/morphe-patches/issues/4038)) ([9a0fee9](https://github.com/MorpheApp/morphe-patches/commit/9a0fee9ec2846ba2db31cbfc2e4c2ac9b14895b7))\n* **YouTube - Playback speed:** Channel speed whitelist is not applied to preloaded Shorts ([4f108b5](https://github.com/MorpheApp/morphe-patches/commit/4f108b596a71adbbf223b59faaabcfbe2469d95a))\n\n### ✨ New Features\n\n* **YouTube - Add to queue:** Add \"Native queue\" setting ([#3953](https://github.com/MorpheApp/morphe-patches/issues/3953)) ([372eea2](https://github.com/MorpheApp/morphe-patches/commit/372eea295ec4521b9ccdb93a3f188f81a6ad1a6c))\n* **YouTube - Downloads:** Add \"Quick download on tap\" setting ([#3883](https://github.com/MorpheApp/morphe-patches/issues/3883)) ([dd97d93](https://github.com/MorpheApp/morphe-patches/commit/dd97d93628a3feb7bc8758139b01fbe42a532778))\n* **YouTube - Media notification controls:** Add options to seek with Previous & Next buttons ([#3955](https://github.com/MorpheApp/morphe-patches/issues/3955)) ([2b07abb](https://github.com/MorpheApp/morphe-patches/commit/2b07abb628fec3bf625a09ab7d019f915c4dfa23))\n* **YouTube - Navigation bar:** Add \"Navigation bar style\" setting ([db9af37](https://github.com/MorpheApp/morphe-patches/commit/db9af377093121e575fec80ba40e0025dfd66f81))\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.43.0` ([6407d5e](https://github.com/MorpheApp/morphe-patches/commit/6407d5efa0f7d99fb54909bc39e2074e8f60ac42))\n* **Reddit:** Add support for `2026.40.0` ([fcc02f7](https://github.com/MorpheApp/morphe-patches/commit/fcc02f77d5a9d7a13b74d14c12b302f9d9902c61))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.49.0-dev.5",
-          "publishedAt": "2026-10-24T17:56:40Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.5",
-          "changelog": "## [1.49.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.4...v1.49.0-dev.5) (2026-10-24)\n\n### 🐛 Bug Fixes\n\n* Temporarily change expired PoToken check to log only instead of a user dialog ([1669acd](https://github.com/MorpheApp/morphe-patches/commit/1669acdea4e56f6d1e812d3c0f74ee691bc2e4cd))\n* **YouTube - Miniplayer:** Minimal miniplayer is covered by the keyboard before 21.29 ([5cd2eb2](https://github.com/MorpheApp/morphe-patches/commit/5cd2eb2f8d710e3a724d309dbf98fc845e78cb94))\n* **YouTube - Theme:** Custom background colors are not applied with 21.43 ([#4019](https://github.com/MorpheApp/morphe-patches/issues/4019)) ([9cc833f](https://github.com/MorpheApp/morphe-patches/commit/9cc833f626bc456d142a6eafe2a613a3f2cc3784))\n",
           "prerelease": true
         }
       ]
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.65.0",
-      "latestPublishedAt": "2026-10-27T22:16:19Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.65.0",
-      "changelog": "### ✨ New Features\n* **Twitter - newx:** enable quality-of-life feature flags ([0dd6dce](https://github.com/crimera/piko/commit/0dd6dcea52b0973e630ed568a58d2de047ae3417))\n* **Twitter - newx:** add feature flag override helper ([3e76390](https://github.com/crimera/piko/commit/3e7639030171d39c865e17533132de6bb5b58ef9))\n\nNew patches:\n- NewX: Enable quality-of-life feature flags",
+      "latestTag": "v3.66.0",
+      "latestPublishedAt": "2026-10-28T08:43:14Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.66.0",
+      "changelog": "### ✨ New Features\n* **Twitter - newx:** disable timeline status injections ([48af8e1](https://github.com/crimera/piko/commit/48af8e1a7438e6d4d2f18ebe894acdcc0eeb7272))",
       "history": [
+        {
+          "tag": "v3.65.0",
+          "publishedAt": "2026-10-27T22:16:19Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.65.0",
+          "changelog": "### ✨ New Features\n* **Twitter - newx:** enable quality-of-life feature flags ([0dd6dce](https://github.com/crimera/piko/commit/0dd6dcea52b0973e630ed568a58d2de047ae3417))\n* **Twitter - newx:** add feature flag override helper ([3e76390](https://github.com/crimera/piko/commit/3e7639030171d39c865e17533132de6bb5b58ef9))\n\nNew patches:\n- NewX: Enable quality-of-life feature flags",
+          "prerelease": false
+        },
         {
           "tag": "v3.64.1",
           "publishedAt": "2026-10-25T23:38:18Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-24T06:05:07Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.63.0",
           "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.37.1-prod.01 ([a11b151](https://github.com/crimera/piko/commit/a11b151bd4e5b91a6cd65aa733185dbd66231dac))\n* **Twitter - newx:** support 12.37.0-prod.01 ([ec30b96](https://github.com/crimera/piko/commit/ec30b9639dd3c95e1e38bb0e81afc49c2a40356b))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.62.0",
-          "publishedAt": "2026-10-24T05:59:53Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.62.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** resolve 12.37.0-prod.01 patch failures ([8f539fa](https://github.com/crimera/piko/commit/8f539faaf7118359a038589858c0a8947515db3d))\n\n### ✨ New Features\n* **Twitter - newx:** list every profile tab in the tab editor ([23e0423](https://github.com/crimera/piko/commit/23e0423ddd6449eeda5289568bfb53906ce88911))\n\n### 🔧 Improvements\n* **Twitter - newx:** remove classic inline action spacing patch ([4caa071](https://github.com/crimera/piko/commit/4caa071b3ad51de500a6732ce3e22c95cad26a6a))\n* **Twitter - newx:** remove share post as image patch ([432a91d](https://github.com/crimera/piko/commit/432a91d4f629befb189766f395c12e0f4f0a0d72))",
           "prerelease": false
         }
       ]
@@ -426,11 +426,25 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.65.0-dev.8",
-      "latestPublishedAt": "2026-10-28T00:21:33Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.8",
-      "changelog": "## [1.65.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.7...v1.65.0-dev.8) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n",
+      "latestTag": "v1.65.0",
+      "latestPublishedAt": "2026-10-28T09:20:17Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0",
+      "changelog": "## [1.65.0](https://github.com/hxreborn/morphe-patches/compare/v1.64.0...v1.65.0) (2026-10-28)\n\n### Bug Fixes\n\n* **Athan - GmsCore support:** connect location through GmsCore ([1164cff](https://github.com/hxreborn/morphe-patches/commit/1164cfffc93cec222eb6fa7678f3a6222f3ff155)), closes [#442](https://github.com/hxreborn/morphe-patches/issues/442)\n* **MovieBox - All-In-One:** keep direct file links as long as sizes ([bfe73a5](https://github.com/hxreborn/morphe-patches/commit/bfe73a5e36b793a0535ee0c338d4f860179f2d1d))\n* **MovieBox - All-In-One:** keep stream links without a loopback ([339f649](https://github.com/hxreborn/morphe-patches/commit/339f6496c9dec6760a6280ed399576d0fc15bb55))\n* **MovieBox - All-In-One:** redirect to the origin without a stream ([6b6b1eb](https://github.com/hxreborn/morphe-patches/commit/6b6b1eb4b9aa875816a978fbb2285ece85a6f82a))\n* **MovieBox - All-In-One:** remove server update notices ([fd4c6e4](https://github.com/hxreborn/morphe-patches/commit/fd4c6e407398a559f45c4d27a994f228c4b2fe7f))\n* **MovieBox - All-In-One:** report a missing hook class on screen ([bc27171](https://github.com/hxreborn/morphe-patches/commit/bc27171b850237966521eaee372d4c3e85bfc557))\n* **MovieBox - All-In-One:** restore video playback and downloads ([920c350](https://github.com/hxreborn/morphe-patches/commit/920c35080f94da37668a1d25a868a41677927fcc)), closes [#456](https://github.com/hxreborn/morphe-patches/issues/456) [#62](https://github.com/hxreborn/morphe-patches/issues/62)\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n* **MovieBox:** remove `4.0.03.0918.03` and `4.0.03.1022.03` app targets ([c24c122](https://github.com/hxreborn/morphe-patches/commit/c24c122294bebedd25b82f40f12423b21dba7c2a))\n* **Proton Mail - AMOLED dark theme:** show a black launch screen ([2c05619](https://github.com/hxreborn/morphe-patches/commit/2c05619f08e6f9babe57b55e79128e22ad8ef925))\n* **Proton VPN - AMOLED dark theme:** keep the scrolled top bar black ([c0dba6c](https://github.com/hxreborn/morphe-patches/commit/c0dba6cee60064241dd6c587cb8eeb642539aef8))\n\n### New Features\n\n* **Athan - Remove promotions:** remove Academy prompts and reader bar ([e067796](https://github.com/hxreborn/morphe-patches/commit/e067796848bcdea9cfdf2034f87994dc862cd0c7)), closes [#443](https://github.com/hxreborn/morphe-patches/issues/443)\n* **Connected2.me - Enable chat in all regions:** chat from any region ([f6b3255](https://github.com/hxreborn/morphe-patches/commit/f6b3255a64380099db37d18b14df506db506a1dc))\n* **Connected2.me - Keep deleted messages:** show deleted texts ([7e8e6d3](https://github.com/hxreborn/morphe-patches/commit/7e8e6d388889dee8c61218152c631da0edf3ea32))\n* **Connected2.me - Remove app protection:** open without crashing ([07515c5](https://github.com/hxreborn/morphe-patches/commit/07515c5daa3c738a72639550ffcda12f7c93c0ce))\n* **Connected2.me - Remove screenshot restriction:** capture view-once ([1bcd0f1](https://github.com/hxreborn/morphe-patches/commit/1bcd0f1c5130b7b09293159aa6dc7cd255316a7f))\n* **Connected2.me - Spoof signature:** enable sign-up and sign-in ([f484e54](https://github.com/hxreborn/morphe-patches/commit/f484e5405fcb816ba180b7445999435c0020aa9d))\n\n### Updated App Support\n\n* **Bangla Calendar:** add support for `3.0.01e` ([19b197b](https://github.com/hxreborn/morphe-patches/commit/19b197b9c72e0c5e6b2ccce63c04a242e198c474)), closes [#408](https://github.com/hxreborn/morphe-patches/issues/408)\n* **BetterSleep:** add support for `26.18` ([34c393d](https://github.com/hxreborn/morphe-patches/commit/34c393d7ce5cb91117770cd87120df0a345c9e45)), closes [#409](https://github.com/hxreborn/morphe-patches/issues/409)\n* **botim:** add support for `4.20.1` ([df2c07b](h\n\n…",
       "history": [
+        {
+          "tag": "v1.65.0-dev.9",
+          "publishedAt": "2026-10-28T08:54:38Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.9",
+          "changelog": "## [1.65.0-dev.9](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.8...v1.65.0-dev.9) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** report a missing hook class on screen ([bc27171](https://github.com/hxreborn/morphe-patches/commit/bc27171b850237966521eaee372d4c3e85bfc557))\n* **MovieBox:** remove `4.0.03.0918.03` and `4.0.03.1022.03` app targets ([c24c122](https://github.com/hxreborn/morphe-patches/commit/c24c122294bebedd25b82f40f12423b21dba7c2a))\n\n### New Features\n\n* **Connected2.me - Keep deleted messages:** show deleted texts ([7e8e6d3](https://github.com/hxreborn/morphe-patches/commit/7e8e6d388889dee8c61218152c631da0edf3ea32))\n* **Connected2.me - Remove screenshot restriction:** capture view-once ([1bcd0f1](https://github.com/hxreborn/morphe-patches/commit/1bcd0f1c5130b7b09293159aa6dc7cd255316a7f))\n\n### Updated App Support\n\n* **MovieBox:** add support for `4.0.03.1020.03` ([24e64e5](https://github.com/hxreborn/morphe-patches/commit/24e64e5b603de77678938f9f27f8451f92c124a6))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.65.0-dev.8",
+          "publishedAt": "2026-10-28T00:21:33Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.8",
+          "changelog": "## [1.65.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.7...v1.65.0-dev.8) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.65.0-dev.7",
           "publishedAt": "2026-10-27T23:35:32Z",
@@ -443,20 +457,6 @@
           "publishedAt": "2026-10-27T22:43:56Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.6",
           "changelog": "## [1.65.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.5...v1.65.0-dev.6) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** remove server update notices ([fd4c6e4](https://github.com/hxreborn/morphe-patches/commit/fd4c6e407398a559f45c4d27a994f228c4b2fe7f))\n\n### New Features\n\n* **Connected2.me - Enable chat in all regions:** chat from any region ([f6b3255](https://github.com/hxreborn/morphe-patches/commit/f6b3255a64380099db37d18b14df506db506a1dc))\n* **Connected2.me - Remove app protection:** open without crashing ([07515c5](https://github.com/hxreborn/morphe-patches/commit/07515c5daa3c738a72639550ffcda12f7c93c0ce))\n* **Connected2.me - Spoof signature:** enable sign-up and sign-in ([f484e54](https://github.com/hxreborn/morphe-patches/commit/f484e5405fcb816ba180b7445999435c0020aa9d))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.5",
-          "publishedAt": "2026-10-27T21:06:29Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.5",
-          "changelog": "## [1.65.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.4...v1.65.0-dev.5) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** keep direct file links as long as sizes ([bfe73a5](https://github.com/hxreborn/morphe-patches/commit/bfe73a5e36b793a0535ee0c338d4f860179f2d1d))\n* **MovieBox - All-In-One:** keep stream links without a loopback ([339f649](https://github.com/hxreborn/morphe-patches/commit/339f6496c9dec6760a6280ed399576d0fc15bb55))\n* **MovieBox - All-In-One:** redirect to the origin without a stream ([6b6b1eb](https://github.com/hxreborn/morphe-patches/commit/6b6b1eb4b9aa875816a978fbb2285ece85a6f82a))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.4",
-          "publishedAt": "2026-10-27T16:48:54Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.4",
-          "changelog": "## [1.65.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.3...v1.65.0-dev.4) (2026-10-27)\n\n### Improvements\n\n* **MovieBox - All-In-One:** pick the unpaced CDN on Edge-Cache hosts ([379be65](https://github.com/hxreborn/morphe-patches/commit/379be65bd6af34bfbb663ba7d792f9f3c701b42a))\n",
           "prerelease": true
         }
       ]
