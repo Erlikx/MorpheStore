@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T00:20:03Z",
+  "generatedAt": "2026-10-28T06:06:30Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.65.0-dev.7",
-      "latestPublishedAt": "2026-10-27T23:35:32Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.7",
-      "changelog": "## [1.65.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.6...v1.65.0-dev.7) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n",
+      "latestTag": "v1.65.0-dev.8",
+      "latestPublishedAt": "2026-10-28T00:21:33Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.8",
+      "changelog": "## [1.65.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.7...v1.65.0-dev.8) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n",
       "history": [
+        {
+          "tag": "v1.65.0-dev.7",
+          "publishedAt": "2026-10-27T23:35:32Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.7",
+          "changelog": "## [1.65.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.6...v1.65.0-dev.7) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.65.0-dev.6",
           "publishedAt": "2026-10-27T22:43:56Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-27T16:48:54Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.4",
           "changelog": "## [1.65.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.3...v1.65.0-dev.4) (2026-10-27)\n\n### Improvements\n\n* **MovieBox - All-In-One:** pick the unpaced CDN on Edge-Cache hosts ([379be65](https://github.com/hxreborn/morphe-patches/commit/379be65bd6af34bfbb663ba7d792f9f3c701b42a))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.3",
-          "publishedAt": "2026-10-27T15:58:55Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.3",
-          "changelog": "## [1.65.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.2...v1.65.0-dev.3) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** restore video playback and downloads ([920c350](https://github.com/hxreborn/morphe-patches/commit/920c35080f94da37668a1d25a868a41677927fcc)), closes [#456](https://github.com/hxreborn/morphe-patches/issues/456) [#62](https://github.com/hxreborn/morphe-patches/issues/62)\n",
           "prerelease": true
         }
       ]
