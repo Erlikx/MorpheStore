@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T19:00:28Z",
+  "generatedAt": "2026-10-28T23:25:38Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,25 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.66.0",
-      "latestPublishedAt": "2026-10-28T08:43:14Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.66.0",
-      "changelog": "### ✨ New Features\n* **Twitter - newx:** disable timeline status injections ([48af8e1](https://github.com/crimera/piko/commit/48af8e1a7438e6d4d2f18ebe894acdcc0eeb7272))",
+      "latestTag": "v3.68.0",
+      "latestPublishedAt": "2026-10-28T22:08:08Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.68.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** support 12.39 alpha with resilient fail-closed hooks ([5de3530](https://github.com/crimera/piko/commit/5de35309a55bc5b37e253b2f18c53456cd315899))\n\n### ✨ New Features\n* **Twitter - newx:** support 12.39 alpha and disable persistent bottom navigation ([1093cd8](https://github.com/crimera/piko/commit/1093cd8d6b78cb35d15a147d684e7ac47abb7e43))",
       "history": [
+        {
+          "tag": "v3.67.0",
+          "publishedAt": "2026-10-28T20:29:04Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.67.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** adapt semantic hooks to 12.38 renderer refactors ([7cec473](https://github.com/crimera/piko/commit/7cec47336bf1a2d642d8768654a2de5241398d65))\n* **Twitter - newx:** accept spaces bar renderers with more callbacks ([5a8139d](https://github.com/crimera/piko/commit/5a8139d3880c4f8ed69f351c014f0ba37767368c))\n\n### ✨ New Features\n* **Twitter - newx:** declare compatibility with 12.38.0 production ([e2507b0](https://github.com/crimera/piko/commit/e2507b0bdf2dfcfd5a0ccbafa4f497f24fd160d8))\n* **Twitter:** compile a rebuilt baseline profile on install ([2df55ee](https://github.com/crimera/piko/commit/2df55eeec320e533dce949249c0b8b5e61c7e1e6))\n\n### 🔧 Improvements\n* **Twitter - newx:** cache host theme preference reads ([3dc702f](https://github.com/crimera/piko/commit/3dc702f9e217953b369d7304ce9d460393bcdc45))\n* **Twitter - newx:** memoize timeline filter results across emissions ([a32424c](https://github.com/crimera/piko/commit/a32424c75ad1953de0cbe86d078ec6348cbe92a2))\n* **Twitter - newx:** cache missing reflective accessors ([f3b6ef3](https://github.com/crimera/piko/commit/f3b6ef3660d4909dfb2e6e0b85330ac2ecd14ffe))\n* **Twitter - newx:** cache dynamic theme resource IDs ([7710bfc](https://github.com/crimera/piko/commit/7710bfc85da755259a96fcd346cba8065650abe6))",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.66.0",
+          "publishedAt": "2026-10-28T08:43:14Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.66.0",
+          "changelog": "### ✨ New Features\n* **Twitter - newx:** disable timeline status injections ([48af8e1](https://github.com/crimera/piko/commit/48af8e1a7438e6d4d2f18ebe894acdcc0eeb7272))",
+          "prerelease": false
+        },
         {
           "tag": "v3.65.0",
           "publishedAt": "2026-10-27T22:16:19Z",
@@ -123,20 +137,6 @@
           "publishedAt": "2026-10-25T23:38:18Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.64.1",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** Read typed media fields for inline download eligibility and fast-path timeline restore ([eaa2552](https://github.com/crimera/piko/commit/eaa255276df4e5514cae8fc42eb014fca83ea786))\n* **Twitter:** Optimize repeated NewX runtime work on UI paths ([bda61e6](https://github.com/crimera/piko/commit/bda61e6bfcf67db6ddec8ff8a386828b39cf95ef))\n* **Twitter - newx - Clone:** fix launcher icon shortcuts and bytecode issues ([bbe6c30](https://github.com/crimera/piko/commit/bbe6c309fbfc6d6a552ba1995cb8eedb0c21b3bb))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.64.0",
-          "publishedAt": "2026-10-24T06:18:53Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.64.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.37.2-prod.01 ([284dfde](https://github.com/crimera/piko/commit/284dfde05bb696ba83bf6982a2868e7f99d62a7b))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.63.0",
-          "publishedAt": "2026-10-24T06:05:07Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.63.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.37.1-prod.01 ([a11b151](https://github.com/crimera/piko/commit/a11b151bd4e5b91a6cd65aa733185dbd66231dac))\n* **Twitter - newx:** support 12.37.0-prod.01 ([ec30b96](https://github.com/crimera/piko/commit/ec30b9639dd3c95e1e38bb0e81afc49c2a40356b))",
           "prerelease": false
         }
       ]
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.66.0-dev.1",
-      "latestPublishedAt": "2026-10-28T14:34:18Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.1",
-      "changelog": "## [1.66.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.65.0...v1.66.0-dev.1) (2026-10-28)\n\n### Bug Fixes\n\n* **BeReal - Custom location:** show chosen place before posting ([5d0ab4f](https://github.com/hxreborn/morphe-patches/commit/5d0ab4fb3a3d009f874e1cff3f1ee79671cc701d))\n* **MovieBox - All-In-One:** list direct links for HD download rows ([0dd1de6](https://github.com/hxreborn/morphe-patches/commit/0dd1de661fc0fca04f6f2fc0a4255bde1b982bfe))\n* **MovieBox - All-In-One:** play titles whose only file is an HD row ([493104d](https://github.com/hxreborn/morphe-patches/commit/493104d53937974ee8b1460f931da9cba81610bb))\n\n### New Features\n\n* **BeReal - Custom retake count:** type any retake count ([6dde0fa](https://github.com/hxreborn/morphe-patches/commit/6dde0faf9bd1f998f1435060c289a8beca7c677a))\n",
+      "latestTag": "v1.66.0-dev.2",
+      "latestPublishedAt": "2026-10-28T19:58:55Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.2",
+      "changelog": "## [1.66.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.66.0-dev.1...v1.66.0-dev.2) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** bypass blacklisted device ids ([70faeb3](https://github.com/hxreborn/morphe-patches/commit/70faeb385c7ef782c63f33151ee3c3581d85afa1))\n",
       "history": [
+        {
+          "tag": "v1.66.0-dev.1",
+          "publishedAt": "2026-10-28T14:34:18Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.1",
+          "changelog": "## [1.66.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.65.0...v1.66.0-dev.1) (2026-10-28)\n\n### Bug Fixes\n\n* **BeReal - Custom location:** show chosen place before posting ([5d0ab4f](https://github.com/hxreborn/morphe-patches/commit/5d0ab4fb3a3d009f874e1cff3f1ee79671cc701d))\n* **MovieBox - All-In-One:** list direct links for HD download rows ([0dd1de6](https://github.com/hxreborn/morphe-patches/commit/0dd1de661fc0fca04f6f2fc0a4255bde1b982bfe))\n* **MovieBox - All-In-One:** play titles whose only file is an HD row ([493104d](https://github.com/hxreborn/morphe-patches/commit/493104d53937974ee8b1460f931da9cba81610bb))\n\n### New Features\n\n* **BeReal - Custom retake count:** type any retake count ([6dde0fa](https://github.com/hxreborn/morphe-patches/commit/6dde0faf9bd1f998f1435060c289a8beca7c677a))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.65.0",
           "publishedAt": "2026-10-28T09:20:17Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-28T00:21:33Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.8",
           "changelog": "## [1.65.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.7...v1.65.0-dev.8) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.7",
-          "publishedAt": "2026-10-27T23:35:32Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.7",
-          "changelog": "## [1.65.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.6...v1.65.0-dev.7) (2026-10-27)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n",
           "prerelease": true
         }
       ]
