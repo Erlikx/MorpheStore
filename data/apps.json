@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T09:39:21Z",
+  "generatedAt": "2026-10-29T16:46:10Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,25 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.70.0",
-      "latestPublishedAt": "2026-10-29T05:10:04Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.70.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep restored timeline positions across server cache trims ([ec29bb8](https://github.com/crimera/piko/commit/ec29bb8ed768c1b374722f65b5220847bb7c3d1b))\n* **Twitter - newx:** translate only the post text X renders ([ba6080a](https://github.com/crimera/piko/commit/ba6080aa3b9c036b082f202536eb0c1ae75e08ae))\n\n### ✨ New Features\n* **Twitter - newx:** drop 12.37.2 and older targets ([c79b8d0](https://github.com/crimera/piko/commit/c79b8d0f3344e7b79f400d414b909aa593d386d1))",
+      "latestTag": "v3.71.1",
+      "latestPublishedAt": "2026-10-29T11:10:12Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.71.1",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** use permanent profile share URLs ([0bfa362](https://github.com/crimera/piko/commit/0bfa362dd7dc80e4c8f5346d9f218c771f98f887))",
       "history": [
+        {
+          "tag": "v3.71.0",
+          "publishedAt": "2026-10-29T10:47:01Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.71.0",
+          "changelog": "### ✨ New Features\n* **Twitter - newx:** add user ID filename template token ([6988a7f](https://github.com/crimera/piko/commit/6988a7f14afdfde6fa555489a5b3354fdba1a286))\n* **Twitter - newx:** remove share tracking parameters ([8feb49f](https://github.com/crimera/piko/commit/8feb49f962d9045281cd1ad536b6a2dc58c79f2d))\n* **Twitter - newx:** add permanent share links ([383c907](https://github.com/crimera/piko/commit/383c9073807fcae2406588b151e150e11890d9d0))\n* **Twitter - newx:** add shared link rewriting ([1be2785](https://github.com/crimera/piko/commit/1be2785cc6bdf59bdf17d936ec828180fe9c38e4))\n\n### 🔧 Improvements\n* **Twitter - newx:** remove code paths for dropped targets ([d73ade2](https://github.com/crimera/piko/commit/d73ade22fcdb6f9aeaa5c0db493147eb3768e60e))\n\nNew patches:\n- NewX: Permanent share links\n- NewX: Remove share tracking parameters",
+          "prerelease": false
+        },
+        {
+          "tag": "v3.70.0",
+          "publishedAt": "2026-10-29T05:10:04Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.70.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep restored timeline positions across server cache trims ([ec29bb8](https://github.com/crimera/piko/commit/ec29bb8ed768c1b374722f65b5220847bb7c3d1b))\n* **Twitter - newx:** translate only the post text X renders ([ba6080a](https://github.com/crimera/piko/commit/ba6080aa3b9c036b082f202536eb0c1ae75e08ae))\n\n### ✨ New Features\n* **Twitter - newx:** drop 12.37.2 and older targets ([c79b8d0](https://github.com/crimera/piko/commit/c79b8d0f3344e7b79f400d414b909aa593d386d1))",
+          "prerelease": false
+        },
         {
           "tag": "v3.69.0",
           "publishedAt": "2026-10-29T02:37:30Z",
@@ -123,20 +137,6 @@
           "publishedAt": "2026-10-28T22:08:08Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.68.0",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** support 12.39 alpha with resilient fail-closed hooks ([5de3530](https://github.com/crimera/piko/commit/5de35309a55bc5b37e253b2f18c53456cd315899))\n\n### ✨ New Features\n* **Twitter - newx:** support 12.39 alpha and disable persistent bottom navigation ([1093cd8](https://github.com/crimera/piko/commit/1093cd8d6b78cb35d15a147d684e7ac47abb7e43))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.67.0",
-          "publishedAt": "2026-10-28T20:29:04Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.67.0",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** adapt semantic hooks to 12.38 renderer refactors ([7cec473](https://github.com/crimera/piko/commit/7cec47336bf1a2d642d8768654a2de5241398d65))\n* **Twitter - newx:** accept spaces bar renderers with more callbacks ([5a8139d](https://github.com/crimera/piko/commit/5a8139d3880c4f8ed69f351c014f0ba37767368c))\n\n### ✨ New Features\n* **Twitter - newx:** declare compatibility with 12.38.0 production ([e2507b0](https://github.com/crimera/piko/commit/e2507b0bdf2dfcfd5a0ccbafa4f497f24fd160d8))\n* **Twitter:** compile a rebuilt baseline profile on install ([2df55ee](https://github.com/crimera/piko/commit/2df55eeec320e533dce949249c0b8b5e61c7e1e6))\n\n### 🔧 Improvements\n* **Twitter - newx:** cache host theme preference reads ([3dc702f](https://github.com/crimera/piko/commit/3dc702f9e217953b369d7304ce9d460393bcdc45))\n* **Twitter - newx:** memoize timeline filter results across emissions ([a32424c](https://github.com/crimera/piko/commit/a32424c75ad1953de0cbe86d078ec6348cbe92a2))\n* **Twitter - newx:** cache missing reflective accessors ([f3b6ef3](https://github.com/crimera/piko/commit/f3b6ef3660d4909dfb2e6e0b85330ac2ecd14ffe))\n* **Twitter - newx:** cache dynamic theme resource IDs ([7710bfc](https://github.com/crimera/piko/commit/7710bfc85da755259a96fcd346cba8065650abe6))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.66.0",
-          "publishedAt": "2026-10-28T08:43:14Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.66.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** disable timeline status injections ([48af8e1](https://github.com/crimera/piko/commit/48af8e1a7438e6d4d2f18ebe894acdcc0eeb7272))",
           "prerelease": false
         }
       ]
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.66.0-dev.3",
-      "latestPublishedAt": "2026-10-29T08:03:53Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.3",
-      "changelog": "## [1.66.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.66.0-dev.2...v1.66.0-dev.3) (2026-10-29)\n\n### Bug Fixes\n\n* **BeReal - Remove late flag:** keep capture time of bonus BeReals ([7b3b6d8](https://github.com/hxreborn/morphe-patches/commit/7b3b6d80d5303ef8a74bbff900e800f264c12e4c))\n* **Proton Authenticator - AMOLED dark theme:** show black launch screen ([98d7026](https://github.com/hxreborn/morphe-patches/commit/98d7026d326382c0f2f3f77c206f2070b7be9386))\n* **Proton VPN - AMOLED dark theme:** show a black launch screen ([45a114c](https://github.com/hxreborn/morphe-patches/commit/45a114cb5faa9813ce2950bdaff5e18c751e299c)), closes [#389](https://github.com/hxreborn/morphe-patches/issues/389)\n\n### New Features\n\n* **Moon+ Reader - Unlock pro:** add the home screen widget ([a6d19d5](https://github.com/hxreborn/morphe-patches/commit/a6d19d55a3c3ce94955c0490c03a7dab4ba1a0ab)), closes [#474](https://github.com/hxreborn/morphe-patches/issues/474)\n* **Resprite - Unlock premium:** unlock every premium tool ([c8f5f20](https://github.com/hxreborn/morphe-patches/commit/c8f5f20b7f06d3f3492a7227cf1dbc6855628b51))\n",
+      "latestTag": "v1.66.0",
+      "latestPublishedAt": "2026-10-29T12:50:35Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0",
+      "changelog": "## [1.66.0](https://github.com/hxreborn/morphe-patches/compare/v1.65.0...v1.66.0) (2026-10-29)\n\n### Bug Fixes\n\n* **AutomaTag - Unlock premium:** save tags without the unlicensed error ([70b04fe](https://github.com/hxreborn/morphe-patches/commit/70b04fe0124aee5574a6eb731b94ea27681798c0)), closes [#481](https://github.com/hxreborn/morphe-patches/issues/481)\n* **BeReal - Custom location:** show chosen place before posting ([5d0ab4f](https://github.com/hxreborn/morphe-patches/commit/5d0ab4fb3a3d009f874e1cff3f1ee79671cc701d))\n* **BeReal - Remove late flag:** keep capture time of bonus BeReals ([7b3b6d8](https://github.com/hxreborn/morphe-patches/commit/7b3b6d80d5303ef8a74bbff900e800f264c12e4c))\n* **MovieBox - All-In-One:** bypass blacklisted device ids ([70faeb3](https://github.com/hxreborn/morphe-patches/commit/70faeb385c7ef782c63f33151ee3c3581d85afa1))\n* **MovieBox - All-In-One:** list direct links for HD download rows ([0dd1de6](https://github.com/hxreborn/morphe-patches/commit/0dd1de661fc0fca04f6f2fc0a4255bde1b982bfe))\n* **MovieBox - All-In-One:** play titles whose only file is an HD row ([493104d](https://github.com/hxreborn/morphe-patches/commit/493104d53937974ee8b1460f931da9cba81610bb))\n* **Proton Authenticator - AMOLED dark theme:** show black launch screen ([98d7026](https://github.com/hxreborn/morphe-patches/commit/98d7026d326382c0f2f3f77c206f2070b7be9386))\n* **Proton VPN - AMOLED dark theme:** show a black launch screen ([45a114c](https://github.com/hxreborn/morphe-patches/commit/45a114cb5faa9813ce2950bdaff5e18c751e299c)), closes [#389](https://github.com/hxreborn/morphe-patches/issues/389)\n\n### New Features\n\n* **BeReal - Custom retake count:** type any retake count ([6dde0fa](https://github.com/hxreborn/morphe-patches/commit/6dde0faf9bd1f998f1435060c289a8beca7c677a))\n* **Clip Studio Paint - Skip plan selection:** open in doodle mode ([900640b](https://github.com/hxreborn/morphe-patches/commit/900640b9a9b34481b8a5783ec3a025be19bfee48)), closes [#455](https://github.com/hxreborn/morphe-patches/issues/455)\n* **Moon+ Reader - Unlock pro:** add the home screen widget ([a6d19d5](https://github.com/hxreborn/morphe-patches/commit/a6d19d55a3c3ce94955c0490c03a7dab4ba1a0ab)), closes [#474](https://github.com/hxreborn/morphe-patches/issues/474)\n* **Resprite - Unlock premium:** unlock every premium tool ([c8f5f20](https://github.com/hxreborn/morphe-patches/commit/c8f5f20b7f06d3f3492a7227cf1dbc6855628b51))\n",
       "history": [
+        {
+          "tag": "v1.66.0-dev.3",
+          "publishedAt": "2026-10-29T08:03:53Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.3",
+          "changelog": "## [1.66.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.66.0-dev.2...v1.66.0-dev.3) (2026-10-29)\n\n### Bug Fixes\n\n* **BeReal - Remove late flag:** keep capture time of bonus BeReals ([7b3b6d8](https://github.com/hxreborn/morphe-patches/commit/7b3b6d80d5303ef8a74bbff900e800f264c12e4c))\n* **Proton Authenticator - AMOLED dark theme:** show black launch screen ([98d7026](https://github.com/hxreborn/morphe-patches/commit/98d7026d326382c0f2f3f77c206f2070b7be9386))\n* **Proton VPN - AMOLED dark theme:** show a black launch screen ([45a114c](https://github.com/hxreborn/morphe-patches/commit/45a114cb5faa9813ce2950bdaff5e18c751e299c)), closes [#389](https://github.com/hxreborn/morphe-patches/issues/389)\n\n### New Features\n\n* **Moon+ Reader - Unlock pro:** add the home screen widget ([a6d19d5](https://github.com/hxreborn/morphe-patches/commit/a6d19d55a3c3ce94955c0490c03a7dab4ba1a0ab)), closes [#474](https://github.com/hxreborn/morphe-patches/issues/474)\n* **Resprite - Unlock premium:** unlock every premium tool ([c8f5f20](https://github.com/hxreborn/morphe-patches/commit/c8f5f20b7f06d3f3492a7227cf1dbc6855628b51))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.66.0-dev.2",
           "publishedAt": "2026-10-28T19:58:55Z",
@@ -451,13 +458,6 @@
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0",
           "changelog": "## [1.65.0](https://github.com/hxreborn/morphe-patches/compare/v1.64.0...v1.65.0) (2026-10-28)\n\n### Bug Fixes\n\n* **Athan - GmsCore support:** connect location through GmsCore ([1164cff](https://github.com/hxreborn/morphe-patches/commit/1164cfffc93cec222eb6fa7678f3a6222f3ff155)), closes [#442](https://github.com/hxreborn/morphe-patches/issues/442)\n* **MovieBox - All-In-One:** keep direct file links as long as sizes ([bfe73a5](https://github.com/hxreborn/morphe-patches/commit/bfe73a5e36b793a0535ee0c338d4f860179f2d1d))\n* **MovieBox - All-In-One:** keep stream links without a loopback ([339f649](https://github.com/hxreborn/morphe-patches/commit/339f6496c9dec6760a6280ed399576d0fc15bb55))\n* **MovieBox - All-In-One:** redirect to the origin without a stream ([6b6b1eb](https://github.com/hxreborn/morphe-patches/commit/6b6b1eb4b9aa875816a978fbb2285ece85a6f82a))\n* **MovieBox - All-In-One:** remove server update notices ([fd4c6e4](https://github.com/hxreborn/morphe-patches/commit/fd4c6e407398a559f45c4d27a994f228c4b2fe7f))\n* **MovieBox - All-In-One:** report a missing hook class on screen ([bc27171](https://github.com/hxreborn/morphe-patches/commit/bc27171b850237966521eaee372d4c3e85bfc557))\n* **MovieBox - All-In-One:** restore video playback and downloads ([920c350](https://github.com/hxreborn/morphe-patches/commit/920c35080f94da37668a1d25a868a41677927fcc)), closes [#456](https://github.com/hxreborn/morphe-patches/issues/456) [#62](https://github.com/hxreborn/morphe-patches/issues/62)\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n* **MovieBox - All-In-One:** tag every request and block hot patches ([ed87244](https://github.com/hxreborn/morphe-patches/commit/ed872446b55eae5c578c4d1691a332353910e38a))\n* **MovieBox:** remove `4.0.03.0918.03` and `4.0.03.1022.03` app targets ([c24c122](https://github.com/hxreborn/morphe-patches/commit/c24c122294bebedd25b82f40f12423b21dba7c2a))\n* **Proton Mail - AMOLED dark theme:** show a black launch screen ([2c05619](https://github.com/hxreborn/morphe-patches/commit/2c05619f08e6f9babe57b55e79128e22ad8ef925))\n* **Proton VPN - AMOLED dark theme:** keep the scrolled top bar black ([c0dba6c](https://github.com/hxreborn/morphe-patches/commit/c0dba6cee60064241dd6c587cb8eeb642539aef8))\n\n### New Features\n\n* **Athan - Remove promotions:** remove Academy prompts and reader bar ([e067796](https://github.com/hxreborn/morphe-patches/commit/e067796848bcdea9cfdf2034f87994dc862cd0c7)), closes [#443](https://github.com/hxreborn/morphe-patches/issues/443)\n* **Connected2.me - Enable chat in all regions:** chat from any region ([f6b3255](https://github.com/hxreborn/morphe-patches/commit/f6b3255a64380099db37d18b14df506db506a1dc))\n* **Connected2.me - Keep deleted messages:** show deleted texts ([7e8e6d3](https://github.com/hxreborn/morphe-patches/commit/7e8e6d388889dee8c61218152c631da0edf3ea32))\n* **Connected2.me - Remove app protection:** open without crashing ([07515c5](https://github.com/hxreborn/morphe-patches/commit/07515c5daa3c738a72639550ffcda12f7c93c0ce))\n* **Connected2.me - Remove screenshot restriction:** capture view-once ([1bcd0f1](https://github.com/hxreborn/morphe-patches/commit/1bcd0f1c5130b7b09293159aa6dc7cd255316a7f))\n* **Connected2.me - Spoof signature:** enable sign-up and sign-in ([f484e54](https://github.com/hxreborn/morphe-patches/commit/f484e5405fcb816ba180b7445999435c0020aa9d))\n\n### Updated App Support\n\n* **Bangla Calendar:** add support for `3.0.01e` ([19b197b](https://github.com/hxreborn/morphe-patches/commit/19b197b9c72e0c5e6b2ccce63c04a242e198c474)), closes [#408](https://github.com/hxreborn/morphe-patches/issues/408)\n* **BetterSleep:** add support for `26.18` ([34c393d](https://github.com/hxreborn/morphe-patches/commit/34c393d7ce5cb91117770cd87120df0a345c9e45)), closes [#409](https://github.com/hxreborn/morphe-patches/issues/409)\n* **botim:** add support for `4.20.1` ([df2c07b](h\n\n…",
           "prerelease": false
-        },
-        {
-          "tag": "v1.65.0-dev.9",
-          "publishedAt": "2026-10-28T08:54:38Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.9",
-          "changelog": "## [1.65.0-dev.9](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.8...v1.65.0-dev.9) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** report a missing hook class on screen ([bc27171](https://github.com/hxreborn/morphe-patches/commit/bc27171b850237966521eaee372d4c3e85bfc557))\n* **MovieBox:** remove `4.0.03.0918.03` and `4.0.03.1022.03` app targets ([c24c122](https://github.com/hxreborn/morphe-patches/commit/c24c122294bebedd25b82f40f12423b21dba7c2a))\n\n### New Features\n\n* **Connected2.me - Keep deleted messages:** show deleted texts ([7e8e6d3](https://github.com/hxreborn/morphe-patches/commit/7e8e6d388889dee8c61218152c631da0edf3ea32))\n* **Connected2.me - Remove screenshot restriction:** capture view-once ([1bcd0f1](https://github.com/hxreborn/morphe-patches/commit/1bcd0f1c5130b7b09293159aa6dc7cd255316a7f))\n\n### Updated App Support\n\n* **MovieBox:** add support for `4.0.03.1020.03` ([24e64e5](https://github.com/hxreborn/morphe-patches/commit/24e64e5b603de77678938f9f27f8451f92c124a6))\n",
-          "prerelease": true
         }
       ]
     },
