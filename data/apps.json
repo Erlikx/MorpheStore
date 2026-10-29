@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T02:42:43Z",
+  "generatedAt": "2026-10-29T09:39:21Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,11 +26,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v1.49.0-dev.10",
-      "latestPublishedAt": "2026-10-28T08:25:09Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.10",
-      "changelog": "## [1.49.0-dev.10](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.9...v1.49.0-dev.10) (2026-10-28)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Ask flyout menu:** Ask chat window can be hidden by onscreen keyboard ([7532430](https://github.com/MorpheApp/morphe-patches/commit/7532430e096f5730ba9321b32d8b4bd2c54c77f6))\n* **YouTube - Hide status bar:** Top bars are covered by a second status bar when the app is kept out of the camera cutout ([#4112](https://github.com/MorpheApp/morphe-patches/issues/4112)) ([9d3b53c](https://github.com/MorpheApp/morphe-patches/commit/9d3b53c92cb877f309b4463b7d5067aaa1a996a3))\n* **YouTube - Spoof video streams:** Patch can be included for root installs ([3edf03b](https://github.com/MorpheApp/morphe-patches/commit/3edf03b8efc2f5ea0458456002938c7dbd4bf8d8))\n* **YouTube - Theme:** Glow startup animation does not extend to fullscreen ([7f1a6b3](https://github.com/MorpheApp/morphe-patches/commit/7f1a6b35c8a3989cd2b06a1e81d817015f2ca433))\n* **YouTube - Video quality:** Selected quality is not applied to the already buffered video ([#4117](https://github.com/MorpheApp/morphe-patches/issues/4117)) ([7faa488](https://github.com/MorpheApp/morphe-patches/commit/7faa48834b1f78f8ca572c773392ed9513de8ea3))\n* **YouTube:** Restore TalkBack access to Shorts comments and descriptions ([#4128](https://github.com/MorpheApp/morphe-patches/issues/4128)) ([9542d24](https://github.com/MorpheApp/morphe-patches/commit/9542d24adf3b5ec2c25fce931418160dadbde93c))\n",
+      "latestTag": "v1.49.0-dev.11",
+      "latestPublishedAt": "2026-10-29T08:24:08Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.11",
+      "changelog": "## [1.49.0-dev.11](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.10...v1.49.0-dev.11) (2026-10-29)\n\n### ⚠ BREAKING CHANGES\n\n* **YouTube - Theme:** Patches now use Morphe Patcher 2.0.0\n\nCo-authored-by: MarcaDian <152095496+MarcaDian@users.noreply.github.com>\n\n### 🐛 Bug Fixes\n\n* **YouTube - Ambient mode:** Ambient mode is replaced by a black background with the new watch page experiment ([43a9e4c](https://github.com/MorpheApp/morphe-patches/commit/43a9e4c8935627af8f1748071438c25b653deefb))\n* **YouTube - Ambient mode:** Bypass Ambient mode restrictions does not work with 21.43 ([aeac8c9](https://github.com/MorpheApp/morphe-patches/commit/aeac8c9c15f93127a41326a3e5ae913a7c75dbae))\n* **YouTube - Feed card layout:** Movies converted to cards are not hidden when \"Hide movies section\" is enabled ([5c6357f](https://github.com/MorpheApp/morphe-patches/commit/5c6357fed1f52c5ed5d0236a393392b860e8d5ae))\n* **YouTube - Feed view count:** View count badge of a card that enters from the bottom loads only when its title row is shown ([26715b1](https://github.com/MorpheApp/morphe-patches/commit/26715b1723f5755dc13a64c8b41be4a499f4f2cb))\n* **YouTube - Hide layout components:** \"Visit the community\" entry point is not hidden in the comments of a video opened from a playlist ([e11da94](https://github.com/MorpheApp/morphe-patches/commit/e11da94ca64632956222074390f67f7f13bd82f9))\n* **YouTube - Video quality:** Buffered video is cleared with the placeholder playback times of live streams after selecting a quality ([36e3612](https://github.com/MorpheApp/morphe-patches/commit/36e3612c0bfa7435e47fa9529b12a819b11ac843))\n* **YouTube - Video quality:** Extend the background resume fix of regular videos to Shorts ([958aa55](https://github.com/MorpheApp/morphe-patches/commit/958aa55c56ccef1e36ea1003f0f869203cc828b7))\n* **YouTube - Video quality:** Quality selected for a regular video is lost when the video reloads ([16d4e60](https://github.com/MorpheApp/morphe-patches/commit/16d4e602c7c8961b35bd737b5e5770312ef1781c))\n* **YouTube - Video quality:** Regular video returns to the default quality when it resumes from the background ([e5cd752](https://github.com/MorpheApp/morphe-patches/commit/e5cd7523ba2963b29fff6c3169cc71e1a58f405d))\n* **YouTube - Video quality:** Short loop restarts with the previous quality when the quality is selected in its first segment ([a325744](https://github.com/MorpheApp/morphe-patches/commit/a325744ef3434bf0fe40525d4e2da9b696a2f2cb))\n* **YouTube - Video quality:** Short plays the previous quality segments again when it loops ([328b85a](https://github.com/MorpheApp/morphe-patches/commit/328b85acb6fe32b7722dda7fd41ff2a8988e9c7d))\n* **YouTube - Video quality:** Video restarts or plays faster after selecting a quality ([c000b53](https://github.com/MorpheApp/morphe-patches/commit/c000b53eeae02941f82a37e1c66c12a06c3d1059))\n* **YouTube Music - Change miniplayer color:** Miniplayer color does not update after track changes ([e1410e3](https://github.com/MorpheApp/morphe-patches/commit/e1410e3189531c1fb4ab41c576c4fdd20aa89e36))\n* **YouTube:** Feed thumbnail badges are shown on the page header of a channel that is live ([394ab97](https://github.com/MorpheApp/morphe-patches/commit/394ab97af76d788d6b13fc4c47f8e2ba4d892cfc))\n* **YouTube:** Feed thumbnail badges disappear while scrolling, are missing on cards with replaced titles and are shown on live videos ([4344fab](https://github.com/MorpheApp/morphe-patches/commit/4344fab6ef2e8aa6694072f38478238b84e0f42a))\n* **YouTube:** Fix TalkBack not reading captions ([#4136](https://github.com/MorpheApp/morphe-patches/issues/4136)) ([b22841c](https://github.com/MorpheApp/morphe-patches/commit/b22841c5a6ddf6ff38b49f262ca5aa893348a600))\n* **YouTube:** Prevent TalkBack crashes caused by Litho hover recursion ([#4129](https://github.com/MorpheApp/morphe-patches/issues/4129)) ([4c00210](https://github.com/MorpheApp/morphe-patches/commit/4c002101e3472e9700acb8f92a63291f69b61116))\n* **YouTube:**\n\n…",
       "history": [
+        {
+          "tag": "v1.49.0-dev.10",
+          "publishedAt": "2026-10-28T08:25:09Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.10",
+          "changelog": "## [1.49.0-dev.10](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.9...v1.49.0-dev.10) (2026-10-28)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Ask flyout menu:** Ask chat window can be hidden by onscreen keyboard ([7532430](https://github.com/MorpheApp/morphe-patches/commit/7532430e096f5730ba9321b32d8b4bd2c54c77f6))\n* **YouTube - Hide status bar:** Top bars are covered by a second status bar when the app is kept out of the camera cutout ([#4112](https://github.com/MorpheApp/morphe-patches/issues/4112)) ([9d3b53c](https://github.com/MorpheApp/morphe-patches/commit/9d3b53c92cb877f309b4463b7d5067aaa1a996a3))\n* **YouTube - Spoof video streams:** Patch can be included for root installs ([3edf03b](https://github.com/MorpheApp/morphe-patches/commit/3edf03b8efc2f5ea0458456002938c7dbd4bf8d8))\n* **YouTube - Theme:** Glow startup animation does not extend to fullscreen ([7f1a6b3](https://github.com/MorpheApp/morphe-patches/commit/7f1a6b35c8a3989cd2b06a1e81d817015f2ca433))\n* **YouTube - Video quality:** Selected quality is not applied to the already buffered video ([#4117](https://github.com/MorpheApp/morphe-patches/issues/4117)) ([7faa488](https://github.com/MorpheApp/morphe-patches/commit/7faa48834b1f78f8ca572c773392ed9513de8ea3))\n* **YouTube:** Restore TalkBack access to Shorts comments and descriptions ([#4128](https://github.com/MorpheApp/morphe-patches/issues/4128)) ([9542d24](https://github.com/MorpheApp/morphe-patches/commit/9542d24adf3b5ec2c25fce931418160dadbde93c))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.49.0-dev.9",
           "publishedAt": "2026-10-27T19:52:31Z",
@@ -50,13 +57,6 @@
           "publishedAt": "2026-10-26T07:48:29Z",
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.7",
           "changelog": "## [1.49.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.6...v1.49.0-dev.7) (2026-10-26)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Add to queue:** Feed below the player stutters while scrolling ([5545e3c](https://github.com/MorpheApp/morphe-patches/commit/5545e3c87458e60c5e6ef5653053c02d343dd3f8))\n* **YouTube - Add to queue:** Fix native queue on experimental versions ([#4076](https://github.com/MorpheApp/morphe-patches/issues/4076)) ([e009d8b](https://github.com/MorpheApp/morphe-patches/commit/e009d8bddb1bb94525060efc3d9b38ad97ba7d72))\n* **YouTube - Add to queue:** Native queue index errors crash before Android 13 ([c5f9f94](https://github.com/MorpheApp/morphe-patches/commit/c5f9f94ee71a480be00a432ee364f4e7099b9537))\n* **YouTube - Captions:** Old caption stays on screen after SponsorBlock skips ([#3986](https://github.com/MorpheApp/morphe-patches/issues/3986)) ([e200765](https://github.com/MorpheApp/morphe-patches/commit/e20076530e0af6061da9029bfaa4ad985fdd2f50))\n* **YouTube - Disable playlist autoplay:** fix looping the current video ([#4064](https://github.com/MorpheApp/morphe-patches/issues/4064)) ([f4c1f84](https://github.com/MorpheApp/morphe-patches/commit/f4c1f84e13f0ed9b5982adfccbdbec1529ce0091))\n* **YouTube - Force fullscreen landscape:** Screen rotates before the fullscreen gesture completes ([#4050](https://github.com/MorpheApp/morphe-patches/issues/4050)) ([83c0cf0](https://github.com/MorpheApp/morphe-patches/commit/83c0cf004e8cafa142cb862e3d78fd7e98c9f3c3))\n* **YouTube - Litho filter:** Filtered elements leave empty cells in the related videos grid of the tablet layout ([e32b05c](https://github.com/MorpheApp/morphe-patches/commit/e32b05c663e30c23cb998e73fa23d78a58998962))\n* **YouTube - Litho filter:** Filtered elements leave empty cells in the tablet layout grids ([#4035](https://github.com/MorpheApp/morphe-patches/issues/4035)) ([4764483](https://github.com/MorpheApp/morphe-patches/commit/4764483db626de5974ef2d3d3cf19d84ef4cfde1))\n* **YouTube - Minimal miniplayer:** Bar is partly covered by the keyboard with the default navigation bar style ([bb6e0e3](https://github.com/MorpheApp/morphe-patches/commit/bb6e0e38bf4216395abacf8f4afbd45418b25ed7))\n* **YouTube - Minimal miniplayer:** Video title and channel are missing after going back from the Shorts player ([7e665c6](https://github.com/MorpheApp/morphe-patches/commit/7e665c62dc3f88a6f9888b8bc48d1aea885761a1))\n* **YouTube - Miniplayer:** Related videos lists show a black frame after exiting fullscreen and scroll down ([efbc9b1](https://github.com/MorpheApp/morphe-patches/commit/efbc9b1ea1739b617306f19900fa398251131494))\n* **YouTube - Search comments:** Search button is not shown in the Shorts comments and is shown in other panels ([3b3308b](https://github.com/MorpheApp/morphe-patches/commit/3b3308b61740ab01e35aaa0e97166eeab80164e6))\n* **YouTube - Video quality:** Shorts quality menu sets another quality than the one selected ([3e15dcd](https://github.com/MorpheApp/morphe-patches/commit/3e15dcd12190c4b435287080916170e82d0b4ac5))\n* **YouTube - Video quality:** Shorts quality selected in the menu is not kept and is used for the next Shorts ([82efbab](https://github.com/MorpheApp/morphe-patches/commit/82efbab5e735cfa3db7a6cc5b05a5ad00b1b0b96))\n\n### ✨ New Features\n\n* **YouTube - Playback speed:** Add playback speed to the Shorts player menu ([#3982](https://github.com/MorpheApp/morphe-patches/issues/3982)) ([b717a69](https://github.com/MorpheApp/morphe-patches/commit/b717a692dfc3c99bee830af548bd13f98a3a4eaa))\n* **YouTube:** Add `Download post images` patch ([#3966](https://github.com/MorpheApp/morphe-patches/issues/3966)) ([5f96fbe](https://github.com/MorpheApp/morphe-patches/commit/5f96fbe0a90efd54b3e1233c9690aa18f4d38dda))\n* **YouTube:** Show a warning when changing 'Navigation bar style' or turning on 'Enable tablet layout in player' ([445194d](https://github.com/MorpheApp/morphe-patches/commit/445194d74ab5373334e14d31e1ceb29926ac267b))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.49.0-dev.6",
-          "publishedAt": "2026-10-25T15:25:07Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.49.0-dev.6",
-          "changelog": "## [1.49.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.49.0-dev.5...v1.49.0-dev.6) (2026-10-25)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Captions:** Captions not shown in picture-in-picture on 21.16 - 21.28 ([#4024](https://github.com/MorpheApp/morphe-patches/issues/4024)) ([b2688c5](https://github.com/MorpheApp/morphe-patches/commit/b2688c5eb957f3ffd142595ff4ee7b491e3b86ae))\n* **YouTube - Hide layout components:** Fix actions blocked by Hide Snackbar ([#4038](https://github.com/MorpheApp/morphe-patches/issues/4038)) ([9a0fee9](https://github.com/MorpheApp/morphe-patches/commit/9a0fee9ec2846ba2db31cbfc2e4c2ac9b14895b7))\n* **YouTube - Playback speed:** Channel speed whitelist is not applied to preloaded Shorts ([4f108b5](https://github.com/MorpheApp/morphe-patches/commit/4f108b596a71adbbf223b59faaabcfbe2469d95a))\n\n### ✨ New Features\n\n* **YouTube - Add to queue:** Add \"Native queue\" setting ([#3953](https://github.com/MorpheApp/morphe-patches/issues/3953)) ([372eea2](https://github.com/MorpheApp/morphe-patches/commit/372eea295ec4521b9ccdb93a3f188f81a6ad1a6c))\n* **YouTube - Downloads:** Add \"Quick download on tap\" setting ([#3883](https://github.com/MorpheApp/morphe-patches/issues/3883)) ([dd97d93](https://github.com/MorpheApp/morphe-patches/commit/dd97d93628a3feb7bc8758139b01fbe42a532778))\n* **YouTube - Media notification controls:** Add options to seek with Previous & Next buttons ([#3955](https://github.com/MorpheApp/morphe-patches/issues/3955)) ([2b07abb](https://github.com/MorpheApp/morphe-patches/commit/2b07abb628fec3bf625a09ab7d019f915c4dfa23))\n* **YouTube - Navigation bar:** Add \"Navigation bar style\" setting ([db9af37](https://github.com/MorpheApp/morphe-patches/commit/db9af377093121e575fec80ba40e0025dfd66f81))\n\n### 🚀 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.43.0` ([6407d5e](https://github.com/MorpheApp/morphe-patches/commit/6407d5efa0f7d99fb54909bc39e2074e8f60ac42))\n* **Reddit:** Add support for `2026.40.0` ([fcc02f7](https://github.com/MorpheApp/morphe-patches/commit/fcc02f77d5a9d7a13b74d14c12b302f9d9902c61))\n",
           "prerelease": true
         }
       ]
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.69.0",
-      "latestPublishedAt": "2026-10-29T02:37:30Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.69.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** find the visible activity for inline downloads after deeplinks ([54e59fe](https://github.com/crimera/piko/commit/54e59fec1a32613de16c1dd3ede044be343c3ea5))\n\n### ✨ New Features\n* **Twitter - newx:** add translator with post-menu tray and inline translation ([1b70913](https://github.com/crimera/piko/commit/1b70913c7e5e7dbc49c9a05f44332a81dcc9a464))\n\nNew patches:\n- NewX: Translator",
+      "latestTag": "v3.70.0",
+      "latestPublishedAt": "2026-10-29T05:10:04Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.70.0",
+      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** keep restored timeline positions across server cache trims ([ec29bb8](https://github.com/crimera/piko/commit/ec29bb8ed768c1b374722f65b5220847bb7c3d1b))\n* **Twitter - newx:** translate only the post text X renders ([ba6080a](https://github.com/crimera/piko/commit/ba6080aa3b9c036b082f202536eb0c1ae75e08ae))\n\n### ✨ New Features\n* **Twitter - newx:** drop 12.37.2 and older targets ([c79b8d0](https://github.com/crimera/piko/commit/c79b8d0f3344e7b79f400d414b909aa593d386d1))",
       "history": [
+        {
+          "tag": "v3.69.0",
+          "publishedAt": "2026-10-29T02:37:30Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.69.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** find the visible activity for inline downloads after deeplinks ([54e59fe](https://github.com/crimera/piko/commit/54e59fec1a32613de16c1dd3ede044be343c3ea5))\n\n### ✨ New Features\n* **Twitter - newx:** add translator with post-menu tray and inline translation ([1b70913](https://github.com/crimera/piko/commit/1b70913c7e5e7dbc49c9a05f44332a81dcc9a464))\n\nNew patches:\n- NewX: Translator",
+          "prerelease": false
+        },
         {
           "tag": "v3.68.0",
           "publishedAt": "2026-10-28T22:08:08Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-28T08:43:14Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.66.0",
           "changelog": "### ✨ New Features\n* **Twitter - newx:** disable timeline status injections ([48af8e1](https://github.com/crimera/piko/commit/48af8e1a7438e6d4d2f18ebe894acdcc0eeb7272))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.65.0",
-          "publishedAt": "2026-10-27T22:16:19Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.65.0",
-          "changelog": "### ✨ New Features\n* **Twitter - newx:** enable quality-of-life feature flags ([0dd6dce](https://github.com/crimera/piko/commit/0dd6dcea52b0973e630ed568a58d2de047ae3417))\n* **Twitter - newx:** add feature flag override helper ([3e76390](https://github.com/crimera/piko/commit/3e7639030171d39c865e17533132de6bb5b58ef9))\n\nNew patches:\n- NewX: Enable quality-of-life feature flags",
           "prerelease": false
         }
       ]
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.1.0-dev.1",
-      "latestPublishedAt": "2026-10-29T02:30:31Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.1",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add the Dictionaries & Predictions patch to customize resource versions for dictionaries, text predictions, and input correction models, greatly improving the typing experience.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix the lingering colored light bar and missing word suggestions after official Rambler voice input ends.\n* **Gboard:** fix duplicate countdown updates and card recycling issues when clipboard items are hidden or kept permanently, and reduce unnecessary settings reads to lower resource usage.\n* **Gboard:** fix the Split Keyboard patch so the split state is preserved after closing and reopening the keyboard.\n\n### ✨ 新功能\n\n* **Gboard:** 新增Dictionaries & Predictions Patch，可自訂字典、文字預測與輸入修正的模型資源版本，將大幅提升輸入體驗。\n\n### 🐛 修復\n\n* **Gboard:** 修復官方 Rambler 語音輸入結束後，彩色光帶殘留及候選字詞消失的問題。\n* **Gboard:** 修復剪貼簿隱藏與永久保留時的重複倒數更新及卡片回收問題，並減少不必要的設定讀取，降低額外資源消耗。\n* **Gboard:** 修復「分離式鍵盤」(split keyboard) Patch 在關閉並重新開啟鍵盤後，無法保留分離狀態的問題。\n",
+      "latestTag": "v4.1.0-dev.2",
+      "latestPublishedAt": "2026-10-29T06:58:38Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.2",
+      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue that prevented the Developer options page from opening.\n\n### 🐛 修復\n\n* **Gboard:** 修復無法開啟「開發人員選項」（Developer options）頁面的問題。\n",
       "history": [
+        {
+          "tag": "v4.1.0-dev.1",
+          "publishedAt": "2026-10-29T02:30:31Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.1",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add the Dictionaries & Predictions patch to customize resource versions for dictionaries, text predictions, and input correction models, greatly improving the typing experience.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix the lingering colored light bar and missing word suggestions after official Rambler voice input ends.\n* **Gboard:** fix duplicate countdown updates and card recycling issues when clipboard items are hidden or kept permanently, and reduce unnecessary settings reads to lower resource usage.\n* **Gboard:** fix the Split Keyboard patch so the split state is preserved after closing and reopening the keyboard.\n\n### ✨ 新功能\n\n* **Gboard:** 新增Dictionaries & Predictions Patch，可自訂字典、文字預測與輸入修正的模型資源版本，將大幅提升輸入體驗。\n\n### 🐛 修復\n\n* **Gboard:** 修復官方 Rambler 語音輸入結束後，彩色光帶殘留及候選字詞消失的問題。\n* **Gboard:** 修復剪貼簿隱藏與永久保留時的重複倒數更新及卡片回收問題，並減少不必要的設定讀取，降低額外資源消耗。\n* **Gboard:** 修復「分離式鍵盤」(split keyboard) Patch 在關閉並重新開啟鍵盤後，無法保留分離狀態的問題。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.0.0",
           "publishedAt": "2026-10-26T22:41:52Z",
@@ -411,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.4",
           "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix the occasionally blank shortcut toolbar when opening the keyboard with Rambler enabled.\n* **Gboard:** remove the `Hyperspeed Typing Animation` patch because Gboard 18.5.3 no longer includes its core implementation.\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用 Rambler 時，開啟鍵盤後快捷工具列偶爾空白的問題。\n* **Gboard:** 移除 `Hyperspeed Typing Animation` Patch，因 Gboard 18.5.3 已移除所需的核心實作。\n",
           "prerelease": true
-        },
-        {
-          "tag": "v4.0.0-dev.3",
-          "publishedAt": "2026-10-24T05:39:09Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.0.0-dev.3",
-          "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix runtime settings access before the first unlock after boot to prevent errors when swiping down to dismiss the keyboard.\n\n### 🐛 修復\n\n* **Gboard:** 修復開機後首次解鎖前，向下滑動關閉鍵盤功能存取設定時可能發生的錯誤。\n",
-          "prerelease": true
         }
       ]
     },
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.66.0-dev.2",
-      "latestPublishedAt": "2026-10-28T19:58:55Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.2",
-      "changelog": "## [1.66.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.66.0-dev.1...v1.66.0-dev.2) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** bypass blacklisted device ids ([70faeb3](https://github.com/hxreborn/morphe-patches/commit/70faeb385c7ef782c63f33151ee3c3581d85afa1))\n",
+      "latestTag": "v1.66.0-dev.3",
+      "latestPublishedAt": "2026-10-29T08:03:53Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.3",
+      "changelog": "## [1.66.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.66.0-dev.2...v1.66.0-dev.3) (2026-10-29)\n\n### Bug Fixes\n\n* **BeReal - Remove late flag:** keep capture time of bonus BeReals ([7b3b6d8](https://github.com/hxreborn/morphe-patches/commit/7b3b6d80d5303ef8a74bbff900e800f264c12e4c))\n* **Proton Authenticator - AMOLED dark theme:** show black launch screen ([98d7026](https://github.com/hxreborn/morphe-patches/commit/98d7026d326382c0f2f3f77c206f2070b7be9386))\n* **Proton VPN - AMOLED dark theme:** show a black launch screen ([45a114c](https://github.com/hxreborn/morphe-patches/commit/45a114cb5faa9813ce2950bdaff5e18c751e299c)), closes [#389](https://github.com/hxreborn/morphe-patches/issues/389)\n\n### New Features\n\n* **Moon+ Reader - Unlock pro:** add the home screen widget ([a6d19d5](https://github.com/hxreborn/morphe-patches/commit/a6d19d55a3c3ce94955c0490c03a7dab4ba1a0ab)), closes [#474](https://github.com/hxreborn/morphe-patches/issues/474)\n* **Resprite - Unlock premium:** unlock every premium tool ([c8f5f20](https://github.com/hxreborn/morphe-patches/commit/c8f5f20b7f06d3f3492a7227cf1dbc6855628b51))\n",
       "history": [
+        {
+          "tag": "v1.66.0-dev.2",
+          "publishedAt": "2026-10-28T19:58:55Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.66.0-dev.2",
+          "changelog": "## [1.66.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.66.0-dev.1...v1.66.0-dev.2) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** bypass blacklisted device ids ([70faeb3](https://github.com/hxreborn/morphe-patches/commit/70faeb385c7ef782c63f33151ee3c3581d85afa1))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.66.0-dev.1",
           "publishedAt": "2026-10-28T14:34:18Z",
@@ -450,13 +457,6 @@
           "publishedAt": "2026-10-28T08:54:38Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.9",
           "changelog": "## [1.65.0-dev.9](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.8...v1.65.0-dev.9) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** report a missing hook class on screen ([bc27171](https://github.com/hxreborn/morphe-patches/commit/bc27171b850237966521eaee372d4c3e85bfc557))\n* **MovieBox:** remove `4.0.03.0918.03` and `4.0.03.1022.03` app targets ([c24c122](https://github.com/hxreborn/morphe-patches/commit/c24c122294bebedd25b82f40f12423b21dba7c2a))\n\n### New Features\n\n* **Connected2.me - Keep deleted messages:** show deleted texts ([7e8e6d3](https://github.com/hxreborn/morphe-patches/commit/7e8e6d388889dee8c61218152c631da0edf3ea32))\n* **Connected2.me - Remove screenshot restriction:** capture view-once ([1bcd0f1](https://github.com/hxreborn/morphe-patches/commit/1bcd0f1c5130b7b09293159aa6dc7cd255316a7f))\n\n### Updated App Support\n\n* **MovieBox:** add support for `4.0.03.1020.03` ([24e64e5](https://github.com/hxreborn/morphe-patches/commit/24e64e5b603de77678938f9f27f8451f92c124a6))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.65.0-dev.8",
-          "publishedAt": "2026-10-28T00:21:33Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.65.0-dev.8",
-          "changelog": "## [1.65.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.65.0-dev.7...v1.65.0-dev.8) (2026-10-28)\n\n### Bug Fixes\n\n* **MovieBox - All-In-One:** show hook and code overlay failures ([23903a6](https://github.com/hxreborn/morphe-patches/commit/23903a67d9a79bcd3911fc053f5bab4984f14a10))\n",
           "prerelease": true
         }
       ]
