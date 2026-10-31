@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T16:15:15Z",
+  "generatedAt": "2026-10-31T20:11:45Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -26,11 +26,18 @@
       "repo": "morphe-patches",
       "label": "🟢 Morphe",
       "repoUrl": "https://github.com/MorpheApp/morphe-patches",
-      "latestTag": "v2.1.0-dev.3",
-      "latestPublishedAt": "2026-10-31T15:25:02Z",
-      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.1.0-dev.3",
-      "changelog": "## [2.1.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v2.1.0-dev.2...v2.1.0-dev.3) (2026-10-31)\n\n### ✨ New Features\n\n* **YouTube - Minimal miniplayer:** Add \"Docked miniplayer\" setting ([f89b66f](https://github.com/MorpheApp/morphe-patches/commit/f89b66f2e5c63637346def8aae49858d76bb14dd))\n* **YouTube - Minimal miniplayer:** Add \"Expand with swipe up\" setting ([e0e36ba](https://github.com/MorpheApp/morphe-patches/commit/e0e36ba3d11e2bd56ba561292887a6c9f626ff72))\n* **YouTube:** Add `Change PiP actions` patch ([#4175](https://github.com/MorpheApp/morphe-patches/issues/4175)) ([d9fc859](https://github.com/MorpheApp/morphe-patches/commit/d9fc85939f31340a2678e38375f2290a8d49da7f))\n\n### 🐛 Bug Fixes\n\n* **YouTube - Downloads:** App can crash when downloading Short in-app ([bae1787](https://github.com/MorpheApp/morphe-patches/commit/bae1787e9d2f56e5d5dc845d1916cc46b5c8c288))\n* **YouTube - Feed video actions:** Inline watch later button performClick logic superseeded by direct app command ([7f343df](https://github.com/MorpheApp/morphe-patches/commit/7f343df16754bec9a4e102076c450bbf585c94a8))\n* **YouTube - Navigation bar:** Swap create with notifications button does not change the toolbar of the You tab ([3c03bbb](https://github.com/MorpheApp/morphe-patches/commit/3c03bbb585c9bcfa05f2cc4d1252e341e0904cb5))\n* **YouTube - Navigation bar:** Swiping the miniplayer does not cancel autoplay with Disable auto hide navigation bar ([136d5bc](https://github.com/MorpheApp/morphe-patches/commit/136d5bcbe4672192be5e3486ee100fe8529453a6))\n* **YouTube - Swipe controls:** Fix double tap to skip chapters ([#4219](https://github.com/MorpheApp/morphe-patches/issues/4219)) ([602533c](https://github.com/MorpheApp/morphe-patches/commit/602533c6f54e5590cd581e977b185b7feaa26eb6))\n* **YouTube Music - Downloads:** Download can fail with \"Audio stream unavailable\" with TV spoof client ([2406f60](https://github.com/MorpheApp/morphe-patches/commit/2406f60bc256a6dc1848e74b5fd544aec6bb4267))\n",
+      "latestTag": "v2.1.0-dev.4",
+      "latestPublishedAt": "2026-10-31T17:10:04Z",
+      "latestUrl": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.1.0-dev.4",
+      "changelog": "## [2.1.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v2.1.0-dev.3...v2.1.0-dev.4) (2026-10-31)\n\n### 🐛 Bug Fixes\n\n* **Spoof video streams:** Do not fetch streams again if a fetch for the same video is in progress ([14cfd47](https://github.com/MorpheApp/morphe-patches/commit/14cfd47d0a5bd0ccf7d388506678fa5e68dd8361))\n* **YouTube - Translate posts:** Patch may crash on devices older than Android 10 ([589c3ab](https://github.com/MorpheApp/morphe-patches/commit/589c3abbe540026426f3336b04c2f13cd692b127))\n",
       "history": [
+        {
+          "tag": "v2.1.0-dev.3",
+          "publishedAt": "2026-10-31T15:25:02Z",
+          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.1.0-dev.3",
+          "changelog": "## [2.1.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v2.1.0-dev.2...v2.1.0-dev.3) (2026-10-31)\n\n### ✨ New Features\n\n* **YouTube - Minimal miniplayer:** Add \"Docked miniplayer\" setting ([f89b66f](https://github.com/MorpheApp/morphe-patches/commit/f89b66f2e5c63637346def8aae49858d76bb14dd))\n* **YouTube - Minimal miniplayer:** Add \"Expand with swipe up\" setting ([e0e36ba](https://github.com/MorpheApp/morphe-patches/commit/e0e36ba3d11e2bd56ba561292887a6c9f626ff72))\n* **YouTube:** Add `Change PiP actions` patch ([#4175](https://github.com/MorpheApp/morphe-patches/issues/4175)) ([d9fc859](https://github.com/MorpheApp/morphe-patches/commit/d9fc85939f31340a2678e38375f2290a8d49da7f))\n\n### 🐛 Bug Fixes\n\n* **YouTube - Downloads:** App can crash when downloading Short in-app ([bae1787](https://github.com/MorpheApp/morphe-patches/commit/bae1787e9d2f56e5d5dc845d1916cc46b5c8c288))\n* **YouTube - Feed video actions:** Inline watch later button performClick logic superseeded by direct app command ([7f343df](https://github.com/MorpheApp/morphe-patches/commit/7f343df16754bec9a4e102076c450bbf585c94a8))\n* **YouTube - Navigation bar:** Swap create with notifications button does not change the toolbar of the You tab ([3c03bbb](https://github.com/MorpheApp/morphe-patches/commit/3c03bbb585c9bcfa05f2cc4d1252e341e0904cb5))\n* **YouTube - Navigation bar:** Swiping the miniplayer does not cancel autoplay with Disable auto hide navigation bar ([136d5bc](https://github.com/MorpheApp/morphe-patches/commit/136d5bcbe4672192be5e3486ee100fe8529453a6))\n* **YouTube - Swipe controls:** Fix double tap to skip chapters ([#4219](https://github.com/MorpheApp/morphe-patches/issues/4219)) ([602533c](https://github.com/MorpheApp/morphe-patches/commit/602533c6f54e5590cd581e977b185b7feaa26eb6))\n* **YouTube Music - Downloads:** Download can fail with \"Audio stream unavailable\" with TV spoof client ([2406f60](https://github.com/MorpheApp/morphe-patches/commit/2406f60bc256a6dc1848e74b5fd544aec6bb4267))\n",
+          "prerelease": true
+        },
         {
           "tag": "v2.1.0-dev.2",
           "publishedAt": "2026-10-31T09:44:52Z",
@@ -51,13 +58,6 @@
           "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.0.0",
           "changelog": "## [2.0.0](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0...v2.0.0) (2026-10-30)\r\n\r\n### ⚠ BREAKING CHANGES\r\n\r\n* Patches now use Morphe Patcher 2.0.0\r\n\r\n### ✨ New Features\r\n\r\n* **YouTube - Add to queue:** Add \"Native queue\" setting ([#3953](https://github.com/MorpheApp/morphe-patches/issues/3953)) ([372eea2](https://github.com/MorpheApp/morphe-patches/commit/372eea295ec4521b9ccdb93a3f188f81a6ad1a6c))\r\n* **YouTube - Channel search:** Search the posts of the channel ([#4078](https://github.com/MorpheApp/morphe-patches/issues/4078)) ([93bd035](https://github.com/MorpheApp/morphe-patches/commit/93bd0351362da6c75eb40f47d0ea0e37c632eb1c))\r\n* **YouTube - Custom branding:** Add experimental YouTube launcher icons ([#4114](https://github.com/MorpheApp/morphe-patches/issues/4114)) ([de9e6e4](https://github.com/MorpheApp/morphe-patches/commit/de9e6e4e7953f6192991e35025ed644806948ecd))\r\n* **YouTube - Downloads:** Add \"Quick download on tap\" setting ([#3883](https://github.com/MorpheApp/morphe-patches/issues/3883)) ([dd97d93](https://github.com/MorpheApp/morphe-patches/commit/dd97d93628a3feb7bc8758139b01fbe42a532778))\r\n* **YouTube - Downloads:** Add download item to the Shorts menu ([#4099](https://github.com/MorpheApp/morphe-patches/issues/4099)) ([7159826](https://github.com/MorpheApp/morphe-patches/commit/715982644742ca770a1c61fe292a77bb1ce11296))\r\n* **YouTube - Downloads:** Add playlist downloads for accounts without Premium ([456e0db](https://github.com/MorpheApp/morphe-patches/commit/456e0db9603f0930a4893e3f24ee3eee8bd4e5f9))\r\n* **YouTube - Hide layout components:** Add \"Hide 'Unavailable videos are hidden' banner\" setting ([#4134](https://github.com/MorpheApp/morphe-patches/issues/4134)) ([a7ce357](https://github.com/MorpheApp/morphe-patches/commit/a7ce357d2b654aed2a241c901bf2bc3df2ce7274))\r\n* **YouTube - Media notification controls:** Add options to seek with Previous & Next buttons ([#3955](https://github.com/MorpheApp/morphe-patches/issues/3955)) ([2b07abb](https://github.com/MorpheApp/morphe-patches/commit/2b07abb628fec3bf625a09ab7d019f915c4dfa23))\r\n* **YouTube - Minimal miniplayer:** Swipe the bar up to move it to the top of the screen instead of expanding the player ([f8180da](https://github.com/MorpheApp/morphe-patches/commit/f8180da70c848560c4fe17106afb49ff6852e564))\r\n* **YouTube - Navigation bar:** Add \"Disable toolbar navigation tabs\" setting ([01e767c](https://github.com/MorpheApp/morphe-patches/commit/01e767c4c3a386e4b7881ce7fc867a516082db23))\r\n* **YouTube - Navigation bar:** Add \"Navigation bar style\" setting ([db9af37](https://github.com/MorpheApp/morphe-patches/commit/db9af377093121e575fec80ba40e0025dfd66f81))\r\n* **YouTube - Playback speed:** Add playback speed to the Shorts player menu ([#3982](https://github.com/MorpheApp/morphe-patches/issues/3982)) ([b717a69](https://github.com/MorpheApp/morphe-patches/commit/b717a692dfc3c99bee830af548bd13f98a3a4eaa))\r\n* **YouTube - Theme:** Add \"Glow Morphe\" splash screen type ([#4135](https://github.com/MorpheApp/morphe-patches/issues/4135)) ([6dbdf82](https://github.com/MorpheApp/morphe-patches/commit/6dbdf82457c5f8c7906b56f04640baf7e908060a))\r\n* **YouTube - Theme:** Add YT splash screen animation ([#4109](https://github.com/MorpheApp/morphe-patches/issues/4109)) ([1f24e84](https://github.com/MorpheApp/morphe-patches/commit/1f24e8433b26aed7a0e8cd21bf6c719526e7ecc4))\r\n* **YouTube Music - Third-party lyrics:** enhance sync engine, providers, AI translation, and RTL word sync ([#3877](https://github.com/MorpheApp/morphe-patches/issues/3877)) ([e092212](https://github.com/MorpheApp/morphe-patches/commit/e0922124073fe53b6ff335893b8208af512f34e7))\r\n* **YouTube Music - Third-party lyrics:** Per-syllable romanization layout, dynamic secondary vocals, and typography refinements ([#4090](https://github.com/MorpheApp/morphe-patches/issues/4090)) ([a5d943b](https://github.com/MorpheApp/morphe-patches/commit/a5d943b40369e1a6050db6b5a51a5104a2190ab9))\r\n* **YouTube Music - Third-p\n\n…",
           "prerelease": false
-        },
-        {
-          "tag": "v2.0.0-dev.4",
-          "publishedAt": "2026-10-30T11:01:50Z",
-          "url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v2.0.0-dev.4",
-          "changelog": "## [2.0.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v2.0.0-dev.3...v2.0.0-dev.4) (2026-10-30)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Hide layout components:** Community posts are shown below a video opened from the search results, a channel or a playlist ([b373534](https://github.com/MorpheApp/morphe-patches/commit/b3735342ce3c686f25c76d5e664703f39767fc76))\n* **YouTube - Navigation bar:** Black band below pages and the Shorts player when the window is not drawn behind the system navigation buttons ([60daa80](https://github.com/MorpheApp/morphe-patches/commit/60daa80ebabc420946991af736cc74ab8247fee7))\n",
-          "prerelease": true
         }
       ]
     },
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.1.1-dev.1",
-      "latestPublishedAt": "2026-10-31T10:53:14Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.1-dev.1",
+      "latestTag": "v4.1.1",
+      "latestPublishedAt": "2026-10-31T19:29:30Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.1",
       "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix a crash when opening the keyboard on Android 13 and earlier.\n* **Gboard:** fix Android stopping Web Clipboard after 6 hours and a crash when restarting the service.\n\n### 🐛 修復\n\n* **Gboard:** 修復在 Android 13 及更早版本上開啟鍵盤時閃退的問題。\n* **Gboard:** 修復 Web Clipboard 執行 6 小時後被 Android 停止，以及重新啟動服務時閃退的問題。\n",
       "history": [
+        {
+          "tag": "v4.1.1-dev.1",
+          "publishedAt": "2026-10-31T10:53:14Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.1-dev.1",
+          "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix a crash when opening the keyboard on Android 13 and earlier.\n* **Gboard:** fix Android stopping Web Clipboard after 6 hours and a crash when restarting the service.\n\n### 🐛 修復\n\n* **Gboard:** 修復在 Android 13 及更早版本上開啟鍵盤時閃退的問題。\n* **Gboard:** 修復 Web Clipboard 執行 6 小時後被 Android 停止，以及重新啟動服務時閃退的問題。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.1.0",
           "publishedAt": "2026-10-31T02:56:36Z",
@@ -411,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.3",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add Key Opacity to Frosted Glass, allowing keys to follow the theme or use a custom percentage independently of background opacity.\n* **Gboard:** add Extend to Navigation Bar to Frosted Glass, extending the blur effect into the bottom navigation area for a seamless appearance and automatically adjusting navigation button colors.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** reduce excessive power consumption in Frosted Glass by eliminating redundant calculations during drawing and layout updates.\n\n### ✨ 新功能\n\n* **Gboard:** 磨砂玻璃新增「按鍵透明度」設定，可跟隨主題或自訂百分比，並與背景透明度分開調整。\n* **Gboard:** 磨砂玻璃新增「延伸到導覽列」設定，將模糊效果延伸至底部導覽區，讓鍵盤與導覽列融為一體，並自動調整導覽按鈕的顏色。\n\n### 🐛 修復\n\n* **Gboard:** 修復磨砂玻璃耗電偏高的問題，移除繪製與重新排版時的重複運算，降低資源消耗。\n",
           "prerelease": true
-        },
-        {
-          "tag": "v4.1.0-dev.2",
-          "publishedAt": "2026-10-29T06:58:38Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.2",
-          "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix an issue that prevented the Developer options page from opening.\n\n### 🐛 修復\n\n* **Gboard:** 修復無法開啟「開發人員選項」（Developer options）頁面的問題。\n",
-          "prerelease": true
         }
       ]
     },
@@ -426,11 +426,25 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.68.0-dev.3",
-      "latestPublishedAt": "2026-10-31T14:25:31Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.3",
-      "changelog": "## [1.68.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.2...v1.68.0-dev.3) (2026-10-31)\n\n### Bug Fixes\n\n* **Pixlr - Unlock premium:** describe unlocked stickers and effects ([9b86bdd](https://github.com/hxreborn/morphe-patches/commit/9b86bddb1934b45c70c5f722825c9601ee67e545))\n",
+      "latestTag": "v1.68.0-dev.5",
+      "latestPublishedAt": "2026-10-31T16:46:02Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.5",
+      "changelog": "## [1.68.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.4...v1.68.0-dev.5) (2026-10-31)\n\n### Updated App Support\n\n* **VPN Super Unlimited Proxy:** add support for `2.35.0` ([b448cc5](https://github.com/hxreborn/morphe-patches/commit/b448cc5cbfffde89610c7dd40e0b239664d564f1)), closes [#459](https://github.com/hxreborn/morphe-patches/issues/459)\n",
       "history": [
+        {
+          "tag": "v1.68.0-dev.4",
+          "publishedAt": "2026-10-31T16:23:58Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.4",
+          "changelog": "## [1.68.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.3...v1.68.0-dev.4) (2026-10-31)\n\n### New Features\n\n* update to Patcher 2.1.0 ([d3f3288](https://github.com/hxreborn/morphe-patches/commit/d3f3288a8840b58b42fa5b9ef524bb521a60eca4))\n\n### Updated App Support\n\n* **Audiobook Unlimited for Kindle:** add support for `1.7.24` ([d9e5d3f](https://github.com/hxreborn/morphe-patches/commit/d9e5d3fc149269dd9f628e64508c7c0c7140756f)), closes [#444](https://github.com/hxreborn/morphe-patches/issues/444)\n* **Proton Mail:** add support for `7.11.12` ([6e22f2e](https://github.com/hxreborn/morphe-patches/commit/6e22f2e7457e5f4c59d977bd72669415c06da1ca)), closes [#484](https://github.com/hxreborn/morphe-patches/issues/484)\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.68.0-dev.3",
+          "publishedAt": "2026-10-31T14:25:31Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.3",
+          "changelog": "## [1.68.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.2...v1.68.0-dev.3) (2026-10-31)\n\n### Bug Fixes\n\n* **Pixlr - Unlock premium:** describe unlocked stickers and effects ([9b86bdd](https://github.com/hxreborn/morphe-patches/commit/9b86bddb1934b45c70c5f722825c9601ee67e545))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.68.0-dev.2",
           "publishedAt": "2026-10-31T11:51:59Z",
@@ -444,20 +458,6 @@
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.1",
           "changelog": "## [1.68.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.67.1-dev.1...v1.68.0-dev.1) (2026-10-31)\n\n### New Features\n\n* **APNA Tunnel Lite - Disable tracking:** turn off Firebase collection ([406b722](https://github.com/hxreborn/morphe-patches/commit/406b7227ce429742139d0a5c8833db0764653480))\n* **APNA Tunnel Lite - Remove ads:** block ads and the consent form ([dfdfe39](https://github.com/hxreborn/morphe-patches/commit/dfdfe396fe27024227602127252ebaee65540560))\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.67.1-dev.1",
-          "publishedAt": "2026-10-31T09:05:09Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.67.1-dev.1",
-          "changelog": "## [1.67.1-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.67.0...v1.67.1-dev.1) (2026-10-31)\n\n### Bug Fixes\n\n* **MBC Shahid - Fix sign-in:** sign in with email, phone or social login ([a51dc9a](https://github.com/hxreborn/morphe-patches/commit/a51dc9a94d925c72b6334c164309a23df0113da2))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.67.0",
-          "publishedAt": "2026-10-31T07:35:46Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.67.0",
-          "changelog": "## [1.67.0](https://github.com/hxreborn/morphe-patches/compare/v1.66.0...v1.67.0) (2026-10-31)\n\n### Bug Fixes\n\n* **imo - Hide invite prompts:** remove Invite to Official imo dialog ([0b768f4](https://github.com/hxreborn/morphe-patches/commit/0b768f4df12225c5752bff8e7398cd75150e7f4b))\n* **imo - Raise media sending limit:** send photos and videos up to 3 GB ([8a50765](https://github.com/hxreborn/morphe-patches/commit/8a50765583dae1fa4acb3a6367577d2c094f3d87))\n* **imo - Remove screenshot restriction:** allow capture of call windows ([84936b9](https://github.com/hxreborn/morphe-patches/commit/84936b92c3a675b6cabbd9595b8af5d95b343371))\n\n### New Features\n\n* **BeReal - Back up memories:** back up all memories in the background ([df2e0b2](https://github.com/hxreborn/morphe-patches/commit/df2e0b22e356ed9573ac3a7e42012c304172fd4e))\n* **Biwenger - GmsCore support:** sign in with Google accounts ([dbcfd35](https://github.com/hxreborn/morphe-patches/commit/dbcfd359f8a8a513855ffe94c7fe0acc282d5629))\n* **Biwenger - Remove ads:** remove banner, interstitial and native ads ([c9b710d](https://github.com/hxreborn/morphe-patches/commit/c9b710da9076c66032888707ea922ff4efa18095))\n* **Biwenger - Unlock premium:** unlock premium league settings ([754c8a8](https://github.com/hxreborn/morphe-patches/commit/754c8a8e6968f8f684fb3c26c76751b59c8cfde5))\n* **imo - Allow sending APK files:** show Apps option in chat file menu ([71e10f7](https://github.com/hxreborn/morphe-patches/commit/71e10f70b2f64113b08fca45f56806b565e4edc4))\n* **imo - Allow story recording during calls:** post stories in calls ([d8fc88d](https://github.com/hxreborn/morphe-patches/commit/d8fc88d48d427da4856b36108f9adb091412738f))\n* **imo - Enable burn-after-read messages:** add play-once voice option ([6bc9f61](https://github.com/hxreborn/morphe-patches/commit/6bc9f61a7ce0e11ab64c4e263ff39d4883caf521))\n* **imo - Enable chat search results:** list matches in chat search ([fc661f6](https://github.com/hxreborn/morphe-patches/commit/fc661f6801c90dfa1a0c6825f2b7ced7f0648be2))\n* **imo - Enable jump to first unread:** double-tap Chats to find unread ([f388f30](https://github.com/hxreborn/morphe-patches/commit/f388f30bdf31f53076bf91749e4c288d8d2b555b))\n* **imo - Enable message translation:** translate received messages ([8b18540](https://github.com/hxreborn/morphe-patches/commit/8b18540640487b6ba0c658194d4b5ed96d3d7b89))\n* **imo - Keep screen on while recording:** stop screen timing out ([5e4d45d](https://github.com/hxreborn/morphe-patches/commit/5e4d45dbf2ff9088c611b0acd6030f2ae160c6b0))\n* **imo - Raise channel video limit:** allow videos up to 24 hours ([02e4acb](https://github.com/hxreborn/morphe-patches/commit/02e4acb682998a7d37b90de11668dd05bb5280f2))\n* **imo - Raise GIF size limit:** allow custom sticker GIFs up to 100 MB ([7f3021c](https://github.com/hxreborn/morphe-patches/commit/7f3021c5aa2712b83bb10e420b5c5e97e266ca18))\n* **imo - Raise Time Machine erase limit:** erase over 100 messages ([2ffb751](https://github.com/hxreborn/morphe-patches/commit/2ffb751f0e306f1b6a7555872cb8175015bfb0f6))\n* **imo - Remove contact selection limit:** raise group call cap to 999 ([6c57591](https://github.com/hxreborn/morphe-patches/commit/6c575916a499027a4b6ffeef3a4ebb89c8319528))\n* **imo - Remove premium entry:** remove Premium item from Me page ([8ddb418](https://github.com/hxreborn/morphe-patches/commit/8ddb418aac8fe15208f8b0598b4820b8d99d39b3))\n* **imo - Send long messages:** send long texts as several messages ([6771ed8](https://github.com/hxreborn/morphe-patches/commit/6771ed8a84bde6542134a13ef2b1c5cec30e88cb))\n* **imo - Show invisible friends in contacts:** add contacts shortcut ([3a3a08d](https://github.com/hxreborn/morphe-patches/commit/3a3a08d3855a2b4a878ec912200753e66b2d39d5))\n* **MBC Shahid - Disable tracking:** stop analytics and crash reporting ([35528a7](https://github.com/hxreborn/morphe-patches/commit/35528a75cddadc8e48ac8e28a7d9b217f82160fd))\n* **MBC Shahid - GmsCore support:** sign in with\n\n…",
-          "prerelease": false
         }
       ]
     },
