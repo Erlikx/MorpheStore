@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T20:11:45Z",
+  "generatedAt": "2026-10-31T23:34:22Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -426,11 +426,25 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.68.0-dev.5",
-      "latestPublishedAt": "2026-10-31T16:46:02Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.5",
-      "changelog": "## [1.68.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.4...v1.68.0-dev.5) (2026-10-31)\n\n### Updated App Support\n\n* **VPN Super Unlimited Proxy:** add support for `2.35.0` ([b448cc5](https://github.com/hxreborn/morphe-patches/commit/b448cc5cbfffde89610c7dd40e0b239664d564f1)), closes [#459](https://github.com/hxreborn/morphe-patches/issues/459)\n",
+      "latestTag": "v1.68.0-dev.7",
+      "latestPublishedAt": "2026-10-31T20:51:24Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.7",
+      "changelog": "## [1.68.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.6...v1.68.0-dev.7) (2026-10-31)\n\n### New Features\n\n* **TeraBox - Hide ads:** play rewarded ads requested from Benefits ([e960035](https://github.com/hxreborn/morphe-patches/commit/e960035a11f677e0bdfd9b1ae2fe7a0f0eb43f86)), closes [#506](https://github.com/hxreborn/morphe-patches/issues/506)\n\n### Updated App Support\n\n* **Public:** add support for `3.3.8` ([59a8383](https://github.com/hxreborn/morphe-patches/commit/59a83836a1305997bd80ca82eab3b06803e3185d))\n",
       "history": [
+        {
+          "tag": "v1.68.0-dev.6",
+          "publishedAt": "2026-10-31T20:18:20Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.6",
+          "changelog": "## [1.68.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.5...v1.68.0-dev.6) (2026-10-31)\n\n### Bug Fixes\n\n* **VPN Super Unlimited Proxy - Unlock premium:** stop the LIAPP alert ([62c3e88](https://github.com/hxreborn/morphe-patches/commit/62c3e8885d1472e134cc67caa45f4bd7d76cc194)), closes [#459](https://github.com/hxreborn/morphe-patches/issues/459)\n\n### New Features\n\n* **Audiobook Unlimited - GmsCore support:** sign in with Google ([bc0893d](https://github.com/hxreborn/morphe-patches/commit/bc0893d702a491e08e716ed9e710a4c26275dcd5)), closes [#444](https://github.com/hxreborn/morphe-patches/issues/444)\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.68.0-dev.5",
+          "publishedAt": "2026-10-31T16:46:02Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.5",
+          "changelog": "## [1.68.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.4...v1.68.0-dev.5) (2026-10-31)\n\n### Updated App Support\n\n* **VPN Super Unlimited Proxy:** add support for `2.35.0` ([b448cc5](https://github.com/hxreborn/morphe-patches/commit/b448cc5cbfffde89610c7dd40e0b239664d564f1)), closes [#459](https://github.com/hxreborn/morphe-patches/issues/459)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.68.0-dev.4",
           "publishedAt": "2026-10-31T16:23:58Z",
@@ -443,20 +457,6 @@
           "publishedAt": "2026-10-31T14:25:31Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.3",
           "changelog": "## [1.68.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.2...v1.68.0-dev.3) (2026-10-31)\n\n### Bug Fixes\n\n* **Pixlr - Unlock premium:** describe unlocked stickers and effects ([9b86bdd](https://github.com/hxreborn/morphe-patches/commit/9b86bddb1934b45c70c5f722825c9601ee67e545))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.68.0-dev.2",
-          "publishedAt": "2026-10-31T11:51:59Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.2",
-          "changelog": "## [1.68.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.68.0-dev.1...v1.68.0-dev.2) (2026-10-31)\n\n### New Features\n\n* **Pixlr - Disable tracking:** stop analytics, crash reports and events ([cef8a99](https://github.com/hxreborn/morphe-patches/commit/cef8a991956b3243af6b77f0895db965ab190700))\n* **Pixlr - Hide home sections:** hide AI carousels and AI Video tiles ([1bbf808](https://github.com/hxreborn/morphe-patches/commit/1bbf8088cf874c88cd3e3de6419fed2163ac041e))\n* **Pixlr - Hide home sections:** hide Image to Video tiles ([876df96](https://github.com/hxreborn/morphe-patches/commit/876df962c8280b29de88d590f898c49f07f843a4))\n* **Pixlr - Remove ads:** remove ads and ad consent prompt ([6109510](https://github.com/hxreborn/morphe-patches/commit/6109510afe1679ce534535548214b0fa3d7f0505))\n* **Pixlr - Unlock premium:** hide crown button on home ([d54d0dd](https://github.com/hxreborn/morphe-patches/commit/d54d0ddc19751b9eb00d7f597b8fe55dc805319b))\n* **Pixlr - Unlock premium:** unlock paid content and skip paywalls ([f339ef1](https://github.com/hxreborn/morphe-patches/commit/f339ef1b0e81514723ded93fa389eea6fa9b3aac))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.68.0-dev.1",
-          "publishedAt": "2026-10-31T10:43:09Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.68.0-dev.1",
-          "changelog": "## [1.68.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.67.1-dev.1...v1.68.0-dev.1) (2026-10-31)\n\n### New Features\n\n* **APNA Tunnel Lite - Disable tracking:** turn off Firebase collection ([406b722](https://github.com/hxreborn/morphe-patches/commit/406b7227ce429742139d0a5c8833db0764653480))\n* **APNA Tunnel Lite - Remove ads:** block ads and the consent form ([dfdfe39](https://github.com/hxreborn/morphe-patches/commit/dfdfe396fe27024227602127252ebaee65540560))\n",
           "prerelease": true
         }
       ]
