@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T23:34:22Z",
+  "generatedAt": "2026-11-01T05:12:56Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.1.1",
-      "latestPublishedAt": "2026-10-31T19:29:30Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.1",
-      "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix a crash when opening the keyboard on Android 13 and earlier.\n* **Gboard:** fix Android stopping Web Clipboard after 6 hours and a crash when restarting the service.\n\n### 🐛 修復\n\n* **Gboard:** 修復在 Android 13 及更早版本上開啟鍵盤時閃退的問題。\n* **Gboard:** 修復 Web Clipboard 執行 6 小時後被 Android 停止，以及重新啟動服務時閃退的問題。\n",
+      "latestTag": "v4.2.0-dev.2",
+      "latestPublishedAt": "2026-11-01T02:27:21Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0-dev.2",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** add an option to automatically select all text before copying or cutting when nothing is selected, available through the toolbar, long-press shortcuts, and globe-key drag gestures.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix paste shortcuts from the toolbar, long-press actions, and globe-key drag gestures in terminal input fields such as Termux.\n\n### ✨ 新功能\n\n* **Gboard:** 新增「未選取文字時自動全選」選項，支援透過工具列、長按及地球鍵拖曳快捷操作，全選並複製或剪下文字。\n\n### 🐛 修復\n\n* **Gboard:** 修復工具列、長按及地球鍵拖曳快捷貼上在 Termux 等終端機輸入介面中無法正常運作的問題。\n",
       "history": [
+        {
+          "tag": "v4.1.1",
+          "publishedAt": "2026-10-31T19:29:30Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.1",
+          "changelog": "### 🐛 Bug Fixes\n\n* **Gboard:** fix a crash when opening the keyboard on Android 13 and earlier.\n* **Gboard:** fix Android stopping Web Clipboard after 6 hours and a crash when restarting the service.\n\n### 🐛 修復\n\n* **Gboard:** 修復在 Android 13 及更早版本上開啟鍵盤時閃退的問題。\n* **Gboard:** 修復 Web Clipboard 執行 6 小時後被 Android 停止，以及重新啟動服務時閃退的問題。\n",
+          "prerelease": false
+        },
         {
           "tag": "v4.1.1-dev.1",
           "publishedAt": "2026-10-31T10:53:14Z",
@@ -410,13 +417,6 @@
           "publishedAt": "2026-10-31T00:57:42Z",
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.4",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the Keypress Vibration Intensity Control patch to control keypress vibration strength instead of duration.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix background color blocks remaining after tapping suggestions when custom key opacity is enabled.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 Keypress Vibration Intensity Control Patch，將按鍵震動從持續時間控制改為力度控制。\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用自訂按鍵透明度時，點選候選詞後背景色塊仍然殘留的問題。\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v4.1.0-dev.3",
-          "publishedAt": "2026-10-30T21:24:03Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.3",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add Key Opacity to Frosted Glass, allowing keys to follow the theme or use a custom percentage independently of background opacity.\n* **Gboard:** add Extend to Navigation Bar to Frosted Glass, extending the blur effect into the bottom navigation area for a seamless appearance and automatically adjusting navigation button colors.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** reduce excessive power consumption in Frosted Glass by eliminating redundant calculations during drawing and layout updates.\n\n### ✨ 新功能\n\n* **Gboard:** 磨砂玻璃新增「按鍵透明度」設定，可跟隨主題或自訂百分比，並與背景透明度分開調整。\n* **Gboard:** 磨砂玻璃新增「延伸到導覽列」設定，將模糊效果延伸至底部導覽區，讓鍵盤與導覽列融為一體，並自動調整導覽按鈕的顏色。\n\n### 🐛 修復\n\n* **Gboard:** 修復磨砂玻璃耗電偏高的問題，移除繪製與重新排版時的重複運算，降低資源消耗。\n",
           "prerelease": true
         }
       ]
