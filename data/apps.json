@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T21:50:51Z",
+  "generatedAt": "2026-11-02T01:22:34Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -306,11 +306,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.9.0-dev.5",
-      "latestPublishedAt": "2026-11-01T15:55:35Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.5",
-      "changelog": "# [0.9.0-dev.5](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.4...v0.9.0-dev.5) (2026-11-01)\n\n\n### Bug Fixes\n\n* **tiktok:** repair comment links, share persistence and cover transitions ([7ec2af1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7ec2af1fef7a910524f3ea0c9807caf64bf6967b)), closes [#3](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/3) [#158](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/158) [#195](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/195) [#204](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/204)\n\n\n\n\n\n## 0.9.0-dev.5",
+      "latestTag": "v0.9.0-dev.6",
+      "latestPublishedAt": "2026-11-01T22:28:22Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.6",
+      "changelog": "# [0.9.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.5...v0.9.0-dev.6) (2026-11-01)\n\n\n### Bug Fixes\n\n* **tiktok:** preserve widget lift after native strip height reset ([dec6211](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dec62111bc2ca5dc9ea1f29e3fc29dc7a0291102)), closes [#195](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/195)\n\n\n\n\n\n## 0.9.0-dev.6",
       "history": [
+        {
+          "tag": "v0.9.0-dev.5",
+          "publishedAt": "2026-11-01T15:55:35Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.5",
+          "changelog": "# [0.9.0-dev.5](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.4...v0.9.0-dev.5) (2026-11-01)\n\n\n### Bug Fixes\n\n* **tiktok:** repair comment links, share persistence and cover transitions ([7ec2af1](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7ec2af1fef7a910524f3ea0c9807caf64bf6967b)), closes [#3](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/3) [#158](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/158) [#195](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/195) [#204](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/204)\n\n\n\n\n\n## 0.9.0-dev.5",
+          "prerelease": true
+        },
         {
           "tag": "v0.9.0-dev.4",
           "publishedAt": "2026-10-25T15:37:17Z",
@@ -330,13 +337,6 @@
           "publishedAt": "2026-10-24T10:22:27Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.2",
           "changelog": "# [0.9.0-dev.2](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.1...v0.9.0-dev.2) (2026-10-24)\n\n\n### Bug Fixes\n\n* **tiktok:** preserve comment editor libraries and recycled video layout ([228f052](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/228f052a0dbf068d307d5eed2f9af10375380b26))\n\n\n\n\n\n## 0.9.0-dev.2",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.9.0-dev.1",
-          "publishedAt": "2026-10-23T10:19:39Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.1",
-          "changelog": "# [0.9.0-dev.1](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.8.1...v0.9.0-dev.1) (2026-10-23)\n\n\n### Bug Fixes\n\n* **build:** verify Linux tools and generate release metadata ([c890bad](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c890badc10bbee6415dffcfbc83f7f7886dcb7c6))\n* **build:** verify the official Patcher 2.0 package ([5f03ac6](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/5f03ac60d01bc5fc427302aacdd908f4be08f1f0))\n\n\n### Features\n\n* **tiktok:** add expanded 47.4.3 patches on Patcher 2.0 ([2b68243](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/2b68243b279877129e76a2bab68c9a8e7512198e))\n\n\n\n\n\n## 0.9.0-dev.1",
           "prerelease": true
         }
       ]
