@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T18:43:31Z",
+  "generatedAt": "2026-11-03T01:28:15Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -306,11 +306,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.9.0-dev.6",
-      "latestPublishedAt": "2026-11-01T22:28:22Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.6",
-      "changelog": "# [0.9.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.5...v0.9.0-dev.6) (2026-11-01)\n\n\n### Bug Fixes\n\n* **tiktok:** preserve widget lift after native strip height reset ([dec6211](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dec62111bc2ca5dc9ea1f29e3fc29dc7a0291102)), closes [#195](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/195)\n\n\n\n\n\n## 0.9.0-dev.6",
+      "latestTag": "v0.9.0-dev.7",
+      "latestPublishedAt": "2026-11-02T20:37:46Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.7",
+      "changelog": "# [0.9.0-dev.7](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.6...v0.9.0-dev.7) (2026-11-02)\n\n\n### Bug Fixes\n\n* **tiktok:** prevent download quality recursion and capture menu stalls ([c4f398b](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c4f398b6990470d80859ac89b57c5d5f07a44666))\n\n\n\n\n\n## 0.9.0-dev.7",
       "history": [
+        {
+          "tag": "v0.9.0-dev.6",
+          "publishedAt": "2026-11-01T22:28:22Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.6",
+          "changelog": "# [0.9.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.5...v0.9.0-dev.6) (2026-11-01)\n\n\n### Bug Fixes\n\n* **tiktok:** preserve widget lift after native strip height reset ([dec6211](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/dec62111bc2ca5dc9ea1f29e3fc29dc7a0291102)), closes [#195](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/195)\n\n\n\n\n\n## 0.9.0-dev.6",
+          "prerelease": true
+        },
         {
           "tag": "v0.9.0-dev.5",
           "publishedAt": "2026-11-01T15:55:35Z",
@@ -330,13 +337,6 @@
           "publishedAt": "2026-10-24T18:46:18Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.3",
           "changelog": "# [0.9.0-dev.3](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.2...v0.9.0-dev.3) (2026-10-24)\n\n\n### Bug Fixes\n\n* **tiktok:** retain Java-loaded libraries used by photo comments ([0b947b5](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/0b947b58d6579a6884d075c5c4e9030025933b55)), closes [#201](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/201) [#201](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/201)\n\n\n\n\n\n## 0.9.0-dev.3",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.9.0-dev.2",
-          "publishedAt": "2026-10-24T10:22:27Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.2",
-          "changelog": "# [0.9.0-dev.2](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.1...v0.9.0-dev.2) (2026-10-24)\n\n\n### Bug Fixes\n\n* **tiktok:** preserve comment editor libraries and recycled video layout ([228f052](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/228f052a0dbf068d307d5eed2f9af10375380b26))\n\n\n\n\n\n## 0.9.0-dev.2",
           "prerelease": true
         }
       ]
@@ -386,11 +386,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.2.0-dev.2",
-      "latestPublishedAt": "2026-11-01T02:27:21Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0-dev.2",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add an option to automatically select all text before copying or cutting when nothing is selected, available through the toolbar, long-press shortcuts, and globe-key drag gestures.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix paste shortcuts from the toolbar, long-press actions, and globe-key drag gestures in terminal input fields such as Termux.\n\n### ✨ 新功能\n\n* **Gboard:** 新增「未選取文字時自動全選」選項，支援透過工具列、長按及地球鍵拖曳快捷操作，全選並複製或剪下文字。\n\n### 🐛 修復\n\n* **Gboard:** 修復工具列、長按及地球鍵拖曳快捷貼上在 Termux 等終端機輸入介面中無法正常運作的問題。\n",
+      "latestTag": "v4.2.0-dev.4",
+      "latestPublishedAt": "2026-11-03T00:43:58Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0-dev.4",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** update morphe-patcher to **v2.1.0**.\n* **Gboard:** add a search button to the Patches settings page to quickly find settings.\n\n### ✨ 新功能\n\n* **Gboard:** 將 morphe-patcher 更新至 **v2.1.0**。\n* **Gboard:** 在 Patches 設定頁面新增搜尋按鈕，方便快速尋找設定項目。\n",
       "history": [
+        {
+          "tag": "v4.2.0-dev.2",
+          "publishedAt": "2026-11-01T02:27:21Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0-dev.2",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add an option to automatically select all text before copying or cutting when nothing is selected, available through the toolbar, long-press shortcuts, and globe-key drag gestures.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix paste shortcuts from the toolbar, long-press actions, and globe-key drag gestures in terminal input fields such as Termux.\n\n### ✨ 新功能\n\n* **Gboard:** 新增「未選取文字時自動全選」選項，支援透過工具列、長按及地球鍵拖曳快捷操作，全選並複製或剪下文字。\n\n### 🐛 修復\n\n* **Gboard:** 修復工具列、長按及地球鍵拖曳快捷貼上在 Termux 等終端機輸入介面中無法正常運作的問題。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.1.1",
           "publishedAt": "2026-10-31T19:29:30Z",
@@ -411,13 +418,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add the Dictionaries & Predictions patch to customize resource versions for dictionaries, text predictions, and input correction models, greatly improving the typing experience.\n* **Gboard:** add Key Opacity to Frosted Glass, allowing keys to follow the theme or use a custom percentage independently of background opacity.\n* **Gboard:** add Extend to Navigation Bar to Frosted Glass, extending the blur effect into the bottom navigation area for a seamless appearance and automatically adjusting navigation button colors.\n* **Gboard:** add the Keypress Vibration Intensity Control patch to control keypress vibration strength instead of duration.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix the lingering colored light bar and missing word suggestions after official Rambler voice input ends.\n* **Gboard:** fix duplicate countdown updates and card recycling issues when clipboard items are hidden or kept permanently, and reduce unnecessary settings reads to lower resource usage.\n* **Gboard:** fix the Split Keyboard patch so the split state is preserved after closing and reopening the keyboard.\n* **Gboard:** fix an issue that prevented the Developer options page from opening.\n* **Gboard:** reduce excessive power consumption in Frosted Glass by eliminating redundant calculations during drawing and layout updates.\n* **Gboard:** fix background color blocks remaining after tapping suggestions when custom key opacity is enabled.\n\n### ✨ 新功能\n\n* **Gboard:** 新增Dictionaries & Predictions Patch，可自訂字典、文字預測與輸入修正的模型資源版本，將大幅提升輸入體驗。\n* **Gboard:** 磨砂玻璃新增「按鍵透明度」設定，可跟隨主題或自訂百分比，並與背景透明度分開調整。\n* **Gboard:** 磨砂玻璃新增「延伸到導覽列」設定，將模糊效果延伸至底部導覽區，讓鍵盤與導覽列融為一體，並自動調整導覽按鈕的顏色。\n* **Gboard:** 新增 Keypress Vibration Intensity Control Patch，將按鍵震動從持續時間控制改為力度控制。\n\n### 🐛 修復\n\n* **Gboard:** 修復官方 Rambler 語音輸入結束後，彩色光帶殘留及候選字詞消失的問題。\n* **Gboard:** 修復剪貼簿隱藏與永久保留時的重複倒數更新及卡片回收問題，並減少不必要的設定讀取，降低額外資源消耗。\n* **Gboard:** 修復「分離式鍵盤」(split keyboard) Patch 在關閉並重新開啟鍵盤後，無法保留分離狀態的問題。\n* **Gboard:** 修復無法開啟「開發人員選項」（Developer options）頁面的問題。\n* **Gboard:** 修復磨砂玻璃耗電偏高的問題，移除繪製與重新排版時的重複運算，降低資源消耗。\n* **Gboard:** 修復啟用自訂按鍵透明度時，點選候選詞後背景色塊仍然殘留的問題。\n",
           "prerelease": false
-        },
-        {
-          "tag": "v4.1.0-dev.4",
-          "publishedAt": "2026-10-31T00:57:42Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.1.0-dev.4",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add the Keypress Vibration Intensity Control patch to control keypress vibration strength instead of duration.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix background color blocks remaining after tapping suggestions when custom key opacity is enabled.\n\n### ✨ 新功能\n\n* **Gboard:** 新增 Keypress Vibration Intensity Control Patch，將按鍵震動從持續時間控制改為力度控制。\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用自訂按鍵透明度時，點選候選詞後背景色塊仍然殘留的問題。\n",
-          "prerelease": true
         }
       ]
     },
@@ -426,11 +426,25 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.70.0-dev.6",
-      "latestPublishedAt": "2026-11-02T18:40:04Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.70.0-dev.6",
-      "changelog": "## [1.70.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.70.0-dev.5...v1.70.0-dev.6) (2026-11-02)\n\n### Updated App Support\n\n* **Coddy:** add support for `2.3.0` ([fcb42c5](https://github.com/hxreborn/morphe-patches/commit/fcb42c52ab9f59c616a33d89b59d65028fb39585))\n",
+      "latestTag": "v1.70.0-dev.8",
+      "latestPublishedAt": "2026-11-02T19:08:36Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.70.0-dev.8",
+      "changelog": "## [1.70.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.70.0-dev.7...v1.70.0-dev.8) (2026-11-02)\n\n### Updated App Support\n\n* **AtloMaps:** add support for `2.0.2` ([27d8788](https://github.com/hxreborn/morphe-patches/commit/27d8788662dcc21beac22f742cb8436a82d79567))\n* **Period Tracker and Calendar:** add support for `13.4.1` ([e2181ed](https://github.com/hxreborn/morphe-patches/commit/e2181ed95ae14e36473dcda581982821a6db290f))\n* **U Dictionary:** add support for `6.7.6` ([bf8c2b6](https://github.com/hxreborn/morphe-patches/commit/bf8c2b6dc80c2052a46265d6bd1fc8c80f9c111f))\n* **Video Editor:** add support for `1.630.199` ([a34ad37](https://github.com/hxreborn/morphe-patches/commit/a34ad37576c6cf7ae4b0129a8e6297b90ac87a15))\n",
       "history": [
+        {
+          "tag": "v1.70.0-dev.7",
+          "publishedAt": "2026-11-02T18:47:28Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.70.0-dev.7",
+          "changelog": "## [1.70.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.70.0-dev.6...v1.70.0-dev.7) (2026-11-02)\n\n### Updated App Support\n\n* **Opal:** add support for `4.17.0` ([4892e95](https://github.com/hxreborn/morphe-patches/commit/4892e95d6bce75475e563a0f06811b5686506ed3))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.70.0-dev.6",
+          "publishedAt": "2026-11-02T18:40:04Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.70.0-dev.6",
+          "changelog": "## [1.70.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.70.0-dev.5...v1.70.0-dev.6) (2026-11-02)\n\n### Updated App Support\n\n* **Coddy:** add support for `2.3.0` ([fcb42c5](https://github.com/hxreborn/morphe-patches/commit/fcb42c52ab9f59c616a33d89b59d65028fb39585))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.70.0-dev.5",
           "publishedAt": "2026-11-02T18:20:53Z",
@@ -443,20 +457,6 @@
           "publishedAt": "2026-11-02T18:02:47Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.70.0-dev.4",
           "changelog": "## [1.70.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.70.0-dev.3...v1.70.0-dev.4) (2026-11-02)\n\n### Updated App Support\n\n* **Klassik Radio+:** add support for `p5.12.1` ([defe47e](https://github.com/hxreborn/morphe-patches/commit/defe47e715e91730763f9e96ff7219a0a93313bb))\n* **Radio Javan:** add support for `11.23.0` ([32acf3d](https://github.com/hxreborn/morphe-patches/commit/32acf3dc67c127d5bd239b4a320d488187c07aa4))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.70.0-dev.3",
-          "publishedAt": "2026-11-02T17:54:43Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.70.0-dev.3",
-          "changelog": "## [1.70.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.70.0-dev.2...v1.70.0-dev.3) (2026-11-02)\n\n### Updated App Support\n\n* **AutomaTag:** add support for `2.3.0.14` ([1fe60f5](https://github.com/hxreborn/morphe-patches/commit/1fe60f59164807288f8b42166a56f0f4b2e136e9))\n* **Trainline:** add support for `439.0.0.184323` ([b2c23e5](https://github.com/hxreborn/morphe-patches/commit/b2c23e52d771af91aa3857f33020eca18820bc9d))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.70.0-dev.2",
-          "publishedAt": "2026-11-02T17:40:17Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.70.0-dev.2",
-          "changelog": "## [1.70.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.70.0-dev.1...v1.70.0-dev.2) (2026-11-02)\n\n### Updated App Support\n\n* **Musixmatch:** add support for `8.5.0` ([1d36555](https://github.com/hxreborn/morphe-patches/commit/1d36555fec38e49a9908036b1bcef101771f5f16))\n* **Wallmaa:** add support for `1.0.4` ([c9ab158](https://github.com/hxreborn/morphe-patches/commit/c9ab158114b8eff77d442ebfc3d9af68e6fb0215))\n",
           "prerelease": true
         }
       ]
