@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T02:08:34Z",
+  "generatedAt": "2026-11-08T09:22:29Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -106,11 +106,18 @@
       "repo": "piko-newx",
       "label": "🆕 Piko NewX",
       "repoUrl": "https://github.com/crimera/piko-newx",
-      "latestTag": "v3.74.0",
-      "latestPublishedAt": "2026-11-05T12:06:45Z",
-      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.74.0",
-      "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** accept the 12.40.1 media reply bottom slot ([367d564](https://github.com/crimera/piko/commit/367d564a53944413a52360002b770646d2268da0))\n* **Twitter - newx:** select the RefreshTimeline auto-refresh dispatch ([1b07597](https://github.com/crimera/piko/commit/1b0759789ff11110bb2b72204f8649884fa7f172))\n\n### ✨ New Features\n* **Twitter - newx:** support 12.40.1-prod.01 ([3a68f2c](https://github.com/crimera/piko/commit/3a68f2cafac6da895939fe003683377f14466b9c))",
+      "latestTag": "v3.75.0",
+      "latestPublishedAt": "2026-11-08T08:58:40Z",
+      "latestUrl": "https://github.com/crimera/piko-newx/releases/tag/v3.75.0",
+      "changelog": "### ✨ New Features\n* **Twitter - newx:** support 12.41.0-prod.01 ([86fb221](https://github.com/crimera/piko/commit/86fb221bf9d901cf8d3f8d3dcd94fa498a9966fb))",
       "history": [
+        {
+          "tag": "v3.74.0",
+          "publishedAt": "2026-11-05T12:06:45Z",
+          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.74.0",
+          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** accept the 12.40.1 media reply bottom slot ([367d564](https://github.com/crimera/piko/commit/367d564a53944413a52360002b770646d2268da0))\n* **Twitter - newx:** select the RefreshTimeline auto-refresh dispatch ([1b07597](https://github.com/crimera/piko/commit/1b0759789ff11110bb2b72204f8649884fa7f172))\n\n### ✨ New Features\n* **Twitter - newx:** support 12.40.1-prod.01 ([3a68f2c](https://github.com/crimera/piko/commit/3a68f2cafac6da895939fe003683377f14466b9c))",
+          "prerelease": false
+        },
         {
           "tag": "v3.73.0",
           "publishedAt": "2026-11-01T10:23:31Z",
@@ -130,13 +137,6 @@
           "publishedAt": "2026-10-29T22:27:21Z",
           "url": "https://github.com/crimera/piko-newx/releases/tag/v3.72.2",
           "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** mark alpha compatibility as experimental ([2add263](https://github.com/crimera/piko/commit/2add2633e6f99859483493c2c20972e5735d0155))",
-          "prerelease": false
-        },
-        {
-          "tag": "v3.72.1",
-          "publishedAt": "2026-10-29T22:11:45Z",
-          "url": "https://github.com/crimera/piko-newx/releases/tag/v3.72.1",
-          "changelog": "### 🐛 Bug Fixes\n* **Twitter - newx:** translate full long posts and allow overflow scrolling ([d826f52](https://github.com/crimera/piko/commit/d826f52512fbd3d01289831f1a86f1170fd12ecf))",
           "prerelease": false
         }
       ]
@@ -426,11 +426,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.74.0-dev.3",
-      "latestPublishedAt": "2026-11-07T15:40:25Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.74.0-dev.3",
-      "changelog": "## [1.74.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.74.0-dev.2...v1.74.0-dev.3) (2026-11-07)\n\n### New Features\n\n* **TeraBox - Show backup count:** include paused and waiting files ([8e08749](https://github.com/hxreborn/morphe-patches/commit/8e087499894d9f3415404c000f3cf4d4a953fef0)), closes [#606](https://github.com/hxreborn/morphe-patches/issues/606)\n",
+      "latestTag": "v1.74.0",
+      "latestPublishedAt": "2026-11-08T05:53:45Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.74.0",
+      "changelog": "## [1.74.0](https://github.com/hxreborn/morphe-patches/compare/v1.73.0...v1.74.0) (2026-11-08)\n\n### Bug Fixes\n\n* **Castle - Unlock premium:** play premium titles at 1080p ([705f700](https://github.com/hxreborn/morphe-patches/commit/705f70010c760ea08fe0776fe7690cf5c0860585))\n* **Castle for TV - Unlock premium:** play titles at 1080p ([725842a](https://github.com/hxreborn/morphe-patches/commit/725842aa72fcba88f73132354abf21a677985f3c)), closes [#664](https://github.com/hxreborn/morphe-patches/issues/664)\n* **MovieBoxTV - All-In-One:** fix quality selection ([3e6de74](https://github.com/hxreborn/morphe-patches/commit/3e6de7418106ffff291c748aabb598693e573613)), closes [#648](https://github.com/hxreborn/morphe-patches/issues/648)\n\n### New Features\n\n* **MARKS - Fix edge-to-edge:** keep controls clear of system bars ([ded85bc](https://github.com/hxreborn/morphe-patches/commit/ded85bca3629214014d6cc18202bdbd425c3d0c9))\n* **MARKS - GmsCore support:** sign in with Google ([0b4b528](https://github.com/hxreborn/morphe-patches/commit/0b4b5289cf98ac4a92830d5c22374b0a1d7258de))\n* **MARKS - Remove ads:** remove promotional messages ([122b7cc](https://github.com/hxreborn/morphe-patches/commit/122b7cc4e5afec7f1d93d3109a707ab860db0142))\n* **MARKS - Unlock premium:** unlock premium practice features ([db17c67](https://github.com/hxreborn/morphe-patches/commit/db17c6796d84fdc3772fb92f26fb4329ad93c376))\n* **TeraBox - Show backup count:** include paused and waiting files ([8e08749](https://github.com/hxreborn/morphe-patches/commit/8e087499894d9f3415404c000f3cf4d4a953fef0)), closes [#606](https://github.com/hxreborn/morphe-patches/issues/606)\n* **Viber - Disable AI features:** remove ChatGPT entry points ([cf1cf4a](https://github.com/hxreborn/morphe-patches/commit/cf1cf4af1f7c97367587c862acfa622b5c8cc7d4)), closes [#667](https://github.com/hxreborn/morphe-patches/issues/667)\n* **Viber - Disable AI features:** remove inline Translate buttons ([af4644b](https://github.com/hxreborn/morphe-patches/commit/af4644b4f2c256990b69883df4d86aa14440654c)), closes [#666](https://github.com/hxreborn/morphe-patches/issues/666)\n\n### Updated App Support\n\n* **Audible:** add support for `26.43.17` ([1a029e1](https://github.com/hxreborn/morphe-patches/commit/1a029e16bb72b5a2277192e86ce3dbd7d3d989a0)), closes [#547](https://github.com/hxreborn/morphe-patches/issues/547)\n* **botim:** add support for `4.21.0` ([e34cc80](https://github.com/hxreborn/morphe-patches/commit/e34cc80eee2c30f6323d83ff5a813fa1aa23d08e)), closes [#550](https://github.com/hxreborn/morphe-patches/issues/550)\n",
       "history": [
+        {
+          "tag": "v1.74.0-dev.3",
+          "publishedAt": "2026-11-07T15:40:25Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.74.0-dev.3",
+          "changelog": "## [1.74.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.74.0-dev.2...v1.74.0-dev.3) (2026-11-07)\n\n### New Features\n\n* **TeraBox - Show backup count:** include paused and waiting files ([8e08749](https://github.com/hxreborn/morphe-patches/commit/8e087499894d9f3415404c000f3cf4d4a953fef0)), closes [#606](https://github.com/hxreborn/morphe-patches/issues/606)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.74.0-dev.2",
           "publishedAt": "2026-11-07T14:03:36Z",
@@ -451,13 +458,6 @@
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.73.1-dev.1",
           "changelog": "## [1.73.1-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.73.0...v1.73.1-dev.1) (2026-11-07)\n\n### Updated App Support\n\n* **Audible:** add support for `26.43.17` ([1a029e1](https://github.com/hxreborn/morphe-patches/commit/1a029e16bb72b5a2277192e86ce3dbd7d3d989a0)), closes [#547](https://github.com/hxreborn/morphe-patches/issues/547)\n* **botim:** add support for `4.21.0` ([e34cc80](https://github.com/hxreborn/morphe-patches/commit/e34cc80eee2c30f6323d83ff5a813fa1aa23d08e)), closes [#550](https://github.com/hxreborn/morphe-patches/issues/550)\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.73.0",
-          "publishedAt": "2026-11-07T00:41:02Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.73.0",
-          "changelog": "## [1.73.0](https://github.com/hxreborn/morphe-patches/compare/v1.72.0...v1.73.0) (2026-11-07)\n\n### Bug Fixes\n\n* **AliExpress - Enable image saving:** save product and option photos ([8e71c6f](https://github.com/hxreborn/morphe-patches/commit/8e71c6f9c8e72a7278cea9d2ce63bddaedb1df19))\n* **AliExpress:** support Uptodown 8.180.1 builds ([abea4aa](https://github.com/hxreborn/morphe-patches/commit/abea4aaa24f3d3daabc48599478d4d3cdf41a4ed)), closes [#650](https://github.com/hxreborn/morphe-patches/issues/650)\n* **Patreon - Remove app prompts:** allow notification requests ([c541a01](https://github.com/hxreborn/morphe-patches/commit/c541a0167ee3cea24fc06286c254782c2c56492c))\n* **Storywise - Remove forced update:** skip Play Store redirect ([bad1097](https://github.com/hxreborn/morphe-patches/commit/bad1097a8a72f657ae45b67e16b49643020e4fa7))\n* **TeraBox - Fix transfers over VPN:** stop false network errors ([8ec089b](https://github.com/hxreborn/morphe-patches/commit/8ec089ba7c7a45cc8b8d18995ee4ccb13dddde41)), closes [#654](https://github.com/hxreborn/morphe-patches/issues/654)\n* **Viber - Disable AI features:** remove Your News banner from chats ([a1f8455](https://github.com/hxreborn/morphe-patches/commit/a1f84551425e93ebece82832f8b0e04151e8ed5b))\n* **Viber - Filter business chats:** skip restart prompt with no changes ([997f1e9](https://github.com/hxreborn/morphe-patches/commit/997f1e9d2ecb64a8ec26e91a89050debdacd2617))\n* **Viber - Hide navigation buttons:** keep Chats and More reachable ([59864ee](https://github.com/hxreborn/morphe-patches/commit/59864ee5538c08a47985155ec99e653a0687763d)), closes [#658](https://github.com/hxreborn/morphe-patches/issues/658)\n* **Viber:** use switches in patches settings ([8662da4](https://github.com/hxreborn/morphe-patches/commit/8662da4b89a63bc255936d2f61193b551e1e6273))\n* **Viber:** wrap patches menu descriptions ([83b222f](https://github.com/hxreborn/morphe-patches/commit/83b222f11d77d8ef0c251d57863dc29b2314dd4b))\n* **VPN India - Unlock premium:** stop landscape launch crashes ([dc800f8](https://github.com/hxreborn/morphe-patches/commit/dc800f83f2cc51d6a4c6bf770230dd90c7fe6b55))\n\n### New Features\n\n* **BeHisabi - Unlock premium:** add unlimited wallets and PDF exports ([8341b13](https://github.com/hxreborn/morphe-patches/commit/8341b133b922205edd1fb5bf613a9bb64c241bc1))\n* **DevCheck - AMOLED dark theme:** add pure black preference ([165f9af](https://github.com/hxreborn/morphe-patches/commit/165f9af9cddd623b673a4eda890aa7085d1c0e0a)), closes [#645](https://github.com/hxreborn/morphe-patches/issues/645)\n* **Viber - Disable AI features:** remove suggestions and summaries ([c6e3cf3](https://github.com/hxreborn/morphe-patches/commit/c6e3cf301364b68bc12eb196708163717300097c))\n* **Viber - Disable update prompts:** stop optional update dialogs ([50614fe](https://github.com/hxreborn/morphe-patches/commit/50614fee5ada7513d85a51afd19319eb0935dd61))\n* **Viber - Disappearing media privacy:** stop screenshot alerts ([a442301](https://github.com/hxreborn/morphe-patches/commit/a4423012262e24753569b808d2c72a035e958f05))\n* **Viber - Filter business chats:** remove selected chats once read ([cf4d840](https://github.com/hxreborn/morphe-patches/commit/cf4d840b142b78972dc979615cdb31d01fd0bbe7))\n* **Viber - Hide More screen items:** add five row choices ([114cac3](https://github.com/hxreborn/morphe-patches/commit/114cac30393009b5c895275883348445f631e284)), closes [#636](https://github.com/hxreborn/morphe-patches/issues/636)\n* **Viber - Hide Viber Out and channel promotions:** hide promo banners ([de05cd1](https://github.com/hxreborn/morphe-patches/commit/de05cd13856113b632a1213de7d3d2453e78b444))\n* **Viber - Link as secondary device:** sync chats with main phone ([1938321](https://github.com/hxreborn/morphe-patches/commit/19383210559572d2ab9cfa04b99ddc606a2d7ef1))\n* **Viber - Raise folder limit:** allow up to 10 chat folders ([f9c0236](https://github.com/hxreborn/morphe-patches/commit/f9c0236e99dcf040a8a7450f1c86347ad64\n\n…",
-          "prerelease": false
         }
       ]
     },
