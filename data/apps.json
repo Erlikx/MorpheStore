@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T18:31:13Z",
+  "generatedAt": "2026-11-10T01:55:06Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -426,37 +426,37 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.75.1",
-      "latestPublishedAt": "2026-11-09T15:26:45Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.75.1",
-      "changelog": "## [1.75.1](https://github.com/hxreborn/morphe-patches/compare/v1.75.0...v1.75.1) (2026-11-09)\n\n### Bug Fixes\n\n* **Proton VPN - Floating navigation bar:** stop crash on launch ([03c27df](https://github.com/hxreborn/morphe-patches/commit/03c27df1942fd1ff3099392142161a38f372c5c7)), closes [#696](https://github.com/hxreborn/morphe-patches/issues/696)\n",
+      "latestTag": "v1.76.0-dev.6",
+      "latestPublishedAt": "2026-11-09T22:19:46Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.76.0-dev.6",
+      "changelog": "## [1.76.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.76.0-dev.5...v1.76.0-dev.6) (2026-11-09)\n\n### Bug Fixes\n\n* **Proton VPN - Unlock connection preferences:** save excluded locations ([9df36d1](https://github.com/hxreborn/morphe-patches/commit/9df36d17ccb0868ed5f0916d1581137a62226cf4)), closes [#702](https://github.com/hxreborn/morphe-patches/issues/702)\n",
       "history": [
         {
-          "tag": "v1.75.1-dev.1",
-          "publishedAt": "2026-11-09T15:10:48Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.75.1-dev.1",
-          "changelog": "## [1.75.1-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.75.0...v1.75.1-dev.1) (2026-11-09)\n\n### Bug Fixes\n\n* **Proton VPN - Floating navigation bar:** stop crash on launch ([03c27df](https://github.com/hxreborn/morphe-patches/commit/03c27df1942fd1ff3099392142161a38f372c5c7)), closes [#696](https://github.com/hxreborn/morphe-patches/issues/696)\n",
+          "tag": "v1.76.0-dev.5",
+          "publishedAt": "2026-11-09T21:55:05Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.76.0-dev.5",
+          "changelog": "## [1.76.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.76.0-dev.4...v1.76.0-dev.5) (2026-11-09)\n\n### Bug Fixes\n\n* **Coddy:** remove `2.3.4` app target ([7d92ba4](https://github.com/hxreborn/morphe-patches/commit/7d92ba4a9a3c6e447bb379e9d779d116e6d5b529))\n",
           "prerelease": true
         },
         {
-          "tag": "v1.75.0",
-          "publishedAt": "2026-11-09T13:29:46Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.75.0",
-          "changelog": "## [1.75.0](https://github.com/hxreborn/morphe-patches/compare/v1.74.0...v1.75.0) (2026-11-09)\n\n### Bug Fixes\n\n* **AliExpress:** keep patches working when settings colours are missing ([f674a40](https://github.com/hxreborn/morphe-patches/commit/f674a40c2b190803b5f9dc3e089dc1383e88ae14))\n* **AliExpress:** stop every patch failing on Windows and macOS ([d2797fd](https://github.com/hxreborn/morphe-patches/commit/d2797fd63623560585bde608b264b6685ead0a44)), closes [#685](https://github.com/hxreborn/morphe-patches/issues/685)\n* **MARKS - Unlock premium:** open free book chapters ([7fa918f](https://github.com/hxreborn/morphe-patches/commit/7fa918fde5316697814408a2726906accaae1111))\n* **MARKS - Unlock premium:** stop errors on locked DPPs ([9d65089](https://github.com/hxreborn/morphe-patches/commit/9d65089e22e73106ef20ad5c6701ba9b89fa31fe))\n* **MARKS:** remove `2.0.8` app target ([b15af18](https://github.com/hxreborn/morphe-patches/commit/b15af18293a1d03da52c0e88a6fa64973d108487))\n* **Patreon:** receive push notifications ([b6d1a3e](https://github.com/hxreborn/morphe-patches/commit/b6d1a3ebdc24f2219e8e1249cabccfc910127bbe)), closes [#693](https://github.com/hxreborn/morphe-patches/issues/693)\n* **Proton VPN - Floating navigation bar:** show home behind bar ([78e192b](https://github.com/hxreborn/morphe-patches/commit/78e192b85449d100f55de518cfb49de8cea1ea59))\n* **Realme Link - AMOLED dark theme:** apply the theme on 5.8.811.2814 ([6a076a8](https://github.com/hxreborn/morphe-patches/commit/6a076a890b1b0917888fc74dfadedb5c1d5b1b83))\n* **Realme Link - AMOLED dark theme:** fix card colors and contrast ([4c938cd](https://github.com/hxreborn/morphe-patches/commit/4c938cd1847c3be491d5ac8b4da23588219fb163))\n* **Realme Link - Bypass session expiry:** renew sessions on 5.8.811.2814 ([e6867b5](https://github.com/hxreborn/morphe-patches/commit/e6867b5e0038ea2dd372dc931b0956ff023e883b))\n* **TeraBox - Fix Google login:** restore sign-in on fast page loads ([f3e190e](https://github.com/hxreborn/morphe-patches/commit/f3e190e5fb9c53adcd141e679f03fdd9156d975f)), closes [#676](https://github.com/hxreborn/morphe-patches/issues/676)\n* **Viber - Disable AI features:** remove ChatGPT from Chats ([85b698e](https://github.com/hxreborn/morphe-patches/commit/85b698ecc4c23f7c178b879318cb9eb596a7e025)), closes [#667](https://github.com/hxreborn/morphe-patches/issues/667)\n* **Xtream Player - Full Android Auto screen:** skip the install prompt ([55ed5ec](https://github.com/hxreborn/morphe-patches/commit/55ed5ecb90eb85a03cd5edf98284193842fe5883))\n\n### New Features\n\n* **Audiomack - GmsCore support:** enable Google sign-in ([daf688d](https://github.com/hxreborn/morphe-patches/commit/daf688d7b65647e243d7dab0cb6ae4067274e4f1))\n* **Audiomack - Unlock premium:** unlock Plus features ([d27a74c](https://github.com/hxreborn/morphe-patches/commit/d27a74c1006b8dbdce393a1af6b24366144b84c2))\n* **Graph Messenger - Keep timed media:** keep media after its timer ([e62cc7c](https://github.com/hxreborn/morphe-patches/commit/e62cc7c4d3ea442099be817829a5d6b9cf1e146f))\n* **Graph Messenger - Remove restrictions:** allow copy, forward, save ([55eb57f](https://github.com/hxreborn/morphe-patches/commit/55eb57fdc8877709ea25ea567d4d146ce54d10d4)), closes [#678](https://github.com/hxreborn/morphe-patches/issues/678)\n* **MARKS - Unlock question filters:** show matching PYQs ([e58fff7](https://github.com/hxreborn/morphe-patches/commit/e58fff792c5d37b4b902ee2ff44f59c5d2856c47))\n* **Proton - Floating navigation bar:** add inline appearance preview ([0eddfaf](https://github.com/hxreborn/morphe-patches/commit/0eddfafb1646021c2da7d20b3f2c7f2297203358))\n* **Proton Pass - Floating navigation bar:** add blur and glass options ([20a81a1](https://github.com/hxreborn/morphe-patches/commit/20a81a143ca0dc784df1e12fa43a3445014e9bbe))\n* **Proton VPN - Floating navigation bar:** add blur and glass options ([0f52361](https://github.com/hxreborn/morphe-patches/commit/0f5236175167bf878e69a7d98eb35c02b12266b2)), clo\n\n…",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.75.0-dev.8",
-          "publishedAt": "2026-11-09T12:14:20Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.75.0-dev.8",
-          "changelog": "## [1.75.0-dev.8](https://github.com/hxreborn/morphe-patches/compare/v1.75.0-dev.7...v1.75.0-dev.8) (2026-11-09)\n\n### New Features\n\n* **Graph Messenger - Keep timed media:** keep media after its timer ([e62cc7c](https://github.com/hxreborn/morphe-patches/commit/e62cc7c4d3ea442099be817829a5d6b9cf1e146f))\n* **Graph Messenger - Remove restrictions:** allow copy, forward, save ([55eb57f](https://github.com/hxreborn/morphe-patches/commit/55eb57fdc8877709ea25ea567d4d146ce54d10d4)), closes [#678](https://github.com/hxreborn/morphe-patches/issues/678)\n",
+          "tag": "v1.76.0-dev.4",
+          "publishedAt": "2026-11-09T21:40:21Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.76.0-dev.4",
+          "changelog": "## [1.76.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.76.0-dev.3...v1.76.0-dev.4) (2026-11-09)\n\n### Bug Fixes\n\n* **Viber - GmsCore support:** experimental microG Backup account pick ([5e53927](https://github.com/hxreborn/morphe-patches/commit/5e53927b8a7afed3694040972fc9981a736147e3))\n\n### New Features\n\n* **Freedom - Remove upsells:** skip trial offers and premium prompts ([a0d5329](https://github.com/hxreborn/morphe-patches/commit/a0d532923113e0e7d9a6b37c92e7e5c85e15a64f))\n* **Freedom - Unlock Locked Mode:** lock sessions on free accounts ([87b83a0](https://github.com/hxreborn/morphe-patches/commit/87b83a0fbc468e5692dbed8feff685e64954b5de))\n* **VPN Super Unlimited Proxy - Disconnect from notification:** skip app ([348b952](https://github.com/hxreborn/morphe-patches/commit/348b952fcb6a2a9acc9aa663783ea7843325900a)), closes [#697](https://github.com/hxreborn/morphe-patches/issues/697)\n\n### Updated App Support\n\n* **Coddy:** add support for `2.3.4` ([e0bce3f](https://github.com/hxreborn/morphe-patches/commit/e0bce3f537bab54e6e534f32741e41e6915e6a68)), closes [#552](https://github.com/hxreborn/morphe-patches/issues/552)\n* **Echogram:** add support for `1.1.0` ([7cd0e6d](https://github.com/hxreborn/morphe-patches/commit/7cd0e6d0f8a2df903a3e02aa4dfd595ea4afb43f)), closes [#694](https://github.com/hxreborn/morphe-patches/issues/694)\n* **VPN Super Unlimited Proxy:** add support for `2.36.0` ([10a9cd2](https://github.com/hxreborn/morphe-patches/commit/10a9cd20a8cfb2948bd8d69cba618b807a000897)), closes [#698](https://github.com/hxreborn/morphe-patches/issues/698)\n",
           "prerelease": true
         },
         {
-          "tag": "v1.75.0-dev.7",
-          "publishedAt": "2026-11-09T10:28:10Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.75.0-dev.7",
-          "changelog": "## [1.75.0-dev.7](https://github.com/hxreborn/morphe-patches/compare/v1.75.0-dev.6...v1.75.0-dev.7) (2026-11-09)\n\n### Bug Fixes\n\n* **Proton VPN - Floating navigation bar:** show home behind bar ([78e192b](https://github.com/hxreborn/morphe-patches/commit/78e192b85449d100f55de518cfb49de8cea1ea59))\n",
+          "tag": "v1.76.0-dev.3",
+          "publishedAt": "2026-11-09T21:10:03Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.76.0-dev.3",
+          "changelog": "## [1.76.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.76.0-dev.2...v1.76.0-dev.3) (2026-11-09)\n\n### Bug Fixes\n\n* **Realme Link - Bypass session expiry:** renew signed-in sessions ([ac6140b](https://github.com/hxreborn/morphe-patches/commit/ac6140b43c94f807f3d3e9fa90ac06eba7fda95a)), closes [#701](https://github.com/hxreborn/morphe-patches/issues/701)\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.76.0-dev.2",
+          "publishedAt": "2026-11-09T20:04:30Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.76.0-dev.2",
+          "changelog": "## [1.76.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.76.0-dev.1...v1.76.0-dev.2) (2026-11-09)\n\n### New Features\n\n* **ULTIMEA - Accent color:** add Material You and custom colors ([5376ed0](https://github.com/hxreborn/morphe-patches/commit/5376ed0f36d19334aebea98632025bd91d14db6a))\n* **ULTIMEA - Dark theme:** add dark and AMOLED themes ([0d0a885](https://github.com/hxreborn/morphe-patches/commit/0d0a885bf317617779fc84e7108b2f4900680610))\n* **ULTIMEA - Disable tracking:** stop usage and crash reports ([d21a0b2](https://github.com/hxreborn/morphe-patches/commit/d21a0b2abe88059b615c8feb1f94a9b32f0bb1e7))\n* **ULTIMEA - Fine equalizer:** add band values and Undo ([88504c7](https://github.com/hxreborn/morphe-patches/commit/88504c71526412ee12155388e13ca2cb891d88b9))\n* **ULTIMEA - Fine equalizer:** add grouped remote controls ([4ef525b](https://github.com/hxreborn/morphe-patches/commit/4ef525b43009dd0ea3e2be7187c7f17077606e1c))\n* **ULTIMEA - Local equalizer presets:** add names and file sharing ([139769e](https://github.com/hxreborn/morphe-patches/commit/139769e421fc821e74a07495cbf472bc46bda651))\n* **ULTIMEA - Remove distractions:** remove social and support entries ([fdf3ff5](https://github.com/hxreborn/morphe-patches/commit/fdf3ff588699acaf703dbb84d3e2613070863f3a))\n* **ULTIMEA - Remove popups:** remove promotions and rating requests ([4760818](https://github.com/hxreborn/morphe-patches/commit/47608188d111f4b333ffaff2a82fb4090bca320b))\n* **ULTIMEA - Stop firmware reminders:** keep manual updates available ([23fe13f](https://github.com/hxreborn/morphe-patches/commit/23fe13f16671dd5155e7e1c60975661851e3946a))\n* **ULTIMEA - Xupmix:** add Poseidon D80 control ([0c93830](https://github.com/hxreborn/morphe-patches/commit/0c938304a7014b7b670f5520f8ca7fd688aae25e))\n",
           "prerelease": true
         }
       ]
