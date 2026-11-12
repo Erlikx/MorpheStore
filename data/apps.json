@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T17:46:12Z",
+  "generatedAt": "2026-11-12T00:17:19Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -306,11 +306,25 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.10.0-dev.1",
-      "latestPublishedAt": "2026-11-10T23:45:49Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.10.0-dev.1",
-      "changelog": "# [0.10.0-dev.1](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0...v0.10.0-dev.1) (2026-11-10)\n\n\n### Bug Fixes\n\n* **tiktok:** keep Burn-in guard's restore and tap notes in step with the screen ([489e9ee](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/489e9eeb21c160d48368acec0662c105c6fd71fa)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n### Features\n\n* **tiktok:** make Burn-in guard ignore scrolling and fix the 47.4.3 rail column ([7bdef1d](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7bdef1d9b18849289166be82cedc59aaceaa3c39)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n\n\n\n## 0.10.0-dev.1",
+      "latestTag": "v0.10.0",
+      "latestPublishedAt": "2026-11-11T21:26:37Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.10.0",
+      "changelog": "# [0.10.0](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0...v0.10.0) (2026-11-11)\n\n\n### Bug Fixes\n\n* **tiktok:** keep Burn-in guard's restore and tap notes in step with the screen ([489e9ee](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/489e9eeb21c160d48368acec0662c105c6fd71fa)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n* **tiktok:** refine Simplified Chinese translations ([7f9c470](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7f9c47074ad96134631f7a895f5bf91b5a309a0e))\n\n\n### Features\n\n* **tiktok:** make Burn-in guard ignore scrolling and fix the 47.4.3 rail column ([7bdef1d](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7bdef1d9b18849289166be82cedc59aaceaa3c39)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n\n\n\n## 0.10.0",
       "history": [
+        {
+          "tag": "v0.10.0-dev.2",
+          "publishedAt": "2026-11-11T21:19:28Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.10.0-dev.2",
+          "changelog": "# [0.10.0-dev.2](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.10.0-dev.1...v0.10.0-dev.2) (2026-11-11)\n\n\n### Bug Fixes\n\n* **tiktok:** refine Simplified Chinese translations ([7f9c470](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7f9c47074ad96134631f7a895f5bf91b5a309a0e))\n\n\n\n\n\n## 0.10.0-dev.2",
+          "prerelease": true
+        },
+        {
+          "tag": "v0.10.0-dev.1",
+          "publishedAt": "2026-11-10T23:45:49Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.10.0-dev.1",
+          "changelog": "# [0.10.0-dev.1](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0...v0.10.0-dev.1) (2026-11-10)\n\n\n### Bug Fixes\n\n* **tiktok:** keep Burn-in guard's restore and tap notes in step with the screen ([489e9ee](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/489e9eeb21c160d48368acec0662c105c6fd71fa)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n### Features\n\n* **tiktok:** make Burn-in guard ignore scrolling and fix the 47.4.3 rail column ([7bdef1d](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7bdef1d9b18849289166be82cedc59aaceaa3c39)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n\n\n\n## 0.10.0-dev.1",
+          "prerelease": true
+        },
         {
           "tag": "v0.9.0",
           "publishedAt": "2026-11-10T09:51:07Z",
@@ -323,20 +337,6 @@
           "publishedAt": "2026-11-10T23:26:52Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.9",
           "changelog": "# [0.9.0-dev.9](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.8...v0.9.0-dev.9) (2026-11-10)\n\n\n### Bug Fixes\n\n* **tiktok:** keep Burn-in guard's restore and tap notes in step with the screen ([489e9ee](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/489e9eeb21c160d48368acec0662c105c6fd71fa)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n### Features\n\n* **tiktok:** make Burn-in guard ignore scrolling and fix the 47.4.3 rail column ([7bdef1d](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7bdef1d9b18849289166be82cedc59aaceaa3c39)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n\n\n\n## 0.9.0-dev.9",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.9.0-dev.8",
-          "publishedAt": "2026-11-08T10:53:13Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.8",
-          "changelog": "# [0.9.0-dev.8](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.7...v0.9.0-dev.8) (2026-11-08)\n\n\n### Bug Fixes\n\n* **tiktok:** reject stale comment responses across videos ([fe66c83](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fe66c83eb61bd83ade189a7d051e5f0976801dc7))\n\n\n\n\n\n## 0.9.0-dev.8",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.9.0-dev.7",
-          "publishedAt": "2026-11-02T20:37:46Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.9.0-dev.7",
-          "changelog": "# [0.9.0-dev.7](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0-dev.6...v0.9.0-dev.7) (2026-11-02)\n\n\n### Bug Fixes\n\n* **tiktok:** prevent download quality recursion and capture menu stalls ([c4f398b](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/c4f398b6990470d80859ac89b57c5d5f07a44666))\n\n\n\n\n\n## 0.9.0-dev.7",
           "prerelease": true
         }
       ]
