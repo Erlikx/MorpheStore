@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T22:38:43Z",
+  "generatedAt": "2026-11-13T03:17:27Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -306,11 +306,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.11.0-dev.3",
-      "latestPublishedAt": "2026-11-12T21:29:13Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.3",
-      "changelog": "# [0.11.0-dev.3](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.2...v0.11.0-dev.3) (2026-11-12)\n\n\n### Features\n\n* **Diagnostics:** record the minutes before a recovery-trial freeze ([fc33d85](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fc33d8566010e8199fab7129e43d3be23440f73e)), closes [#215](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/215)\n\n\n\n\n\n## 0.11.0-dev.3",
+      "latestTag": "v0.11.0-dev.4",
+      "latestPublishedAt": "2026-11-13T02:19:45Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.4",
+      "changelog": "# [0.11.0-dev.4](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.3...v0.11.0-dev.4) (2026-11-13)\n\n\n### Features\n\n* **Diagnostics:** add opt-in soft-reference compatibility trial ([251b9f7](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/251b9f75a2b2698b72d12f9795dea8e0b5929dab))\n\n\n\n\n\n## 0.11.0-dev.4",
       "history": [
+        {
+          "tag": "v0.11.0-dev.3",
+          "publishedAt": "2026-11-12T21:29:13Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.3",
+          "changelog": "# [0.11.0-dev.3](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.2...v0.11.0-dev.3) (2026-11-12)\n\n\n### Features\n\n* **Diagnostics:** record the minutes before a recovery-trial freeze ([fc33d85](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fc33d8566010e8199fab7129e43d3be23440f73e)), closes [#215](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/215)\n\n\n\n\n\n## 0.11.0-dev.3",
+          "prerelease": true
+        },
         {
           "tag": "v0.11.0-dev.2",
           "publishedAt": "2026-11-12T10:41:17Z",
@@ -331,13 +338,6 @@
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.10.0-dev.3",
           "changelog": "# [0.10.0-dev.3](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.10.0-dev.2...v0.10.0-dev.3) (2026-11-12)\n\n\n### Features\n\n* **Diagnostics:** add bounded recovery reports for startup failures ([6f8cc07](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/6f8cc0715a24cd6670131ac724a7d4b40dc429de))\n\n\n\n\n\n## 0.10.0-dev.3",
           "prerelease": true
-        },
-        {
-          "tag": "v0.10.0",
-          "publishedAt": "2026-11-11T21:26:37Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.10.0",
-          "changelog": "# [0.10.0](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.9.0...v0.10.0) (2026-11-11)\n\n\n### Bug Fixes\n\n* **tiktok:** keep Burn-in guard's restore and tap notes in step with the screen ([489e9ee](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/489e9eeb21c160d48368acec0662c105c6fd71fa)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n* **tiktok:** refine Simplified Chinese translations ([7f9c470](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7f9c47074ad96134631f7a895f5bf91b5a309a0e))\n\n\n### Features\n\n* **tiktok:** make Burn-in guard ignore scrolling and fix the 47.4.3 rail column ([7bdef1d](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/7bdef1d9b18849289166be82cedc59aaceaa3c39)), closes [#191](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/191)\n\n\n\n\n\n## 0.10.0",
-          "prerelease": false
         }
       ]
     },
@@ -386,11 +386,25 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.3.0-dev.1",
-      "latestPublishedAt": "2026-11-07T06:14:50Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.3.0-dev.1",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add an FAQ section to the Frosted Glass page, with links for when the effect isn't working and for flickering on Pixel phones.\n* **Gboard:** change the defaults of two settings: English Up-Flick Uppercase is now off and the Access Points menu style is now on. Settings you have already saved are kept.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix the keyboard closing by itself with Frosted Glass enabled (\"Software rendering doesn't support drawRenderNode\"). If blur fails to draw, the keyboard now falls back to its theme.\n* **Gboard:** make \"Extend to navigation bar\" work on Android 15 and below. The navigation bar follows the keyboard's transparency, without blur.\n* **Gboard:** make \"Extend to navigation bar\" work with narrower docked keyboards, such as one-handed mode.\n\n### ✨ 新功能\n\n* **Gboard:** 在「磨砂玻璃」頁面新增 FAQ 區塊，提供「為什麼磨砂玻璃沒有效果？」和「為什麼 Pixel 手機輸入文字時會閃爍？」的說明連結。\n* **Gboard:** 調整兩項設定的預設值：「英文鍵盤上滑大小寫」改為關閉，「Access Points 選單樣式」改為開啟。已儲存的設定不受影響。\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用磨砂玻璃後鍵盤自行關閉的問題（`Software rendering doesn't support drawRenderNode`）。模糊效果繪製失敗時，鍵盤會改回使用主題背景。\n* **Gboard:** 修復「延伸到導覽列」在 Android 15 以下沒有效果的問題。導覽列會跟隨鍵盤的透明度，但沒有模糊效果。\n* **Gboard:** 修復「延伸到導覽列」在單手模式等較窄的固定式鍵盤上沒有效果的問題。\n",
+      "latestTag": "v4.4.0-dev.1",
+      "latestPublishedAt": "2026-11-13T02:14:37Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.4.0-dev.1",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** switch icon sizing in the G logo patch from dp to percentages. Your icons can now get biiiiiig!\n\n### ✨ 新功能\n\n* **Gboard:** G logo patch：圖示大小從 dp 改為百分比調整，現在你的圖示可以變得超級大！\n",
       "history": [
+        {
+          "tag": "v4.3.0",
+          "publishedAt": "2026-11-12T23:48:52Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.3.0",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add an FAQ section to the Frosted Glass page, with links for when the effect isn't working and for flickering on Pixel phones.\n* **Gboard:** change the defaults of two settings: English Up-Flick Uppercase is now off and the Access Points menu style is now on. Settings you have already saved are kept.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix the keyboard closing by itself with Frosted Glass enabled (\"Software rendering doesn't support drawRenderNode\"). If blur fails to draw, the keyboard now falls back to its theme.\n* **Gboard:** make \"Extend to navigation bar\" work on Android 15 and below. The navigation bar follows the keyboard's transparency, without blur.\n* **Gboard:** make \"Extend to navigation bar\" work with narrower docked keyboards, such as one-handed mode.\n\n### ✨ 新功能\n\n* **Gboard:** 在「磨砂玻璃」頁面新增 FAQ 區塊，提供「為什麼磨砂玻璃沒有效果？」和「為什麼 Pixel 手機輸入文字時會閃爍？」的說明連結。\n* **Gboard:** 調整兩項設定的預設值：「英文鍵盤上滑大小寫」改為關閉，「Access Points 選單樣式」改為開啟。已儲存的設定不受影響。\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用磨砂玻璃後鍵盤自行關閉的問題（`Software rendering doesn't support drawRenderNode`）。模糊效果繪製失敗時，鍵盤會改回使用主題背景。\n* **Gboard:** 修復「延伸到導覽列」在 Android 15 以下沒有效果的問題。導覽列會跟隨鍵盤的透明度，但沒有模糊效果。\n* **Gboard:** 修復「延伸到導覽列」在單手模式等較窄的固定式鍵盤上沒有效果的問題。\n",
+          "prerelease": false
+        },
+        {
+          "tag": "v4.3.0-dev.1",
+          "publishedAt": "2026-11-07T06:14:50Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.3.0-dev.1",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add an FAQ section to the Frosted Glass page, with links for when the effect isn't working and for flickering on Pixel phones.\n* **Gboard:** change the defaults of two settings: English Up-Flick Uppercase is now off and the Access Points menu style is now on. Settings you have already saved are kept.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix the keyboard closing by itself with Frosted Glass enabled (\"Software rendering doesn't support drawRenderNode\"). If blur fails to draw, the keyboard now falls back to its theme.\n* **Gboard:** make \"Extend to navigation bar\" work on Android 15 and below. The navigation bar follows the keyboard's transparency, without blur.\n* **Gboard:** make \"Extend to navigation bar\" work with narrower docked keyboards, such as one-handed mode.\n\n### ✨ 新功能\n\n* **Gboard:** 在「磨砂玻璃」頁面新增 FAQ 區塊，提供「為什麼磨砂玻璃沒有效果？」和「為什麼 Pixel 手機輸入文字時會閃爍？」的說明連結。\n* **Gboard:** 調整兩項設定的預設值：「英文鍵盤上滑大小寫」改為關閉，「Access Points 選單樣式」改為開啟。已儲存的設定不受影響。\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用磨砂玻璃後鍵盤自行關閉的問題（`Software rendering doesn't support drawRenderNode`）。模糊效果繪製失敗時，鍵盤會改回使用主題背景。\n* **Gboard:** 修復「延伸到導覽列」在 Android 15 以下沒有效果的問題。導覽列會跟隨鍵盤的透明度，但沒有模糊效果。\n* **Gboard:** 修復「延伸到導覽列」在單手模式等較窄的固定式鍵盤上沒有效果的問題。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.2.0",
           "publishedAt": "2026-11-04T01:56:14Z",
@@ -403,20 +417,6 @@
           "publishedAt": "2026-11-03T08:48:59Z",
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0-dev.5",
           "changelog": "### ✨ New Features\n\n* **Gboard:** extend the G Logo on Spacebar patch with custom image support, a full-color Google G icon, and adjustable icon sizes.\n\n### ✨ 新功能\n\n* **Gboard:** 「G Logo on Spacebar」Patch 新增自訂圖片與「Google G（全彩）」圖示，並支援自訂圖示大小。\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v4.2.0-dev.4",
-          "publishedAt": "2026-11-03T00:43:58Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0-dev.4",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** update morphe-patcher to **v2.1.0**.\n* **Gboard:** add a search button to the Patches settings page to quickly find settings.\n\n### ✨ 新功能\n\n* **Gboard:** 將 morphe-patcher 更新至 **v2.1.0**。\n* **Gboard:** 在 Patches 設定頁面新增搜尋按鈕，方便快速尋找設定項目。\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v4.2.0-dev.2",
-          "publishedAt": "2026-11-01T02:27:21Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0-dev.2",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add an option to automatically select all text before copying or cutting when nothing is selected, available through the toolbar, long-press shortcuts, and globe-key drag gestures.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix paste shortcuts from the toolbar, long-press actions, and globe-key drag gestures in terminal input fields such as Termux.\n\n### ✨ 新功能\n\n* **Gboard:** 新增「未選取文字時自動全選」選項，支援透過工具列、長按及地球鍵拖曳快捷操作，全選並複製或剪下文字。\n\n### 🐛 修復\n\n* **Gboard:** 修復工具列、長按及地球鍵拖曳快捷貼上在 Termux 等終端機輸入介面中無法正常運作的問題。\n",
           "prerelease": true
         }
       ]
