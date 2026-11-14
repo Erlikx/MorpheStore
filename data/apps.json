@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T13:59:47Z",
+  "generatedAt": "2026-11-14T19:03:17Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -306,11 +306,18 @@
       "repo": "tiktok-patches-for-morphe",
       "label": "🎵 TikTok Patches",
       "repoUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe",
-      "latestTag": "v0.11.0-dev.6",
-      "latestPublishedAt": "2026-11-14T01:27:51Z",
-      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.6",
-      "changelog": "# [0.11.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.5...v0.11.0-dev.6) (2026-11-14)\n\n\n### Features\n\n* **diagnostics:** add bounded GC policy trial and complete error reports ([1299ed3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/1299ed350e4b240ffcad6123ed78421b22da040e))\n\n\n\n\n\n## 0.11.0-dev.6",
+      "latestTag": "v0.11.0-dev.7",
+      "latestPublishedAt": "2026-11-14T15:11:47Z",
+      "latestUrl": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.7",
+      "changelog": "# [0.11.0-dev.7](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.6...v0.11.0-dev.7) (2026-11-14)\n\n\n### Bug Fixes\n\n* **comments:** cancel stale text animations when rows are rebound ([9d49872](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/9d49872992889bd87752dbfde2134f613f846ba1))\n\n\n\n\n\n## 0.11.0-dev.7",
       "history": [
+        {
+          "tag": "v0.11.0-dev.6",
+          "publishedAt": "2026-11-14T01:27:51Z",
+          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.6",
+          "changelog": "# [0.11.0-dev.6](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.5...v0.11.0-dev.6) (2026-11-14)\n\n\n### Features\n\n* **diagnostics:** add bounded GC policy trial and complete error reports ([1299ed3](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/1299ed350e4b240ffcad6123ed78421b22da040e))\n\n\n\n\n\n## 0.11.0-dev.6",
+          "prerelease": true
+        },
         {
           "tag": "v0.11.0-dev.5",
           "publishedAt": "2026-11-13T16:51:18Z",
@@ -330,13 +337,6 @@
           "publishedAt": "2026-11-12T21:29:13Z",
           "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.3",
           "changelog": "# [0.11.0-dev.3](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.2...v0.11.0-dev.3) (2026-11-12)\n\n\n### Features\n\n* **Diagnostics:** record the minutes before a recovery-trial freeze ([fc33d85](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/fc33d8566010e8199fab7129e43d3be23440f73e)), closes [#215](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/215)\n\n\n\n\n\n## 0.11.0-dev.3",
-          "prerelease": true
-        },
-        {
-          "tag": "v0.11.0-dev.2",
-          "publishedAt": "2026-11-12T10:41:17Z",
-          "url": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.11.0-dev.2",
-          "changelog": "# [0.11.0-dev.2](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.11.0-dev.1...v0.11.0-dev.2) (2026-11-12)\n\n\n### Bug Fixes\n\n* **Diagnostics:** recognise native ANR recovery traces ([533640a](https://github.com/icysymmetra/tiktok-patches-for-morphe/commit/533640aaa5a6a41d1f3c502cd3faee8c24e75f3d)), closes [#215](https://github.com/icysymmetra/tiktok-patches-for-morphe/issues/215)\n\n\n\n\n\n## 0.11.0-dev.2",
           "prerelease": true
         }
       ]
@@ -426,11 +426,25 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.79.0-dev.3",
-      "latestPublishedAt": "2026-11-14T12:33:14Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.79.0-dev.3",
-      "changelog": "## [1.79.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.79.0-dev.2...v1.79.0-dev.3) (2026-11-14)\n\n### Updated App Support\n\n* **MyScript Notes:** add support for `7.4.9` ([bebe15c](https://github.com/hxreborn/morphe-patches/commit/bebe15c8be6f0b5f381ad7b7ce9ca3d8441a85dd)), closes [#769](https://github.com/hxreborn/morphe-patches/issues/769)\n",
+      "latestTag": "v1.79.0-dev.5",
+      "latestPublishedAt": "2026-11-14T14:31:37Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.79.0-dev.5",
+      "changelog": "## [1.79.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.79.0-dev.4...v1.79.0-dev.5) (2026-11-14)\n\n### New Features\n\n* **ArduinoDroid - Unlock premium:** remove ads and flashing limits ([5b3b557](https://github.com/hxreborn/morphe-patches/commit/5b3b5572080a56344381274a361a79925cb66ef1)), closes [#768](https://github.com/hxreborn/morphe-patches/issues/768)\n",
       "history": [
+        {
+          "tag": "v1.79.0-dev.4",
+          "publishedAt": "2026-11-14T14:17:10Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.79.0-dev.4",
+          "changelog": "## [1.79.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.79.0-dev.3...v1.79.0-dev.4) (2026-11-14)\n\n### New Features\n\n* **TradingView - Unlock chart features:** add Renko and Kagi charts ([5de4898](https://github.com/hxreborn/morphe-patches/commit/5de4898c82436c3626a7192efe8c3f2b8f70bcf1)), closes [#748](https://github.com/hxreborn/morphe-patches/issues/748)\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.79.0-dev.3",
+          "publishedAt": "2026-11-14T12:33:14Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.79.0-dev.3",
+          "changelog": "## [1.79.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.79.0-dev.2...v1.79.0-dev.3) (2026-11-14)\n\n### Updated App Support\n\n* **MyScript Notes:** add support for `7.4.9` ([bebe15c](https://github.com/hxreborn/morphe-patches/commit/bebe15c8be6f0b5f381ad7b7ce9ca3d8441a85dd)), closes [#769](https://github.com/hxreborn/morphe-patches/issues/769)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.79.0-dev.2",
           "publishedAt": "2026-11-14T10:54:44Z",
@@ -443,20 +457,6 @@
           "publishedAt": "2026-11-14T10:35:27Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.79.0-dev.1",
           "changelog": "## [1.79.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.78.1-dev.1...v1.79.0-dev.1) (2026-11-14)\n\n### Bug Fixes\n\n* **Candy Crush Saga - Disable notifications:** remove permission prompts ([892a63e](https://github.com/hxreborn/morphe-patches/commit/892a63e27d86f428cb5bc1d75da7c64cc3371e82))\n* **Candy Crush Saga - Disable tracking:** stop attribution collection ([9390c55](https://github.com/hxreborn/morphe-patches/commit/9390c557063934a2349a41b48ff00b96129ebb9c))\n* **Candy Crush Saga - Remove offer pop-ups:** skip oversized offer edits ([872f262](https://github.com/hxreborn/morphe-patches/commit/872f26299a7b20fb6b94d33fcda208181c616c16))\n\n### New Features\n\n* **Candy Crush Soda Saga - Add boosters:** grant 1,000 of each on start ([ef43485](https://github.com/hxreborn/morphe-patches/commit/ef43485c46331e2695d0f96396409988fc87999a))\n* **Candy Crush Soda Saga - Add extra moves:** give five more moves ([4233adf](https://github.com/hxreborn/morphe-patches/commit/4233adf670ee01dfa24cbabfa629db9f7148d402))\n* **Candy Crush Soda Saga - Disable events:** remove event entries ([3573938](https://github.com/hxreborn/morphe-patches/commit/3573938f9a314ac1d670a27dd2804a75f4e0f947))\n* **Candy Crush Soda Saga - Disable notifications:** stop reminders ([fb4b072](https://github.com/hxreborn/morphe-patches/commit/fb4b0722cc9699e7f248cf3eb2f29eb75718c2d9))\n* **Candy Crush Soda Saga - Disable tracking:** stop data collection ([5bfc691](https://github.com/hxreborn/morphe-patches/commit/5bfc69128e80d811ce2bb407f204ca26b6402213))\n* **Candy Crush Soda Saga - Hide ads:** stop ad networks from loading ([a5ef863](https://github.com/hxreborn/morphe-patches/commit/a5ef8634ca281df7f4374ebe51794f1bda612f74))\n* **Candy Crush Soda Saga - Parked app for Android Auto:** add car entry ([766859d](https://github.com/hxreborn/morphe-patches/commit/766859d909b5798a20783ef16f94c51e0ec80eff))\n* **Candy Crush Soda Saga - Remove ad offers:** drop watch-ad offers ([479162c](https://github.com/hxreborn/morphe-patches/commit/479162c8029b55b707e2ff991ec0f1a2fb161125))\n* **Candy Crush Soda Saga - Remove offer pop-ups:** block promotions ([a65fb1e](https://github.com/hxreborn/morphe-patches/commit/a65fb1e111f9978ddd700b9e23ced7b600106cac))\n* **Candy Crush Soda Saga - Remove rating prompts:** stop rate requests ([199169d](https://github.com/hxreborn/morphe-patches/commit/199169d046e6366c88e53a34ca3034f33cb23765))\n* **Candy Crush Soda Saga - Unlimited lives:** add 24 hours on start ([4d643aa](https://github.com/hxreborn/morphe-patches/commit/4d643aa0a4e7ddd8beb5f9a843a779658442a15d))\n* **Candy Crush Soda Saga - Unlock booster slots:** remove level limits ([78a5876](https://github.com/hxreborn/morphe-patches/commit/78a5876c27b4db3992198d8dc50371fa0926145c))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.78.1",
-          "publishedAt": "2026-11-14T10:46:23Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.78.1",
-          "changelog": "## [1.78.1](https://github.com/hxreborn/morphe-patches/compare/v1.78.0...v1.78.1) (2026-11-14)\n\n### Bug Fixes\n\n* **RedReader - Fix login:** sign in without entering client ID ([b172381](https://github.com/hxreborn/morphe-patches/commit/b172381721e868b799b6adc5fffa55ed8a542148))\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.78.1-dev.1",
-          "publishedAt": "2026-11-14T10:18:10Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.78.1-dev.1",
-          "changelog": "## [1.78.1-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.78.0...v1.78.1-dev.1) (2026-11-14)\n\n### Bug Fixes\n\n* **Proton VPN:** remove Frosted glass ([cc7a5ff](https://github.com/hxreborn/morphe-patches/commit/cc7a5ff7b98e1a87fd3a4665474ba99dd990c169)), closes [#713](https://github.com/hxreborn/morphe-patches/issues/713) [#765](https://github.com/hxreborn/morphe-patches/issues/765)\n",
           "prerelease": true
         }
       ]
