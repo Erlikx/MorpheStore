@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T12:08:12Z",
+  "generatedAt": "2026-11-18T20:49:11Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -146,11 +146,18 @@
       "repo": "adobo",
       "label": "🥘 Adobo",
       "repoUrl": "https://github.com/jkennethcarino/adobo",
-      "latestTag": "v2.0.0-dev.5",
-      "latestPublishedAt": "2026-11-17T11:49:09Z",
-      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v2.0.0-dev.5",
-      "changelog": "## [2.0.0-dev.5](https://github.com/jkennethcarino/adobo/compare/v2.0.0-dev.4...v2.0.0-dev.5) (2026-11-17)\n\n### Updated App Support\n\n* **9GAG:** Add support for `8.29.08` ([bc1ba72](https://github.com/jkennethcarino/adobo/commit/bc1ba72ac361ec0f6901b674da273c70af57ca73))\n* **Reddit:** Add support for `2026.46.0` ([26eebde](https://github.com/jkennethcarino/adobo/commit/26eebdeed0a954e1cb0a43359e8ef1fe22a2a4b0))\n",
+      "latestTag": "v2.0.0-dev.6",
+      "latestPublishedAt": "2026-11-18T16:25:55Z",
+      "latestUrl": "https://github.com/jkennethcarino/adobo/releases/tag/v2.0.0-dev.6",
+      "changelog": "## [2.0.0-dev.6](https://github.com/jkennethcarino/adobo/compare/v2.0.0-dev.5...v2.0.0-dev.6) (2026-11-18)\n\n### Features\n\n* **Gboard:** Add `Hide incognito icon` patch ([e38616a](https://github.com/jkennethcarino/adobo/commit/e38616acae39c35406cd5fda33567b1131d0f708))\n",
       "history": [
+        {
+          "tag": "v2.0.0-dev.5",
+          "publishedAt": "2026-11-17T11:49:09Z",
+          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v2.0.0-dev.5",
+          "changelog": "## [2.0.0-dev.5](https://github.com/jkennethcarino/adobo/compare/v2.0.0-dev.4...v2.0.0-dev.5) (2026-11-17)\n\n### Updated App Support\n\n* **9GAG:** Add support for `8.29.08` ([bc1ba72](https://github.com/jkennethcarino/adobo/commit/bc1ba72ac361ec0f6901b674da273c70af57ca73))\n* **Reddit:** Add support for `2026.46.0` ([26eebde](https://github.com/jkennethcarino/adobo/commit/26eebdeed0a954e1cb0a43359e8ef1fe22a2a4b0))\n",
+          "prerelease": true
+        },
         {
           "tag": "v2.0.0-dev.4",
           "publishedAt": "2026-11-08T11:45:01Z",
@@ -170,13 +177,6 @@
           "publishedAt": "2026-11-01T17:02:03Z",
           "url": "https://github.com/jkennethcarino/adobo/releases/tag/v2.0.0-dev.2",
           "changelog": "## [2.0.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v2.0.0-dev.1...v2.0.0-dev.2) (2026-11-01)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.43.1` and `2026.44.0` ([5abe1bd](https://github.com/jkennethcarino/adobo/commit/5abe1bdff7de2126c0cf278b1feaf798bf476426))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v2.0.0-dev.1",
-          "publishedAt": "2026-11-01T16:24:02Z",
-          "url": "https://github.com/jkennethcarino/adobo/releases/tag/v2.0.0-dev.1",
-          "changelog": "## [2.0.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.7.0...v2.0.0-dev.1) (2026-11-01)\n\n### ⚠ BREAKING CHANGES\n\n* Patches now use Morphe Patcher 2.0.0\n\n* Update Morphe Patcher and Patches Library ([a2d9540](https://github.com/jkennethcarino/adobo/commit/a2d9540c34caaa5bf963fbb0789564f70fd8a27b))\n",
           "prerelease": true
         }
       ]
@@ -258,46 +258,6 @@
           "url": "https://github.com/dh6k/morphe-patches/releases/tag/v1.9.0",
           "changelog": "## [1.9.0](https://github.com/dh6k/morphe-patches/compare/v1.8.0...v1.9.0) (2026-10-22)\n\n### 🐛 Bug Fixes\n\n* **brave:** add grey rounded cards for preference items in two-tier mode ([989c98c](https://github.com/dh6k/morphe-patches/commit/989c98c238debed3b4e7afd4c3cb7625d30a1b81)), closes [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029) [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** also bypass transparent windowBackground in two-tier mode ([1203885](https://github.com/dh6k/morphe-patches/commit/120388554062cace6542a618f4c832aed826aea4))\n* **brave:** apply cards to all selectableItemBackground layouts ([51b6f32](https://github.com/dh6k/morphe-patches/commit/51b6f3273dd04d3c90f21a9e2e248898ada8db78)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** bypass window attr in layout backgrounds too ([1216b9a](https://github.com/dh6k/morphe-patches/commit/1216b9ad028a2912d262c435064ebb3a1a0de294))\n* **brave:** bypass windowBackground attr indirection with a direct color ([73fd63e](https://github.com/dh6k/morphe-patches/commit/73fd63e09cd3e26f6cc88944c1bdc38070a93e00))\n* **brave:** detect preference items by obfuscated ID too ([0226ad7](https://github.com/dh6k/morphe-patches/commit/0226ad7a8e7fb2ba3a19ea5de53f708e1fb4077f)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** discover windowBackground attr from obfuscated layouts ([b6596de](https://github.com/dh6k/morphe-patches/commit/b6596de6a8432be86b303cf9168dea8bd5eb2cac)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** give the app menu its surface colour on Android 12-13 ([0d33ca9](https://github.com/dh6k/morphe-patches/commit/0d33ca9d78d6283cdd4efd8201644dd9d2dd09d4)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000) [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029) [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\n* **brave:** log card creation for debugging ([9380900](https://github.com/dh6k/morphe-patches/commit/938090099e8b0afa36fffca7965b5c5a8c4a39fc)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n* **brave:** match lStar selectors on any apktool namespace prefix ([65817c9](https://github.com/dh6k/morphe-patches/commit/65817c9d1477c9018f4f9b77b5ce17a6ca8bbd18))\n* **brave:** match the NTP grid gate across Brave channels ([cb9d123](https://github.com/dh6k/morphe-patches/commit/cb9d123f4cfff533e653fb42b64379b3f7a9e02b)), closes [#1738](https://github.com/dh6k/morphe-patches/issues/1738) [#1747](https://github.com/dh6k/morphe-patches/issues/1747)\n* **brave:** resolve windowBackground attr through the theme's own parent chain ([f865376](https://github.com/dh6k/morphe-patches/commit/f865376462931ccced9652523825e064a85b38a0))\n* **brave:** resolve windowBackground through attr references ([6fbe764](https://github.com/dh6k/morphe-patches/commit/6fbe764cc45ee6542d66248d9ef3c62460fd10c8))\n* **brave:** use lenient pattern for card backgrounds ([3fb4edd](https://github.com/dh6k/morphe-patches/commit/3fb4edd847074a0d9aaa873b37223bb2c2ef292c)), closes [#21](https://github.com/dh6k/morphe-patches/issues/21)\n\n### ✨ New Features\n\n* **brave:** keep NTP tiles in four columns with a background image ([632015d](https://github.com/dh6k/morphe-patches/commit/632015dc64144fccedeaa5db29a28dc9e89a0a8e))\n* **brave:** keep raised AMOLED surfaces off the flat background ([363eb71](https://github.com/dh6k/morphe-patches/commit/363eb711d1b47da4c628fc1118c7980789bbb5c3)), closes [#1e2029](https://github.com/dh6k/morphe-patches/issues/1e2029)\n\n### 🚀 Updated App Support\n\n* upgrade morphe-patcher to 1.15.0 ([46479c7](https://github.com/dh6k/morphe-patches/commit/46479c7531b87ca7743c8503a901cda8e165a2a9))\n",
           "prerelease": false
-        }
-      ]
-    },
-    "hoodles": {
-      "owner": "hoo-dles",
-      "repo": "morphe-patches",
-      "label": "🍃 hoo-dles",
-      "repoUrl": "https://github.com/hoo-dles/morphe-patches",
-      "latestTag": "v1.47.1-dev.2",
-      "latestPublishedAt": "2026-10-27T19:25:28Z",
-      "latestUrl": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.1-dev.2",
-      "changelog": "## [1.47.1-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.47.1-dev.1...v1.47.1-dev.2) (2026-10-27)\n\n\n### Bug Fixes\n\n* Fix transitive `slf4j` dependency exclusion causing issues with new JVM patcher ([e53dd05](https://github.com/hoo-dles/morphe-patches/commit/e53dd05ba2edcda5e606e445e4b7349a6f1fdc83))\n\n\n\n",
-      "history": [
-        {
-          "tag": "v1.47.1-dev.1",
-          "publishedAt": "2026-10-06T20:40:33Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.1-dev.1",
-          "changelog": "## [1.47.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0...v1.47.1-dev.1) (2026-10-06)\n\n\n### Bug Fixes\n\n* **Lyfta:** Spoof install source ([74c4f93](https://github.com/hoo-dles/morphe-patches/commit/74c4f93ddafbf1ede17c3856e38116ddfb3b94c8))\n\n\n\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.47.0",
-          "publishedAt": "2026-10-04T18:45:44Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0",
-          "changelog": "# [1.47.0](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0...v1.47.0) (2026-10-04)\n\n\n### Features\n\n* **Ling:** Update to `8.9.0` ([d5013e8](https://github.com/hoo-dles/morphe-patches/commit/d5013e892033f24d943ef8d4aabab3c1cb011d97))\n* **ProtonVPN:** Update patches to support `5.20.57.0` ([8f6d304](https://github.com/hoo-dles/morphe-patches/commit/8f6d3047017fdc088890d674aa287689c6690117))\n* Update `Universal MicroG` support for FotMob ([8c5f249](https://github.com/hoo-dles/morphe-patches/commit/8c5f2498c5a611b677b340bfcd49a9d60d53e98b))\n\n\n\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.47.0-dev.3",
-          "publishedAt": "2026-10-04T02:11:21Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0-dev.3",
-          "changelog": "# [1.47.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0-dev.2...v1.47.0-dev.3) (2026-10-04)\n\n\n### Features\n\n* Update `Universal MicroG` support for FotMob ([8c5f249](https://github.com/hoo-dles/morphe-patches/commit/8c5f2498c5a611b677b340bfcd49a9d60d53e98b))\n\n\n\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.47.0-dev.2",
-          "publishedAt": "2026-10-04T01:02:53Z",
-          "url": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0-dev.2",
-          "changelog": "# [1.47.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0-dev.1...v1.47.0-dev.2) (2026-10-04)\n\n\n### Features\n\n* **ProtonVPN:** Update patches to support `5.20.57.0` ([8f6d304](https://github.com/hoo-dles/morphe-patches/commit/8f6d3047017fdc088890d674aa287689c6690117))\n\n\n\n",
-          "prerelease": true
         }
       ]
     },
@@ -426,37 +386,37 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.82.1-dev.1",
-      "latestPublishedAt": "2026-11-18T11:12:31Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.1",
-      "changelog": "## [1.82.1-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.82.0...v1.82.1-dev.1) (2026-11-18)\n\n### Updated App Support\n\n* **Athan:** add support for `11.0.8` ([f4fdd3f](https://github.com/hxreborn/morphe-patches/commit/f4fdd3fd6d1e5708dbb8355a8f27e1d64be6a729)), closes [#791](https://github.com/hxreborn/morphe-patches/issues/791)\n* **blockit:** add support for `2.2.9` ([5888f9a](https://github.com/hxreborn/morphe-patches/commit/5888f9a20169c75c61bf1c0acfca7970b7e72094)), closes [#800](https://github.com/hxreborn/morphe-patches/issues/800)\n* **DepthPix:** add support for `1.0.42` ([9599f59](https://github.com/hxreborn/morphe-patches/commit/9599f596610f99e51a5715ed32429899f1fa0acf)), closes [#805](https://github.com/hxreborn/morphe-patches/issues/805)\n* **Duolingo:** add support for `6.105.2` ([90762e6](https://github.com/hxreborn/morphe-patches/commit/90762e6691258af1085ea2e4d18904289a0090e8)), closes [#808](https://github.com/hxreborn/morphe-patches/issues/808)\n* **Etsy:** add support for `8.3.0` ([2679f71](https://github.com/hxreborn/morphe-patches/commit/2679f7156acc27088b3c0b7e9e1b7063acfbe248)), closes [#810](https://github.com/hxreborn/morphe-patches/issues/810)\n* **Habitify:** add support for `52.1.0` ([77aea59](https://github.com/hxreborn/morphe-patches/commit/77aea59310dcfb047eaf74a8ea9fec2575b3e253)), closes [#814](https://github.com/hxreborn/morphe-patches/issues/814)\n* **Monet Launcher:** add support for `1.1.1` ([ef86778](https://github.com/hxreborn/morphe-patches/commit/ef86778be0141cf54ac26e12db99410bff3210d6)), closes [#824](https://github.com/hxreborn/morphe-patches/issues/824)\n* **Proton Mail:** add support for `7.12.1` ([56a8f79](https://github.com/hxreborn/morphe-patches/commit/56a8f7985ae4a61f6449ad4ff5d63c4c73a3484a)), closes [#763](https://github.com/hxreborn/morphe-patches/issues/763)\n* **Proton VPN:** add support for `5.21.57.0` ([77adade](https://github.com/hxreborn/morphe-patches/commit/77adade82ac950ffc97b03853b4bc45f2d1d88b2)), closes [#764](https://github.com/hxreborn/morphe-patches/issues/764)\n* **Quranify:** add support for `2.4.0` ([c31f3c8](https://github.com/hxreborn/morphe-patches/commit/c31f3c899b870c746c0f75d2ae874b89e2e802fc)), closes [#840](https://github.com/hxreborn/morphe-patches/issues/840)\n* **Ridmik Keyboard:** add support for `20.0.0` ([62f1945](https://github.com/hxreborn/morphe-patches/commit/62f19455aa7d384440f1d56e38456624263c5ccb)), closes [#844](https://github.com/hxreborn/morphe-patches/issues/844)\n* **Video Editor:** add support for `1.631.200.I` ([9264073](https://github.com/hxreborn/morphe-patches/commit/92640734c0dad88990d30bbc23a8b2787b9227b9)), closes [#854](https://github.com/hxreborn/morphe-patches/issues/854)\n* **weather24:** add support for `2.78.2` ([bdc2bbd](https://github.com/hxreborn/morphe-patches/commit/bdc2bbd8cb76f7ba3a4ed3f4725ae2655cc4639d)), closes [#858](https://github.com/hxreborn/morphe-patches/issues/858)\n",
+      "latestTag": "v1.82.1-dev.5",
+      "latestPublishedAt": "2026-11-18T17:24:45Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.5",
+      "changelog": "## [1.82.1-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.4...v1.82.1-dev.5) (2026-11-18)\n\n### Updated App Support\n\n* **Proton Lumo:** add support for `2.2.0-gms` and `2.2.0-nogms` ([4accb2d](https://github.com/hxreborn/morphe-patches/commit/4accb2dbe24ac6092848c387384eea04aadb240b)), closes [#942](https://github.com/hxreborn/morphe-patches/issues/942)\n",
       "history": [
         {
-          "tag": "v1.82.0",
-          "publishedAt": "2026-11-18T08:29:29Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.0",
-          "changelog": "## [1.82.0](https://github.com/hxreborn/morphe-patches/compare/v1.81.0...v1.82.0) (2026-11-18)\n\n### Bug Fixes\n\n* **Albo - Remove bulk import limit:** import links past the weekly limit ([dd33405](https://github.com/hxreborn/morphe-patches/commit/dd33405ca625d16142785302b42d7c14c75d7bf8)), closes [#932](https://github.com/hxreborn/morphe-patches/issues/932)\n* **BeReal:** deliver push notifications to patched installs ([158d4b6](https://github.com/hxreborn/morphe-patches/commit/158d4b667f6412de2a6733b28feeba3ffa3263f3)), closes [#900](https://github.com/hxreborn/morphe-patches/issues/900)\n* **DepthPix:** stop empty Home and unsupported version error ([a60117d](https://github.com/hxreborn/morphe-patches/commit/a60117d3519920fba8486335b1975a41e81c0880))\n\n### New Features\n\n* **Botim - Disable background logging:** remove extra launch process ([99b5bc8](https://github.com/hxreborn/morphe-patches/commit/99b5bc80f5cdde1bd53b03eca4a0901904400384)), closes [#917](https://github.com/hxreborn/morphe-patches/issues/917)\n* **Botim - Hide All tab:** show bottom bar without services grid ([a2e02dd](https://github.com/hxreborn/morphe-patches/commit/a2e02ddbb3e4fb79146695ef855bf5f2128645d1))\n* **Botim - Remove botim AI:** drop AI row from New chat and New call ([49beb21](https://github.com/hxreborn/morphe-patches/commit/49beb21114d907508ca790b2e246b6c4c8b2d483))\n* **iVoox - Remove rating prompts:** stop 5-star request during playback ([5a2a794](https://github.com/hxreborn/morphe-patches/commit/5a2a794299751711baaa832f612dc91cfa4e60ae))\n* **iVoox - Unlock premium:** remove ads and subscription offers ([e86a516](https://github.com/hxreborn/morphe-patches/commit/e86a516f133210cdc9edf9a462009220369e5b80))\n* **TradingView - Unlock chart features:** lift 3-indicator chart limit ([519e95c](https://github.com/hxreborn/morphe-patches/commit/519e95cef829e3848bc502502616cba228767046)), closes [#928](https://github.com/hxreborn/morphe-patches/issues/928)\n",
-          "prerelease": false
-        },
-        {
-          "tag": "v1.82.0-dev.4",
-          "publishedAt": "2026-11-17T19:43:40Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.0-dev.4",
-          "changelog": "## [1.82.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.82.0-dev.3...v1.82.0-dev.4) (2026-11-17)\n\n### New Features\n\n* **Botim - Disable background logging:** remove extra launch process ([99b5bc8](https://github.com/hxreborn/morphe-patches/commit/99b5bc80f5cdde1bd53b03eca4a0901904400384)), closes [#917](https://github.com/hxreborn/morphe-patches/issues/917)\n",
+          "tag": "v1.82.1-dev.4",
+          "publishedAt": "2026-11-18T12:46:41Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.4",
+          "changelog": "## [1.82.1-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.3...v1.82.1-dev.4) (2026-11-18)\n\n### Updated App Support\n\n* **imo:** add support for `2026.10.1031` ([99b86e7](https://github.com/hxreborn/morphe-patches/commit/99b86e710273605f097f1b337445e470e82d03e7)), closes [#816](https://github.com/hxreborn/morphe-patches/issues/816)\n* **MemoNeet:** add support for `63.3` ([7a73dbd](https://github.com/hxreborn/morphe-patches/commit/7a73dbd860e394f55d70678fe2267355df584fda)), closes [#823](https://github.com/hxreborn/morphe-patches/issues/823)\n* **TeraBox:** add support for `4.28.5` ([21a5664](https://github.com/hxreborn/morphe-patches/commit/21a5664fa33590c9ec4ba68b9d9cec191a2e5b14)), closes [#849](https://github.com/hxreborn/morphe-patches/issues/849)\n",
           "prerelease": true
         },
         {
-          "tag": "v1.82.0-dev.3",
-          "publishedAt": "2026-11-17T19:26:33Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.0-dev.3",
-          "changelog": "## [1.82.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.82.0-dev.2...v1.82.0-dev.3) (2026-11-17)\n\n### Bug Fixes\n\n* **Albo - Remove bulk import limit:** import links past the weekly limit ([dd33405](https://github.com/hxreborn/morphe-patches/commit/dd33405ca625d16142785302b42d7c14c75d7bf8)), closes [#932](https://github.com/hxreborn/morphe-patches/issues/932)\n",
+          "tag": "v1.82.1-dev.3",
+          "publishedAt": "2026-11-18T12:34:06Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.3",
+          "changelog": "## [1.82.1-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.2...v1.82.1-dev.3) (2026-11-18)\n\n### Updated App Support\n\n* **Graph Messenger:** add support for `13.2.2.0` ([6bc3a37](https://github.com/hxreborn/morphe-patches/commit/6bc3a373bd4746d67fe433ad1d28b74fe32c89b2)), closes [#924](https://github.com/hxreborn/morphe-patches/issues/924)\n* **OK:** add support for `26.10.15` ([df538ad](https://github.com/hxreborn/morphe-patches/commit/df538ad6ef6f0860f570df526d671de174486605)), closes [#828](https://github.com/hxreborn/morphe-patches/issues/828)\n* **Period Tracker and Calendar:** add support for `13.6.0` ([f89e7f9](https://github.com/hxreborn/morphe-patches/commit/f89e7f921ccc5e47c0175283d167f3fb7adf33ac)), closes [#832](https://github.com/hxreborn/morphe-patches/issues/832)\n* **Perplexity:** add support for `2.104.0` ([d4dfa64](https://github.com/hxreborn/morphe-patches/commit/d4dfa64ae866b6b450851b578c91c8e605572935)), closes [#833](https://github.com/hxreborn/morphe-patches/issues/833)\n* **Poe:** add support for `a3.80.1` ([262ca02](https://github.com/hxreborn/morphe-patches/commit/262ca02cf670d513b2200bacb3dd8b38bd19e22d)), closes [#836](https://github.com/hxreborn/morphe-patches/issues/836)\n* **Public:** add support for `3.4.2` ([bc49801](https://github.com/hxreborn/morphe-patches/commit/bc49801eddfb971c4602bf3cded7ef4cb79d1a84)), closes [#920](https://github.com/hxreborn/morphe-patches/issues/920)\n* **Ringtone Maker:** add support for `1.02.03.1117` ([cbc072a](https://github.com/hxreborn/morphe-patches/commit/cbc072a836184be75112d110cf71ba3edaef0e5e)), closes [#845](https://github.com/hxreborn/morphe-patches/issues/845)\n* **Trainline:** add support for `441.0.0.185329` ([af3d7d4](https://github.com/hxreborn/morphe-patches/commit/af3d7d4741c95cd6034c2a6bc32888bf19da8ee6)), closes [#850](https://github.com/hxreborn/morphe-patches/issues/850)\n* **Transparent clock & weather:** add support for `9.19.0` ([4a0f202](https://github.com/hxreborn/morphe-patches/commit/4a0f20279e1cbb0ef3d611b0038744a37ad32abb)), closes [#851](https://github.com/hxreborn/morphe-patches/issues/851)\n* **Ultimate Guitar:** add support for `7.3.38` ([10cbe48](https://github.com/hxreborn/morphe-patches/commit/10cbe4881b9b47d9afaef71f2ced11c4cdd2591d)), closes [#853](https://github.com/hxreborn/morphe-patches/issues/853)\n* **Wattpad:** add support for `11.43.4` ([6c27cf6](https://github.com/hxreborn/morphe-patches/commit/6c27cf65817ec7f3e68159ba1a1e2b59e60b172a)), closes [#857](https://github.com/hxreborn/morphe-patches/issues/857)\n* **X-plore File Manager:** add support for `4.53.05` ([e7bda37](https://github.com/hxreborn/morphe-patches/commit/e7bda3754f5731895599decdf738c863d5b04a0e)), closes [#859](https://github.com/hxreborn/morphe-patches/issues/859)\n* **Yanosik:** add support for `26.10.0` ([4331ba7](https://github.com/hxreborn/morphe-patches/commit/4331ba74d3d7cb20aae9fe150ebb71d420195c9e)), closes [#860](https://github.com/hxreborn/morphe-patches/issues/860)\n* **Yi iot:** add support for `5.2.1_20261110` ([5ffe754](https://github.com/hxreborn/morphe-patches/commit/5ffe754be2ad23af5dc6d12d135cb30484c8b872)), closes [#861](https://github.com/hxreborn/morphe-patches/issues/861)\n",
           "prerelease": true
         },
         {
-          "tag": "v1.82.0-dev.2",
-          "publishedAt": "2026-11-17T17:34:13Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.0-dev.2",
-          "changelog": "## [1.82.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.82.0-dev.1...v1.82.0-dev.2) (2026-11-17)\n\n### New Features\n\n* **Botim - Hide All tab:** show bottom bar without services grid ([a2e02dd](https://github.com/hxreborn/morphe-patches/commit/a2e02ddbb3e4fb79146695ef855bf5f2128645d1))\n* **Botim - Remove botim AI:** drop AI row from New chat and New call ([49beb21](https://github.com/hxreborn/morphe-patches/commit/49beb21114d907508ca790b2e246b6c4c8b2d483))\n* **TradingView - Unlock chart features:** lift 3-indicator chart limit ([519e95c](https://github.com/hxreborn/morphe-patches/commit/519e95cef829e3848bc502502616cba228767046)), closes [#928](https://github.com/hxreborn/morphe-patches/issues/928)\n",
+          "tag": "v1.82.1-dev.2",
+          "publishedAt": "2026-11-18T12:19:18Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.2",
+          "changelog": "## [1.82.1-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.1...v1.82.1-dev.2) (2026-11-18)\n\n### Updated App Support\n\n* **Bangla Calendar:** add support for `3.0.01q` ([1aca645](https://github.com/hxreborn/morphe-patches/commit/1aca6456d183c74004d8234d32aac93eafadce65)), closes [#795](https://github.com/hxreborn/morphe-patches/issues/795)\n* **Hypic:** add support for `10.1.0` ([065818c](https://github.com/hxreborn/morphe-patches/commit/065818c204dcd878da4113665d8406a553cb1d3a)), closes [#815](https://github.com/hxreborn/morphe-patches/issues/815)\n* **MyScript Math:** add support for `2.0.0` ([60f6320](https://github.com/hxreborn/morphe-patches/commit/60f632014131f707bc8dd9f61ae6a8521b7fab38)), closes [#825](https://github.com/hxreborn/morphe-patches/issues/825)\n* **Patreon:** add support for `126.46.0.14` ([de49844](https://github.com/hxreborn/morphe-patches/commit/de4984465fd76f199a7f0afcb3bb0be7e63df02d)), closes [#831](https://github.com/hxreborn/morphe-patches/issues/831)\n* **RISE Sleep Tracker:** add support for `Android V1.79.4` ([547baf7](https://github.com/hxreborn/morphe-patches/commit/547baf7471a613cf276fd2feffc408007f7bcfaf)), closes [#846](https://github.com/hxreborn/morphe-patches/issues/846)\n* **Rubber Bands:** add support for `3.19` ([7634a2e](https://github.com/hxreborn/morphe-patches/commit/7634a2e8e767c224a72df326f6a1f26818a2d206)), closes [#847](https://github.com/hxreborn/morphe-patches/issues/847)\n* **Sheytoon:** add support for `6.8` ([38b2db4](https://github.com/hxreborn/morphe-patches/commit/38b2db4168b6886c5a7d2d689e4571e32455af95)), closes [#848](https://github.com/hxreborn/morphe-patches/issues/848)\n* **U Dictionary:** add support for `6.7.7` ([e8c1bbf](https://github.com/hxreborn/morphe-patches/commit/e8c1bbf8f16f08d519aa4d9107672e7eb1a284f7)), closes [#852](https://github.com/hxreborn/morphe-patches/issues/852)\n* **WalP:** add support for `10.2.6` ([8fcbb5f](https://github.com/hxreborn/morphe-patches/commit/8fcbb5fdb121b8bc32de7626a0315c63f4e0144c)), closes [#856](https://github.com/hxreborn/morphe-patches/issues/856)\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.82.1-dev.1",
+          "publishedAt": "2026-11-18T11:12:31Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.1",
+          "changelog": "## [1.82.1-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.82.0...v1.82.1-dev.1) (2026-11-18)\n\n### Updated App Support\n\n* **Athan:** add support for `11.0.8` ([f4fdd3f](https://github.com/hxreborn/morphe-patches/commit/f4fdd3fd6d1e5708dbb8355a8f27e1d64be6a729)), closes [#791](https://github.com/hxreborn/morphe-patches/issues/791)\n* **blockit:** add support for `2.2.9` ([5888f9a](https://github.com/hxreborn/morphe-patches/commit/5888f9a20169c75c61bf1c0acfca7970b7e72094)), closes [#800](https://github.com/hxreborn/morphe-patches/issues/800)\n* **DepthPix:** add support for `1.0.42` ([9599f59](https://github.com/hxreborn/morphe-patches/commit/9599f596610f99e51a5715ed32429899f1fa0acf)), closes [#805](https://github.com/hxreborn/morphe-patches/issues/805)\n* **Duolingo:** add support for `6.105.2` ([90762e6](https://github.com/hxreborn/morphe-patches/commit/90762e6691258af1085ea2e4d18904289a0090e8)), closes [#808](https://github.com/hxreborn/morphe-patches/issues/808)\n* **Etsy:** add support for `8.3.0` ([2679f71](https://github.com/hxreborn/morphe-patches/commit/2679f7156acc27088b3c0b7e9e1b7063acfbe248)), closes [#810](https://github.com/hxreborn/morphe-patches/issues/810)\n* **Habitify:** add support for `52.1.0` ([77aea59](https://github.com/hxreborn/morphe-patches/commit/77aea59310dcfb047eaf74a8ea9fec2575b3e253)), closes [#814](https://github.com/hxreborn/morphe-patches/issues/814)\n* **Monet Launcher:** add support for `1.1.1` ([ef86778](https://github.com/hxreborn/morphe-patches/commit/ef86778be0141cf54ac26e12db99410bff3210d6)), closes [#824](https://github.com/hxreborn/morphe-patches/issues/824)\n* **Proton Mail:** add support for `7.12.1` ([56a8f79](https://github.com/hxreborn/morphe-patches/commit/56a8f7985ae4a61f6449ad4ff5d63c4c73a3484a)), closes [#763](https://github.com/hxreborn/morphe-patches/issues/763)\n* **Proton VPN:** add support for `5.21.57.0` ([77adade](https://github.com/hxreborn/morphe-patches/commit/77adade82ac950ffc97b03853b4bc45f2d1d88b2)), closes [#764](https://github.com/hxreborn/morphe-patches/issues/764)\n* **Quranify:** add support for `2.4.0` ([c31f3c8](https://github.com/hxreborn/morphe-patches/commit/c31f3c899b870c746c0f75d2ae874b89e2e802fc)), closes [#840](https://github.com/hxreborn/morphe-patches/issues/840)\n* **Ridmik Keyboard:** add support for `20.0.0` ([62f1945](https://github.com/hxreborn/morphe-patches/commit/62f19455aa7d384440f1d56e38456624263c5ccb)), closes [#844](https://github.com/hxreborn/morphe-patches/issues/844)\n* **Video Editor:** add support for `1.631.200.I` ([9264073](https://github.com/hxreborn/morphe-patches/commit/92640734c0dad88990d30bbc23a8b2787b9227b9)), closes [#854](https://github.com/hxreborn/morphe-patches/issues/854)\n* **weather24:** add support for `2.78.2` ([bdc2bbd](https://github.com/hxreborn/morphe-patches/commit/bdc2bbd8cb76f7ba3a4ed3f4725ae2655cc4639d)), closes [#858](https://github.com/hxreborn/morphe-patches/issues/858)\n",
           "prerelease": true
         }
       ]
