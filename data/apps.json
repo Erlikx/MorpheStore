@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T02:23:28Z",
+  "generatedAt": "2026-11-19T10:39:36Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -346,11 +346,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.4.0-dev.2",
-      "latestPublishedAt": "2026-11-14T21:23:05Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.4.0-dev.2",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add support for custom package names in Package Rename.\n\n### ✨ 新功能\n\n* **Gboard:** Package Rename 新增自訂套件名稱功能。\n",
+      "latestTag": "v4.4.0-dev.3",
+      "latestPublishedAt": "2026-11-19T08:33:32Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.4.0-dev.3",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** add the Shift + Backspace Forward Delete patch. Hold Shift and press Backspace to delete the character after the cursor, like the Delete key on a computer keyboard.\n\n### ✨ 新功能\n\n* **Gboard:** 新增「Shift + Backspace Forward Delete」Patch。按住 Shift 再按退格鍵，就能刪除游標右邊的字，就像電腦鍵盤上的 Delete 鍵。\n",
       "history": [
+        {
+          "tag": "v4.4.0-dev.2",
+          "publishedAt": "2026-11-14T21:23:05Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.4.0-dev.2",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add support for custom package names in Package Rename.\n\n### ✨ 新功能\n\n* **Gboard:** Package Rename 新增自訂套件名稱功能。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.4.0-dev.1",
           "publishedAt": "2026-11-13T02:14:37Z",
@@ -371,13 +378,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.3.0-dev.1",
           "changelog": "### ✨ New Features\n\n* **Gboard:** add an FAQ section to the Frosted Glass page, with links for when the effect isn't working and for flickering on Pixel phones.\n* **Gboard:** change the defaults of two settings: English Up-Flick Uppercase is now off and the Access Points menu style is now on. Settings you have already saved are kept.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix the keyboard closing by itself with Frosted Glass enabled (\"Software rendering doesn't support drawRenderNode\"). If blur fails to draw, the keyboard now falls back to its theme.\n* **Gboard:** make \"Extend to navigation bar\" work on Android 15 and below. The navigation bar follows the keyboard's transparency, without blur.\n* **Gboard:** make \"Extend to navigation bar\" work with narrower docked keyboards, such as one-handed mode.\n\n### ✨ 新功能\n\n* **Gboard:** 在「磨砂玻璃」頁面新增 FAQ 區塊，提供「為什麼磨砂玻璃沒有效果？」和「為什麼 Pixel 手機輸入文字時會閃爍？」的說明連結。\n* **Gboard:** 調整兩項設定的預設值：「英文鍵盤上滑大小寫」改為關閉，「Access Points 選單樣式」改為開啟。已儲存的設定不受影響。\n\n### 🐛 修復\n\n* **Gboard:** 修復啟用磨砂玻璃後鍵盤自行關閉的問題（`Software rendering doesn't support drawRenderNode`）。模糊效果繪製失敗時，鍵盤會改回使用主題背景。\n* **Gboard:** 修復「延伸到導覽列」在 Android 15 以下沒有效果的問題。導覽列會跟隨鍵盤的透明度，但沒有模糊效果。\n* **Gboard:** 修復「延伸到導覽列」在單手模式等較窄的固定式鍵盤上沒有效果的問題。\n",
           "prerelease": true
-        },
-        {
-          "tag": "v4.2.0",
-          "publishedAt": "2026-11-04T01:56:14Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.2.0",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add an option to automatically select all text before copying or cutting when nothing is selected, available through the toolbar, long-press shortcuts, and globe-key drag gestures.\n* **Gboard:** update morphe-patcher to **v2.1.0**.\n* **Gboard:** add a search button to the Patches settings page to quickly find settings.\n* **Gboard:** extend the G Logo on Spacebar patch with custom image support, a full-color Google G icon, and adjustable icon sizes.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix paste shortcuts from the toolbar, long-press actions, and globe-key drag gestures in terminal input fields such as Termux.\n\n### ✨ 新功能\n\n* **Gboard:** 新增「未選取文字時自動全選」選項，支援透過工具列、長按及地球鍵拖曳快捷操作，全選並複製或剪下文字。\n* **Gboard:** 將 morphe-patcher 更新至 **v2.1.0**。\n* **Gboard:** 在 Patches 設定頁面新增搜尋按鈕，方便快速尋找設定項目。\n* **Gboard:** 「G Logo on Spacebar」Patch 新增自訂圖片與「Google G（全彩）」圖示，並支援自訂圖示大小。\n\n### 🐛 修復\n\n* **Gboard:** 修復工具列、長按及地球鍵拖曳快捷貼上在 Termux 等終端機輸入介面中無法正常運作的問題。\n",
-          "prerelease": false
         }
       ]
     },
@@ -386,37 +386,37 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.83.0-dev.1",
-      "latestPublishedAt": "2026-11-19T00:32:45Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.83.0-dev.1",
-      "changelog": "## [1.83.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.5...v1.83.0-dev.1) (2026-11-19)\n\n### Bug Fixes\n\n* **Viber - Disable update prompts:** stop required upgrade dialog ([8e4baed](https://github.com/hxreborn/morphe-patches/commit/8e4baed01e2283d339cb974a43e8579576c89986))\n* **Viber - Disable update prompts:** stop update nag on unknown links ([f04729b](https://github.com/hxreborn/morphe-patches/commit/f04729b89791dd6c2a33379e74d223156641c785))\n* **Viber - Disable update prompts:** stop upgrade nags, drop switch ([9723093](https://github.com/hxreborn/morphe-patches/commit/9723093e1b6bc71f926de1533dfa875a306c9502))\n\n### New Features\n\n* **Viber - Remove deleted message notices:** hide Delete without trace ([bdf2c9b](https://github.com/hxreborn/morphe-patches/commit/bdf2c9bb14f45e89341dd01e835f96c84aadcfeb)), closes [#936](https://github.com/hxreborn/morphe-patches/issues/936)\n",
+      "latestTag": "v1.83.0",
+      "latestPublishedAt": "2026-11-19T08:04:00Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.83.0",
+      "changelog": "## [1.83.0](https://github.com/hxreborn/morphe-patches/compare/v1.82.0...v1.83.0) (2026-11-19)\n\n### Bug Fixes\n\n* **Viber - Disable AI features:** hide Read quick summary in communities ([30ee167](https://github.com/hxreborn/morphe-patches/commit/30ee167f0560237c057d438d46a071a4c6e62216)), closes [#950](https://github.com/hxreborn/morphe-patches/issues/950)\n* **Viber - Disable update prompts:** stop required upgrade dialog ([8e4baed](https://github.com/hxreborn/morphe-patches/commit/8e4baed01e2283d339cb974a43e8579576c89986))\n* **Viber - Disable update prompts:** stop update nag on unknown links ([f04729b](https://github.com/hxreborn/morphe-patches/commit/f04729b89791dd6c2a33379e74d223156641c785))\n* **Viber - Disable update prompts:** stop upgrade nags, drop switch ([9723093](https://github.com/hxreborn/morphe-patches/commit/9723093e1b6bc71f926de1533dfa875a306c9502))\n* **Viber - Remove deleted message notices:** enable by default ([9889bcc](https://github.com/hxreborn/morphe-patches/commit/9889bcc7a5b8fe70f34b17a460b9e63528c7636c)), closes [#936](https://github.com/hxreborn/morphe-patches/issues/936)\n\n### New Features\n\n* **Nextdoor - GmsCore support:** sign in with Google, get notifications ([65a1edc](https://github.com/hxreborn/morphe-patches/commit/65a1edc8b79819ebcfc5370427adf9ea17038533))\n* **Nextdoor - Remove sponsored posts:** drop ad cards and placeholders ([df4b9cf](https://github.com/hxreborn/morphe-patches/commit/df4b9cfd7a95558d9bb11c2d9e2fc46d60c650e3))\n* **Viber - Remove deleted message notices:** hide Delete without trace ([bdf2c9b](https://github.com/hxreborn/morphe-patches/commit/bdf2c9bb14f45e89341dd01e835f96c84aadcfeb)), closes [#936](https://github.com/hxreborn/morphe-patches/issues/936)\n\n### Updated App Support\n\n* **Athan:** add support for `11.0.8` ([f4fdd3f](https://github.com/hxreborn/morphe-patches/commit/f4fdd3fd6d1e5708dbb8355a8f27e1d64be6a729)), closes [#791](https://github.com/hxreborn/morphe-patches/issues/791)\n* **Bangla Calendar:** add support for `3.0.01q` ([1aca645](https://github.com/hxreborn/morphe-patches/commit/1aca6456d183c74004d8234d32aac93eafadce65)), closes [#795](https://github.com/hxreborn/morphe-patches/issues/795)\n* **blockit:** add support for `2.2.9` ([5888f9a](https://github.com/hxreborn/morphe-patches/commit/5888f9a20169c75c61bf1c0acfca7970b7e72094)), closes [#800](https://github.com/hxreborn/morphe-patches/issues/800)\n* **DepthPix:** add support for `1.0.42` ([9599f59](https://github.com/hxreborn/morphe-patches/commit/9599f596610f99e51a5715ed32429899f1fa0acf)), closes [#805](https://github.com/hxreborn/morphe-patches/issues/805)\n* **Duolingo:** add support for `6.105.2` ([90762e6](https://github.com/hxreborn/morphe-patches/commit/90762e6691258af1085ea2e4d18904289a0090e8)), closes [#808](https://github.com/hxreborn/morphe-patches/issues/808)\n* **Etsy:** add support for `8.3.0` ([2679f71](https://github.com/hxreborn/morphe-patches/commit/2679f7156acc27088b3c0b7e9e1b7063acfbe248)), closes [#810](https://github.com/hxreborn/morphe-patches/issues/810)\n* **Graph Messenger:** add support for `13.2.2.0` ([6bc3a37](https://github.com/hxreborn/morphe-patches/commit/6bc3a373bd4746d67fe433ad1d28b74fe32c89b2)), closes [#924](https://github.com/hxreborn/morphe-patches/issues/924)\n* **Habitify:** add support for `52.1.0` ([77aea59](https://github.com/hxreborn/morphe-patches/commit/77aea59310dcfb047eaf74a8ea9fec2575b3e253)), closes [#814](https://github.com/hxreborn/morphe-patches/issues/814)\n* **Hypic:** add support for `10.1.0` ([065818c](https://github.com/hxreborn/morphe-patches/commit/065818c204dcd878da4113665d8406a553cb1d3a)), closes [#815](https://github.com/hxreborn/morphe-patches/issues/815)\n* **imo:** add support for `2026.10.1031` ([99b86e7](https://github.com/hxreborn/morphe-patches/commit/99b86e710273605f097f1b337445e470e82d03e7)), closes [#816](https://github.com/hxreborn/morphe-patches/issues/816)\n* **MemoNeet:** add support for `63.3` ([7a73dbd](https://github.com/hxreborn/morphe\n\n…",
       "history": [
+        {
+          "tag": "v1.83.0-dev.3",
+          "publishedAt": "2026-11-19T07:54:10Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.83.0-dev.3",
+          "changelog": "## [1.83.0-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.83.0-dev.2...v1.83.0-dev.3) (2026-11-19)\n\n### New Features\n\n* **Nextdoor - GmsCore support:** sign in with Google, get notifications ([65a1edc](https://github.com/hxreborn/morphe-patches/commit/65a1edc8b79819ebcfc5370427adf9ea17038533))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.83.0-dev.2",
+          "publishedAt": "2026-11-19T07:40:32Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.83.0-dev.2",
+          "changelog": "## [1.83.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.83.0-dev.1...v1.83.0-dev.2) (2026-11-19)\n\n### Bug Fixes\n\n* **Viber - Disable AI features:** hide Read quick summary in communities ([30ee167](https://github.com/hxreborn/morphe-patches/commit/30ee167f0560237c057d438d46a071a4c6e62216)), closes [#950](https://github.com/hxreborn/morphe-patches/issues/950)\n* **Viber - Remove deleted message notices:** enable by default ([9889bcc](https://github.com/hxreborn/morphe-patches/commit/9889bcc7a5b8fe70f34b17a460b9e63528c7636c)), closes [#936](https://github.com/hxreborn/morphe-patches/issues/936)\n\n### New Features\n\n* **Nextdoor - Remove sponsored posts:** drop ad cards and placeholders ([df4b9cf](https://github.com/hxreborn/morphe-patches/commit/df4b9cfd7a95558d9bb11c2d9e2fc46d60c650e3))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.83.0-dev.1",
+          "publishedAt": "2026-11-19T00:32:45Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.83.0-dev.1",
+          "changelog": "## [1.83.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.5...v1.83.0-dev.1) (2026-11-19)\n\n### Bug Fixes\n\n* **Viber - Disable update prompts:** stop required upgrade dialog ([8e4baed](https://github.com/hxreborn/morphe-patches/commit/8e4baed01e2283d339cb974a43e8579576c89986))\n* **Viber - Disable update prompts:** stop update nag on unknown links ([f04729b](https://github.com/hxreborn/morphe-patches/commit/f04729b89791dd6c2a33379e74d223156641c785))\n* **Viber - Disable update prompts:** stop upgrade nags, drop switch ([9723093](https://github.com/hxreborn/morphe-patches/commit/9723093e1b6bc71f926de1533dfa875a306c9502))\n\n### New Features\n\n* **Viber - Remove deleted message notices:** hide Delete without trace ([bdf2c9b](https://github.com/hxreborn/morphe-patches/commit/bdf2c9bb14f45e89341dd01e835f96c84aadcfeb)), closes [#936](https://github.com/hxreborn/morphe-patches/issues/936)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.82.1-dev.5",
           "publishedAt": "2026-11-18T17:24:45Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.5",
           "changelog": "## [1.82.1-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.4...v1.82.1-dev.5) (2026-11-18)\n\n### Updated App Support\n\n* **Proton Lumo:** add support for `2.2.0-gms` and `2.2.0-nogms` ([4accb2d](https://github.com/hxreborn/morphe-patches/commit/4accb2dbe24ac6092848c387384eea04aadb240b)), closes [#942](https://github.com/hxreborn/morphe-patches/issues/942)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.82.1-dev.4",
-          "publishedAt": "2026-11-18T12:46:41Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.4",
-          "changelog": "## [1.82.1-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.3...v1.82.1-dev.4) (2026-11-18)\n\n### Updated App Support\n\n* **imo:** add support for `2026.10.1031` ([99b86e7](https://github.com/hxreborn/morphe-patches/commit/99b86e710273605f097f1b337445e470e82d03e7)), closes [#816](https://github.com/hxreborn/morphe-patches/issues/816)\n* **MemoNeet:** add support for `63.3` ([7a73dbd](https://github.com/hxreborn/morphe-patches/commit/7a73dbd860e394f55d70678fe2267355df584fda)), closes [#823](https://github.com/hxreborn/morphe-patches/issues/823)\n* **TeraBox:** add support for `4.28.5` ([21a5664](https://github.com/hxreborn/morphe-patches/commit/21a5664fa33590c9ec4ba68b9d9cec191a2e5b14)), closes [#849](https://github.com/hxreborn/morphe-patches/issues/849)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.82.1-dev.3",
-          "publishedAt": "2026-11-18T12:34:06Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.3",
-          "changelog": "## [1.82.1-dev.3](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.2...v1.82.1-dev.3) (2026-11-18)\n\n### Updated App Support\n\n* **Graph Messenger:** add support for `13.2.2.0` ([6bc3a37](https://github.com/hxreborn/morphe-patches/commit/6bc3a373bd4746d67fe433ad1d28b74fe32c89b2)), closes [#924](https://github.com/hxreborn/morphe-patches/issues/924)\n* **OK:** add support for `26.10.15` ([df538ad](https://github.com/hxreborn/morphe-patches/commit/df538ad6ef6f0860f570df526d671de174486605)), closes [#828](https://github.com/hxreborn/morphe-patches/issues/828)\n* **Period Tracker and Calendar:** add support for `13.6.0` ([f89e7f9](https://github.com/hxreborn/morphe-patches/commit/f89e7f921ccc5e47c0175283d167f3fb7adf33ac)), closes [#832](https://github.com/hxreborn/morphe-patches/issues/832)\n* **Perplexity:** add support for `2.104.0` ([d4dfa64](https://github.com/hxreborn/morphe-patches/commit/d4dfa64ae866b6b450851b578c91c8e605572935)), closes [#833](https://github.com/hxreborn/morphe-patches/issues/833)\n* **Poe:** add support for `a3.80.1` ([262ca02](https://github.com/hxreborn/morphe-patches/commit/262ca02cf670d513b2200bacb3dd8b38bd19e22d)), closes [#836](https://github.com/hxreborn/morphe-patches/issues/836)\n* **Public:** add support for `3.4.2` ([bc49801](https://github.com/hxreborn/morphe-patches/commit/bc49801eddfb971c4602bf3cded7ef4cb79d1a84)), closes [#920](https://github.com/hxreborn/morphe-patches/issues/920)\n* **Ringtone Maker:** add support for `1.02.03.1117` ([cbc072a](https://github.com/hxreborn/morphe-patches/commit/cbc072a836184be75112d110cf71ba3edaef0e5e)), closes [#845](https://github.com/hxreborn/morphe-patches/issues/845)\n* **Trainline:** add support for `441.0.0.185329` ([af3d7d4](https://github.com/hxreborn/morphe-patches/commit/af3d7d4741c95cd6034c2a6bc32888bf19da8ee6)), closes [#850](https://github.com/hxreborn/morphe-patches/issues/850)\n* **Transparent clock & weather:** add support for `9.19.0` ([4a0f202](https://github.com/hxreborn/morphe-patches/commit/4a0f20279e1cbb0ef3d611b0038744a37ad32abb)), closes [#851](https://github.com/hxreborn/morphe-patches/issues/851)\n* **Ultimate Guitar:** add support for `7.3.38` ([10cbe48](https://github.com/hxreborn/morphe-patches/commit/10cbe4881b9b47d9afaef71f2ced11c4cdd2591d)), closes [#853](https://github.com/hxreborn/morphe-patches/issues/853)\n* **Wattpad:** add support for `11.43.4` ([6c27cf6](https://github.com/hxreborn/morphe-patches/commit/6c27cf65817ec7f3e68159ba1a1e2b59e60b172a)), closes [#857](https://github.com/hxreborn/morphe-patches/issues/857)\n* **X-plore File Manager:** add support for `4.53.05` ([e7bda37](https://github.com/hxreborn/morphe-patches/commit/e7bda3754f5731895599decdf738c863d5b04a0e)), closes [#859](https://github.com/hxreborn/morphe-patches/issues/859)\n* **Yanosik:** add support for `26.10.0` ([4331ba7](https://github.com/hxreborn/morphe-patches/commit/4331ba74d3d7cb20aae9fe150ebb71d420195c9e)), closes [#860](https://github.com/hxreborn/morphe-patches/issues/860)\n* **Yi iot:** add support for `5.2.1_20261110` ([5ffe754](https://github.com/hxreborn/morphe-patches/commit/5ffe754be2ad23af5dc6d12d135cb30484c8b872)), closes [#861](https://github.com/hxreborn/morphe-patches/issues/861)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.82.1-dev.2",
-          "publishedAt": "2026-11-18T12:19:18Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.82.1-dev.2",
-          "changelog": "## [1.82.1-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.1...v1.82.1-dev.2) (2026-11-18)\n\n### Updated App Support\n\n* **Bangla Calendar:** add support for `3.0.01q` ([1aca645](https://github.com/hxreborn/morphe-patches/commit/1aca6456d183c74004d8234d32aac93eafadce65)), closes [#795](https://github.com/hxreborn/morphe-patches/issues/795)\n* **Hypic:** add support for `10.1.0` ([065818c](https://github.com/hxreborn/morphe-patches/commit/065818c204dcd878da4113665d8406a553cb1d3a)), closes [#815](https://github.com/hxreborn/morphe-patches/issues/815)\n* **MyScript Math:** add support for `2.0.0` ([60f6320](https://github.com/hxreborn/morphe-patches/commit/60f632014131f707bc8dd9f61ae6a8521b7fab38)), closes [#825](https://github.com/hxreborn/morphe-patches/issues/825)\n* **Patreon:** add support for `126.46.0.14` ([de49844](https://github.com/hxreborn/morphe-patches/commit/de4984465fd76f199a7f0afcb3bb0be7e63df02d)), closes [#831](https://github.com/hxreborn/morphe-patches/issues/831)\n* **RISE Sleep Tracker:** add support for `Android V1.79.4` ([547baf7](https://github.com/hxreborn/morphe-patches/commit/547baf7471a613cf276fd2feffc408007f7bcfaf)), closes [#846](https://github.com/hxreborn/morphe-patches/issues/846)\n* **Rubber Bands:** add support for `3.19` ([7634a2e](https://github.com/hxreborn/morphe-patches/commit/7634a2e8e767c224a72df326f6a1f26818a2d206)), closes [#847](https://github.com/hxreborn/morphe-patches/issues/847)\n* **Sheytoon:** add support for `6.8` ([38b2db4](https://github.com/hxreborn/morphe-patches/commit/38b2db4168b6886c5a7d2d689e4571e32455af95)), closes [#848](https://github.com/hxreborn/morphe-patches/issues/848)\n* **U Dictionary:** add support for `6.7.7` ([e8c1bbf](https://github.com/hxreborn/morphe-patches/commit/e8c1bbf8f16f08d519aa4d9107672e7eb1a284f7)), closes [#852](https://github.com/hxreborn/morphe-patches/issues/852)\n* **WalP:** add support for `10.2.6` ([8fcbb5f](https://github.com/hxreborn/morphe-patches/commit/8fcbb5fdb121b8bc32de7626a0315c63f4e0144c)), closes [#856](https://github.com/hxreborn/morphe-patches/issues/856)\n",
           "prerelease": true
         }
       ]
