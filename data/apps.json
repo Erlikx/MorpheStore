@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T01:24:17Z",
+  "generatedAt": "2026-11-20T08:58:30Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -386,11 +386,18 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.84.0-dev.1",
-      "latestPublishedAt": "2026-11-19T15:24:55Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.84.0-dev.1",
-      "changelog": "## [1.84.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.83.0...v1.84.0-dev.1) (2026-11-19)\n\n### New Features\n\n* **All Video Player App - Resume after screen lock:** keep position ([b2d1c1a](https://github.com/hxreborn/morphe-patches/commit/b2d1c1a2d2cd7f1dad74958075675fd248b3ed42)), closes [#762](https://github.com/hxreborn/morphe-patches/issues/762)\n* **NetworkFlow - Unlock pro:** enable Pro features and remove ads ([4c0c47a](https://github.com/hxreborn/morphe-patches/commit/4c0c47a028da731f924563b7fd171360f7234c7e))\n",
+      "latestTag": "v1.84.0-dev.2",
+      "latestPublishedAt": "2026-11-20T06:47:18Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.84.0-dev.2",
+      "changelog": "## [1.84.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.84.0-dev.1...v1.84.0-dev.2) (2026-11-20)\n\n### Bug Fixes\n\n* **Proton VPN - Unlock connection preferences:** apply to GitHub builds ([ec20baf](https://github.com/hxreborn/morphe-patches/commit/ec20baf84e17fe42a2f8cb9f920740f8b7442aeb)), closes [#956](https://github.com/hxreborn/morphe-patches/issues/956)\n\n### New Features\n\n* **Blossom Blast Saga - Add boosters:** top up each booster to 999 ([62ed216](https://github.com/hxreborn/morphe-patches/commit/62ed216a9b175de556992c87a697ea368b7e2fd4))\n* **Blossom Blast Saga - Add extra moves:** give 5 more moves per level ([d7dd1c2](https://github.com/hxreborn/morphe-patches/commit/d7dd1c261447e3250d405b71b213705613b88742))\n* **Blossom Blast Saga - Hide ads:** stop ad networks and fullscreen ads ([ad821fa](https://github.com/hxreborn/morphe-patches/commit/ad821fabbc85c9829bae762b84e0c0a9430988fa))\n* **Blossom Blast Saga - Unlimited lives:** keep lives full for 24 hours ([9108ee9](https://github.com/hxreborn/morphe-patches/commit/9108ee9b279c837c2743ccb9e3f2bffd6b75ded4))\n* **Blossom Blast Saga - Unlock booster slots:** use pre-level boosters ([6385c79](https://github.com/hxreborn/morphe-patches/commit/6385c799733fcf49e5ed863c0956362f507e67f1))\n* **FlipaClip - Remove ads:** open projects without fullscreen ads ([a17cf6c](https://github.com/hxreborn/morphe-patches/commit/a17cf6c4c023723021f48a0fac84191c27c5d2ab))\n* **FlipaClip - Unlock premium:** use paid tools and export options ([9a033cf](https://github.com/hxreborn/morphe-patches/commit/9a033cff5ea8112bb6a63714603beb1f178397cf))\n* **Flipboard - Disable automatic Home feeds:** keep manual tab order ([031e206](https://github.com/hxreborn/morphe-patches/commit/031e2060f6654a0ae4f5ae131541c7b6b33f39cf))\n* **Flipboard - Remove sponsored cards:** skip article banners ([2560280](https://github.com/hxreborn/morphe-patches/commit/25602805bc643c523467091b2dff58067380c55b))\n* **Nextdoor - Remove sponsored posts:** remove For Sale ads ([a6d87b7](https://github.com/hxreborn/morphe-patches/commit/a6d87b7810b0d3911fb45cac11c8d0c8510e51c6)), closes [#958](https://github.com/hxreborn/morphe-patches/issues/958)\n* **TeraBox - Sort by original date:** show file modification dates ([75e294b](https://github.com/hxreborn/morphe-patches/commit/75e294bdfb9c9b7d8d5f4aff0a0bafc172587502))\n* **Yi iot - Hide ads:** remove Home promo cards and popups ([ade81a1](https://github.com/hxreborn/morphe-patches/commit/ade81a1c8f86200f16f5e407690cc0d82b3bbf29)), closes [#861](https://github.com/hxreborn/morphe-patches/issues/861)\n",
       "history": [
+        {
+          "tag": "v1.84.0-dev.1",
+          "publishedAt": "2026-11-19T15:24:55Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.84.0-dev.1",
+          "changelog": "## [1.84.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.83.0...v1.84.0-dev.1) (2026-11-19)\n\n### New Features\n\n* **All Video Player App - Resume after screen lock:** keep position ([b2d1c1a](https://github.com/hxreborn/morphe-patches/commit/b2d1c1a2d2cd7f1dad74958075675fd248b3ed42)), closes [#762](https://github.com/hxreborn/morphe-patches/issues/762)\n* **NetworkFlow - Unlock pro:** enable Pro features and remove ads ([4c0c47a](https://github.com/hxreborn/morphe-patches/commit/4c0c47a028da731f924563b7fd171360f7234c7e))\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.83.0",
           "publishedAt": "2026-11-19T08:04:00Z",
@@ -410,13 +417,6 @@
           "publishedAt": "2026-11-19T07:40:32Z",
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.83.0-dev.2",
           "changelog": "## [1.83.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.83.0-dev.1...v1.83.0-dev.2) (2026-11-19)\n\n### Bug Fixes\n\n* **Viber - Disable AI features:** hide Read quick summary in communities ([30ee167](https://github.com/hxreborn/morphe-patches/commit/30ee167f0560237c057d438d46a071a4c6e62216)), closes [#950](https://github.com/hxreborn/morphe-patches/issues/950)\n* **Viber - Remove deleted message notices:** enable by default ([9889bcc](https://github.com/hxreborn/morphe-patches/commit/9889bcc7a5b8fe70f34b17a460b9e63528c7636c)), closes [#936](https://github.com/hxreborn/morphe-patches/issues/936)\n\n### New Features\n\n* **Nextdoor - Remove sponsored posts:** drop ad cards and placeholders ([df4b9cf](https://github.com/hxreborn/morphe-patches/commit/df4b9cfd7a95558d9bb11c2d9e2fc46d60c650e3))\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.83.0-dev.1",
-          "publishedAt": "2026-11-19T00:32:45Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.83.0-dev.1",
-          "changelog": "## [1.83.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.82.1-dev.5...v1.83.0-dev.1) (2026-11-19)\n\n### Bug Fixes\n\n* **Viber - Disable update prompts:** stop required upgrade dialog ([8e4baed](https://github.com/hxreborn/morphe-patches/commit/8e4baed01e2283d339cb974a43e8579576c89986))\n* **Viber - Disable update prompts:** stop update nag on unknown links ([f04729b](https://github.com/hxreborn/morphe-patches/commit/f04729b89791dd6c2a33379e74d223156641c785))\n* **Viber - Disable update prompts:** stop upgrade nags, drop switch ([9723093](https://github.com/hxreborn/morphe-patches/commit/9723093e1b6bc71f926de1533dfa875a306c9502))\n\n### New Features\n\n* **Viber - Remove deleted message notices:** hide Delete without trace ([bdf2c9b](https://github.com/hxreborn/morphe-patches/commit/bdf2c9bb14f45e89341dd01e835f96c84aadcfeb)), closes [#936](https://github.com/hxreborn/morphe-patches/issues/936)\n",
           "prerelease": true
         }
       ]
