@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T20:46:56Z",
+  "generatedAt": "2026-11-25T04:00:06Z",
   "source": {
     "owner": "Erlikx",
     "repo": "Builder-Morphe",
@@ -346,11 +346,18 @@
       "repo": "Gboard-patches",
       "label": "⌨️ JasonWu Gboard",
       "repoUrl": "https://github.com/jasonwu1994/Gboard-patches",
-      "latestTag": "v4.5.0-dev.3",
-      "latestPublishedAt": "2026-11-24T01:35:35Z",
-      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.5.0-dev.3",
-      "changelog": "### ✨ New Features\n\n* **Gboard:** add 9 more buttons to the `Toolbar Editing Buttons` patch: Forward Delete, Paste as plain text, Home, End, Tab, and the Left, Right, Up, and Down arrow keys.\n* **Gboard:** toolbar button labels for `Toolbar Editing Buttons`, `Floating Web Search`, and `Incognito Mode Toggle` now follow the **Language** setting on the `Patches` settings page instead of always showing English.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** **Toolbar Editing Buttons**: redraw the Select All icon so it no longer looks identical to Gboard's built-in Resize button.\n\n### ✨ 新功能\n\n* **Gboard:** `Toolbar Editing Buttons` Patch 新增 9 個按鈕：向前刪除、純文字貼上、行首、行尾、Tab，以及上、下、左、右方向鍵。\n* **Gboard:** `Toolbar Editing Buttons`、`Floating Web Search` 與 `Incognito Mode Toggle` 的工具列按鈕文字改為跟隨 `Patches` 設定頁的「語言」設定，不再固定顯示英文。\n\n### 🐛 修復\n\n* **Gboard:** **Toolbar Editing Buttons**：重新繪製「全選」圖示，不再與 Gboard 內建的「調整大小」按鈕完全相同。\n",
+      "latestTag": "v4.5.0-dev.4",
+      "latestPublishedAt": "2026-11-24T21:09:39Z",
+      "latestUrl": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.5.0-dev.4",
+      "changelog": "### ✨ New Features\n\n* **Gboard:** **Clipboard Enhancements** adds an optional **Select All** button at the far left of the clipboard edit toolbar. Enable it under **Patches → Clipboard → General**, where the setting includes a description and preview. **Select All** includes pinned clips by default. Turn on **Exclude pinned clips** to select only unpinned clips, then use Gboard’s built-in **Delete** button to remove the selection.\n\n### ✨ 新功能\n\n* **Gboard:** **剪貼簿增強**新增「編輯時新增全選按鈕」，預設關閉。可在 **Patches → 剪貼簿 → 一般**查看說明、預覽並開啟。啟用後，「全選」會出現在編輯工具列最左側，預設包含釘選項目。開啟「排除釘選」後，全選只勾選未釘選項目，再按 Gboard 原生刪除鍵即可批次刪除。\n",
       "history": [
+        {
+          "tag": "v4.5.0-dev.3",
+          "publishedAt": "2026-11-24T01:35:35Z",
+          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.5.0-dev.3",
+          "changelog": "### ✨ New Features\n\n* **Gboard:** add 9 more buttons to the `Toolbar Editing Buttons` patch: Forward Delete, Paste as plain text, Home, End, Tab, and the Left, Right, Up, and Down arrow keys.\n* **Gboard:** toolbar button labels for `Toolbar Editing Buttons`, `Floating Web Search`, and `Incognito Mode Toggle` now follow the **Language** setting on the `Patches` settings page instead of always showing English.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** **Toolbar Editing Buttons**: redraw the Select All icon so it no longer looks identical to Gboard's built-in Resize button.\n\n### ✨ 新功能\n\n* **Gboard:** `Toolbar Editing Buttons` Patch 新增 9 個按鈕：向前刪除、純文字貼上、行首、行尾、Tab，以及上、下、左、右方向鍵。\n* **Gboard:** `Toolbar Editing Buttons`、`Floating Web Search` 與 `Incognito Mode Toggle` 的工具列按鈕文字改為跟隨 `Patches` 設定頁的「語言」設定，不再固定顯示英文。\n\n### 🐛 修復\n\n* **Gboard:** **Toolbar Editing Buttons**：重新繪製「全選」圖示，不再與 Gboard 內建的「調整大小」按鈕完全相同。\n",
+          "prerelease": true
+        },
         {
           "tag": "v4.5.0-dev.2",
           "publishedAt": "2026-11-23T10:05:06Z",
@@ -371,13 +378,6 @@
           "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.4.0",
           "changelog": "### ✨ New Features\n\n* **Gboard:** switch icon sizing in the G logo patch from dp to percentages. Your icons can now get biiiiiig!\n* **Gboard:** add support for custom package names in Package Rename.\n* **Gboard:** add the Shift + Backspace Forward Delete patch. Hold Shift and press Backspace to delete the character after the cursor, like the Delete key on a computer keyboard.\n* **Gboard:** add a **Rambler Auto Stop** option (Off, 3 seconds, 5 seconds, or custom 1–59 seconds) to **Advanced Voice Typing** to automatically stop Rambler voice typing and keep the text after the chosen period of silence.\n* **Gboard:** add a **Shortcut position** option (**First** or **Last**) to **Long-Press Editing Shortcuts** to choose where the editing shortcut appears in a key's long-press popup.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix **Key transparency** in **Frosted Glass** not applying to the circular background behind the microphone or other shortcut in the top-right toolbar slot, while keeping the icon clear and preserving transparent idle states.\n* **Gboard:** keep standard voice typing in Traditional Chinese (zh-TW) on Gboard's built-in S3 recognizer with **Advanced Voice Typing**, and allow S3 voice typing in airplane mode when a usable network (such as Wi-Fi) is connected.\n\n### ✨ 新功能\n\n* **Gboard:** G logo patch：圖示大小從 dp 改為百分比調整，現在你的圖示可以變得超級大！\n* **Gboard:** Package Rename 新增自訂套件名稱功能。\n* **Gboard:** 新增「Shift + Backspace Forward Delete」Patch。按住 Shift 再按退格鍵，就能刪除游標右邊的字，就像電腦鍵盤上的 Delete 鍵。\n* **Gboard:** 在「進階語音輸入」新增「Rambler 自動停止」選項（關閉、3 秒、5 秒或自訂 1–59 秒），停止說話達設定時間後自動結束 Rambler 語音輸入並保留文字。\n* **Gboard:** 在「長按編輯快捷鍵」新增「快捷鍵位置」選項（第一個／最後一個），可自訂快捷鍵在長按選單中的位置。\n\n### 🐛 修復\n\n* **Gboard:** 修復「磨砂玻璃」的「按鍵透明度」未套用到工具列最右側麥克風或其他快捷按鈕圓底的問題，同時保持前景圖示清晰並保留自訂主題的待機透明狀態。\n* **Gboard:** 搭配「進階語音輸入」時，讓繁體中文（zh-TW）標準語音輸入維持使用 Gboard 內建 S3 辨識器，並修復飛航模式下已連上可用網路（如 Wi-Fi）時 S3 語音輸入被拒絕的問題。\n",
           "prerelease": false
-        },
-        {
-          "tag": "v4.4.0-dev.5",
-          "publishedAt": "2026-11-21T00:56:07Z",
-          "url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.4.0-dev.5",
-          "changelog": "### ✨ New Features\n\n* **Gboard:** add a **Rambler Auto Stop** option (Off, 3 seconds, 5 seconds, or custom 1–59 seconds) to **Advanced Voice Typing** to automatically stop Rambler voice typing and keep the text after the chosen period of silence.\n* **Gboard:** add a **Shortcut position** option (**First** or **Last**) to **Long-Press Editing Shortcuts** to choose where the editing shortcut appears in a key's long-press popup.\n\n### 🐛 Bug Fixes\n\n* **Gboard:** fix **Key transparency** in **Frosted Glass** not applying to the circular background behind the microphone or other shortcut in the top-right toolbar slot, while keeping the icon clear and preserving transparent idle states.\n* **Gboard:** keep standard voice typing in Traditional Chinese (zh-TW) on Gboard's built-in S3 recognizer with **Advanced Voice Typing**, and allow S3 voice typing in airplane mode when a usable network (such as Wi-Fi) is connected.\n\n### ✨ 新功能\n\n* **Gboard:** 在「進階語音輸入」新增「Rambler 自動停止」選項（關閉、3 秒、5 秒或自訂 1–59 秒），停止說話達設定時間後自動結束 Rambler 語音輸入並保留文字。\n* **Gboard:** 在「長按編輯快捷鍵」新增「快捷鍵位置」選項（第一個／最後一個），可自訂快捷鍵在長按選單中的位置。\n\n### 🐛 修復\n\n* **Gboard:** 修復「磨砂玻璃」的「按鍵透明度」未套用到工具列最右側麥克風或其他快捷按鈕圓底的問題，同時保持前景圖示清晰並保留自訂主題的待機透明狀態。\n* **Gboard:** 搭配「進階語音輸入」時，讓繁體中文（zh-TW）標準語音輸入維持使用 Gboard 內建 S3 辨識器，並修復飛航模式下已連上可用網路（如 Wi-Fi）時 S3 語音輸入被拒絕的問題。\n",
-          "prerelease": true
         }
       ]
     },
@@ -386,11 +386,25 @@
       "repo": "morphe-patches",
       "label": "🔥 hxreborn",
       "repoUrl": "https://github.com/hxreborn/morphe-patches",
-      "latestTag": "v1.88.0-dev.4",
-      "latestPublishedAt": "2026-11-24T18:01:41Z",
-      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.88.0-dev.4",
-      "changelog": "## [1.88.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.88.0-dev.3...v1.88.0-dev.4) (2026-11-24)\n\n### Bug Fixes\n\n* **Duolingo:** remove `6.105.2` app target ([b853cf6](https://github.com/hxreborn/morphe-patches/commit/b853cf622b725e6a0da7394e7b7b6ff83f5c2b56))\n* **Outlook - Fix sign-in:** sign in with work accounts ([b5b54d0](https://github.com/hxreborn/morphe-patches/commit/b5b54d0a40f5ec1e72dd72fb97242f531baf69c0))\n\n### New Features\n\n* **Audiomack - Export downloaded songs:** save and share tagged files ([a79d1f6](https://github.com/hxreborn/morphe-patches/commit/a79d1f675f35f523b4272931770cc1d176f5515a)), closes [#1070](https://github.com/hxreborn/morphe-patches/issues/1070)\n* **Outlook - Add custom themes:** choose any color or photo as theme ([7a64962](https://github.com/hxreborn/morphe-patches/commit/7a64962387785126c2aff2d43c0e2c3bc5a3f199)), closes [#1046](https://github.com/hxreborn/morphe-patches/issues/1046)\n* **Outlook - Hide navigation buttons:** hide Calendar, Apps or full bar ([e7eca62](https://github.com/hxreborn/morphe-patches/commit/e7eca625f6ec44bac31201b2dc902a2ea64d8987)), closes [#1045](https://github.com/hxreborn/morphe-patches/issues/1045)\n* **Viber - Explain Google Drive errors:** show fix in Drive errors ([bdefa77](https://github.com/hxreborn/morphe-patches/commit/bdefa773f5b07a16e20b43dabf441305dab51180))\n\n### Updated App Support\n\n* **Duolingo:** add support for `6.106.6` ([10c5656](https://github.com/hxreborn/morphe-patches/commit/10c56569d9b1364162b4e3bb6d7a00fb0cb68c3b)), closes [#1048](https://github.com/hxreborn/morphe-patches/issues/1048)\n",
+      "latestTag": "v1.88.0-dev.6",
+      "latestPublishedAt": "2026-11-25T00:28:17Z",
+      "latestUrl": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.88.0-dev.6",
+      "changelog": "## [1.88.0-dev.6](https://github.com/hxreborn/morphe-patches/compare/v1.88.0-dev.5...v1.88.0-dev.6) (2026-11-25)\n\n### New Features\n\n* **Infinite Painter - Unlock premium:** use masks and patterns ([6d2ce01](https://github.com/hxreborn/morphe-patches/commit/6d2ce013b87c75aab3cbe09af8f67e6d970fcce7))\n",
       "history": [
+        {
+          "tag": "v1.88.0-dev.5",
+          "publishedAt": "2026-11-24T23:08:23Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.88.0-dev.5",
+          "changelog": "## [1.88.0-dev.5](https://github.com/hxreborn/morphe-patches/compare/v1.88.0-dev.4...v1.88.0-dev.5) (2026-11-24)\n\n### Bug Fixes\n\n* **MovieBox TV:** remove `1.2.0.0923.web_socialmedia` app target ([488042e](https://github.com/hxreborn/morphe-patches/commit/488042e9cb395c1289d27ca9e36b829ca37f4a47))\n* **Outlook - Add custom themes:** color the header in dark mode ([9e7bbcc](https://github.com/hxreborn/morphe-patches/commit/9e7bbcc35a7f18b1ce587905f15c42d3357974e0))\n\n### New Features\n\n* **MovieBox TV - Custom skip length:** skip up to 10 minutes per press ([9783d70](https://github.com/hxreborn/morphe-patches/commit/9783d70ceade64a32b38fd389687157b85172adb))\n* **MovieBox TV - Prefer highest resolution:** start playback at 1080p ([135dcd6](https://github.com/hxreborn/morphe-patches/commit/135dcd6bc5cfd18fb410aa0794a256e716be5a52))\n\n### Updated App Support\n\n* **MovieBox TV:** add support for `1.2.3.1113.03` ([38726da](https://github.com/hxreborn/morphe-patches/commit/38726da9c9534f5643aecdab9ea3118c5bb59bea))\n",
+          "prerelease": true
+        },
+        {
+          "tag": "v1.88.0-dev.4",
+          "publishedAt": "2026-11-24T18:01:41Z",
+          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.88.0-dev.4",
+          "changelog": "## [1.88.0-dev.4](https://github.com/hxreborn/morphe-patches/compare/v1.88.0-dev.3...v1.88.0-dev.4) (2026-11-24)\n\n### Bug Fixes\n\n* **Duolingo:** remove `6.105.2` app target ([b853cf6](https://github.com/hxreborn/morphe-patches/commit/b853cf622b725e6a0da7394e7b7b6ff83f5c2b56))\n* **Outlook - Fix sign-in:** sign in with work accounts ([b5b54d0](https://github.com/hxreborn/morphe-patches/commit/b5b54d0a40f5ec1e72dd72fb97242f531baf69c0))\n\n### New Features\n\n* **Audiomack - Export downloaded songs:** save and share tagged files ([a79d1f6](https://github.com/hxreborn/morphe-patches/commit/a79d1f675f35f523b4272931770cc1d176f5515a)), closes [#1070](https://github.com/hxreborn/morphe-patches/issues/1070)\n* **Outlook - Add custom themes:** choose any color or photo as theme ([7a64962](https://github.com/hxreborn/morphe-patches/commit/7a64962387785126c2aff2d43c0e2c3bc5a3f199)), closes [#1046](https://github.com/hxreborn/morphe-patches/issues/1046)\n* **Outlook - Hide navigation buttons:** hide Calendar, Apps or full bar ([e7eca62](https://github.com/hxreborn/morphe-patches/commit/e7eca625f6ec44bac31201b2dc902a2ea64d8987)), closes [#1045](https://github.com/hxreborn/morphe-patches/issues/1045)\n* **Viber - Explain Google Drive errors:** show fix in Drive errors ([bdefa77](https://github.com/hxreborn/morphe-patches/commit/bdefa773f5b07a16e20b43dabf441305dab51180))\n\n### Updated App Support\n\n* **Duolingo:** add support for `6.106.6` ([10c5656](https://github.com/hxreborn/morphe-patches/commit/10c56569d9b1364162b4e3bb6d7a00fb0cb68c3b)), closes [#1048](https://github.com/hxreborn/morphe-patches/issues/1048)\n",
+          "prerelease": true
+        },
         {
           "tag": "v1.88.0-dev.3",
           "publishedAt": "2026-11-24T11:36:19Z",
@@ -404,20 +418,6 @@
           "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.88.0-dev.2",
           "changelog": "## [1.88.0-dev.2](https://github.com/hxreborn/morphe-patches/compare/v1.88.0-dev.1...v1.88.0-dev.2) (2026-11-24)\n\n### Bug Fixes\n\n* **BetterSleep - Unlock premium:** stop crash on armeabi-v7a devices ([5624a4a](https://github.com/hxreborn/morphe-patches/commit/5624a4a9d4592592f9a91e72d1400fd35c38b35a)), closes [#797](https://github.com/hxreborn/morphe-patches/issues/797)\n",
           "prerelease": true
-        },
-        {
-          "tag": "v1.88.0-dev.1",
-          "publishedAt": "2026-11-24T11:02:06Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.88.0-dev.1",
-          "changelog": "## [1.88.0-dev.1](https://github.com/hxreborn/morphe-patches/compare/v1.87.0...v1.88.0-dev.1) (2026-11-24)\n\n### New Features\n\n* **Proton Pass - Remove free accounts limit:** add more free accounts ([271aee5](https://github.com/hxreborn/morphe-patches/commit/271aee5e99ad1373426e99b304e9a0ee1ec59db6)), closes [#1049](https://github.com/hxreborn/morphe-patches/issues/1049)\n",
-          "prerelease": true
-        },
-        {
-          "tag": "v1.87.0",
-          "publishedAt": "2026-11-24T08:23:04Z",
-          "url": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.87.0",
-          "changelog": "## [1.87.0](https://github.com/hxreborn/morphe-patches/compare/v1.86.0...v1.87.0) (2026-11-24)\n\n### Bug Fixes\n\n* **Athan - Save images to gallery:** save images on mount installs ([2967fa7](https://github.com/hxreborn/morphe-patches/commit/2967fa73258405ea0bcf98eec44527891dee0c7a))\n* **BeReal - Back up memories:** run in app on mount installs ([faedaa1](https://github.com/hxreborn/morphe-patches/commit/faedaa1a49d0bd3a06fef826063b4dedd82834b9))\n* **BeReal - Disable data collection:** stop crash reports on mount ([df9df6b](https://github.com/hxreborn/morphe-patches/commit/df9df6b6182337f155914f98777c903c576c4857))\n* **BeReal - Post from gallery:** skip photo prompt on mount installs ([687729b](https://github.com/hxreborn/morphe-patches/commit/687729b623a7290dcbd4c72a1704873c4be08636))\n* **BeReal - Remove ads:** stop ad network startup on mount installs ([ce47be1](https://github.com/hxreborn/morphe-patches/commit/ce47be15ee25666241e4234cc3c885d52109ba46))\n* **BeReal - Remove contacts permission:** skip mount installs ([ad5e512](https://github.com/hxreborn/morphe-patches/commit/ad5e512672b2cc30d3f4f750d2ec1a5cb9c78852))\n* **BitTorrent - AMOLED dark theme:** open patches menu on mount installs ([32c5029](https://github.com/hxreborn/morphe-patches/commit/32c50293fc23729a350ae2b3aed24cd2090699fe))\n* **Clip Studio Paint - Skip plan selection:** work when signed in ([cfea61c](https://github.com/hxreborn/morphe-patches/commit/cfea61c33785546cfe2affc26f2f396525730909)), closes [#774](https://github.com/hxreborn/morphe-patches/issues/774)\n* **Internet Speed Meter Lite - Unlock premium:** open overview on mount ([76b2e01](https://github.com/hxreborn/morphe-patches/commit/76b2e01497ffe821df562b6e5309a0f2d451a30d))\n* **Keepa - Multiple accounts:** open accounts screen on mount installs ([0230364](https://github.com/hxreborn/morphe-patches/commit/02303648d61180ff83be01ce1bf2b4c29cedf686))\n* **Moon+ Reader - Unlock pro:** mention missing widget on mount installs ([40aaf5f](https://github.com/hxreborn/morphe-patches/commit/40aaf5f1fd39e8d5dffb71e0c403a96fccfdb3e9))\n* **Network Analyzer - Export results:** share CSV as text on mount ([d21c95c](https://github.com/hxreborn/morphe-patches/commit/d21c95c13949f2951fc61c62da278508103a60e2))\n* **Network Analyzer:** open added tools on mount installs ([8cd8647](https://github.com/hxreborn/morphe-patches/commit/8cd8647dbe0136ac8ccc10ca941a62514aa34ac2))\n* **Outlook - Add unread shortcut:** open unread mail on every tap ([1d27ef2](https://github.com/hxreborn/morphe-patches/commit/1d27ef2dfa559c337338abe04c9cb9c53344258c))\n* **ReadEra - Lock screen on Read chapter aloud:** skip mount installs ([ea67691](https://github.com/hxreborn/morphe-patches/commit/ea6769134be8c30d846d9cac27d2ab69c6819713))\n* **ReadEra - Quotes and notes section:** open notes on mount installs ([543724b](https://github.com/hxreborn/morphe-patches/commit/543724b44d83213c474c17425ef3cea591562d3f))\n* **ReadEra:** open patches menu on mount installs ([4d1b27d](https://github.com/hxreborn/morphe-patches/commit/4d1b27d0bc9316e4cefdda9c5103ffe7cdf7d4dd))\n* **RedReader - Filter posts:** open filter settings on mount installs ([d214a12](https://github.com/hxreborn/morphe-patches/commit/d214a1280532416cfcb7c9e2bc0d2ebbb10682ce))\n* **TeraBox - Clone app:** skip mount installs ([7ef4734](https://github.com/hxreborn/morphe-patches/commit/7ef4734fda7d5a66c78ff48b849c14d4a0391d88))\n* **ULTIMEA - Fine equalizer:** share presets as text on mount installs ([f06c7b6](https://github.com/hxreborn/morphe-patches/commit/f06c7b60e348b16ad2a15d7f9b1cc27e3dfc7a3c))\n* **ULTIMEA:** open patches menu on mount installs ([6351805](https://github.com/hxreborn/morphe-patches/commit/63518050fb96052bcd653a67df2ab81d3a2f14c4))\n* **Viber:** open patches menu on mount installs ([2939c30](https://github.com/hxreborn/morphe-patches/commit/2939c30575cc0052edb534ca81671248f9ac6ba3))\n* **VPN Super - Disconnect from notification:** disconnect on mount ([5e26b63](https://github.\n\n…",
-          "prerelease": false
         }
       ]
     },
